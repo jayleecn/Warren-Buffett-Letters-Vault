@@ -12,6 +12,8 @@
     "url": "https://github.com/jackyzha0/quartz.git"
   },
   "scripts": {
+    "build": "npx quartz build",
+    "deploy": "npx quartz build && npx wrangler pages deploy public --project-name buffett-letters --branch main --commit-dirty=true",
     "quartz": "./quartz/bootstrap-cli.mjs",
     "docs": "npx quartz build --serve -d docs",
     "check": "tsc --noEmit && npx prettier . --check",

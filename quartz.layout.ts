@@ -1,6 +1,10 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
+// 左侧「探索」顺序：请通过 content 下文件夹名称的字典序实现，例如
+// 01-index、02-letters、03-concepts、04-companies、05-people。
+// 勿使用自定义 sortFn：esbuild 会注入 __name()，序列化到浏览器后执行会报错，导致 Explorer 空白。
+
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
