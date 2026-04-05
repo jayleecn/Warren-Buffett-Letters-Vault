@@ -15,20 +15,20 @@ export default ((opts?: Options) => {
     const baseDir = pathToRoot(fileData.slug!)
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <p>
-          {i18n(cfg.locale).components.footer.createdWith}{" "}
-          <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
-        </p>
         <ul>
+          <li>
+            {i18n(cfg.locale).components.footer.createdWith}{" "}
+            <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
+          </li>
           {Object.entries(links).map(([text, link]) => (
             <li>
               信件源：<a href={link}>{text}</a>
             </li>
           ))}
+          <li>
+            整理人：太白钓雪，侵权或勘误请扫码私信
+          </li>
         </ul>
-        <p>
-          整理人：太白钓雪，侵权或勘误请扫码私信
-        </p>
         <img src={joinSegments(baseDir, "attachments/qrcode.jpg")} alt="微信公众号二维码" style="width: 100px; margin: 10px 0;" />
       </footer>
     )
