@@ -15,7 +15,7 @@ export default ((opts?: Options) => {
     const baseDir = pathToRoot(fileData.slug!)
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <ul>
+        <ul class="footer-list">
           <li>
             {i18n(cfg.locale).components.footer.createdWith}{" "}
             <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
