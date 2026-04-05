@@ -26,7 +26,7 @@ export default ((opts?: Options) => {
             </li>
           ))}
           <li>
-            整理人：太白钓雪，侵权或勘误请扫码私信
+            整理人：公众号<strong>“太白钓雪”</strong>（学习和分享价值投资），侵权或勘误请扫码私信
           </li>
           <li>
             <img src={joinSegments(baseDir, "attachments/qrcode.jpg")} alt="微信公众号二维码" style="width: 100px; margin: 10px 0;" />
