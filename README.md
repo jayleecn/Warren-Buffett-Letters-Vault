@@ -16,7 +16,9 @@ This vault is designed to be viewed as a digital garden. You can browse through 
 
 ## Technical Details
 
-This site is powered by Quartz v4. To run it locally:
+This site is powered by Quartz v4. Custom footer includes QR code for the WeChat Official Account "太白钓雪".
+
+### How to run it locally:
 
 1. Install dependencies: `npm install`
 2. Start the development server: `npx quartz build --serve`

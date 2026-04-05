@@ -46,16 +46,6 @@ date: 2026-04-04
 
 ***
 
-## 其他
+## 致谢
 
-### 侵权或勘误
-
-- 请联系微信公众号：**太白钓雪**，主要记录些价值投资的笔记和思考
-
-![微信公众号二维码|150](attachments/qrcode.jpg)
-
-### 致谢
-
-- 原始信件取自：<https://github.com/jayleecn/Warren-Buffett-Letters-1956-2025>
 - 本知识库受[《两天时间，我把巴菲特70年的股东信变成了知识图谱》](https://mp.weixin.qq.com/s/UD2k4ZgkjC30lwXmdsZj5Q)启发而搭建
-
