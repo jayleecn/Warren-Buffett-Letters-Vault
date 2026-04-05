@@ -16,9 +16,9 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>
-          整理人：太白钓雪，侵权或勘误请扫码私信
+          {i18n(cfg.locale).components.footer.createdWith}{" "}
+          <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
         </p>
-        <img src={joinSegments(baseDir, "attachments/qrcode.jpg")} alt="微信公众号二维码" style="width: 100px; margin: 10px 0;" />
         <ul>
           {Object.entries(links).map(([text, link]) => (
             <li>
@@ -27,9 +27,9 @@ export default ((opts?: Options) => {
           ))}
         </ul>
         <p>
-          {i18n(cfg.locale).components.footer.createdWith}{" "}
-          <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
+          整理人：太白钓雪，侵权或勘误请扫码私信
         </p>
+        <img src={joinSegments(baseDir, "attachments/qrcode.jpg")} alt="微信公众号二维码" style="width: 100px; margin: 10px 0;" />
       </footer>
     )
   }
