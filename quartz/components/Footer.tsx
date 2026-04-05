@@ -28,8 +28,10 @@ export default ((opts?: Options) => {
           <li>
             整理人：太白钓雪，侵权或勘误请扫码私信
           </li>
+          <li>
+            <img src={joinSegments(baseDir, "attachments/qrcode.jpg")} alt="微信公众号二维码" style="width: 100px; margin: 10px 0;" />
+          </li>
         </ul>
-        <img src={joinSegments(baseDir, "attachments/qrcode.jpg")} alt="微信公众号二维码" style="width: 100px; margin: 10px 0;" />
       </footer>
     )
   }
