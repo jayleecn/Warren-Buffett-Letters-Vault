@@ -22,3 +22,7 @@ This site is powered by Quartz v4. Custom footer includes QR code for the WeChat
 
 1. Install dependencies: `npm install`
 2. Start the development server: `npx quartz build --serve`
+
+## SEO & Indexing
+
+The site is configured with a `sitemap.xml` and `robots.txt` pointing to `https://buffett-letters.com` to improve search engine visibility.
