@@ -76,7 +76,7 @@ function toggleFolder(evt: MouseEvent) {
   }
 
   const stringifiedFileTree = JSON.stringify(currentExplorerState)
-  localStorage.setItem("fileTree", stringifiedFileTree)
+  localStorage.setItem((document.body.dataset.slug || "").startsWith("en") || document.body.dataset.slug === "en" || document.body.dataset.slug === "en/index" ? "fileTree-en" : "fileTree-zh", stringifiedFileTree)
 }
 
 function createFileNode(currentSlug: FullSlug, node: FileTrieNode): HTMLLIElement {
@@ -170,7 +170,10 @@ async function setupExplorer(currentSlug: FullSlug) {
     }
 
     // Get folder state from local storage
-    const storageTree = localStorage.getItem("fileTree")
+    const isEnglishPageForState =
+      currentSlug === "en" || currentSlug === "en/index" || currentSlug.startsWith("en/")
+    const fileTreeKey = isEnglishPageForState ? "fileTree-en" : "fileTree-zh"
+    const storageTree = localStorage.getItem(fileTreeKey)
     const serializedExplorerState = storageTree && opts.useSavedState ? JSON.parse(storageTree) : []
     const oldIndex = new Map<string, boolean>(
       serializedExplorerState.map((entry: FolderState) => [entry.path, entry.collapsed]),
@@ -193,6 +196,19 @@ async function setupExplorer(currentSlug: FullSlug) {
           if (opts.sortFn) trie.sort(opts.sortFn)
           break
       }
+    }
+
+    // Scope explorer by language: EN pages only show the /en subtree;
+    // Chinese (root) pages hide the en folder so nav stays in-language.
+    const isEnglishPage =
+      currentSlug === "en" || currentSlug === "en/index" || currentSlug.startsWith("en/")
+    if (isEnglishPage) {
+      const enFolder = trie.children.find((c) => c.slugSegment === "en")
+      if (enFolder?.isFolder) {
+        trie.children = enFolder.children
+      }
+    } else {
+      trie.children = trie.children.filter((c) => c.slugSegment !== "en")
     }
 
     // Get folder paths for state management
