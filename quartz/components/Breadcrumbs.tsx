@@ -48,8 +48,8 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
     }
 
     const loc = localeFromSlug(fileData.slug!)
-    const rootName =
-      options.rootName ?? (cfg.locale?.startsWith("zh") ? "首页" : "Home")
+    const homeLabels: Record<string, string> = { zh: "首页", en: "Home", es: "Inicio" }
+    const rootName = options.rootName ?? (homeLabels[loc.code] ?? "Home")
 
     const crumbs: CrumbData[] = pathNodes.map((node, idx) => {
       const crumb = formatCrumb(node.displayName, fileData.slug!, simplifySlug(node.slug))
