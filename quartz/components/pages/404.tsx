@@ -42,7 +42,7 @@ NotFound.afterDOMLoaded = `
 ;(function () {
   function detectCode(pathname) {
     // Prefixed locales from siteLocales (en, es, …)
-    const prefixes = ["en", "es", "ja", "de", "fr"]
+    const prefixes = ["en", "es", "pt", "ja", "de", "fr"]
     for (const p of prefixes) {
       if (pathname === "/" + p || pathname.startsWith("/" + p + "/")) return p
     }

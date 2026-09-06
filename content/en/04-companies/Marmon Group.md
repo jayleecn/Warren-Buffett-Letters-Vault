@@ -14,6 +14,7 @@ translations:
   zh: 04-companies/马蒙集团
   en: en/04-companies/Marmon-Group
   es: es/04-companies/Marmon-Group
+  pt: pt/04-companies/Marmon-Group
   ja: ja/04-companies/Marmon-Group
 ---
 # Marmon Group

@@ -17,6 +17,7 @@ translations:
   zh: 03-concepts/资本配置
   en: en/03-concepts/Capital-Allocation
   es: es/03-concepts/Capital-Allocation
+  pt: pt/03-concepts/Capital-Allocation
   ja: ja/03-concepts/Capital-Allocation
 ---
 # Asignación de capital

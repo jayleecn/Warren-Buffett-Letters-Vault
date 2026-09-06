@@ -14,6 +14,7 @@ translations:
   zh: 04-companies/布法罗晚报
   en: en/04-companies/Buffalo-Evening-News
   es: es/04-companies/Buffalo-Evening-News
+  pt: pt/04-companies/Buffalo-Evening-News
   ja: ja/04-companies/Buffalo-Evening-News
 ---
 # Buffalo Evening News

@@ -17,6 +17,7 @@ translations:
   zh: 03-concepts/资本回报率
   en: en/03-concepts/Return-on-Capital
   es: es/03-concepts/Return-on-Capital
+  pt: pt/03-concepts/Return-on-Capital
   ja: ja/03-concepts/Return-on-Capital
 ---
 # Return on Capital

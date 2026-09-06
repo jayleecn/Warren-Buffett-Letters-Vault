@@ -14,6 +14,7 @@ translations:
   zh: 04-companies/费希默
   en: en/04-companies/Fechheimer
   es: es/04-companies/Fechheimer
+  pt: pt/04-companies/Fechheimer
   ja: ja/04-companies/Fechheimer
 ---
 # Fechheimer

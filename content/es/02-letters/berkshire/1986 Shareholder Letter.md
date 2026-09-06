@@ -43,6 +43,7 @@ translations:
   zh: 02-letters/berkshire/1986年股东信
   en: en/02-letters/berkshire/1986-Shareholder-Letter
   es: es/02-letters/berkshire/1986-Shareholder-Letter
+  pt: pt/02-letters/berkshire/1986-Shareholder-Letter
   ja: ja/02-letters/berkshire/1986-Shareholder-Letter
 ---
 # Carta a los accionistas de Berkshire Hathaway - 1986

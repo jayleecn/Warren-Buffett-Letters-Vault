@@ -49,6 +49,7 @@ translations:
   zh: 02-letters/berkshire/2001年股东信
   en: en/02-letters/berkshire/2001-Shareholder-Letter
   es: es/02-letters/berkshire/2001-Shareholder-Letter
+  pt: pt/02-letters/berkshire/2001-Shareholder-Letter
   ja: ja/02-letters/berkshire/2001-Shareholder-Letter
 ---
 # Berkshire Hathaway Shareholder Letter — 2001
