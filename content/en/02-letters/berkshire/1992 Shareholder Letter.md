@@ -44,8 +44,8 @@ people:
 translations:
   zh: 02-letters/berkshire/1992年股东信
   en: en/02-letters/berkshire/1992-Shareholder-Letter
+  es: es/02-letters/berkshire/1992-Shareholder-Letter
 ---
-
 # Berkshire Hathaway Shareholder Letter — 1992
 
 BERKSHIRE HATHAWAY INC.

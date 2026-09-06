@@ -9,8 +9,8 @@ i18nKey: home
 translations:
   zh: index
   en: en/index
+  es: es/index
 ---
-
 # 巴菲特致股东信
 
 收录 91 篇巴菲特文档（1956–2025），38 个投资概念，52 家公司，8 位关键人物，超过 4,000 条交叉链接。

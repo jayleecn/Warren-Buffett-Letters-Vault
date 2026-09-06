@@ -7,33 +7,33 @@ lang: en
 i18nKey: letter/partnership/1962-1
 source_file: 1962_Letter(1)_19620706.md
 tags:
-  - partnership-letter
-  - "1962"
+- partnership-letter
+- '1962'
 concepts:
-  - Intrinsic Value
-  - Margin of Safety
-  - Generals
-  - Workouts
-  - Controls
-  - Compounding
-  - Book Value
+- Intrinsic Value
+- Margin of Safety
+- Generals
+- Workouts
+- Controls
+- Compounding
+- Book Value
 companies:
-  - Dow Jones Industrial Average
-  - Dempster Mill Manufacturing
-  - Massachusetts Investors Trust
-  - Investors Stock Fund
-  - Lehman Corporation
-  - Tri-Continental Corporation
-  - Fidelity Capital Fund
-  - Putnam Growth Fund
-  - Wellington Equity Fund
+- Dow Jones Industrial Average
+- Dempster Mill Manufacturing
+- Massachusetts Investors Trust
+- Investors Stock Fund
+- Lehman Corporation
+- Tri-Continental Corporation
+- Fidelity Capital Fund
+- Putnam Growth Fund
+- Wellington Equity Fund
 people:
-  - Warren Buffett
+- Warren Buffett
 translations:
   zh: 02-letters/partnership/1962年合伙人信(1)
   en: en/02-letters/partnership/1962-Partnership-Letter-(1)
+  es: es/02-letters/partnership/1962-Partnership-Letter-(1)
 ---
-
 # Buffett Partnership Letter — 1962
 
 BUFFETT PARTNERSHIP, LTD.  

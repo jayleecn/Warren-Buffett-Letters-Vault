@@ -12,8 +12,8 @@ tags:
 translations:
   zh: 04-companies/麦克莱恩
   en: en/04-companies/McLane-Company
+  es: es/04-companies/McLane-Company
 ---
-
 # McLane Company
 
 ## Company Overview

@@ -8,8 +8,8 @@ tags:
 translations:
   zh: index
   en: en/index
+  es: es/index
 ---
-
 # Buffett Letters Vault
 
 A bilingual knowledge vault for Warren Buffett's partnership letters and Berkshire Hathaway shareholder letters from 1956 through 2025.

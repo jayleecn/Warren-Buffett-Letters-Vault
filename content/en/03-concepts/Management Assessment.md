@@ -14,8 +14,8 @@ tags:
 translations:
   zh: 03-concepts/管理层评估
   en: en/03-concepts/Management-Assessment
+  es: es/03-concepts/Management-Assessment
 ---
-
 # Management Assessment
 
 ## Overview

@@ -7,20 +7,20 @@ lang: en
 i18nKey: letter/partnership/1961-1
 source_file: 1961_Letter(1)_19610722.md
 tags:
-  - partnership-letter
-  - "1961"
+- partnership-letter
+- '1961'
 concepts:
-  - Generals
-  - Workouts
-  - Controls
+- Generals
+- Workouts
+- Controls
 companies: []
 people:
-  - Warren Buffett
+- Warren Buffett
 translations:
   zh: 02-letters/partnership/1961年合伙人信(1)
   en: en/02-letters/partnership/1961-Partnership-Letter-(1)
+  es: es/02-letters/partnership/1961-Partnership-Letter-(1)
 ---
-
 # Buffett Partnership Letter — 1961
 
 BUFFETT PARTNERSHIP, LTD.  

@@ -68,8 +68,8 @@ people:
 translations:
   zh: 02-letters/berkshire/2017年股东信
   en: en/02-letters/berkshire/2017-Shareholder-Letter
+  es: es/02-letters/berkshire/2017-Shareholder-Letter
 ---
-
 # Berkshire Hathaway Shareholder Letter - 2017
 
 

@@ -52,8 +52,8 @@ people:
 translations:
   zh: 02-letters/berkshire/2002年股东信
   en: en/02-letters/berkshire/2002-Shareholder-Letter
+  es: es/02-letters/berkshire/2002-Shareholder-Letter
 ---
-
 # Berkshire Hathaway Shareholder Letter — 2002
 
 | Year | Berkshire Book Value | S&P 500 with Dividends | Relative Results |

@@ -7,26 +7,26 @@ lang: en
 i18nKey: letter/partnership/1959
 source_file: 1959_Letter_19600220.md
 tags:
-  - partnership-letter
-  - "1959"
+- partnership-letter
+- '1959'
 concepts:
-  - Intrinsic Value
-  - Margin of Safety
-  - Generals
-  - Workouts
-  - Speculative Component
-  - Conservatism
+- Intrinsic Value
+- Margin of Safety
+- Generals
+- Workouts
+- Speculative Component
+- Conservatism
 companies:
-  - Tri-Continental Corporation
-  - Massachusetts Investors Trust
+- Tri-Continental Corporation
+- Massachusetts Investors Trust
 people:
-  - Warren Buffett
-  - Fred Brown
+- Warren Buffett
+- Fred Brown
 translations:
   zh: 02-letters/partnership/1959年合伙人信
   en: en/02-letters/partnership/1959-Partnership-Letter
+  es: es/02-letters/partnership/1959-Partnership-Letter
 ---
-
 # Buffett Partnership Letter — 1959
 
 1959 Letter  

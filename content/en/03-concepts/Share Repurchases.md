@@ -14,8 +14,8 @@ tags:
 translations:
   zh: 03-concepts/股份回购
   en: en/03-concepts/Share-Repurchases
+  es: es/03-concepts/Share-Repurchases
 ---
-
 # Share Repurchases
 
 ## Overview

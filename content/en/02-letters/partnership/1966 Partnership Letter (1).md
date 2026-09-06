@@ -30,8 +30,8 @@ people:
 translations:
   zh: 02-letters/partnership/1966年合伙人信(1)
   en: en/02-letters/partnership/1966-Partnership-Letter-(1)
+  es: es/02-letters/partnership/1966-Partnership-Letter-(1)
 ---
-
 # Buffett Partnership Letter — 1966
 
 BUFFETT PARTNERSHIP. LTD.

@@ -36,8 +36,8 @@ people:
 translations:
   zh: 02-letters/berkshire/1979年股东信
   en: en/02-letters/berkshire/1979-Shareholder-Letter
+  es: es/02-letters/berkshire/1979-Shareholder-Letter
 ---
-
 # Berkshire Hathaway Shareholder Letter — 1979
 
 To the Shareholders of Berkshire Hathaway Inc.: Again, we must lead off with a few words about accounting. Since our last annual report, the accounting profession has decided that equity securities owned by insurance companies must be carried on the balance sheet at market value. We previously have carried such equity securities at the lower of aggregate cost or aggregate market value. Because we have large unrealized gains in our insurance equity holdings, the result of this new policy is to increase substantially both the 1978 and 1979 yearend net worth, even after the appropriate liability is established for taxes on capital gains that would be payable should equities be sold at such market valuations. As you know, Blue Chip Stamps, our 60% owned subsidiary, is fully consolidated in Berkshire Hathaway’s financial statements. However, Blue Chip still is required to carry its equity investments at the lower of aggregate cost or aggregate market value, just as Berkshire Hathaway’s insurance subsidiaries did prior to this year. Should the same equities be purchased at an identical price by an insurance subsidiary of Berkshire Hathaway and by Blue Chip Stamps, present accounting principles often would require that they end up carried on our consolidated balance sheet at two different values. (That should keep you on your toes.) Market values of Blue Chip Stamps’ equity holdings are given in footnote 3 on page 18.

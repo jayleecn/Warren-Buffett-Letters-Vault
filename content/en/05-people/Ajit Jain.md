@@ -13,8 +13,8 @@ tags:
 translations:
   zh: 05-people/阿吉特·贾恩
   en: en/05-people/Ajit-Jain
+  es: es/05-people/Ajit-Jain
 ---
-
 # Ajit Jain
 
 ## Profile

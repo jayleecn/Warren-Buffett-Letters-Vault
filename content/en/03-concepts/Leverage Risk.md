@@ -14,8 +14,8 @@ tags:
 translations:
   zh: 03-concepts/杠杆风险
   en: en/03-concepts/Leverage-Risk
+  es: es/03-concepts/Leverage-Risk
 ---
-
 # Leverage Risk
 
 ## Overview

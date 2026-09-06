@@ -12,8 +12,8 @@ tags:
 translations:
   zh: 04-companies/吉列
   en: en/04-companies/Gillette
+  es: es/04-companies/Gillette
 ---
-
 # Gillette
 
 ## Company Overview

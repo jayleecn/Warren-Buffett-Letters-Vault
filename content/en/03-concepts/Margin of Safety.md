@@ -13,8 +13,8 @@ tags:
 translations:
   zh: 03-concepts/安全边际
   en: en/03-concepts/Margin-of-Safety
+  es: es/03-concepts/Margin-of-Safety
 ---
-
 # Margin of Safety
 
 ## Overview

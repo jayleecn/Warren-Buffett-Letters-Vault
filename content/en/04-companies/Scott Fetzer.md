@@ -13,8 +13,8 @@ tags:
 translations:
   zh: 04-companies/斯科特·费策
   en: en/04-companies/Scott-Fetzer
+  es: es/04-companies/Scott-Fetzer
 ---
-
 # Scott Fetzer
 
 ## Company Overview

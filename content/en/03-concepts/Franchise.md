@@ -14,8 +14,8 @@ tags:
 translations:
   zh: 03-concepts/特许经营权
   en: en/03-concepts/Franchise
+  es: es/03-concepts/Franchise
 ---
-
 # Franchise
 
 ## Overview

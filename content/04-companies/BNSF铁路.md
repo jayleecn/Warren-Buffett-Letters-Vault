@@ -16,8 +16,8 @@ i18nKey: company/bnsf-railway
 translations:
   zh: 04-companies/BNSF铁路
   en: en/04-companies/BNSF-Railway
+  es: es/04-companies/BNSF-Railway
 ---
-
 # BNSF铁路
 
 ## 公司简介

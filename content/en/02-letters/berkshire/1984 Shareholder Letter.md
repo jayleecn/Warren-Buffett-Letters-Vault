@@ -42,8 +42,8 @@ people:
 translations:
   zh: 02-letters/berkshire/1984年股东信
   en: en/02-letters/berkshire/1984-Shareholder-Letter
+  es: es/02-letters/berkshire/1984-Shareholder-Letter
 ---
-
 # Berkshire Hathaway Shareholder Letter — 1984
 
 BERKSHIRE HATHAWAY INC. To the Shareholders of Berkshire Hathaway Inc.: Our gain in net worth during 1984 was $152.6 million, or $133 per share. This sounds pretty good but actually it’s mediocre. Economic gains must be evaluated by comparison with the capital that produces them. Our twenty-year compounded annual gain in book value has been 22.1% (from $19.46 in 1964 to $1108.77 in 1984), but our gain in 1984 was only 13.6%. As we discussed last year, the gain in per-share intrinsic business value is the economic measurement that really counts. But calculations of intrinsic business value are subjective. In our case, book value serves as a useful, although somewhat understated, proxy. In my judgment, intrinsic business value and book value increased during 1984 at about the same rate. Using my academic voice, I have told you in the past of the drag that a mushrooming capital base exerts upon rates of return. Unfortunately, my academic voice is now giving way to a reportorial voice. Our historical 22% rate is just that - history. To earn even 15% annually over the next decade (assuming we continue to follow our present dividend policy, about which more will be said later in this letter) we would need profits aggregating about $3.9 billion. Accomplishing this will require a few big ideas - small ones just won’t do. Charlie Munger, my partner in general management, and I do not have any such ideas at present, but our experience has been that they pop up occasionally. (How’s that for a strategic plan?)

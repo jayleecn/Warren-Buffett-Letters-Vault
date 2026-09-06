@@ -24,4 +24,4 @@ Una bóveda de conocimiento multilingüe de las cartas de la sociedad de Warren 
 
 ## Acerca de
 
-El sitio en chino permanece en las rutas raíz. Las páginas en inglés viven bajo `/en/` y las páginas en español bajo `/es/`. Las metadatos compartidos `i18nKey` / `translations` permiten que el selector de idioma salte entre las versiones correspondientes.
+El sitio en chino permanece en las rutas raíz. Las páginas en inglés viven bajo `/en/` y las páginas en español bajo `/es/`. Los metadatos compartidos `i18nKey` / `translations` permiten que el selector de idioma salte entre las versiones correspondientes.

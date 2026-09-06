@@ -14,8 +14,8 @@ tags:
 translations:
   zh: 03-concepts/永远不要亏损
   en: en/03-concepts/Never-Lose-Money
+  es: es/03-concepts/Never-Lose-Money
 ---
-
 # Never Lose Money
 
 ## Overview

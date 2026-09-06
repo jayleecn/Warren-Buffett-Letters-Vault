@@ -22,8 +22,8 @@ people:
 translations:
   zh: 02-letters/partnership/1963年合伙人信(2)
   en: en/02-letters/partnership/1963-Partnership-Letter-(2)
+  es: es/02-letters/partnership/1963-Partnership-Letter-(2)
 ---
-
 # Buffett Partnership Letter — 1963
 
 BUFFETT PARTNERSHIP, LTD.  

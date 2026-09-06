@@ -13,8 +13,8 @@ tags:
 translations:
   zh: 04-companies/博希姆珠宝
   en: en/04-companies/Borsheims
+  es: es/04-companies/Borsheims
 ---
-
 # Borsheims
 
 ## Company Overview

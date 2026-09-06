@@ -15,8 +15,8 @@ tags:
 translations:
   zh: 05-people/沃伦·巴菲特
   en: en/05-people/Warren-Buffett
+  es: es/05-people/Warren-Buffett
 ---
-
 # Warren Buffett
 
 ## Profile

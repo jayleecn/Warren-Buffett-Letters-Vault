@@ -13,8 +13,8 @@ tags:
 translations:
   zh: 04-companies/冰雪皇后
   en: en/04-companies/Dairy-Queen
+  es: es/04-companies/Dairy-Queen
 ---
-
 # Dairy Queen
 
 ## Company Overview

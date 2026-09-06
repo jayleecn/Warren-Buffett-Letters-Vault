@@ -14,8 +14,8 @@ tags:
 translations:
   zh: 05-people/查理·芒格
   en: en/05-people/Charlie-Munger
+  es: es/05-people/Charlie-Munger
 ---
-
 # Charlie Munger
 
 ## Profile

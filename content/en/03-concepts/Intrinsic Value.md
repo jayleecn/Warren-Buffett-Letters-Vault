@@ -14,8 +14,8 @@ tags:
 translations:
   zh: 03-concepts/内在价值
   en: en/03-concepts/Intrinsic-Value
+  es: es/03-concepts/Intrinsic-Value
 ---
-
 # Intrinsic Value
 
 ## Overview

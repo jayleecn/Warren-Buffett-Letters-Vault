@@ -13,8 +13,8 @@ tags:
 translations:
   zh: 04-companies/利捷航空
   en: en/04-companies/NetJets
+  es: es/04-companies/NetJets
 ---
-
 # NetJets
 
 ## Company Overview

@@ -14,8 +14,8 @@ tags:
 translations:
   zh: 04-companies/富国银行
   en: en/04-companies/Wells-Fargo
+  es: es/04-companies/Wells-Fargo
 ---
-
 # Wells Fargo
 
 ## Company Overview

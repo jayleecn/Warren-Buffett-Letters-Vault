@@ -17,8 +17,8 @@ i18nKey: company/geico
 translations:
   zh: 04-companies/盖可保险（GEICO）
   en: en/04-companies/GEICO
+  es: es/04-companies/GEICO
 ---
-
 # 盖可保险（GEICO）
 
 ## 公司简介

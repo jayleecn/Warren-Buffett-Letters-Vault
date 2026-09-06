@@ -15,8 +15,8 @@ tags:
 translations:
   zh: 04-companies/美国运通
   en: en/04-companies/American-Express
+  es: es/04-companies/American-Express
 ---
-
 # American Express
 
 ## Company Overview

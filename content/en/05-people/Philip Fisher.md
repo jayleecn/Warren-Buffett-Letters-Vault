@@ -14,8 +14,8 @@ tags:
 translations:
   zh: 05-people/菲利普·费雪
   en: en/05-people/Philip-Fisher
+  es: es/05-people/Philip-Fisher
 ---
-
 # Philip Fisher
 
 ## Profile
