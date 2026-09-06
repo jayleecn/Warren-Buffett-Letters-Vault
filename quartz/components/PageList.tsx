@@ -5,6 +5,11 @@ import { QuartzComponent, QuartzComponentProps } from "./types"
 import { GlobalConfiguration } from "../cfg"
 import { localeFromSlug, tagSlugForLocale } from "../i18n/siteLocales"
 
+function cleanTags(tags: unknown): string[] {
+  if (!Array.isArray(tags)) return []
+  return [...new Set(tags.map((t) => String(t ?? "").trim()).filter((t) => t.length > 0))]
+}
+
 export type SortFn = (f1: QuartzPluginData, f2: QuartzPluginData) => number
 
 export function byDateAndAlphabetical(cfg: GlobalConfiguration): SortFn {
@@ -61,7 +66,7 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
     <ul class="section-ul">
       {list.map((page) => {
         const title = page.frontmatter?.title
-        const tags = page.frontmatter?.tags ?? []
+        const tags = cleanTags(page.frontmatter?.tags)
 
         return (
           <li class="section-li">
