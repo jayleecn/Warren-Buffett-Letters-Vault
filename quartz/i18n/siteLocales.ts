@@ -80,23 +80,24 @@ export function tagSlugForLocale(tag: string, loc: SiteLocale): string {
 
 /** Parse tags/... or {prefix}/tags/... slugs. */
 export function parseTagSlug(slug: string): { loc: SiteLocale; tag: string } | null {
+  const s = slug.replace(/\/+$/, "") // simplifySlug may leave trailing slash
   for (const loc of SITE_LOCALES) {
     if (!loc.prefix) continue
     const head = `${loc.prefix}/tags`
-    if (slug === head || slug === `${head}/index`) {
+    if (s === head || s === `${head}/index`) {
       return { loc, tag: "/" }
     }
-    if (slug.startsWith(`${head}/`)) {
-      const rest = slug.slice(head.length + 1)
-      return { loc, tag: rest === "index" ? "/" : rest }
+    if (s.startsWith(`${head}/`)) {
+      const rest = s.slice(head.length + 1)
+      return { loc, tag: !rest || rest === "index" ? "/" : rest }
     }
   }
-  if (slug === "tags" || slug === "tags/index") {
+  if (s === "tags" || s === "tags/index") {
     return { loc: DEFAULT_LOCALE, tag: "/" }
   }
-  if (slug.startsWith("tags/")) {
-    const rest = slug.slice("tags/".length)
-    return { loc: DEFAULT_LOCALE, tag: rest === "index" ? "/" : rest }
+  if (s.startsWith("tags/")) {
+    const rest = s.slice("tags/".length)
+    return { loc: DEFAULT_LOCALE, tag: !rest || rest === "index" ? "/" : rest }
   }
   return null
 }
