@@ -8,6 +8,8 @@ import {
   localeFromSlug,
   homeSlugForLocale,
   stripLocalePrefix,
+  parseTagSlug,
+  tagSlugForLocale,
 } from "../i18n/siteLocales"
 
 /** Per-locale path map on each i18nKey (extensible beyond zh/en). */
@@ -39,6 +41,12 @@ function normalizeTarget(target: string): string {
 /** Best-effort counterpart path when translations map has no entry yet. */
 function fallbackSlug(simple: string, from: SiteLocaleCode, to: (typeof SITE_LOCALES)[number]): string {
   if (from === to.code) return simple === "" ? homeSlugForLocale(to) : simple
+
+  // Tag pages: names differ across languages (投资概念 vs investment-concept).
+  // Never invent a mapped tag — degrade to the target locale's tag index.
+  if (parseTagSlug(simple)) {
+    return tagSlugForLocale("index", to)
+  }
 
   let rest = stripLocalePrefix(simple)
   if (rest === "index") rest = ""
