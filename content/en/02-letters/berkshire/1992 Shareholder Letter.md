@@ -46,7 +46,7 @@ translations:
   en: en/02-letters/berkshire/1992-Shareholder-Letter
 ---
 
-# Berkshire Hathaway Shareholder Letter - 1992
+# Berkshire Hathaway Shareholder Letter — 1992
 
 BERKSHIRE HATHAWAY INC.
 To the Shareholders of Berkshire Hathaway Inc.:
@@ -171,7 +171,8 @@ super-catastrophe insurance. We not only accept this volatility
 but welcome it: A tolerance for short-term swings improves our
 long-term prospects. In baseball lingo, our performance
 yardstick is slugging percentage, not batting average.
-The Salomon Interlude
+## The Salomon Interlude
+
 Last June, I stepped down as Interim Chairman of Salomon Inc
 after ten months in the job. You can tell from Berkshire's 1991-
 92 results that the company didn't miss me while I was gone. But
@@ -204,7 +205,8 @@ of the Department of Justice - had important concerns about
 Salomon. If we were to resolve our problems in a coordinated and
 prompt manner, we needed a lawyer with exceptional legal,
 business and human skills. Ron had them all.
-Acquisitions
+## Acquisitions
+
 Of all our activities at Berkshire, the most exhilarating
 for Charlie and me is the acquisition of a business with
 excellent economic characteristics and a management that we like,
@@ -279,7 +281,8 @@ acquisitions difficult. The parent company made one purchase in
 eight children. In 1992 our only deal was with Bill Kizer,
 father of nine. It won't be easy to keep this string going in
 1993.
-Sources of Reported Earnings
+## Sources of Reported Earnings
+
 The table below shows the major sources of Berkshire's
 reported earnings. In this presentation, amortization of
 Goodwill and other major purchase-price accounting adjustments
@@ -295,50 +298,36 @@ business-by-business basis. The total net earnings we show in
 the table are, of course, identical to the GAAP total in our
 audited financial statements.
 (000s omitted)
------------------------------------------------
-Berkshire's Share
-of Net Earnings
-(after taxes and
-Pre-Tax Earnings minority interests)
----------------------- ----------------------
-1992 1991 1992 1991
----------- ---------- ---------- ----------
-Operating Earnings:
-Insurance Group:
-Underwriting ............ $(108,961) $(119,593) $ (71,141) $ (77,229)
-Net Investment Income.... 355,067 331,846 305,763 285,173
-H. H. Brown (acquired 7/1/91) 27,883 13,616 17,340 8,611
-Buffalo News .............. 47,863 37,113 28,163 21,841
-Fechheimer ................ 13,698 12,947 7,267 6,843
-Kirby ..................... 35,653 35,726 22,795 22,555
-Nebraska Furniture Mart ... 17,110 14,384 8,072 6,993
-Scott Fetzer
-Manufacturing Group .... 31,954 26,123 19,883 15,901
-See's Candies ............. 42,357 42,390 25,501 25,575
-Wesco - other than Insurance 15,153 12,230 9,195 8,777
-World Book ................ 29,044 22,483 19,503 15,487
-Amortization of Goodwill .. (4,702) (4,113) (4,687) (4,098)
-Other Purchase-Price
-Accounting Charges ..... (7,385) (6,021) (8,383) (7,019)
-Interest Expense* ......... (98,643) (89,250) (62,899) (57,165)
-Shareholder-Designated
-Contributions .......... (7,634) (6,772) (4,913) (4,388)
-Other ..................... 72,223 77,399 36,267 47,896
----------- ---------- ---------- ----------
-Operating Earnings .......... 460,680 400,508 347,726 315,753
-Sales of Securities ......... 89,937 192,478 59,559 124,155
----------- ---------- ---------- ----------
-Total Earnings - All Entities $ 550,617 $ 592,986 $ 407,285 $ 439,908
-========== ========== ========== ==========
-*Excludes interest expense of Scott Fetzer Financial Group and Mutual
-Savings & Loan. Includes $22.5 million in 1992 and $5.7 million in
-1991 of premiums paid on the early redemption of debt.
+|  | Pre-Tax Earnings |  | Berkshire's Share of Net Earnings |  |
+| --- | ---: | ---: | ---: | ---: |
+|  | 1992 | 1991 | 1992 | 1991 |
+| Insurance Group: Underwriting | $(108,961) | $(119,593) | $(71,141) | $(77,229) |
+| Insurance Group: Net Investment Income | 355,067 | 331,846 | 305,763 | 285,173 |
+| H. H. Brown (acquired 7/1/91) | 27,883 | 13,616 | 17,340 | 8,611 |
+| Buffalo News | 47,863 | 37,113 | 28,163 | 21,841 |
+| Fechheimer | 13,698 | 12,947 | 7,267 | 6,843 |
+| Kirby | 35,653 | 35,726 | 22,795 | 22,555 |
+| Nebraska Furniture Mart | 17,110 | 14,384 | 8,072 | 6,993 |
+| Scott Fetzer Manufacturing Group | 31,954 | 26,123 | 19,883 | 15,901 |
+| See's Candies | 42,357 | 42,390 | 25,501 | 25,575 |
+| Wesco - other than Insurance | 15,153 | 12,230 | 9,195 | 8,777 |
+| World Book | 29,044 | 22,483 | 19,503 | 15,487 |
+| Amortization of Goodwill | (4,702) | (4,113) | (4,687) | (4,098) |
+| Other Purchase-Price Accounting Charges | (7,385) | (6,021) | (8,383) | (7,019) |
+| Interest Expense* | (98,643) | (89,250) | (62,899) | (57,165) |
+| Shareholder-Designated Contributions | (7,634) | (6,772) | (4,913) | (4,388) |
+| Other | 72,223 | 77,399 | 36,267 | 47,896 |
+| **Operating Earnings** | **460,680** | **400,508** | **347,726** | **315,753** |
+| Sales of Securities | 89,937 | 192,478 | 59,559 | 124,155 |
+| **Total Earnings - All Entities** | **$550,617** | **$592,986** | **$407,285** | **$439,908** |
+
+*Excludes interest expense of Scott Fetzer Financial Group and Mutual Savings & Loan. Includes $22.5 million in 1992 and $5.7 million in 1991 of premiums paid on the early redemption of debt.
 A large amount of additional information about these
 businesses is given on pages 37-47, where you will also find our
 segment earnings reported on a GAAP basis. Our goal is to give you
 all of the financial information that Charlie and I consider
 significant in making our own evaluation of Berkshire.
-"Look-Through" Earnings
+## "Look-Through" Earnings
 
 We've previously discussed look-through earnings, which
 consist of: (1) the operating earnings reported in the previous
@@ -381,55 +370,44 @@ earnings, though I warn you that the figures are necessarily very
 rough. (The dividends paid to us by these investees have been
 included in the operating earnings itemized on page 8, mostly
 under "Insurance Group: Net Investment Income.")
-Berkshire's Share
-of Undistributed
-Berkshire's Approximate Operating Earnings
-Berkshire's Major Investees Ownership at Yearend (in millions)
---------------------------- ----------------------- ------------------
-1992 1991 1992 1991
--------- -------- -------- --------
+| Berkshire's Major Investees | Ownership at Yearend (1992) | Ownership at Yearend (1991) | Berkshire's Share of Undistributed Earnings (1992) | Berkshire's Share of Undistributed Earnings (1991) |
+| --- | ---: | ---: | ---: | ---: |
+| Capital Cities/ABC Inc. | 18.2% | 18.1% | $70 | $61 |
+| The Coca-Cola Company | 7.1% | 7.0% | 82 | 69 |
+| Federal Home Loan Mortgage Corp. | 8.2%(1) | 3.4%(1) | 29(2) | 15 |
+| GEICO Corp. | 48.1% | 48.2% | 34(3) | 69(3) |
+| General Dynamics Corp. | 14.1% | -- | 11(2) | -- |
+| The Gillette Company | 10.9% | 11.0% | 38 | 23(2) |
+| Guinness PLC | 2.0% | 1.6% | 7 | -- |
+| The Washington Post Company | 14.6% | 14.6% | 11 | 10 |
+| Wells Fargo & Company | 11.5% | 9.6% | 16(2) | (17)(2) |
+| **Berkshire's share of undistributed earnings of major investees** |  |  | **$298** | **$230** |
+| **Hypothetical tax on these undistributed investee earnings** |  |  | **(42)** | **(30)** |
+| **Reported operating earnings of Berkshire** |  |  | **348** | **316** |
+| **Total look-through earnings of Berkshire** |  |  | **$604** | **$516** |
 
-Capital Cities/ABC Inc. ....... 18.2% 18.1% $ 70 $ 61
-The Coca-Cola Company ......... 7.1% 7.0% 82 69
-Federal Home Loan Mortgage Corp. 8.2%(1) 3.4%(1) 29(2) 15
-GEICO Corp. ................... 48.1% 48.2% 34(3) 69(3)
-General Dynamics Corp. ........ 14.1% -- 11(2) --
-The Gillette Company .......... 10.9% 11.0% 38 23(2)
-Guinness PLC .................. 2.0% 1.6% 7 --
-The Washington Post Company ... 14.6% 14.6% 11 10
-Wells Fargo & Company ......... 11.5% 9.6% 16(2) (17)(2)
--------- -------- -------- --------
-Berkshire's share of
-undistributed earnings of major investees $298 $230
-Hypothetical tax on these
-undistributed investee earnings (42) (30)
-Reported operating earnings of Berkshire 348 316
--------- --------
-Total look-through earnings of Berkshire $604 $516
 (1) Net of minority interest at Wesco
 (2) Calculated on average ownership for the year
-(3) Excludes realized capital gains, which have been both
-recurring and significant
-Insurance Operations
+(3) Excludes realized capital gains, which have been both recurring and significant
+## Insurance Operations
+
 Shown below is an updated version of our usual table
 presenting key figures for the property-casualty insurance
 industry:
-Yearly Change Combined Ratio
-in Premiums After Policyholder
-Written (%) Dividends
-------------- ------------------
-1981 ........................... 3.8 106.0
-1982 ........................... 3.7 109.6
-1983 ........................... 5.0 112.0
-1984 ........................... 8.5 118.0
-1985 ........................... 22.1 116.3
-1986 ........................... 22.2 108.0
-1987 ........................... 9.4 104.6
-1988 ........................... 4.5 105.4
-1989 ........................... 3.2 109.2
-1990 ........................... 4.5 109.6
-1991 (Revised) ................. 2.4 108.8
-1992 (Est.) .................... 2.7 114.8
+| Year | Change in Premiums Written (%) | Combined Ratio After Policyholder Dividends |
+| --- | ---: | ---: |
+| 1981 | 3.8 | 106.0 |
+| 1982 | 3.7 | 109.6 |
+| 1983 | 5.0 | 112.0 |
+| 1984 | 8.5 | 118.0 |
+| 1985 | 22.1 | 116.3 |
+| 1986 | 22.2 | 108.0 |
+| 1987 | 9.4 | 104.6 |
+| 1988 | 4.5 | 105.4 |
+| 1989 | 3.2 | 109.2 |
+| 1990 | 4.5 | 109.6 |
+| 1991 (Revised) | 2.4 | 108.8 |
+| 1992 (Est.) | 2.7 | 114.8 |
 The combined ratio represents total insurance costs (losses
 incurred plus expenses) compared to revenue from premiums: A
 ratio below 100 indicates an underwriting profit, and one above
@@ -613,24 +591,22 @@ and Berkshire possesses an important competitive advantage. We
 will look for ways to expand our participation in the business,
 either indirectly as we have done through GEICO or directly as we
 did by acquiring Central States Indemnity.
-Common Stock Investments
+## Common Stock Investments
+
 Below we list our common stock holdings having a value of over
 $100 million. A small portion of these investments belongs to
 subsidiaries of which Berkshire owns less than 100%.
-12/31/92
-Shares Company Cost Market
------- ------- ---------- ----------
-(000s omitted)
-3,000,000 Capital Cities/ABC, Inc. ............. $ 517,500 $1,523,500
-93,400,000 The Coca-Cola Company. ............... 1,023,920 3,911,125
-16,196,700 Federal Home Loan Mortgage Corp.
-("Freddie Mac") ................... 414,257 783,515
-34,250,000 GEICO Corp. .......................... 45,713 2,226,250
-4,350,000 General Dynamics Corp. ............... 312,438 450,769
-24,000,000 The Gillette Company ................. 600,000 1,365,000
-38,335,000 Guinness PLC ......................... 333,019 299,581
-1,727,765 The Washington Post Company .......... 9,731 396,954
-6,358,418 Wells Fargo & Company ................ 380,983 485,624
+| Shares | Company | Cost | Market |
+| ---: | --- | ---: | ---: |
+| 3,000,000 | Capital Cities/ABC, Inc. | $517,500 | $1,523,500 |
+| 93,400,000 | The Coca-Cola Company | $1,023,920 | $3,911,125 |
+| 16,196,700 | Federal Home Loan Mortgage Corp. ("Freddie Mac") | $414,257 | $783,515 |
+| 34,250,000 | GEICO Corp. | $45,713 | $2,226,250 |
+| 4,350,000 | General Dynamics Corp. | $312,438 | $450,769 |
+| 24,000,000 | The Gillette Company | $600,000 | $1,365,000 |
+| 38,335,000 | Guinness PLC | $333,019 | $299,581 |
+| 1,727,765 | The Washington Post Company | $9,731 | $396,954 |
+| 6,358,418 | Wells Fargo & Company | $380,983 | $485,624 |
 Leaving aside splits, the number of shares we held in these
 companies changed during 1992 in only four cases: We added
 moderately to our holdings in Guinness and Wells Fargo, we more
@@ -871,7 +847,8 @@ join its board, we are glad to do so. We expect the managers of
 our investees to work hard to increase the value of the businesses
 they run, and there are times when large owners should do their bit
 as well.
-Two New Accounting Rules and a Plea for One More
+## Two New Accounting Rules and a Plea for One More
+
 A new accounting rule having to do with deferred taxes becomes
 effective in 1993. It undoes a dichotomy in our books that I have
 described in previous annual reports and that relates to the
@@ -1025,7 +1002,8 @@ credibility on issues of significance to society - about which it
 may have much of value to say - when it advocates the incredible on
 issues of significance to itself.
 
-Miscellaneous
+## Miscellaneous
+
 We have two pieces of regrettable news this year. First,
 Gladys Kaiser, my friend and assistant for twenty-five years, will
 give up the latter post after the 1993 annual meeting, though she

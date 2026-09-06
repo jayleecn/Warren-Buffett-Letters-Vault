@@ -47,7 +47,7 @@ translations:
   en: en/02-letters/berkshire/1993-Shareholder-Letter
 ---
 
-# Berkshire Hathaway Shareholder Letter - 1993
+# Berkshire Hathaway Shareholder Letter — 1993
 
 BERKSHIRE HATHAWAY INC.
 To the Shareholders of Berkshire Hathaway Inc.:
@@ -178,7 +178,8 @@ has a less certain outcome: It is not easy to find new
 businesses and managers comparable to those we have. Despite
 that difficulty, Charlie and I relish the search, and we are
 happy to report an important success in 1993.
-Dexter Shoe
+## Dexter Shoe
+
 What we did last year was build on our 1991 purchase of H.
 H. Brown, a superbly-run manufacturer of work shoes, boots and
 other footwear. Brown has been a real winner: Though we had
@@ -270,7 +271,8 @@ What made sense for Harold and Peter probably makes sense
 for a few other owners of large private businesses. So, if you
 have a business that might fit, let me hear from you. Our
 acquisition criteria are set forth in the appendix on page 22.
-Sources of Reported Earnings
+## Sources of Reported Earnings
+
 The table below shows the major sources of Berkshire's
 reported earnings. In this presentation, amortization of
 Goodwill and other major purchase-price accounting adjustments
@@ -334,7 +336,8 @@ GAAP basis, a presentation that corresponds to the way Charlie and
 I think about the company. Our intent is to supply you with the
 financial information that we would wish you to give us if our
 positions were reversed.
-"Look-Through" Earnings
+## "Look-Through" Earnings
+
 We've previously discussed look-through earnings, which we
 believe more accurately portray the earnings of Berkshire than does
 our GAAP result. As we calculate them, look-through earnings
@@ -418,7 +421,8 @@ these shares.
 We expect such pleasant outcomes to recur often in the future
 and therefore believe our look-through earnings to be a
 conservative representation of Berkshire's true economic earnings.
-Taxes
+## Taxes
+
 As our Cap Cities sale emphasizes, Berkshire is a substantial
 payer of federal income taxes. In aggregate, we will pay 1993
 federal income taxes of $390 million, about $200 million of that
@@ -484,7 +488,7 @@ will realize a far, far greater sum from a single investment that
 compounds internally at a given rate than from a succession of
 investments compounding at the same rate. But I suspect many
 Berkshire shareholders figured that out long ago.
-Insurance Operations
+## Insurance Operations
 
 At this point in the report we've customarily provided you
 with a table showing the annual "combined ratio" of the insurance
@@ -650,7 +654,8 @@ All in all, we have a first-class insurance business. Though
 its results will be highly volatile, this operation possesses an
 intrinsic value that exceeds its book value by a large amount -
 larger, in fact, than is the case at any other Berkshire business.
-Common Stock Investments
+## Common Stock Investments
+
 Below we list our common stockholdings having a value of over
 $250 million. A small portion of these investments belongs to
 subsidiaries of which Berkshire owns less than 100%.
@@ -897,7 +902,8 @@ that money to his top choices - the businesses he understands best
 and that present the least risk, along with the greatest profit
 potential. In the words of the prophet Mae West: "Too much of a
 good thing can be wonderful."
-Corporate Governance
+## Corporate Governance
+
 At our annual meetings, someone usually asks "What happens to
 this place if you get hit by a truck?" I'm glad they are still
 asking the question in this form. It won't be too long before the
