@@ -8,7 +8,7 @@ import { clone } from "../util/clone"
 import { visit } from "unist-util-visit"
 import { Root, Element, ElementContent } from "hast"
 import { GlobalConfiguration } from "../cfg"
-import { i18n } from "../i18n"
+import { i18n, resolvePageLocale, ValidLocale } from "../i18n"
 import { styleText } from "util"
 
 interface RenderComponents {
@@ -219,11 +219,24 @@ export function renderPage(
   components: RenderComponents,
   pageResources: StaticResources,
 ): string {
+  // Per-page UI locale: English under /en/, Chinese at root (and other langs later).
+  const pageLocale: ValidLocale = resolvePageLocale(
+    slug,
+    componentData.fileData.frontmatter?.lang as string | undefined,
+    (cfg.locale as ValidLocale) ?? "zh-CN",
+  )
+  const pageCfg: GlobalConfiguration = {
+    ...cfg,
+    locale: pageLocale,
+    pageTitle: pageLocale.startsWith("en") ? "Buffett Letters Vault" : cfg.pageTitle,
+  }
+  componentData = { ...componentData, cfg: pageCfg }
+
   // make a deep copy of the tree so we don't remove the transclusion references
   // for the file cached in contentMap in build.ts
   const root = clone(componentData.tree) as Root
   const visited = new Set<FullSlug>([slug])
-  renderTranscludes(root, cfg, slug, componentData, visited)
+  renderTranscludes(root, pageCfg, slug, componentData, visited)
 
   // set componentData.tree to the edited html that has transclusions rendered
   componentData.tree = root
@@ -257,8 +270,11 @@ export function renderPage(
     </div>
   )
 
-  const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
-  const direction = i18n(cfg.locale).direction ?? "ltr"
+  const lang =
+    (componentData.fileData.frontmatter?.lang as string | undefined) ??
+    pageLocale.split("-")[0] ??
+    "en"
+  const direction = i18n(pageCfg.locale).direction ?? "ltr"
   const doc = (
     <html lang={lang} dir={direction}>
       <Head {...componentData} />
