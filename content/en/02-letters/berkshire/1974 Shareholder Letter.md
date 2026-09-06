@@ -36,9 +36,7 @@ translations:
   en: en/02-letters/berkshire/1974-Shareholder-Letter
 ---
 
-# Berkshire Hathaway Shareholder Letter - 1974
-
-## Berkshire Hathaway Inc.
+# Berkshire Hathaway Shareholder Letter — 1974
 
 __
 
@@ -49,7 +47,7 @@ Operating results for 1974 overall were unsatisfactory due to the poor performan
 
 The outlook for 1975 is not encouraging. We undoubtedly will have sharply negative comparisons in our textile operation and probably a moderate decline in banking earnings. Insurance underwriting is a large question mark at this time—it certainly won’t be a satisfactory year in this area, and could be an extremely poor one. Prospects are reasonably good for an improvement in both insurance investment income and our equity in earnings of Blue Chip Stamps. During this period we plan to continue to build financial strength and liquidity, preparing for the time when insurance rates become adequate and we can once again aggressively pursue opportunities for growth in this area. 
 
-#### Textile Operations 
+## Textile Operations
 
 During the first nine months of 1974 textile demand was exceptionally strong, resulting in very firm prices. However, in the fourth quarter significant weaknesses began to appear, which have continued into 1975. 
 
@@ -57,7 +55,7 @@ We currently are operating at about one-third of capacity. Obviously, at such le
 
 Our products are largely in the curtain goods area. During a period of consumer uncertainty, curtains may well be high on the list of deferrable purchases. Very low levels of housing starts also serve to dampen demand. In addition, retailers have been pressing to cut inventories generally, and we probably are feeling some effect from these efforts. These negative trends should reverse in due course, and we are attempting to minimize losses until that time comes. 
 
-#### Insurance Underwriting 
+## Insurance Underwriting
 
 In the last few years we consistently have commented on the unusual profitability in insurance underwriting. This seemed certain eventually to attract unintelligent competition with consequent inadequate rates. It also has been apparent that many insurance organizations, major as well as minor, have been guilty of significant underreserving of losses, which inevitably produces faulty information as to the true cost of the product being sold. In 1974, these factors, along with a high rate of inflation, combined to produce a rapid erosion in underwriting results. 
 
@@ -79,7 +77,7 @@ Our efforts to expand Home and Automobile Insurance Company into Florida proved 
 
 While the tone of this section is pessimistic as to 1974 and 1975, we consider the insurance business to be inherently attractive. Our overall return on capital employed in this area—even including the poor results of 1974—remains high. We have made every effort to be realistic in the calculation of loss and expense reserves. Many of our competitors are in a substantially weakened financial position, and our strong capital picture leaves us prepared to grow significantly when conditions become right. 
 
-#### Insurance Investment Results 
+## Insurance Investment Results
 
 Investment funds generated from the operation of our insurance companies continued to grow during 1974. Investment income grew correspondingly, and produced overall profitability for the insurance group despite the poor underwriting results. As the insurance group balance sheet shows, we have increased liquidity substantially. This trend has continued since yearend. With poor underwriting and with generally weakened capital ratios throughout the insurance industry, such a higher level of liquidity is appropriate and comforting. It eliminates the possible temptation to write business at any price, simply to maintain cash flow, which is a major problem faced by many companies. 
 
@@ -89,7 +87,7 @@ However, on any given day the market value of our bond portfolio is determined b
 
 Our stock portfolio declined again in 1974—along with most equity portfolios—to the point that at yearend it was worth approximately $17 million less than its carrying value. Again, we are under-no pressure to sell such securities except at times that we deem advantageous and it is our belief that, over a period of years, the overall portfolio will prove to be worth more than its cost. A net capital loss was realized in 1974, and very likely again will occur in 1975. However, we consider several of our major holdings to have great potential for significantly increased values in future years, and therefore feel quite comfortable with our stock portfolio. At this writing, market depreciation of the portfolio has been reduced by more than half from yearend figures, reflecting higher general stock market levels. 
 
-#### Banking Operations 
+## Banking Operations
 
 There is little new to say about Illinois National Bank and Trust. With Eugene Abegg running the operation, the exceptional has become the commonplace. Year after year he continues to run one of the most profitable banks in the United States, while paying maximum interest rates to depositors, operating with unusual levels of liquidity, and maintaining a superior level of loan quality. 
 
@@ -97,7 +95,7 @@ Two factors specifically should be noted in looking at the separate income state
 
 Under present money market conditions, we expect bank earnings to be down somewhat in 1975 although we believe they still are likely to compare favorably with those of practically any banking institution in the country. 
 
-#### Blue Chip Stamps 
+## Blue Chip Stamps
 
 During 1974 we increased our holdings of Blue Chip Stamps to approximately 25½%of the outstanding shares of that company. Overall, we are quite happy about the results of Blue Chip and its prospects for the future. Stamp sales continue at a greatly reduced level, but the Blue Chip management has done an excellent job of adjusting operating costs, The See’s Candy Shops, Inc. subsidiary had an outstanding year, and has excellent prospects for the future. 
 
@@ -105,7 +103,7 @@ Your Chairman is on the Board of Directors of Blue Chip Stamps, as well as Wesco
 
 The annual report of Blue Chip Stamps, which will contain financial statements for the year ended March 1, 1975 audited by Price, Waterhouse and Company, will be available in early May. Any shareholder of Berkshire Hathaway Inc. who desires an annual report of Blue Chip Stamps may obtain it at that time by writing Mr. Robert H. Bird, Secretary, Blue Chip Stamps, 5801 South Eastern Avenue, Los Angeles, California 90040. 
 
-#### Merger with Diversified Retailing Company, Inc. 
+## Merger with Diversified Retailing Company, Inc.
 
 As you previously have been informed, the proposed merger with Diversified Retailing Company, Inc. was terminated by the respective Boards of Directors on January 28, 1975. We continue to view such a merger as eventually desirable, and hope to reopen the subject at some future time.
 
