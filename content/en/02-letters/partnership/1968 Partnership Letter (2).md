@@ -23,16 +23,16 @@ translations:
   en: en/02-letters/partnership/1968-Partnership-Letter-(2)
 ---
 
-# Buffett Partnership Letter - 1968
+# Buffett Partnership Letter — 1968
 
-BUFFETT PARTNERSHIP, LTD.
-610 KIEWIT PLAZA
-OMAHA, NEBRASKA 68131
-TELEPHONE 042-4110
+BUFFETT PARTNERSHIP, LTD.  
+610 KIEWIT PLAZA  
+OMAHA, NEBRASKA 68131  
+TELEPHONE 042-4110  
 
-November 1, 1968
+November 1, 1968  
 
-To My Partners:
+## To My Partners
 
 Enclosed are two copies of the Commitment Letter for 1969, one to be kept by you and one to be returned to us. You may amend the Commitment Letter right up to December 31, so get it back to us early and, if it needs to be changed, just let us know by letter or phone. Commitment Letters become absolutely final on December 31 - there can be no exceptions to this rule since I turn them over to Peat, Marwick, Mitchell & Co. at that time.
 
