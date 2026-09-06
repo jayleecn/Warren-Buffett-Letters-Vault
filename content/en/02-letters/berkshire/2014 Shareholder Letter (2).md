@@ -82,8 +82,6 @@ For a time I got lucky: Berkshire immediately enjoyed two years of good operatin
 
 Then the honeymoon ended. During the 18 years following 1966, we struggled unremittingly with the textile business, all to no avail. But stubbornness – stupidity? – has its limits. In 1985, I finally threw in the towel and closed the operation.
 
-*******
-
 Undeterred by my first mistake of committing much of BPL’s resources to a dying business, I quickly compounded the error. Indeed, my second blunder was far more serious than the first, eventually becoming the most costly in my career.
 
 Early in 1967, I had Berkshire pay $8.6 million to buy National Indemnity Company ("NICO"), a small but promising Omaha-based insurer. (A tiny sister company was also included in the deal.) Insurance was in my sweet spot: I understood and liked the industry.
@@ -91,8 +89,6 @@ Early in 1967, I had Berkshire pay $8.6 million to buy National Indemnity Compan
 Jack Ringwalt, the owner of NICO, was a long-time friend who wanted to sell to me – me, personally. In no way was his offer intended for Berkshire. So why did I purchase NICO for Berkshire rather than for BPL? I’ve had 48 years to think about that question, and I’ve yet to come up with a good answer. I simply made a colossal mistake.
 
 If BPL had been the purchaser, my partners and I would have owned 100% of a fine business, destined to form the base for building the company Berkshire has become. Moreover, our growth would not have been impeded for nearly two decades by the unproductive funds imprisoned in the textile operation. Finally, our subsequent acquisitions would have been owned in their entirety by my partners and me rather than being 39%-owned by the legacy shareholders of Berkshire, to whom we had no obligation. Despite these facts staring me in the face, I opted to marry 100% of an excellent business (NICO) to a 61%-owned terrible business (Berkshire Hathaway), a decision that eventually diverted $100 billion or so from BPL partners to a collection of strangers.
-
-## *******
 
 One more confession and then I’ll go on to more pleasant topics: Can you believe that in 1975 I bought Waumbec Mills, another New England textile company? Of course, the purchase price was a “bargain” based on the assets we received and the projected synergies with Berkshire’s existing textile business. Nevertheless – surprise, surprise – Waumbec was a disaster, with the mill having to be closed down not many years later.
 
@@ -107,8 +103,6 @@ Even then, however, I made a few exceptions to cigar butts, the most important b
 But a major weakness in this approach gradually became apparent: Cigar-butt investing was scalable only to a point. With large sums, it would never work well.
 
 In addition, though marginal businesses purchased at cheap prices may be attractive as short-term investments, they are the wrong foundation on which to build a large and enduring enterprise. Selecting a marriage partner clearly requires more demanding criteria than does dating. (Berkshire, it should be noted, would have been a highly satisfactory “date”: If we had taken Seabury Stanton’s $11.375 offer for our shares, BPL’s weighted annual return on its Berkshire investment would have been about 40%).)
-
-*** *** *** ***
 
 It took Charlie Munger to break my cigar-butt habits and set the course for building a business that could combine huge size with satisfactory profits. Charlie had grown up a few hundred feet from where I now live and as a youth had worked, as did I, in my grandfather's grocery store. Nevertheless, it was 1959 before I met Charlie, long after he had left Omaha to make Los Angeles his home. I was then 28 and he was 35. The Omaha doctor who introduced us predicted that we would hit it off – and we did.
 
@@ -128,8 +122,6 @@ The family controlling See’s wanted $30 million for the business, and Charlie 
 
 To date, See’s has earned $1.9 billion pre-tax, with its growth having required added investment of only $40 million. See’s has thus been able to distribute huge sums that have helped Berkshire buy other businesses that, in turn, have themselves produced large distributable profits. (Envision rabbits breeding.) Additionally, through watching See’s in action, I gained a business education about the value of powerful brands that opened my eyes to many other profitable investments.
 
-## *** *** *** ***
-
 Even with Charlie’s blueprint, I have made plenty of mistakes since Waumbec. The most gruesome was Dexter Shoe. When we purchased the company in 1993, it had a terrific record and in no way looked to me like a cigar butt. Its competitive strengths, however, were soon to evaporate because of foreign competition. And I simply didn’t see that coming.
 
 Consequently, Berkshire paid $433 million for Dexter and, rather promptly, its value went to zero. GAAP accounting, however, doesn't come close to recording the magnitude of my error. The fact is that I gave Berkshire stock to the sellers of Dexter rather than cash, and the shares I used for the purchase are now worth about $5.7 billion. As a financial disaster, this one deserves a spot in the Guinness Book of World Records.
@@ -141,8 +133,6 @@ We’ve also suffered financially when this mistake has been committed by compan
 I’ve yet to see an investment banker quantify this all-important math when he is presenting a stock-for-stock deal to the board of a potential acquirer. Instead, the banker’s focus will be on describing “customary” premiums-to-market-price that are currently being paid for acquisitions – an absolutely asinine way to evaluate the attractiveness of an acquisition – or whether the deal will increase the acquirer’s earnings-per-share (which in itself should be far from determinative). In striving to achieve the desired per-share number, a panting CEO and his “shelpers” will often conjure up fanciful “synergies.” (As a director of 19 companies over the years, I’ve never heard “dis-synergies” mentioned, though I’ve witnessed plenty of these once deals have closed.) Post mortems of acquisitions, in which reality is honestly compared to the original projections, are rare in American boardrooms. They should instead be standard practice.
 
 I can promise you that long after I’m gone, Berkshire’s CEO and Board will carefully make intrinsic value calculations before issuing shares in any acquisitions. You can’t get rich trading a hundred-dollar bill for eight tens (even if your advisor has handed you an expensive “fairness” opinion endorsing that swap).
-
-## *** *** *** ***
 
 Overall, Berkshire’s acquisitions have worked out well – and very well in the case of a few large ones. So, too, have our investments in marketable securities. The latter are always valued on our balance sheet at their market prices so any gains – including those unrealized – are immediately reflected in our net worth. But the businesses we buy outright are never revalued upward on our balance sheet, even when we could sell them for many billions of dollars more than their carrying value. The unrecorded gains in the value of Berkshire’s subsidiaries have become huge, with these growing at a particularly fast pace in the last decade.
 
@@ -170,8 +160,6 @@ Eventually, however, the clock struck twelve, and everything turned to pumpkins 
 
 At both BPL and Berkshire, we have never invested in companies that are hell-bent on issuing shares. That behavior is one of the surest indicators of a promotion-minded management, weak accounting, a stock that is overpriced and – all too often – outright dishonesty.
 
-*** *** *** ***
-
 So what do Charlie and I find so attractive about Berkshire’s conglomerate structure? To put the case simply: If the conglomerate form is used judiciously, it is an ideal structure for maximizing long-term capital growth.
 
 One of the heralded virtues of capitalism is that it efficiently allocates funds. The argument is that markets will direct investment to promising businesses and deny it to those destined to wither. That is true: With all its excesses, market-driven allocation of capital is usually far superior to any alternative.
@@ -191,8 +179,6 @@ Another major advantage we possess is the ability to buy pieces of wonderful bus
 In effect, the world is Berkshire's oyster – a world offering us a range of opportunities far beyond those realistically open to most companies. We are limited, of course, to businesses whose economic prospects we can evaluate. And that's a serious limitation: Charlie and I have no idea what a great many companies will look like ten years from now. But that limitation is much smaller than that borne by an executive whose experience has been confined to a single industry. On top of that, we can profitably scale to a far larger size than the many businesses that are constrained by the limited potential of the single industry in which they operate.
 
 I mentioned earlier that See's Candy had produced huge earnings compared to its modest capital requirements. We would have loved, of course, to intelligently use those funds to expand our candy operation. But our many attempts to do so were largely futile. So, without incurring tax inefficiencies or frictional costs, we have used the excess funds generated by See's to help purchase other businesses. If See's had remained a stand-alone company, its earnings would have had to be distributed to investors to redeploy, sometimes after being heavily depleted by large taxes and, almost always, by significant frictional and agency costs.
-
-*******
 
 Berkshire has one further advantage that has become increasingly important over the years: We are now the home of choice for the owners and managers of many outstanding businesses.
 
@@ -214,8 +200,6 @@ Berkshire offers a third choice to the business owner who wishes to sell: a perm
 
 Some sellers don't care about these matters. But, when sellers do, Berkshire does not have a lot of competition.
 
-*** *** *** ***
-
 Sometimes pundits propose that Berkshire spin-off certain of its businesses. These suggestions make no sense. Our companies are worth more as part of Berkshire than as separate entities. One reason is our ability to move funds between businesses or into new ventures instantly and without tax. In addition, certain costs duplicate themselves, in full or part, if operations are separated. Here's the most obvious example: Berkshire incurs nominal costs for its single board of directors; were our dozens of subsidiaries to be split off, the overall cost for directors would soar. So, too, would regulatory and administration expenditures.
 
 Finally, there are sometimes important tax efficiencies for Subsidiary A because we own Subsidiary B. For example, certain tax credits that are available to our utilities are currently realizable only because we generate huge amounts of taxable income at other Berkshire operations. That gives Berkshire Hathaway Energy a major advantage over most public-utility companies in developing wind and solar projects.
@@ -230,8 +214,6 @@ It’s possible, of course, that someday a spin-off or sale at Berkshire would b
 
 Voluntary spin-offs, though, make no sense for us: We would lose control value, capital-allocation flexibility and, in some cases, important tax advantages. The CEOs who brilliantly run our subsidiaries now would have difficulty in being as effective if running a spun-off operation, given the operating and financial advantages derived from Berkshire's ownership. Moreover, the parent and the spun-off operations, once separated, would likely incur moderately greater costs than existed when they were combined.
 
-## *******
-
 Before I depart the subject of spin-offs, let's look at a lesson to be learned from a conglomerate mentioned earlier: LTV. I'll summarize here, but those who enjoy a good financial story should read the piece about Jimmy Ling that ran in the October 1982 issue of D Magazine. Look it up on the Internet.
 
 Through a lot of corporate razzle-dazzle, Ling had taken LTV from sales of only $36 million in 1965 to number 14 on the Fortune 500 list just two years later. Ling, it should be noted, had never displayed any managerial skills. But Charlie told me long ago to never underestimate the man who overestimates himself. And Ling had no peer in that respect.
@@ -243,8 +225,6 @@ In 1967 Ling bought Wilson & Co., a huge meatpacker that also had interests in g
 Soon thereafter, it became clear that, like Icarus, Ling had flown too close to the sun. By the early 1970s, Ling's empire was melting, and he himself had been spun off from LTV ... that is, fired.
 
 Periodically, financial markets will become divorced from reality – you can count on that. More Jimmy Lings will appear. They will look and sound authoritative. The press will hang on their every word. Bankers will fight for their business. What they are saying will recently have “worked.” Their early followers will be feeling very clever. Our suggestion: Whatever their line, never forget that 2+2 will always equal 4. And when someone tells you how old-fashioned that math is --- zip up your wallet, take a vacation and come back in a few years to buy stocks at cheap prices.
-
-## *** *** *** ***
 
 Today Berkshire possesses (1) an unmatched collection of businesses, most of them now enjoying favorable economic prospects; (2) a cadre of outstanding managers who, with few exceptions, are unusually devoted to both the subsidiary they operate and to Berkshire; (3) an extraordinary diversity of earnings, premier financial strength and oceans of liquidity that we will maintain under all circumstances; (4) a first-choice ranking among many owners and managers who are contemplating sale of their businesses and (5) in a point related to the preceding item, a culture, distinctive in many ways from that of most large companies, that we have worked 50 years to develop and that is now rock-solid.
 
@@ -350,40 +330,12 @@ Warren E. Buffett
 
 ## Concepts mentioned
 
-- [[Intrinsic Value]]
-- [[Book Value]]
-- [[Capital Allocation]]
-- [[Float]]
-- [[Economic Moat]]
-- [[Cigar Butt Investing]]
-- [[Conglomerates]]
-- [[Earnings Per Share]]
-- [[Private Equity]]
-- [[Spin-offs]]
-- [[Competitive Advantage]]
-- [[Pricing Power]]
+- [[Intrinsic Value]] - [[Book Value]] - [[Capital Allocation]] - [[Float]] - [[Economic Moat]] - [[Cigar Butt Investing]] - [[Conglomerates]] - [[Earnings Per Share]] - [[Private Equity]] - [[Spin-offs]] - [[Competitive Advantage]] - [[Pricing Power]]
 
 ## Companies mentioned
 
-- [[Berkshire Hathaway]]
-- [[GEICO]]
-- [[See's Candies]]
-- [[Blue Chip Stamps]]
-- [[Dexter Shoe]]
-- [[Berkshire Fine Spinning Associates]]
-- [[Hathaway Manufacturing]]
-- [[Berkshire Hathaway Energy]]
-- [[ITT]]
-- [[LTV]]
-- [[General Motors]]
-- [[IBM]]
+- [[Berkshire Hathaway]] - [[GEICO]] - [[See's Candies]] - [[Blue Chip Stamps]] - [[Dexter Shoe]] - [[Berkshire Fine Spinning Associates]] - [[Hathaway Manufacturing]] - [[Berkshire Hathaway Energy]] - [[ITT]] - [[LTV]] - [[General Motors]] - [[IBM]]
 
 ## People mentioned
 
-- [[Warren Buffett]]
-- [[Charlie Munger]]
-- [[Ben Graham]]
-- [[Yogi Berra]]
-- [[Howard Buffett]]
-- [[Todd Combs]]
-- [[Ted Weschler]]
+- [[Warren Buffett]] - [[Charlie Munger]] - [[Ben Graham]] - [[Yogi Berra]] - [[Howard Buffett]] - [[Todd Combs]] - [[Ted Weschler]]
