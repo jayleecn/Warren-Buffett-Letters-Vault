@@ -74,7 +74,9 @@ export function stripLocalePrefix(slug: string): string {
  * Pass tag without "tags/" prefix; use "index" for the all-tags page.
  */
 export function tagSlugForLocale(tag: string, loc: SiteLocale): string {
-  const leaf = !tag || tag === "/" || tag === "index" ? "tags/index" : `tags/${tag}`
+  const cleaned = (tag || "").trim()
+  const leaf =
+    !cleaned || cleaned === "/" || cleaned === "index" ? "tags/index" : `tags/${cleaned}`
   return loc.prefix ? `${loc.prefix}/${leaf}` : leaf
 }
 
