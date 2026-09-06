@@ -16,6 +16,7 @@ translations:
   zh: 03-concepts/套利类投资
   en: en/03-concepts/Workouts
   es: es/03-concepts/Workouts
+  pt: pt/03-concepts/Workouts
 ---
 # Workouts
 

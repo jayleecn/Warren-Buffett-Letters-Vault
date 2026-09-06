@@ -14,6 +14,7 @@ translations:
   zh: 04-companies/韦斯科金融
   en: en/04-companies/Wesco-Financial
   es: es/04-companies/Wesco-Financial
+  pt: pt/04-companies/Wesco-Financial
 ---
 # Wesco Financial
 

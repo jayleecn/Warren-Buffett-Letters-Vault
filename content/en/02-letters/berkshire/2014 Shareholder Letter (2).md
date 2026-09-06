@@ -47,6 +47,7 @@ translations:
   zh: 02-letters/berkshire/2014年股东信(2)
   en: en/02-letters/berkshire/2014-Shareholder-Letter-(2)
   es: es/02-letters/berkshire/2014-Shareholder-Letter-(2)
+  pt: pt/02-letters/berkshire/2014-Shareholder-Letter-(2)
 ---
 # Berkshire Hathaway Shareholder Letter - 2014
 

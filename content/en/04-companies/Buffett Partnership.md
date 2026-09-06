@@ -14,6 +14,7 @@ translations:
   zh: 04-companies/巴菲特合伙公司
   en: en/04-companies/Buffett-Partnership
   es: es/04-companies/Buffett-Partnership
+  pt: pt/04-companies/Buffett-Partnership
 ---
 # Buffett Partnership
 

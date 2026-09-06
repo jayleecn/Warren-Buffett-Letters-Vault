@@ -16,8 +16,8 @@ translations:
   zh: 04-companies/可口可乐
   en: en/04-companies/Coca-Cola
   es: es/04-companies/Coca-Cola
+  pt: pt/04-companies/Coca-Cola
 ---
-
 # Coca-Cola
 
 ## Descripción de la empresa

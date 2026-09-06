@@ -16,6 +16,7 @@ translations:
   zh: 04-companies/BNSF铁路
   en: en/04-companies/BNSF-Railway
   es: es/04-companies/BNSF-Railway
+  pt: pt/04-companies/BNSF-Railway
 ---
 # BNSF Railway
 

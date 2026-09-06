@@ -40,6 +40,7 @@ translations:
   zh: 02-letters/berkshire/1983年股东信
   en: en/02-letters/berkshire/1983-Shareholder-Letter
   es: es/02-letters/berkshire/1983-Shareholder-Letter
+  pt: pt/02-letters/berkshire/1983-Shareholder-Letter
 ---
 # Berkshire Hathaway Shareholder Letter — 1983
 

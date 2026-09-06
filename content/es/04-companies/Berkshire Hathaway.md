@@ -16,8 +16,8 @@ translations:
   zh: 04-companies/伯克希尔·哈撒韦
   en: en/04-companies/Berkshire-Hathaway
   es: es/04-companies/Berkshire-Hathaway
+  pt: pt/04-companies/Berkshire-Hathaway
 ---
-
 # Berkshire Hathaway
 
 ## Descripción de la empresa

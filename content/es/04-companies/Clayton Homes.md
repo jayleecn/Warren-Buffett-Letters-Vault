@@ -13,8 +13,8 @@ translations:
   zh: 04-companies/克莱顿住宅
   en: en/04-companies/Clayton-Homes
   es: es/04-companies/Clayton-Homes
+  pt: pt/04-companies/Clayton-Homes
 ---
-
 # Clayton Homes
 
 ## Descripción de la empresa

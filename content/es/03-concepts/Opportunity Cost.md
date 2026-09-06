@@ -14,8 +14,8 @@ translations:
   zh: 03-concepts/机会成本
   en: en/03-concepts/Opportunity-Cost
   es: es/03-concepts/Opportunity-Cost
+  pt: pt/03-concepts/Opportunity-Cost
 ---
-
 # Costo de oportunidad
 
 ## Panorama

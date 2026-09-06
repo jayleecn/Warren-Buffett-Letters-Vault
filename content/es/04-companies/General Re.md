@@ -16,8 +16,8 @@ translations:
   zh: 04-companies/通用再保险
   en: en/04-companies/General-Re
   es: es/04-companies/General-Re
+  pt: pt/04-companies/General-Re
 ---
-
 # General Re
 
 ## Descripción de la empresa

@@ -13,8 +13,8 @@ translations:
   zh: 04-companies/路博润
   en: en/04-companies/Lubrizol
   es: es/04-companies/Lubrizol
+  pt: pt/04-companies/Lubrizol
 ---
-
 # Lubrizol
 
 ## Descripción de la empresa

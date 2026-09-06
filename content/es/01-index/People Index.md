@@ -10,8 +10,8 @@ translations:
   zh: 01-index/人物索引
   en: en/01-index/People-Index
   es: es/01-index/People-Index
+  pt: pt/01-index/People-Index
 ---
-
 # Índice de personas
 
 Personas clave mencionadas a lo largo de las cartas de Buffett.

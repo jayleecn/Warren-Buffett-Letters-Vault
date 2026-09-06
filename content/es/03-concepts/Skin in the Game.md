@@ -15,8 +15,8 @@ translations:
   zh: 03-concepts/利益一致
   en: en/03-concepts/Skin-in-the-Game
   es: es/03-concepts/Skin-in-the-Game
+  pt: pt/03-concepts/Skin-in-the-Game
 ---
-
 # Piel en el juego
 
 ## Panorama

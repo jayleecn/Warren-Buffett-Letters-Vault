@@ -9,6 +9,7 @@ translations:
   zh: index
   en: en/index
   es: es/index
+  pt: pt/index
 ---
 # Buffett Letters Vault
 

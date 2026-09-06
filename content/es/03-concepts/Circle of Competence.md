@@ -16,8 +16,8 @@ translations:
   zh: 03-concepts/能力圈
   en: en/03-concepts/Circle-of-Competence
   es: es/03-concepts/Circle-of-Competence
+  pt: pt/03-concepts/Circle-of-Competence
 ---
-
 # Círculo de competencia
 
 ## Definición y origen

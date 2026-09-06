@@ -10,8 +10,8 @@ translations:
   zh: 01-index/巴菲特致股东信总览
   en: en/01-index/Letters-Overview
   es: es/01-index/Letters-Overview
+  pt: pt/01-index/Letters-Overview
 ---
-
 # Panorama de las cartas
 
 Esta bóveda contiene 91 documentos de Buffett desde 1956 hasta 2025.

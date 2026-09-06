@@ -9,8 +9,8 @@ translations:
   zh: index
   en: en/index
   es: es/index
+  pt: pt/index
 ---
-
 # Bóveda de cartas de Buffett
 
 Una bóveda de conocimiento multilingüe de las cartas de la sociedad de Warren Buffett y las cartas a los accionistas de Berkshire Hathaway desde 1956 hasta 2025.

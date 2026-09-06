@@ -14,8 +14,8 @@ translations:
   zh: 03-concepts/独立思考
   en: en/03-concepts/Independent-Thinking
   es: es/03-concepts/Independent-Thinking
+  pt: pt/03-concepts/Independent-Thinking
 ---
-
 # Pensamiento independiente
 
 ## Panorama

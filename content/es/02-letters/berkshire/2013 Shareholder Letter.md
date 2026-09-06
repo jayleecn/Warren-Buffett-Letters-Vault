@@ -79,6 +79,7 @@ translations:
   zh: 02-letters/berkshire/2013年股东信
   en: en/02-letters/berkshire/2013-Shareholder-Letter
   es: es/02-letters/berkshire/2013-Shareholder-Letter
+  pt: pt/02-letters/berkshire/2013-Shareholder-Letter
 ---
 # Carta a los accionistas de Berkshire Hathaway - 2013
 

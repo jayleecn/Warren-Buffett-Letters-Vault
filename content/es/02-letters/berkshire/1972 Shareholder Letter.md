@@ -38,8 +38,8 @@ translations:
   zh: 02-letters/berkshire/1972年股东信
   en: en/02-letters/berkshire/1972-Shareholder-Letter
   es: es/02-letters/berkshire/1972-Shareholder-Letter
+  pt: pt/02-letters/berkshire/1972-Shareholder-Letter
 ---
-
 # Carta a los accionistas de Berkshire Hathaway - 1972
 
 _A los Accionistas de  

@@ -31,8 +31,8 @@ translations:
   zh: 02-letters/berkshire/1975年股东信
   en: en/02-letters/berkshire/1975-Shareholder-Letter
   es: es/02-letters/berkshire/1975-Shareholder-Letter
+  pt: pt/02-letters/berkshire/1975-Shareholder-Letter
 ---
-
 # Carta a los accionistas de Berkshire Hathaway - 1975
 
 __

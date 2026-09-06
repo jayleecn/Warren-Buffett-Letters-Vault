@@ -14,8 +14,8 @@ translations:
   zh: 03-concepts/透视盈余
   en: en/03-concepts/Look-through-Earnings
   es: es/03-concepts/Look-through-Earnings
+  pt: pt/03-concepts/Look-through-Earnings
 ---
-
 # Ganancias vistas
 
 ## Panorama

@@ -41,8 +41,8 @@ translations:
   zh: 02-letters/berkshire/1973年股东信
   en: en/02-letters/berkshire/1973-Shareholder-Letter
   es: es/02-letters/berkshire/1973-Shareholder-Letter
+  pt: pt/02-letters/berkshire/1973-Shareholder-Letter
 ---
-
 # Carta a los accionistas de Berkshire Hathaway - 1973
 
 __
