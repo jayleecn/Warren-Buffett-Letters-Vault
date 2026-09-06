@@ -1,12 +1,21 @@
 ---
-title: "B夫人（Rose Blumkin）"
+title: B夫人（Rose Blumkin）
 type: person
-aliases: [Mrs. B, Rose Blumkin, B夫人, 布鲁姆金夫人]
-first_mentioned: "1983年股东信"
+aliases:
+- Mrs. B
+- Rose Blumkin
+- B夫人
+- 布鲁姆金夫人
+first_mentioned: 1983年股东信
 mention_count: 15
 tags:
-  - 人物
-  - 伯克希尔管理层
+- 人物
+- 伯克希尔管理层
+lang: zh
+i18nKey: person/mrs-b
+translations:
+  zh: 05-people/B夫人（Rose-Blumkin）
+  en: en/05-people/Mrs.-B
 ---
 
 # B夫人（Rose Blumkin）

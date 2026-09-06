@@ -1,13 +1,21 @@
 ---
-title: "BNSF铁路"
+title: BNSF铁路
 type: company
-aliases: [BNSF Railway, Burlington Northern Santa Fe, BNSF]
-first_mentioned: "2007年股东信"
+aliases:
+- BNSF Railway
+- Burlington Northern Santa Fe
+- BNSF
+first_mentioned: 2007年股东信
 mention_count: 25
-industry: "铁路运输"
+industry: 铁路运输
 tags:
-  - 公司
-  - 全资子公司
+- 公司
+- 全资子公司
+lang: zh
+i18nKey: company/bnsf-railway
+translations:
+  zh: 04-companies/BNSF铁路
+  en: en/04-companies/BNSF-Railway
 ---
 
 # BNSF铁路

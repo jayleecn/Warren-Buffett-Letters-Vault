@@ -3,6 +3,23 @@ import { ContentDetails } from "../../plugins/emitters/contentIndex"
 import { registerEscapeHandler, removeAllChildren } from "./util"
 import { FullSlug, normalizeRelativeURLs, resolveRelative } from "../../util/path"
 
+
+/** Locale folder prefixes — keep in sync with quartz/i18n/siteLocales.ts */
+const LOCALE_PREFIXES = ["en"]
+
+function detectLocalePrefix(slug: string): string | null {
+  for (const prefix of LOCALE_PREFIXES) {
+    if (slug === prefix || slug === `${prefix}/index` || slug.startsWith(`${prefix}/`)) {
+      return prefix
+    }
+  }
+  return null
+}
+
+function sameLocale(slug: string, currentSlug: string): boolean {
+  return detectLocalePrefix(slug) === detectLocalePrefix(currentSlug)
+}
+
 interface Item {
   id: number
   slug: FullSlug
@@ -466,14 +483,14 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
         // default search by tags index
         searchResults = await index.searchAsync({
           query: currentSearchTerm,
-          limit: numSearchResults,
+          limit: Math.max(numSearchResults * 20, 200),
           index: ["tags"],
         })
       }
     } else if (searchType === "basic") {
       searchResults = await index.searchAsync({
         query: currentSearchTerm,
-        limit: numSearchResults,
+        limit: Math.max(numSearchResults * 20, 200),
         index: ["title", "content"],
       })
     }
@@ -489,7 +506,11 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
       ...getByField("content"),
       ...getByField("tags"),
     ])
-    const finalResults = [...allIds].map((id) => formatForDisplay(currentSearchTerm, id))
+    // Fetch extra hits then keep only same-locale pages (EN search must not dump into ZH)
+    const finalResults = [...allIds]
+      .map((id) => formatForDisplay(currentSearchTerm, id))
+      .filter((item) => item.slug && sameLocale(item.slug, currentSlug))
+      .slice(0, numSearchResults)
     await displayResults(finalResults)
   }
 

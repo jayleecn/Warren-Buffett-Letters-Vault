@@ -5,55 +5,64 @@ import BodyConstructor from "../../components/Body"
 import { pageResources, renderPage } from "../../components/renderPage"
 import { ProcessedContent, QuartzPluginData, defaultProcessedContent } from "../vfile"
 import { FullPageLayout } from "../../cfg"
-import { FullSlug, getAllSegmentPrefixes, joinSegments, pathToRoot } from "../../util/path"
+import { FullSlug, getAllSegmentPrefixes, pathToRoot } from "../../util/path"
 import { defaultListPageLayout, sharedPageComponents } from "../../../quartz.layout"
 import { TagContent } from "../../components"
 import { write } from "./helpers"
-import { i18n, TRANSLATIONS } from "../../i18n"
+import { i18n, TRANSLATIONS, ValidLocale } from "../../i18n"
 import { BuildCtx } from "../../util/ctx"
 import { StaticResources } from "../../util/resources"
+import {
+  SITE_LOCALES,
+  SiteLocale,
+  slugBelongsToLocale,
+  tagSlugForLocale,
+} from "../../i18n/siteLocales"
 
 interface TagPageOptions extends FullPageLayout {
   sort?: (f1: QuartzPluginData, f2: QuartzPluginData) => number
 }
 
 function computeTagInfo(
-  allFiles: QuartzPluginData[],
+  localeFiles: QuartzPluginData[],
   content: ProcessedContent[],
-  locale: keyof typeof TRANSLATIONS,
+  loc: SiteLocale,
 ): [Set<string>, Record<string, ProcessedContent>] {
+  const uiLocale = (loc.quartzLocale in TRANSLATIONS ? loc.quartzLocale : "en-US") as ValidLocale
   const tags: Set<string> = new Set(
-    allFiles.flatMap((data) => data.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes),
+    localeFiles
+      .flatMap((data) => data.frontmatter?.tags ?? [])
+      .flatMap(getAllSegmentPrefixes)
+      .filter((t) => typeof t === "string" && t.trim().length > 0),
   )
 
-  // add base tag
   tags.add("index")
 
   const tagDescriptions: Record<string, ProcessedContent> = Object.fromEntries(
     [...tags].map((tag) => {
-      const title =
-        tag === "index"
-          ? i18n(locale).pages.tagContent.tagIndex
-          : `${i18n(locale).pages.tagContent.tag}: ${tag}`
+      const isIndex = tag === "index"
+      const title = isIndex
+        ? i18n(uiLocale).pages.tagContent.tagIndex
+        : `${i18n(uiLocale).pages.tagContent.tag}: ${tag}`
+      const slug = tagSlugForLocale(isIndex ? "index" : tag, loc) as FullSlug
       return [
         tag,
         defaultProcessedContent({
-          slug: joinSegments("tags", tag) as FullSlug,
-          frontmatter: { title, tags: [] },
+          slug,
+          frontmatter: { title, tags: [], lang: loc.code },
         }),
       ]
     }),
   )
 
-  // Update with actual content if available
+  // Update with actual content if available (content/tags/*.md or content/en/tags/*.md)
   for (const [tree, file] of content) {
     const slug = file.data.slug!
-    if (slug.startsWith("tags/")) {
-      const tag = slug.slice("tags/".length)
-      if (tags.has(tag)) {
+    for (const tag of tags) {
+      if (slug === tagSlugForLocale(tag, loc)) {
         tagDescriptions[tag] = [tree, file]
         if (file.data.frontmatter?.title === tag) {
-          file.data.frontmatter.title = `${i18n(locale).pages.tagContent.tag}: ${tag}`
+          file.data.frontmatter.title = `${i18n(uiLocale).pages.tagContent.tag}: ${tag}`
         }
       }
     }
@@ -70,8 +79,8 @@ async function processTagPage(
   opts: FullPageLayout,
   resources: StaticResources,
 ) {
-  const slug = joinSegments("tags", tag) as FullSlug
   const [tree, file] = tagContent
+  const slug = file.data.slug!
   const cfg = ctx.cfg.configuration
   const externalResources = pageResources(pathToRoot(slug), resources)
   const componentData: QuartzComponentProps = {
@@ -123,46 +132,47 @@ export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) 
     },
     async *emit(ctx, content, resources) {
       const allFiles = content.map((c) => c[1].data)
-      const cfg = ctx.cfg.configuration
-      const [tags, tagDescriptions] = computeTagInfo(allFiles, content, cfg.locale)
 
-      for (const tag of tags) {
-        yield processTagPage(ctx, tag, tagDescriptions[tag], allFiles, opts, resources)
+      for (const loc of SITE_LOCALES) {
+        const localeFiles = allFiles.filter((f) => slugBelongsToLocale(f.slug!, loc))
+        // Skip emitting empty locale trees (future ja/de before content exists)
+        if (localeFiles.length === 0 && loc.prefix) continue
+
+        const [tags, tagDescriptions] = computeTagInfo(localeFiles, content, loc)
+        const ordered = [...tags].sort((a, b) => Number(a === "index") - Number(b === "index"))
+        for (const tag of ordered) {
+          yield processTagPage(ctx, tag, tagDescriptions[tag], allFiles, opts, resources)
+        }
       }
     },
     async *partialEmit(ctx, content, resources, changeEvents) {
+      // Full rebuild of affected locale tag pages is cheap enough; reuse emit logic.
       const allFiles = content.map((c) => c[1].data)
-      const cfg = ctx.cfg.configuration
+      const touchedLocales = new Set<string>()
 
-      // Find all tags that need to be updated based on changed files
-      const affectedTags: Set<string> = new Set()
       for (const changeEvent of changeEvents) {
         if (!changeEvent.file) continue
         const slug = changeEvent.file.data.slug!
-
-        // If it's a tag page itself that changed
-        if (slug.startsWith("tags/")) {
-          const tag = slug.slice("tags/".length)
-          affectedTags.add(tag)
+        for (const loc of SITE_LOCALES) {
+          const tagsPrefix = loc.prefix ? `${loc.prefix}/tags` : "tags"
+          if (
+            slug === tagsPrefix ||
+            slug.startsWith(tagsPrefix + "/") ||
+            slugBelongsToLocale(slug, loc)
+          ) {
+            touchedLocales.add(loc.code)
+          }
         }
-
-        // If a file with tags changed, we need to update those tag pages
-        const fileTags = changeEvent.file.data.frontmatter?.tags ?? []
-        fileTags.flatMap(getAllSegmentPrefixes).forEach((tag) => affectedTags.add(tag))
-
-        // Always update the index tag page if any file changes
-        affectedTags.add("index")
       }
 
-      // If there are affected tags, rebuild their pages
-      if (affectedTags.size > 0) {
-        // We still need to compute all tags because tag pages show all tags
-        const [_tags, tagDescriptions] = computeTagInfo(allFiles, content, cfg.locale)
-
-        for (const tag of affectedTags) {
-          if (tagDescriptions[tag]) {
-            yield processTagPage(ctx, tag, tagDescriptions[tag], allFiles, opts, resources)
-          }
+      for (const loc of SITE_LOCALES) {
+        if (!touchedLocales.has(loc.code)) continue
+        const localeFiles = allFiles.filter((f) => slugBelongsToLocale(f.slug!, loc))
+        if (localeFiles.length === 0 && loc.prefix) continue
+        const [tags, tagDescriptions] = computeTagInfo(localeFiles, content, loc)
+        const ordered = [...tags].sort((a, b) => Number(a === "index") - Number(b === "index"))
+        for (const tag of ordered) {
+          yield processTagPage(ctx, tag, tagDescriptions[tag], allFiles, opts, resources)
         }
       }
     },

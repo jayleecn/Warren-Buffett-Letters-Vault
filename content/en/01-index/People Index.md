@@ -1,0 +1,25 @@
+---
+title: People Index
+type: index
+lang: en
+i18nKey: index/people-index
+tags:
+- index
+- person
+translations:
+  zh: 01-index/人物索引
+  en: en/01-index/People-Index
+---
+
+# People Index
+
+Key people discussed across Buffett's letters.
+
+- [[Ajit Jain]]
+- [[Benjamin Graham]]
+- [[Charlie Munger]]
+- [[Greg Abel]]
+- [[Mrs. B]]
+- [[Philip Fisher]]
+- [[Tom Murphy]]
+- [[Warren Buffett]]
