@@ -39,9 +39,7 @@ translations:
   en: en/02-letters/berkshire/1972-Shareholder-Letter
 ---
 
-# Berkshire Hathaway Shareholder Letter - 1972
-
-## Berkshire Hathaway Inc.
+# Berkshire Hathaway Shareholder Letter — 1972
 
 _To the Stockholders of  
 Berkshire Hathaway Inc.:_
@@ -54,13 +52,13 @@ Our three major acquisitions of recent years have all worked out exceptionally w
 
 We will continue to search for logical extensions of our present operations, and also for new operations which will allow us to continue to employ our capital effectively.
 
-#### Textile Operations
+## Textile Operations
 
 As predicted in last year’s annual report, the textile industry experienced a pickup in 1972. In recent years, Ken Chace and Ralph Rigby have developed an outstanding sales organization enjoying a growing reputation for service and reliability. Manufacturing capabilities have been restructured to complement our sales strengths.
 
 Helped by the industry recovery, we experienced some payoff from these efforts in 1972. Inventories were controlled, minimizing close-out losses in addition to minimizing capital requirements; product mix was greatly improved. While the general level of profitability of the industry will always be the primary factor in determining the level of our textile earnings, we believe that our relative position within the industry has noticeably improved. The outlook for 1973 is good.
 
-#### Insurance Underwriting
+## Insurance Underwriting
 
 Our exceptional underwriting profits during 1972 in the large traditional area of our insurance business at National Indemnity present a paradox. They served to swell substantially total corporate profits for 1972, but the factors which produced such profits induced exceptional amounts of new competition at what we believe to be a non-compensatory level of rates. Over-all, we probably would have retained better prospects for the next five years if profits had not risen so dramatically this year.
 
@@ -78,13 +76,13 @@ John Ringwalt has done an excellent job of launching this operation, and plans t
 
 Last year it was reported than we had acquired Home and Automobile Insurance Company of Chicago. We felt good about the acquisition at the time, and we feel even better now. Led by Vic Raab, this company continued its excellent record in 1972. During 1973 we expect to enter the Florida (Dade County) and California (Los Angeles) markets with the same sort of specialized urban auto coverage which Home and Auto has practiced so successfully in Cook County. Vic has the managerial capacity to run a much larger operation. Our expectation is that Home and Auto will expand significantly within a few years.
 
-#### Insurance Investment Results
+## Insurance Investment Results
 
 We were most fortunate to experience dramatic gains in premium volume from 1969 to 1971 coincidental with virtually record-high interest rates. Large amounts of investable funds were thus received at a time when they could be put to highly advantageous use. Most of these funds were placed in tax-exempt bonds and our investment income, which has increased from $2,025,201 in 1969 to $6,755,242 in 1972, is subject to a low effective tax rate.
 
 Our bond portfolio possesses unusually good call protection, and we will benefit for many years to come from the high average yield of the present portfolio. The lack of current premium growth, however, will moderate substantially the growth in investment income during the next several years.
 
-#### Banking Operations
+## Banking Operations
 
 Our banking subsidiary, The Illinois Bank and Trust Co. of Rockford, maintained its position of industry leadership in profitability. After-tax earnings of 2.2% on average deposits in 1972 are the more remarkable when evaluated against such moderating factors as: (1) a mix of 50% time deposits heavily weighted toward consumer savings instruments, all paying the maximum rates permitted by law; (2) an unvaryingly strong liquid position and avoidance of money-market borrowings; (3) a loan policy which has produced a net charge-off ratio in the last two years of about 5% of that of the average commercial bank. This record is a direct tribute to the leadership of Gene Abegg and Bob Kline who run a bank where the owners and the depositors can both eat well and sleep well.
 
@@ -94,7 +92,7 @@ During the past year, loans to our customers expanded approximately 38%. This is
 
 Our position as “Rockford’s Leading Bank” was enhanced during 1972. Present rate structures, a decrease in investable funds due to new Federal Reserve collection procedures, and a probable increase in already substantial non-federal taxes make it unlikely that Illinois National will be able to increase its earnings during 1973.
 
-#### Financial
+## Financial
 
 On March 15, 1973, Berkshire Hathaway borrowed $20 million at 8% from twenty institutional lenders. This loan is due March 1, 1993, with principal repayments beginning March 1, 1979. From the proceeds, $9 million was used to repay our bank loan and the balance is being invested in insurance subsidiaries. Periodically, we expect that there will be opportunities to achieve significant expansion in our insurance business and we intend to have the financial resources available to maximize such opportunities.
 

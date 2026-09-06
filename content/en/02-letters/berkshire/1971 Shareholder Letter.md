@@ -38,9 +38,7 @@ translations:
   en: en/02-letters/berkshire/1971-Shareholder-Letter
 ---
 
-# Berkshire Hathaway Shareholder Letter - 1971
-
-## Berkshire Hathaway Inc.
+# Berkshire Hathaway Shareholder Letter — 1971
 
 __
 
@@ -49,13 +47,13 @@ Berkshire Hathaway Inc.:_
 
 It is a pleasure to report that operating earnings in 1971, excluding capital gains, amounted to more than 14% of beginning shareholders’ equity. This result—considerably above the average of American industry—was achieved in the face of inadequate earnings in our textile operation, making clear the benefits of redeployment of capital inaugurated five years ago. It will continue to be the objective of management to improve return on total capitalization (long term debt plus equity), as well as the return on equity capital. However, it should be realized that merely maintaining the present relatively high rate of return may well prove more difficult than was improvement from the very low levels of return which prevailed throughout most of the 1960’s. 
 
-#### Textile Operations 
+## Textile Operations
 
 We, in common with most of the textile industry, continued to struggle throughout 1971 with inadequate gross margins. Strong efforts to hammer down costs and a continuous search for less price-sensitive fabrics produced only marginal profits. However, without these efforts we would have operated substantially in the red. Employment was more stable throughout the year as our program to improve control of inventories achieved reasonable success. 
 
 As mentioned last year, Ken Chace and his management group have been swimming against a strong industry tide. This negative environment has only caused them to intensify their efforts. Currently we are witnessing a mild industry pickup which we intend to maximize with our greatly strengthened sales force. With the improvement now seen in volume and mix of business, we would expect better profitability—although not of a dramatic nature—from our textile operation in 1972. 
 
-#### Insurance Operations 
+## Insurance Operations
 
 An unusual combination of factors—reduced auto accident frequency, sharply higher effective rates in large volume lines, and the absence of major catastrophes—produced an extraordinarily good year for the property and casualty insurance industry. We shared in these benefits, although they are not without their negative connotations. 
 
@@ -71,7 +69,7 @@ While Vic has multiplied the original equity of Home & Auto many times since its
 
 All in all, it is questionable whether volume added by Home & Auto, plus the “home-state” business in 1972, will offset possible declines in direct and reinsurance business of National Indemnity Company. However, our large volume gains in 1970 and 1971 brought in additional funds for investment at a time of high interest rates, which will be of continuing benefit in future years. Thus, despite the unimpressive prospects regarding premium volume, the outlook for investment income and overall earnings from insurance in 1972 is reasonably good. 
 
-#### Banking Operations 
+## Banking Operations
 
 Our banking subsidiary, The Illinois National Bank & Trust Company, continued to lead its industry as measured by earnings as a percentage of deposits. In 1971, Illinois National earned well over 2% after tax on average deposits while (1) not using borrowed funds except for very occasional reserve balancing transactions; (2) maintaining a liquidity position far above average; (3) recording loan losses far below average; and (4) utilizing a mix of over 50% time deposits with all consumer savings accounts receiving maximum permitted interest rates throughout the year. This reflects a superb management job by Gene Abegg and Bob Kline. 
 
@@ -79,7 +77,7 @@ Interest rates received on loans and investments were down substantially through
 
 With interest rates even lower now than in 1971, the banking industry is going to have trouble achieving gains in earnings during 1972. Our deposit gains at Illinois National continue to come in the time money area, which produces only very marginal incremental income at present. It will take very close cost control to enable Illinois National to maintain its 1971 level of earnings during 1972. 
 
-#### Financial 
+## Financial
 
 Because of the volume gains being experienced by our insurance subsidiaries early in 1971, we re-cast Berkshire Hathaway’s bank loan so as to provide those companies with additional capital funds. This financing turned out to be particularly propitious when the opportunity to purchase Home & Auto occurred later in the year. 
 

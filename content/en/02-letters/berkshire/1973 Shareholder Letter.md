@@ -42,9 +42,7 @@ translations:
   en: en/02-letters/berkshire/1973-Shareholder-Letter
 ---
 
-# Berkshire Hathaway Shareholder Letter - 1973
-
-## Berkshire Hathaway Inc.
+# Berkshire Hathaway Shareholder Letter — 1973
 
 __
 
@@ -57,7 +55,7 @@ Our textile, banking, and most insurance operations had good years, but certain 
 
 Management’s objective is to achieve a return on capital over the long term which averages somewhat higher than that of American industry generally—while utilizing sound accounting and debt policies. We have achieved this goal in the last few years, and are trying to take those steps which will enable us to maintain this performance in the future. Prospects for 1974 indicate some further decline in rate of return on our enlarged equity base.
 
-#### Textile Operations
+## Textile Operations
 
 Textile demand remained unusually strong throughout 1973. Our main problems revolved around shortages of fiber, which complicated operations and resulted in something less than full utilization of loom capacity. Prices of some fibers skyrocketed during the year.
 
@@ -65,7 +63,7 @@ Cost of Living Council regulations prevented the pricing of many finished produc
 
 Because of the extraordinary price rises in raw materials during 1973, which show signs of continuing in 1974, we have elected to adopt the “lifo” method of inventory pricing. This method more nearly matches current costs against current revenues, and minimizes inventory “profits” included in reported earnings. Further information on this change is included in the footnotes to our financial statements.
 
-#### Insurance Operations
+## Insurance Operations
 
 During 1973, Jack Ringwalt retired as President of National Indemnity Company after an absolutely brilliant record since founding the business in 1940. He was succeeded by Phil Liesche who, fortunately for us, possesses the same underwriting and managerial philosophy that worked so well for Jack.
 
@@ -83,7 +81,7 @@ A contributing factor in our unsatisfactory earnings at Home and Auto during 197
 
 On the investment side of our insurance operation, we made substantial additional commitments in common stocks during 1973. We had significant unrealized depreciation—over $12 million—in our common stock holdings at year-end, as indicated in our financial statements. Nevertheless, we believe that our common stock portfolio at cost represents good value in terms of intrinsic business worth. In spite of the large unrealized loss at year-end, we would expect satisfactory results from the portfolio over the longer term.
 
-#### Banking Operations
+## Banking Operations
 
 The Illinois National Bank & Trust Co. of Rockford again had a record year in 1973. Average deposits were approximately $130 million, of which approximately 60% were time deposits. Interest rates were increased substantially in the important consumer savings area when regulatory maximums were raised at mid-year.
 
@@ -91,13 +89,13 @@ Despite this mix heavily weighted toward interest bearing deposits, our operatin
 
 We continue to be the largest bank in Rockford. We continue to maintain unusual liquidity. We continue to meet the increasing loan demands of our customers. And we continue to maintain our unusual profitability. This is a direct tribute to the abilities of Gene Abegg, Chairman, who has been running the Bank since it opened its doors in 1931, and Bob Kline, our President.
 
-#### Merger With Diversified Retailing Company, Inc.
+## Merger With Diversified Retailing Company, Inc.
 
 Your Directors have approved the merger of Diversified Retailing Company, Inc. into Berkshire Hathaway Inc. on terms involving issuance of 195,000 shares of Berkshire stock for the 1,000,000 shares of Diversified stock outstanding. Because Diversified and its subsidiaries own 109,551 shares of Berkshire, the net increase in the number of shares of Berkshire outstanding after giving effect to this transaction will not exceed 85,449. Various regulatory approvals must be obtained before this merger can be completed, and proxy material will be submitted to you later this year so that you may vote upon it.
 
 Diversified Retailing Company, Inc., through subsidiaries, operates a chain of popular-priced women’s apparel stores and also conducts a reinsurance business. In the opinion of your management, its most important asset is 16% of the stock of Blue Chip Stamps.
 
-#### Blue Chip Stamps
+## Blue Chip Stamps
 
 Our holdings of stock in Blue Chip Stamps at year-end amounted to approximately 19% of that company’s outstanding shares. Since year-end, we have increased our holdings so that they now represent approximately 22 1/2%; implementation of the proposed merger with Diversified Retailing Company, Inc. would increase this figure to about 38 1/2%.
 
@@ -111,7 +109,7 @@ Blue Chip’s trading stamp business has declined drastically over the past year
 
 Your Chairman is on the Board of Directors of Blue Chip Stamps, as well as Wesco Financial Corporation, and is Chairman of the Board of See’s Candy Shops Incorporated. Operating management of all three entities is in the hands of first-class, able, experienced executives.
 
-#### Sun Newspapers, Inc.
+## Sun Newspapers, Inc.
 
 In the 1969 annual report we commented on the purchase of Sun Newspapers Inc., a group of weekly papers published in the metropolitan Omaha area. Since that time we have not commented on their operations in the text of our annual reports, nor have we consolidated their financial results since the operation, because of the small investment involved, has been “financially insignificant.”
 

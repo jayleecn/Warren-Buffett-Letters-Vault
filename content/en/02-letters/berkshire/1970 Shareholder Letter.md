@@ -33,9 +33,7 @@ translations:
   en: en/02-letters/berkshire/1970-Shareholder-Letter
 ---
 
-# Berkshire Hathaway Shareholder Letter - 1970
-
-## Berkshire Hathaway Inc.
+# Berkshire Hathaway Shareholder Letter — 1970
 
 March 15, 1971
 
@@ -46,7 +44,7 @@ The past year witnessed dramatically diverse earnings results among our various 
 
 The combination of these factors produced a return of approximately 10% on average shareholder’s investment. While this figure is only about average for American industry, it is considerably in excess of what would have been achieved had resources continued to be devoted exclusively to the textile business, as was the pattern until five years ago.
 
-#### Textile Operations
+## Textile Operations
 
 Sales in both menswear linings and home fabrics declined significantly during the year. Thus we were continuously forced to modify production plans to prevent inventories from mounting. Such production curtailments were costly to the Company and disruptive to the lives of our employees.
 
@@ -54,7 +52,7 @@ Prices continue at poor levels and demand has not strengthened. Inventory levels
 
 Led by Ken Chace, the effort, attitude and enterprise manifested by management and labor in this operation have been every bit the equal of their counterparts in our much more profitable businesses. But in the past year they have been swimming against a strong tide and, at this writing, that situation still prevails.
 
-#### Insurance Operations
+## Insurance Operations
 
 We enjoyed an outstanding year for growth in our insurance business, accompanied by a somewhat poorer underwriting picture. Our traditional operation experienced a surge in volume as conventional auto insurance markets became more restricted. This is in line with our history as a non-conventional carrier which receives volume gains on a “wave” basis when standard markets are experiencing capacity or underwriting problems. Although our combined loss and expense ratio on the traditional business rose to approximately 100% during the year, our management, led by Jack Ringwalt and Phil Liesche, has the ability and determination to return it to an underwriting profit.
 
@@ -64,7 +62,7 @@ The surety business, referred to in last year’s report, operated at a signific
 
 Our “home-state” operations—Cornhusker Casualty Company, formed in early 1970 as a 100% owned subsidiary of National Indemnity, writing standard business through Nebraska agents only—is off to a strong start. The combination of big-company capability and small-company accessibility is providing to be a strong marketing tool with first class agents. John Ringwalt deserves credit for translating the concept into reality. Our present plans envision extension of the home-state approach and we plan to have another company in operation later this year. 
 
-#### Banking Operations
+## Banking Operations
 
 Eugene Abegg had the problem in 1970 of topping a banner year in 1969—and in the face of an unchanged level of deposits, managed to do it. While maintaining a position of above average liquidity, net operating earnings before security gains came to well over 2% of average deposits. This record reflects an exceptionally well-managed banking business.
 
