@@ -3,7 +3,8 @@ import { classNames } from "../util/lang"
 import { FullSlug, pathToRoot, simplifySlug, joinSegments } from "../util/path"
 import translations from "../i18n/translations.json"
 
-type TranslationMap = Record<string, { zh?: string; en?: string }>
+type Pair = { zh?: string; en?: string }
+type TranslationMap = Record<string, Pair>
 const map = translations as TranslationMap
 
 function isEnglishSlug(slug: string): boolean {
@@ -11,16 +12,25 @@ function isEnglishSlug(slug: string): boolean {
 }
 
 function hrefForSlug(currentSlug: FullSlug, targetSlug: string): string {
-  // targetSlug is already quartz-sluggified (spaces -> -)
   const full = targetSlug as FullSlug
   return joinSegments(pathToRoot(currentSlug), simplifySlug(full))
 }
 
+function lookupBySlug(simple: string): Pair | undefined {
+  for (const pair of Object.values(map)) {
+    if (pair.zh === simple || pair.en === simple) return pair
+    if (pair.zh && simplifySlug(pair.zh as FullSlug) === simple) return pair
+    if (pair.en && simplifySlug(pair.en as FullSlug) === simple) return pair
+  }
+  return undefined
+}
+
 const LanguageSwitcher: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   const slug = fileData.slug!
+  const simple = simplifySlug(slug)
   const fm = (fileData.frontmatter ?? {}) as Record<string, unknown>
   const i18nKey = typeof fm.i18nKey === "string" ? fm.i18nKey : undefined
-  const fmTranslations = fm.translations as { zh?: string; en?: string } | undefined
+  const fmTranslations = fm.translations as Pair | undefined
 
   let zhSlug = fmTranslations?.zh
   let enSlug = fmTranslations?.en
@@ -30,20 +40,27 @@ const LanguageSwitcher: QuartzComponent = ({ fileData, displayClass }: QuartzCom
     enSlug = enSlug || map[i18nKey].en
   }
 
-  // Heuristic fallback
   if (!zhSlug || !enSlug) {
-    if (isEnglishSlug(slug)) {
-      enSlug = enSlug || simplifySlug(slug)
-      // strip leading en/
-      const stripped = simplifySlug(slug).replace(/^en\/?/, "") || "index"
-      zhSlug = zhSlug || (stripped === "index" || stripped === "" ? "index" : stripped)
-    } else {
-      zhSlug = zhSlug || simplifySlug(slug)
-      enSlug = enSlug || (simplifySlug(slug) === "index" || simplifySlug(slug) === "" ? "en/index" : joinSegments("en", simplifySlug(slug)))
+    const found = lookupBySlug(simple)
+    if (found) {
+      zhSlug = zhSlug || found.zh
+      enSlug = enSlug || found.en
     }
   }
 
-  // Normalize index home
+  if (!zhSlug || !enSlug) {
+    if (isEnglishSlug(slug)) {
+      enSlug = enSlug || simple
+      const stripped = simple.replace(/^en\/?/, "") || "index"
+      zhSlug = zhSlug || (stripped === "index" || stripped === "" ? "index" : stripped)
+    } else {
+      zhSlug = zhSlug || simple
+      enSlug =
+        enSlug ||
+        (simple === "index" || simple === "" ? "en/index" : joinSegments("en", simple))
+    }
+  }
+
   if (zhSlug === "index" || zhSlug === "" || zhSlug === "/") zhSlug = "index"
   if (enSlug === "en" || enSlug === "en/") enSlug = "en/index"
 

@@ -2,6 +2,14 @@
 
 This is a digital vault containing Warren Buffett's letters to shareholders, partnership letters, and key investment concepts, built using [Quartz](https://quartz.jzhao.xyz/).
 
+
+## Bilingual content
+
+- **Chinese (default)**: content stays at the site root (`content/01-index`, `content/02-letters`, …). URLs are unchanged.
+- **English**: parallel tree under `content/en/` (`/en/` on the site).
+- Use the **中文 | English** language switcher (header) to jump between counterparts via `i18nKey` / `translations` frontmatter.
+- Global Quartz `locale` remains `zh-CN` for chrome for now; English pages set their own titles via frontmatter.
+
 ## Contents
 
 - **01-index**: Overviews and indexes for letters, companies, and people.
