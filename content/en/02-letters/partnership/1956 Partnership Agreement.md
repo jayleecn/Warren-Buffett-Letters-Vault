@@ -9,6 +9,10 @@ source_file: 1956_Agreement_19560501.md
 tags:
 - partnership-letter
 - '1956'
+concepts:
+- Limited Partnership
+- Profit Sharing
+- Capital Account
 companies:
 - Buffett Partnership
 people:
@@ -139,6 +143,12 @@ Doris B. Wood
 Truman S. Wood
 Daniel H. Thompson
 Alice R. Buffett
+
+## Concepts mentioned
+
+- [[Limited Partnership]]
+- [[Profit Sharing]]
+- [[Capital Account]]
 
 ## Companies mentioned
 
