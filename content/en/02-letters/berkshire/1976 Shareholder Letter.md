@@ -30,9 +30,7 @@ translations:
   en: en/02-letters/berkshire/1976-Shareholder-Letter
 ---
 
-# Berkshire Hathaway Shareholder Letter - 1976
-
-## Berkshire Hathaway Inc.
+# Berkshire Hathaway Shareholder Letter — 1976
 
 _To the Stockholders of Berkshire Hathaway Inc.:_
 
@@ -42,13 +40,13 @@ In dollar terms, operating earnings came to $16,073,000, or $16.47 per share. Wh
 
 Our present estimate, subject to all the caveats implicit in forecasting, is that dollar operating earnings are likely to improve somewhat in 1977, but that return on equity may decline a bit from the 1976 figure.
 
-#### Textile Operations
+## Textile Operations
 
 Our textile division was a significant disappointment during 1976. Earnings, measured either by return on sales or by return on capital employed, were inadequate. In part, this was due to industry conditions which did not measure up to expectations of a year ago. But equally important were our own shortcomings. Marketing efforts and mill capabilities were not properly matched in our new Waumbec operation. Unfavorable manufacturing cost variances were produced by improper evaluation of machinery and personnel capabilities. Ken Chace, as always, has been candid in reporting problems and has worked diligently to correct them. He is a pleasure to work with—even under difficult operating conditions.
 
 While the first quarter outlook is for red ink, our quite tentative belief is that textile earnings in 1977 will equal, or exceed modestly, those of 1976. Despite disappointing current results, we continue to look for ways to build our textile operation and presently have one moderate-size acquisition under consideration. It should be recognized that the textile business does not offer the expectation of high returns on investment. Nevertheless, we maintain a commitment to this division—a very important source of employment in New Bedford and Manchester—and believe reasonable returns on average are possible.
 
-#### Insurance Underwriting
+## Insurance Underwriting
 
 Casualty insurers enjoyed some rebound from the disaster levels of 1975 as rate increases finally outstripped relentless cost increases. Preliminary figures indicate that the stockholder owned portion of the property and casualty industry had a combined ratio of 103.0 in 1976, compared to 108.3 in 1975. (100 represents a break-even position on underwriting—and higher figures represent underwriting losses.) We are unusually concentrated in auto lines where stock companies had an improvement from 113.5 to 107.4. Our own overall improvement was even more dramatic, from 115.4 to 98.7.
 
@@ -64,7 +62,7 @@ Our Home and Automobile Insurance Company subsidiary, writing primarily automobi
 
 Overall, we expect a good year in insurance in 1977. Volume is high and present rate levels should allow profitable underwriting. Longer term, however, there are significant negatives in the insurance picture. Auto lines, in particular, seem highly vulnerable to pricing and regulatory problems produced by political and social factors beyond the control of individual companies.
 
-#### Insurance Investments
+## Insurance Investments
 
 Pre-tax investment income in 1976 improved to $10,820,000 from $8,918,000 as invested assets built up substantially, both from better levels of profitability and from gains in premium volume.
 
@@ -76,26 +74,26 @@ However, we consider the yearly business progress of the companies in which we o
 
 Our equity holdings with a market value of over $3 million on December 31, 1976 were as follows:
 
-_No. of Shares_ |  _Company_ |  _Cost_  
----|---|---  
-141,987 |  California Water Service Company |  $ 3,608,711  
-1,986,953 |  Government Employees Insurance Company Convertible Preferred |  19,416,635  
-1,294,308 |  Government Employees Insurance Company Common Stock |  4,115,670  
-395,100 |  Interpublic Group of Companies |  4,530,615  
-562,900 |  Kaiser Industries, Inc.  |  8,270,871  
-188,900 |  Munsingwear, Inc.  |  3,398,404  
-83,400 |  National Presto Industries, Inc.  |  1,689,896  
-170,800 |  Ogilvy & Mather International |  2,762,433  
-934,300 |  The Washington Post Company Class B |  10,627,604  
-|  Total |  $58,420,839  
-|  All other Holdings |  16,974,375  
-|  Total Equities |  $75,395,214  
-  
+| No. of Shares | Company | Cost |
+|---|---|---|
+| 141,987 | California Water Service Company | $3,608,711 |
+| 1,986,953 | Government Employees Insurance Company Convertible Preferred | $19,416,635 |
+| 1,294,308 | Government Employees Insurance Company Common Stock | $4,115,670 |
+| 395,100 | Interpublic Group of Companies | $4,530,615 |
+| 562,900 | Kaiser Industries, Inc. | $8,270,871 |
+| 188,900 | Munsingwear, Inc. | $3,398,404 |
+| 83,400 | National Presto Industries, Inc. | $1,689,896 |
+| 170,800 | Ogilvy & Mather International | $2,762,433 |
+| 934,300 | The Washington Post Company Class B | $10,627,604 |
+|  | Total | $58,420,839 |
+|  | All other Holdings | $16,974,375 |
+|  | Total Equities | $75,395,214 |
+
 You will notice that our major equity holdings are relatively few. We select such investments on a long-term basis, weighing the same factors as would be involved in the purchase of 100% of an operating business: (1) favorable long-term economic characteristics; (2) competent and honest management; (3) purchase price attractive when measured against the yardstick of value to a private owner; and (4) an industry with which we are familiar and whose long-term business characteristics we feel competent to judge. It is difficult to find investments meeting such a test, and that is one reason for our concentration of holdings. We simply can’t find one hundred different securities that conform to our investment requirements. However, we feel quite comfortable concentrating our holdings in the much smaller number that we do identify as attractive.
 
 Our intention usually is to maintain equity positions for a long time, but sometimes we will make a purchase with a shorter expected time horizon such as Kaiser Industries. Here a distribution of securities and cash from the parent company is expected to be initiated in 1977. Purchases were made in 1976 after the announcement of the distribution plan by Kaiser management.
 
-#### Banking
+## Banking
 
 Eugene Abegg, Chief Executive of Illinois National Bank and Trust Company of Rockford, Illinois, our banking subsidiary, continues to lead the parade among bankers—just as he has even since he opened the bank in 1931.
 
@@ -111,11 +109,11 @@ This outstanding earnings record again was achieved while:
 
 Cost control is an important factor in the bank’s success. Employment is still at about the level existing at the time of purchase in 1969 despite growth in consumer time deposits from $30 million to $90 million and considerable expansion in other activities such as trust, travel and data processing.
 
-#### Blue Chip Stamps
+## Blue Chip Stamps
 
 During 1976 we increased our interest in Blue Chip Stamps, and by yearend we held about 33% of that company’s outstanding shares. Our interest in Blue Chip Stamps is of growing importance to us. Summary financial reports of Blue Chip Stamps are contained in the footnotes to our attached financial statements. Moreover, shareholders of Berkshire Hathaway Inc. are urged to obtain the current and subsequent annual reports of Blue Chip Stamps by requesting them from Mr. Robert H. Bird, Secretary, Blue Chip Stamps, 5801 South Eastern Avenue, Los Angeles, California 90040.
 
-#### Miscellaneous
+## Miscellaneous
 
 K & W Products has performed well in its first year as a subsidiary of Berkshire Hathaway Inc. Both sales and earnings were up moderately over 1975.
 

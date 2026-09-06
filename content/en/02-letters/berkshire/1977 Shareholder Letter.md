@@ -34,9 +34,7 @@ translations:
   en: en/02-letters/berkshire/1977-Shareholder-Letter
 ---
 
-# Berkshire Hathaway Shareholder Letter - 1977
-
-## Berkshire Hathaway Inc.
+# Berkshire Hathaway Shareholder Letter — 1977
 
 _To the Stockholders of Berkshire Hathaway Inc.:_
 
@@ -50,13 +48,13 @@ Except for special cases (for example, companies with unusual debt-equity ratios
 
 We expect difficulty in matching our 1977 rate of return during the forthcoming year. Beginning equity capital is up 23% from a year ago, and we expect the trend of insurance underwriting profit margins to turn down well before the end of the year. Nevertheless, we expect a reasonably good year and our present estimate, subject to the usual caveats regarding the frailties of forecasts, is that operating earnings will improve somewhat on a per share basis during 1978.
 
-#### Textile Operations
+## Textile Operations
 
 The textile business again had a very poor year in 1977. We have mistakenly predicted better results in each of the last two years. This may say something about our forecasting abilities, the nature of the textile industry, or both. Despite strenuous efforts, problems in marketing and manufacturing have persisted. Many difficulties experienced in the marketing area are due primarily to industry conditions, but some of the problems have been of our own making.
 
 A few shareholders have questioned the wisdom of remaining in the textile business which, over the longer term, is unlikely to produce returns on capital comparable to those available in many other businesses. Our reasons are several: (1) Our mills in both New Bedford and Manchester are among the largest employers in each town, utilizing a labor force of high average age possessing relatively non-transferable skills. Our workers and unions have exhibited unusual understanding and effort in cooperating with management to achieve a cost structure and product mix which might allow us to maintain a viable operation. (2) Management also has been energetic and straightforward in its approach to our textile problems. In particular, Ken Chace’s efforts after the change in corporate control took place in 1965 generated capital from the textile division needed to finance the acquisition and expansion of our profitable insurance operation. (3) With hard work and some imagination regarding manufacturing and marketing configurations, it seems reasonable that at least modest profits in the textile division can be achieved in the future.
 
-#### Insurance Underwriting
+## Insurance Underwriting
 
 Our insurance operation continued to grow significantly in 1977. It was early in 1967 that we made our entry into this industry through the purchase of National Indemnity Company and National Fire and Marine Insurance Company (sister companies) for approximately $8.6 million. In that year their premium volume amounted to $22 million. In 1977 our aggregate insurance premium volume was $151 million. No additional shares of Berkshire Hathaway stock have been issued to achieve any of this growth.
 
@@ -80,7 +78,7 @@ The newest addition to our insurance group is Cypress Insurance Company of South
 
 Insurance companies offer standardized policies which can be copied by anyone. Their only products are promises. It is not difficult to be licensed, and rates are an open book. There are no important advantages from trademarks, patents, location, corporate longevity, raw material sources, etc., and very little consumer differentiation to produce insulation from competition. It is commonplace, in corporate annual reports, to stress the difference that people make. Sometimes this is true and sometimes it isn’t. But there is no question that the nature of the insurance business magnifies the effect which individual managers have on company performance. We are very fortunate to have the group of managers that are associated with us.
 
-#### Insurance Investments
+## Insurance Investments
 
 During the past two years insurance investments at cost (excluding the investment in our affiliate, Blue Chip Stamps) have grown from $134.6 million to $252.8 million. Growth in insurance reserves, produced by our large gain in premium volume, plus retained earnings, have accounted for this increase in marketable securities. In turn, net investment income of the Insurance Group has improved from $8.4 million pre-tax in 1975 to $12.3 million pre-tax in 1977.
 
@@ -90,22 +88,21 @@ A little digression illustrating this point may be interesting. Berkshire Fine S
 
 Equity holdings of our insurance companies with a market value of over $5 million on December 31, 1977 were as follows:
 
-_No. of Shares_ |  _Company_ |  _Cost_ |  |  _Market_  
----|---|---|---|---  
-|  |  _(000’s omitted)_  
-246,450 |  Capital Cities Communications, Inc.  |  $ 10,909 |  |  $ 13,228   
-1,986,953 |  Government Employees Insurance Company Convertible Preferred |  19,417 |  |  33,033  
-1,294,308 |  Government Employees Insurance Company Common Stock |  4,116 |  |  10,516  
-592,650  |  Interpublic Group of Companies |  4,531 |  |  17,187   
-324,580 |  Kaiser Aluminum & Chemical Corporation |  11,218 |  |  9,981  
-1,305,800 |  Kaiser Industries, Inc.  |  778 |  |  6,039  
-226,900 |  Knight-Ridder Newspapers, Inc. |  7,534 |  |  8,736  
-170,800 |  Ogilvy & Mather International  |  2,762 |  |  6,960  
-934,300 |  The Washington Post Company Class B |  10,628 |  |  33,401  
-|  Total  |  $ 71,893 |  |  $139,081  
-|  All other Holdings |  34,996 |  |  41,992  
-|  Total Equities |  $106,889 |  |  $181,073  
-  
+| No. of Shares | Company | Cost (000s omitted) | Market (000s omitted) |
+|---|---|---:|---:|
+| 246,450 | Capital Cities Communications, Inc. | $10,909 | $13,228 |
+| 1,986,953 | Government Employees Insurance Company Convertible Preferred | $19,417 | $33,033 |
+| 1,294,308 | Government Employees Insurance Company Common Stock | $4,116 | $10,516 |
+| 592,650 | Interpublic Group of Companies | $4,531 | $17,187 |
+| 324,580 | Kaiser Aluminum & Chemical Corporation | $11,218 | $9,981 |
+| 1,305,800 | Kaiser Industries, Inc. | $778 | $6,039 |
+| 226,900 | Knight-Ridder Newspapers, Inc. | $7,534 | $8,736 |
+| 170,800 | Ogilvy & Mather International | $2,762 | $6,960 |
+| 934,300 | The Washington Post Company Class B | $10,628 | $33,401 |
+|  | Total | $71,893 | $139,081 |
+|  | All other Holdings | $34,996 | $41,992 |
+|  | Total Equities | $106,889 | $181,073 |
+
 We select our marketable equity securities in much the same way we would evaluate a business for acquisition in its entirety. We want the business to be (1) one that we can understand, (2) with favorable long-term prospects, (3) operated by honest and competent people, and (4) available at a very attractive price. We ordinarily make no attempt to buy equities for anticipated favorable stock price behavior in the short term. In fact, if their business experience continues to satisfy us, we welcome lower market prices of stocks we own as an opportunity to acquire even more of a good thing at a better price.
 
 Our experience has been that pro-rata portions of truly outstanding businesses sometimes sell in the securities markets at very large discounts from the prices they would command in negotiated transactions involving entire companies. Consequently, bargains in business ownership, which simply are not available directly through corporate acquisition, can be obtained indirectly through stock ownership. When prices are appropriate, we are willing to take very large positions in selected companies, not with any intention of taking control and not foreseeing sell-out or merger, but with the expectation that excellent business results by corporations will translate over the long term into correspondingly excellent market value and dividend results for owners, minority as well as majority.
@@ -114,7 +111,7 @@ Such investments initially may have negligible impact on our operating earnings.
 
 Capital Cities possesses both extraordinary properties and extraordinary management. And these management skills extend equally to operations and employment of corporate capital. To purchase, directly, properties such as Capital Cities owns would cost in the area of twice our cost of purchase via the stock market, and direct ownership would offer no important advantages to us. While control would give us the opportunity—and the responsibility—to manage operations and corporate resources, we would not be able to provide management in either of those respects equal to that now in place. In effect, we can obtain a better management result through non-control than control. This is an unorthodox view, but one we believe to be sound.
 
-#### Banking
+## Banking
 
 In 1977 the Illinois National Bank continued to achieve a rate of earnings on assets about three times that of most large banks. As usual, this record was achieved while the bank paid maximum rates to savers and maintained an asset position combining low risk and exceptional liquidity. Gene Abegg formed the bank in 1931 with $250,000. In its first full year of operation, earnings amounted to $8,782. Since that time, no new capital has been contributed to the bank; on the contrary, since our purchase in 1969, dividends of $20 million have been paid. Earnings in 1977 amounted to $3.6 million, more than achieved by many banks two or three times its size.
 
@@ -122,7 +119,7 @@ Late last year Gene, now 80 and still running a banking operation without peer, 
 
 Gene continues in good health as Chairman. We expect a continued successful operation at Rockford’s leading bank.
 
-#### Blue Chip Stamps
+## Blue Chip Stamps
 
 We again increased our equity interest in Blue Chip Stamps, and owned approximately 36½% at the end of 1977. Blue Chip had a fine year, earning approximately $12.9 million from operations and, in addition, had realized securities gains of $4.1 million.
 
