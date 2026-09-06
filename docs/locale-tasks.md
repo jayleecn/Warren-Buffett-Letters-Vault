@@ -12,6 +12,7 @@ Convention: Chinese at content root; other languages under `content/{prefix}/` (
 - [ ] Explorer / Search / Backlinks locale prefix lists include the new prefix
 - [ ] `quartz/components/scripts/explorer.inline.ts` + `search.inline.ts` `LOCALE_PREFIXES` includes the new prefix (**must match siteLocales** — missing entries break Explorer scoping and feel like “language switch broken”)
 - [ ] Language switcher dropdown shows the language
+- [ ] Language switcher hrefs are **root-absolute** (`/en/...`, not `../en/...`) so SPA from `/ja`/`/es` deep pages does not break
 - [ ] Breadcrumb **Home** → `/{prefix}/` (default locale → `/`)
 - [ ] Folder page titles use this locale’s string (not `文件夹`)
 - [ ] `/{prefix}/404` + client rewrite by pathname
