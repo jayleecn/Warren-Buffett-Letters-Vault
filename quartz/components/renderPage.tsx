@@ -29,7 +29,7 @@ export function pageResources(
 ): StaticResources {
   // Bust long-lived CDN/browser cache of unhashed JS (CF default max-age=14400).
   // Bump when Explorer/Search client logic changes.
-  const assetV = "20260906-zhtw1"
+  const assetV = "20260906-zhtw2"
   const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
   const contentIndexScript = `const fetchData = fetch("${contentIndexPath}").then(data => data.json())`
 

@@ -201,7 +201,7 @@ LanguageSwitcher.afterDOMLoaded = `
   function localeFromHref(href) {
     try {
       let path = new URL(href, window.location.origin).pathname
-      path = path.replace(/\/+$/, "") || "/"
+      path = path.replace(new RegExp("/+$"), "") || "/"
       for (const p of PREFIXES) {
         if (path === "/" + p || path.startsWith("/" + p + "/")) return p
       }
