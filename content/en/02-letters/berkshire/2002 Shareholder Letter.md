@@ -54,66 +54,52 @@ translations:
   en: en/02-letters/berkshire/2002-Shareholder-Letter
 ---
 
-# Berkshire Hathaway Shareholder Letter - 2002
+# Berkshire Hathaway Shareholder Letter — 2002
 
-Note: The following table appears in the printed Annual Report on the facing page of the
-Chairman's Letter and is referred to in that letter.
-Berkshire’s Corporate Performance vs. the S&P 500
-Annual Percentage Change
-in Per-Share in S&P 500
-Book Value of with Dividends Relative
-Berkshire Included Results
-Year (1) (2) (1)-(2)
-1965 .................................................. 23.8 10.0 13.8
-1966 .................................................. 20.3 (11.7) 32.0
-1967 .................................................. 11.0 30.9 (19.9)
-1968 .................................................. 19.0 11.0 8.0
-1969 .................................................. 16.2 (8.4) 24.6
-1970 .................................................. 12.0 3.9 8.1
-1971 .................................................. 16.4 14.6 1.8
-1972 .................................................. 21.7 18.9 2.8
-1973 .................................................. 4.7 (14.8) 19.5
-1974 .................................................. 5.5 (26.4) 31.9
-1975 .................................................. 21.9 37.2 (15.3)
-1976 .................................................. 59.3 23.6 35.7
-1977 .................................................. 31.9 (7.4) 39.3
-1978 .................................................. 24.0 6.4 17.6
-1979 .................................................. 35.7 18.2 17.5
-1980 .................................................. 19.3 32.3 (13.0)
-1981 .................................................. 31.4 (5.0) 36.4
-1982 .................................................. 40.0 21.4 18.6
-1983 .................................................. 32.3 22.4 9.9
-1984 .................................................. 13.6 6.1 7.5
-1985 .................................................. 48.2 31.6 16.6
-1986 .................................................. 26.1 18.6 7.5
-1987 .................................................. 19.5 5.1 14.4
-1988 .................................................. 20.1 16.6 3.5
-1989 .................................................. 44.4 31.7 12.7
-1990 .................................................. 7.4 (3.1) 10.5
-1991 .................................................. 39.6 30.5 9.1
-1992 .................................................. 20.3 7.6 12.7
-1993 .................................................. 14.3 10.1 4.2
-1994 .................................................. 13.9 1.3 12.6
-1995 .................................................. 43.1 37.6 5.5
-1996 .................................................. 31.8 23.0 8.8
-1997 .................................................. 34.1 33.4 .7
-1998 .................................................. 48.3 28.6 19.7
-1999 .................................................. .5 21.0 (20.5)
-2000 .................................................. 6.5 (9.1) 15.6
-2001 .................................................. (6.2) (11.9) 5.7
-2002 .................................................. 10.0 (22.1) 32.1
-Average Annual Gain  1965-2002 22.2 10.0 12.2
-Overall Gain  1964-2002 214,433 3,663
-Notes: Data are for calendar years with these exceptions: 1965 and 1966, year ended 9/30; 1967, 15 months ended 12/31.
-Starting in 1979, accounting rules required insurance companies to value the equity securities they hold at market
-rather than at the lower of cost or market, which was previously the requirement. In this table, Berkshire's results
-through 1978 have been restated to conform to the changed rules. In all other respects, the results are calculated using
-the numbers originally reported.
-The S&P 500 numbers are pre-tax whereas the Berkshire numbers are after-tax. If a corporation such as Berkshire
-were simply to have owned the S&P 500 and accrued the appropriate taxes, its results would have lagged the S&P 500
-in years when that index showed a positive return, but would have exceeded the S&P in years when the index showed a
-negative return. Over the years, the tax costs would have caused the aggregate lag to be substantial.
-2
+| Year | Berkshire Book Value | S&P 500 with Dividends | Relative Results |
+| --- | ---: | ---: | ---: |
+| 1965 | 23.8 | 10.0 | 13.8 |
+| 1966 | 20.3 | (11.7) | 32.0 |
+| 1967 | 11.0 | 30.9 | (19.9) |
+| 1968 | 19.0 | 11.0 | 8.0 |
+| 1969 | 16.2 | (8.4) | 24.6 |
+| 1970 | 12.0 | 3.9 | 8.1 |
+| 1971 | 16.4 | 14.6 | 1.8 |
+| 1972 | 21.7 | 18.9 | 2.8 |
+| 1973 | 4.7 | (14.8) | 19.5 |
+| 1974 | 5.5 | (26.4) | 31.9 |
+| 1975 | 21.9 | 37.2 | (15.3) |
+| 1976 | 59.3 | 23.6 | 35.7 |
+| 1977 | 31.9 | (7.4) | 39.3 |
+| 1978 | 24.0 | 6.4 | 17.6 |
+| 1979 | 35.7 | 18.2 | 17.5 |
+| 1980 | 19.3 | 32.3 | (13.0) |
+| 1981 | 31.4 | (5.0) | 36.4 |
+| 1982 | 40.0 | 21.4 | 18.6 |
+| 1983 | 32.3 | 22.4 | 9.9 |
+| 1984 | 13.6 | 6.1 | 7.5 |
+| 1985 | 48.2 | 31.6 | 16.6 |
+| 1986 | 26.1 | 18.6 | 7.5 |
+| 1987 | 19.5 | 5.1 | 14.4 |
+| 1988 | 20.1 | 16.6 | 3.5 |
+| 1989 | 44.4 | 31.7 | 12.7 |
+| 1990 | 7.4 | (3.1) | 10.5 |
+| 1991 | 39.6 | 30.5 | 9.1 |
+| 1992 | 20.3 | 7.6 | 12.7 |
+| 1993 | 14.3 | 10.1 | 4.2 |
+| 1994 | 13.9 | 1.3 | 12.6 |
+| 1995 | 43.1 | 37.6 | 5.5 |
+| 1996 | 31.8 | 23.0 | 8.8 |
+| 1997 | 34.1 | 33.4 | 0.7 |
+| 1998 | 48.3 | 28.6 | 19.7 |
+| 1999 | 0.5 | 21.0 | (20.5) |
+| 2000 | 6.5 | (9.1) | 15.6 |
+| 2001 | (6.2) | (11.9) | 5.7 |
+| 2002 | 10.0 | (22.1) | 32.1 |
+| Average Annual Gain — 1965-2002 | 22.2% | 10.0% | 12.2% |
+| Overall Gain — 1964-2002 | 214,433% | 3,663% | 210,770% |
+
+Notes: Data are for calendar years with these exceptions: 1965 and 1966, year ended 9/30; 1967, 15 months ended 12/31. Starting in 1979, accounting rules required insurance companies to value the equity securities they hold at market rather than at the lower of cost or market, which was previously the requirement. In this table, Berkshire's results through 1978 have been restated to conform to the changed rules. In all other respects, the results are calculated using the numbers originally reported. The S&P 500 numbers are pre-tax whereas the Berkshire numbers are after-tax. If a corporation such as Berkshire were simply to have owned the S&P 500 and accrued the appropriate taxes, its results would have lagged the S&P 500 in years when that index showed a positive return, but would have exceeded the S&P in years when the index showed a negative return. Over the years, the tax costs would have caused the aggregate lag to be substantial.
 
 
 ---
@@ -206,7 +192,7 @@ ordinary associates.
 Eddie understood that how he lugged bats was unimportant; what counted instead was hooking up
 with the cream of those on the playing field. I’ve learned from Eddie. At Berkshire, I regularly hand bats
 to many of the heaviest hitters in American business.
-Acquisitions
+## Acquisitions
 We added some sluggers to our lineup last year. Two acquisitions pending at yearend 2001 were
 completed: Albecca (which operates under the name Larson-Juhl), the U.S. leader in custom-made picture
 frames; and Fruit of the Loom, the producer of about 33.3% of the men’s and boy’s underwear sold in the
@@ -321,7 +307,7 @@ MEHC – and it will be fun to watch how far Dave and Greg can take the business
 
 ---
 
-The Economics of Property/Casualty Insurance
+## Insurance Operations
 Our core business — though we have others of great importance — is insurance. To understand
 Berkshire, therefore, it is necessary that you understand how to evaluate an insurance company. The key
 determinants are: (1) the amount of float that the business generates; (2) its cost; and (3) most critical of all,
@@ -375,7 +361,6 @@ Absent a megacatastrophe, I expect our cost of float in 2003 to again be very lo
 than zero. In the rundown of our insurance operations that follows, you will see why I’m optimistic that, over
 time, our underwriting results will both surpass those achieved by the industry and deliver us investable funds
 at minimal cost.
-Insurance Operations
 If our insurance operations are to generate low-cost float over time, they must: (a) underwrite with
 unwavering discipline; (b) reserve conservatively; and (c) avoid an aggregation of exposures that would allow
 a supposedly “impossible” incident to threaten their solvency. All of our major insurance businesses, with
@@ -506,7 +491,7 @@ operation. There, we have work to do. There, too, our reserving severely missed 
 out how to get this business right, we will keep it small.
 For the fabulous year they had in 2002, we thank Rod Eldred, John Kizer, Tom Nerney, Don Towle
 and Don Wurster. They added a lot of value to your Berkshire investment.
-Sources of Reported Earnings
+## Sources of Reported Earnings
 The table that follows shows the main sources of Berkshire’s reported earnings. You will notice that
 “Purchase-Accounting Adjustments” dropped sharply in 2002, the reason being that GAAP rules changed
 then, no longer requiring the amortization of goodwill. This change increases our reported earnings, but has
@@ -516,38 +501,31 @@ no effect on our economic earnings.
 
 ---
 
-(in millions)
-Berkshire’s Share
-of Net Earnings
-(after taxes and
-Pre-Tax Earnings Minority interests)
-2002 2001 2002 2001
-Operating Earnings:
-Insurance Group:
-Underwriting – General Re.................................... $(1,393) $(3,671) $(930) $(2,391)
-Underwriting – Berkshire Group........................... 534 (647) 347 (433)
-Underwriting – GEICO.......................................... 416 221 271 144
-Underwriting – Other Primary............................... 32 30 20 18
-Net Investment Income.......................................... 3,050 2,824 2,096 1,968
-Apparel(1).................................................................. 229 (33) 156 (28)
-Building Products(2).................................................. 516 461 313 287
-Finance and Financial Products Business................. 1,016 519 659 336
-Flight Services.......................................................... 225 186 133 105
-MidAmerican Energy (80% owned)......................... 613 565 359 230
-Retail Operations...................................................... 166 175 97 101
-Scott Fetzer (excluding finance operation)............... 129 129 83 83
-Shaw Industries(3)...................................................... 424 292 258 156
-Other Businesses....................................................... 256 212 160 131
-Purchase-Accounting Adjustments........................... (119) (726) (65) (699)
-Corporate Interest Expense....................................... (86) (92) (55) (60)
-Shareholder-Designated Contributions..................... (17) (17) (11) (11)
-Other......................................................................... 19 25 12 16
-Operating Earnings...................................................... 6,010 453 3,903 (47)
-Capital Gains from Investments.................................. 603 1,320 383 842
-Total Earnings – All Entities....................................... $6,613 $1,773 $4,286 $ 795
-(1) Includes Fruit of the Loom from April 30, 2002 and Garan from September 4, 2002.
-(2) Includes Johns Manville from February 27, 2001 and MiTek from July 31, 2001.
-(3) From date of acquisition, January 8, 2001.
+| (in millions) | 2002 Pre-Tax Earnings | 2001 Pre-Tax Earnings | 2002 Berkshire Share of Net Earnings | 2001 Berkshire Share of Net Earnings |
+| --- | ---: | ---: | ---: | ---: |
+| Insurance Group: Underwriting – General Re | $(1,393) | $(3,671) | $(930) | $(2,391) |
+| Insurance Group: Underwriting – Berkshire Group | 534 | (647) | 347 | (433) |
+| Insurance Group: Underwriting – GEICO | 416 | 221 | 271 | 144 |
+| Insurance Group: Underwriting – Other Primary | 32 | 30 | 20 | 18 |
+| Net Investment Income | 3,050 | 2,824 | 2,096 | 1,968 |
+| Apparel(1) | 229 | (33) | 156 | (28) |
+| Building Products(2) | 516 | 461 | 313 | 287 |
+| Finance and Financial Products Business | 1,016 | 519 | 659 | 336 |
+| Flight Services | 225 | 186 | 133 | 105 |
+| MidAmerican Energy (80% owned) | 613 | 565 | 359 | 230 |
+| Retail Operations | 166 | 175 | 97 | 101 |
+| Scott Fetzer (excluding finance operation) | 129 | 129 | 83 | 83 |
+| Shaw Industries(3) | 424 | 292 | 258 | 156 |
+| Other Businesses | 256 | 212 | 160 | 131 |
+| Purchase-Accounting Adjustments | (119) | (726) | (65) | (699) |
+| Corporate Interest Expense | (86) | (92) | (55) | (60) |
+| Shareholder-Designated Contributions | (17) | (17) | (11) | (11) |
+| Other | 19 | 25 | 12 | 16 |
+| Operating Earnings | 6,010 | 453 | 3,903 | (47) |
+| Capital Gains from Investments | 603 | 1,320 | 383 | 842 |
+| Total Earnings – All Entities | $6,613 | $1,773 | $4,286 | $795 |
+
+(1) Includes Fruit of the Loom from April 30, 2002 and Garan from September 4, 2002. (2) Includes Johns Manville from February 27, 2001 and MiTek from July 31, 2001. (3) From date of acquisition, January 8, 2001.
 Here’s a summary of major developments at our non-insurance businesses:
 • MidAmerican Energy’s earnings grew in 2002 and will likely do so again this year. Most of the
 increase, both present and expected, results from the acquisitions described earlier. To fund these,
@@ -629,9 +607,7 @@ heavy lifting. I like this division of labor and hope to join with Leucadia in f
 On the minus side, the Finance line also includes the operations of General Re Securities, a
 derivatives and trading business. This entity lost $173 million pre-tax last year, a result that, in part,
 is a belated acknowledgment of faulty, albeit standard, accounting it used in earlier periods.
-Derivatives, in fact, deserve an extensive look, both in respect to the accounting their users employ
-and to the problems they may pose for both individual companies and our economy.
-Derivatives
+## Derivatives
 Charlie and I are of one mind in how we feel about derivatives and the trading activities that go with
 them: We view them as time bombs, both for the parties that deal in them and the economic system.
 Having delivered that thought, which I’ll get back to, let me retreat to explaining derivatives, though
@@ -811,7 +787,7 @@ are usually overloaded with debt and often operate in industries characterized b
 Additionally, the quality of management is sometimes questionable. Management may even have interests
 that are directly counter to those of debtholders. Therefore, we expect that we will have occasional large
 losses in junk issues. So far, however, we have done reasonably well in this field.
-Corporate Governance
+## Corporate Governance
 Both the ability and fidelity of managers have long needed monitoring. Indeed, nearly 2,000 years
 ago, Jesus Christ addressed this subject, speaking (Luke 16:2) approvingly of “a certain rich man” who told
 his manager, “Give an account of thy stewardship; for thou mayest no longer be steward.”

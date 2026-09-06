@@ -18,7 +18,7 @@ concepts:
 - Underwriting Discipline
 - Economic Moat
 - Derivatives
-- Corporate Governance
+- Berkshire Corporate Governance
 - Manufactured Housing
 - Foreign Exchange
 companies:
@@ -53,67 +53,53 @@ translations:
   en: en/02-letters/berkshire/2003-Shareholder-Letter
 ---
 
-# Berkshire Hathaway Shareholder Letter - 2003
+# Berkshire Hathaway Shareholder Letter — 2003
 
-Note: The following table appears in the printed Annual Report on the facing page of the
-Chairman's Letter and is referred to in that letter.
-Berkshire’s Corporate Performance vs. the S&P 500
-Annual Percentage Change
-in Per-Share in S&P 500
-Book Value of with Dividends Relative
-Berkshire Included Results
-Year (1) (2) (1)-(2)
-1965 .................................................. 23.8 10.0 13.8
-1966 .................................................. 20.3 (11.7) 32.0
-1967 .................................................. 11.0 30.9 (19.9)
-1968 .................................................. 19.0 11.0 8.0
-1969 .................................................. 16.2 (8.4) 24.6
-1970 .................................................. 12.0 3.9 8.1
-1971 .................................................. 16.4 14.6 1.8
-1972 .................................................. 21.7 18.9 2.8
-1973 .................................................. 4.7 (14.8) 19.5
-1974 .................................................. 5.5 (26.4) 31.9
-1975 .................................................. 21.9 37.2 (15.3)
-1976 .................................................. 59.3 23.6 35.7
-1977 .................................................. 31.9 (7.4) 39.3
-1978 .................................................. 24.0 6.4 17.6
-1979 .................................................. 35.7 18.2 17.5
-1980 .................................................. 19.3 32.3 (13.0)
-1981 .................................................. 31.4 (5.0) 36.4
-1982 .................................................. 40.0 21.4 18.6
-1983 .................................................. 32.3 22.4 9.9
-1984 .................................................. 13.6 6.1 7.5
-1985 .................................................. 48.2 31.6 16.6
-1986 .................................................. 26.1 18.6 7.5
-1987 .................................................. 19.5 5.1 14.4
-1988 .................................................. 20.1 16.6 3.5
-1989 .................................................. 44.4 31.7 12.7
-1990 .................................................. 7.4 (3.1) 10.5
-1991 .................................................. 39.6 30.5 9.1
-1992 .................................................. 20.3 7.6 12.7
-1993 .................................................. 14.3 10.1 4.2
-1994 .................................................. 13.9 1.3 12.6
-1995 .................................................. 43.1 37.6 5.5
-1996 .................................................. 31.8 23.0 8.8
-1997 .................................................. 34.1 33.4 .7
-1998 .................................................. 48.3 28.6 19.7
-1999 .................................................. .5 21.0 (20.5)
-2000 .................................................. 6.5 (9.1) 15.6
-2001 .................................................. (6.2) (11.9) 5.7
-2002 .................................................. 10.0 (22.1) 32.1
-2003 .................................................. 21.0 28.7 (7.7)
-Average Annual Gain — 1965-2003 22.2 10.4 11.8
-Overall Gain — 1964-2003 259,485 4,743
-Notes: Data are for calendar years with these exceptions: 1965 and 1966, year ended 9/30; 1967, 15 months ended 12/31.
-Starting in 1979, accounting rules required insurance companies to value the equity securities they hold at market
-rather than at the lower of cost or market, which was previously the requirement. In this table, Berkshire's results
-through 1978 have been restated to conform to the changed rules. In all other respects, the results are calculated using
-the numbers originally reported.
-The S&P 500 numbers are pre-tax whereas the Berkshire numbers are after-tax. If a corporation such as Berkshire
-were simply to have owned the S&P 500 and accrued the appropriate taxes, its results would have lagged the S&P 500
-in years when that index showed a positive return, but would have exceeded the S&P in years when the index showed a
-negative return. Over the years, the tax costs would have caused the aggregate lag to be substantial.
-2
+| Year | Berkshire Book Value | S&P 500 with Dividends | Relative Results |
+| --- | ---: | ---: | ---: |
+| 1965 | 23.8 | 10.0 | 13.8 |
+| 1966 | 20.3 | (11.7) | 32.0 |
+| 1967 | 11.0 | 30.9 | (19.9) |
+| 1968 | 19.0 | 11.0 | 8.0 |
+| 1969 | 16.2 | (8.4) | 24.6 |
+| 1970 | 12.0 | 3.9 | 8.1 |
+| 1971 | 16.4 | 14.6 | 1.8 |
+| 1972 | 21.7 | 18.9 | 2.8 |
+| 1973 | 4.7 | (14.8) | 19.5 |
+| 1974 | 5.5 | (26.4) | 31.9 |
+| 1975 | 21.9 | 37.2 | (15.3) |
+| 1976 | 59.3 | 23.6 | 35.7 |
+| 1977 | 31.9 | (7.4) | 39.3 |
+| 1978 | 24.0 | 6.4 | 17.6 |
+| 1979 | 35.7 | 18.2 | 17.5 |
+| 1980 | 19.3 | 32.3 | (13.0) |
+| 1981 | 31.4 | (5.0) | 36.4 |
+| 1982 | 40.0 | 21.4 | 18.6 |
+| 1983 | 32.3 | 22.4 | 9.9 |
+| 1984 | 13.6 | 6.1 | 7.5 |
+| 1985 | 48.2 | 31.6 | 16.6 |
+| 1986 | 26.1 | 18.6 | 7.5 |
+| 1987 | 19.5 | 5.1 | 14.4 |
+| 1988 | 20.1 | 16.6 | 3.5 |
+| 1989 | 44.4 | 31.7 | 12.7 |
+| 1990 | 7.4 | (3.1) | 10.5 |
+| 1991 | 39.6 | 30.5 | 9.1 |
+| 1992 | 20.3 | 7.6 | 12.7 |
+| 1993 | 14.3 | 10.1 | 4.2 |
+| 1994 | 13.9 | 1.3 | 12.6 |
+| 1995 | 43.1 | 37.6 | 5.5 |
+| 1996 | 31.8 | 23.0 | 8.8 |
+| 1997 | 34.1 | 33.4 | 0.7 |
+| 1998 | 48.3 | 28.6 | 19.7 |
+| 1999 | 0.5 | 21.0 | (20.5) |
+| 2000 | 6.5 | (9.1) | 15.6 |
+| 2001 | (6.2) | (11.9) | 5.7 |
+| 2002 | 10.0 | (22.1) | 32.1 |
+| 2003 | 21.0 | 28.7 | (7.7) |
+| Average Annual Gain — 1965-2003 | 22.2% | 10.4% | 11.8% |
+| Overall Gain — 1964-2003 | 259,485% | 4,743% | 254,742% |
+
+Notes: Data are for calendar years with these exceptions: 1965 and 1966, year ended 9/30; 1967, 15 months ended 12/31. Starting in 1979, accounting rules required insurance companies to value the equity securities they hold at market rather than at the lower of cost or market, which was previously the requirement. In this table, Berkshire's results through 1978 have been restated to conform to the changed rules. In all other respects, the results are calculated using the numbers originally reported. The S&P 500 numbers are pre-tax whereas the Berkshire numbers are after-tax. If a corporation such as Berkshire were simply to have owned the S&P 500 and accrued the appropriate taxes, its results would have lagged the S&P 500 in years when that index showed a positive return, but would have exceeded the S&P in years when the index showed a negative return. Over the years, the tax costs would have caused the aggregate lag to be substantial.
 
 
 ---
@@ -159,7 +145,7 @@ the A.
 
 ---
 
-Operating Earnings
+## Operating Earnings
 When valuations are similar, we strongly prefer owning businesses to owning stocks. During
 most of our years of operation, however, stocks were much the cheaper choice. We therefore sharply tilted
 our asset allocation in those years toward equities, as illustrated by the percentages cited earlier.
@@ -197,7 +183,6 @@ I don’t believe that using 2003 as the terminal year distorts our calculations
 for our insurance business, but the big boost that gave to earnings was largely offset by the pathetically low
 interest rates we earned on our large holdings of cash equivalents (a condition that will not last). All
 figures shown below, it should be noted, exclude capital gains.
-Operating Earnings Operating Earnings Subsequent Compounded
 Year in $ millions Per Share in $ Growth Rate of Per-Share Earnings
 1964 .2 .15 Not meaningful (1964-2003)
 1968 2.7 2.69 22.8% (1968-2003)
@@ -222,7 +207,7 @@ in – but not as painful as doing something stupid. (I speak from experience.)
 Overall, we are certain Berkshire’s performance in the future will fall far short of what it has been
 in the past. Nonetheless, Charlie and I remain hopeful that we can deliver results that are modestly above
 average. That’s what we’re being paid for.
-Acquisitions
+## Acquisitions
 As regular readers know, our acquisitions have often come about in strange ways. None, however,
 had a more unusual genesis than our purchase last year of Clayton Homes.
 The unlikely source was a group of finance students from the University of Tennessee, and their
@@ -299,7 +284,7 @@ diligence.” We knew everything would be exactly as Wal-Mart said it would be �
 I should add that Byron has now been instrumental in three Berkshire acquisitions. He
 understands Berkshire far better than any investment banker with whom we have talked and – it hurts me to
 say this – earns his fee. I’m looking forward to deal number four (as, I am sure, is he).
-Taxes
+## Taxes
 On May 20, 2003, The Washington Post ran an op-ed piece by me that was critical of the Bush tax
 proposals. Thirteen days later, Pamela Olson, Assistant Secretary for Tax Policy at the U.S. Treasury,
 delivered a speech about the new tax legislation saying, “That means a certain midwestern oracle, who, it
@@ -346,7 +331,7 @@ billion. The comparable amounts in 1995 were $286 million and $157 billion respe
 mentioned, we will pay about $3.3 billion for 2003, a year when all corporations paid $132 billion. We
 hope our taxes continue to rise in the future – it will mean we are prospering – but we also hope that the
 rest of Corporate America antes up along with us. This might be a project for Ms. Olson to work on.
-Corporate Governance
+## Berkshire Corporate Governance
 In judging whether Corporate America is serious about reforming itself, CEO pay remains the acid
 test. To date, the results aren’t encouraging. A few CEOs, such as Jeff Immelt of General Electric, have
 led the way in initiating programs that are fair to managers and shareholders alike. Generally, however, his
@@ -519,7 +504,7 @@ Doing so would likely obfuscate the most important facts. One warning: When anal
 
 sure to remember that the company should be viewed as an unfolding movie, not as a still photograph.
 Those who focused in the past on only the snapshot of the day sometimes reached erroneous conclusions.
-Insurance
+## Insurance
 Let’s start with insurance – since that’s where the money is.
 The fountain of funds we enjoy in our insurance operations comes from “float,” which is money
 that doesn’t belong to us but that we temporarily hold. Most of our float arises because (1) premiums are
@@ -714,7 +699,7 @@ Debt Owed to Berkshire..........................................................
 
 ---
 
-Finance and Financial Products
+## Finance and Financial Products
 This sector includes a wide-ranging group of activities. Here’s some commentary on the most
 important.
 • I manage a few opportunistic strategies in AAA fixed-income securities that have been quite
@@ -968,7 +953,7 @@ are preeminent in both customer satisfaction and profits. Rich will see to that.
 
 ---
 
-Investments
+## Investments
 The table that follows shows our common stock investments. Those that had a market value of
 more than $500 million at the end of 2003 are itemized.
 12/31/03
@@ -1174,7 +1159,7 @@ February 27, 2004 Chairman of the Board
 - [[Underwriting Discipline]]
 - [[Economic Moat]]
 - [[Derivatives]]
-- [[Corporate Governance]]
+- [[Berkshire Corporate Governance]]
 - [[Manufactured Housing]]
 - [[Foreign Exchange]]
 

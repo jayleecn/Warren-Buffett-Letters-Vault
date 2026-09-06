@@ -50,65 +50,51 @@ translations:
   en: en/02-letters/berkshire/2001-Shareholder-Letter
 ---
 
-# Berkshire Hathaway Shareholder Letter - 2001
+# Berkshire Hathaway Shareholder Letter — 2001
 
-Note: The following table appears in the printed Annual Report on the facing page of the
-Chairman's Letter and is referred to in that letter.
-Berkshire’s Corporate Performance vs. the S&P 500
-Annual Percentage Change
-in Per-Share in S&P 500
-Book Value of with Dividends Relative
-Berkshire Included Results
-Year (1) (2) (1)-(2)
-1965 .................................................. 23.8 10.0 13.8
-1966 .................................................. 20.3 (11.7) 32.0
-1967 .................................................. 11.0 30.9 (19.9)
-1968 .................................................. 19.0 11.0 8.0
-1969 .................................................. 16.2 (8.4) 24.6
-1970 .................................................. 12.0 3.9 8.1
-1971 .................................................. 16.4 14.6 1.8
-1972 .................................................. 21.7 18.9 2.8
-1973 .................................................. 4.7 (14.8) 19.5
-1974 .................................................. 5.5 (26.4) 31.9
-1975 .................................................. 21.9 37.2 (15.3)
-1976 .................................................. 59.3 23.6 35.7
-1977 .................................................. 31.9 (7.4) 39.3
-1978 .................................................. 24.0 6.4 17.6
-1979 .................................................. 35.7 18.2 17.5
-1980 .................................................. 19.3 32.3 (13.0)
-1981 .................................................. 31.4 (5.0) 36.4
-1982 .................................................. 40.0 21.4 18.6
-1983 .................................................. 32.3 22.4 9.9
-1984 .................................................. 13.6 6.1 7.5
-1985 .................................................. 48.2 31.6 16.6
-1986 .................................................. 26.1 18.6 7.5
-1987 .................................................. 19.5 5.1 14.4
-1988 .................................................. 20.1 16.6 3.5
-1989 .................................................. 44.4 31.7 12.7
-1990 .................................................. 7.4 (3.1) 10.5
-1991 .................................................. 39.6 30.5 9.1
-1992 .................................................. 20.3 7.6 12.7
-1993 .................................................. 14.3 10.1 4.2
-1994 .................................................. 13.9 1.3 12.6
-1995 .................................................. 43.1 37.6 5.5
-1996 .................................................. 31.8 23.0 8.8
-1997 .................................................. 34.1 33.4 .7
-1998 .................................................. 48.3 28.6 19.7
-1999 .................................................. .5 21.0 (20.5)
-2000 .................................................. 6.5 (9.1) 15.6
-2001 .................................................. (6.2) (11.9) 5.7
-Average Annual Gain – 1965-2001 22.6% 11.0% 11.6%
-Overall Gain – 1964-2001 194,936% 4,742% 190,194%
-Notes: Data are for calendar years with these exceptions: 1965 and 1966, year ended 9/30; 1967, 15 months ended 12/31.
-Starting in 1979, accounting rules required insurance companies to value the equity securities they hold at market
-rather than at the lower of cost or market, which was previously the requirement. In this table, Berkshire's results
-through 1978 have been restated to conform to the changed rules. In all other respects, the results are calculated using
-the numbers originally reported.
-The S&P 500 numbers are pre-tax whereas the Berkshire numbers are after-tax. If a corporation such as Berkshire
-were simply to have owned the S&P 500 and accrued the appropriate taxes, its results would have lagged the S&P 500
-in years when that index showed a positive return, but would have exceeded the S&P in years when the index showed a
-negative return. Over the years, the tax costs would have caused the aggregate lag to be substantial.
-2
+| Year | Berkshire Book Value | S&P 500 with Dividends | Relative Results |
+| --- | ---: | ---: | ---: |
+| 1965 | 23.8 | 10.0 | 13.8 |
+| 1966 | 20.3 | (11.7) | 32.0 |
+| 1967 | 11.0 | 30.9 | (19.9) |
+| 1968 | 19.0 | 11.0 | 8.0 |
+| 1969 | 16.2 | (8.4) | 24.6 |
+| 1970 | 12.0 | 3.9 | 8.1 |
+| 1971 | 16.4 | 14.6 | 1.8 |
+| 1972 | 21.7 | 18.9 | 2.8 |
+| 1973 | 4.7 | (14.8) | 19.5 |
+| 1974 | 5.5 | (26.4) | 31.9 |
+| 1975 | 21.9 | 37.2 | (15.3) |
+| 1976 | 59.3 | 23.6 | 35.7 |
+| 1977 | 31.9 | (7.4) | 39.3 |
+| 1978 | 24.0 | 6.4 | 17.6 |
+| 1979 | 35.7 | 18.2 | 17.5 |
+| 1980 | 19.3 | 32.3 | (13.0) |
+| 1981 | 31.4 | (5.0) | 36.4 |
+| 1982 | 40.0 | 21.4 | 18.6 |
+| 1983 | 32.3 | 22.4 | 9.9 |
+| 1984 | 13.6 | 6.1 | 7.5 |
+| 1985 | 48.2 | 31.6 | 16.6 |
+| 1986 | 26.1 | 18.6 | 7.5 |
+| 1987 | 19.5 | 5.1 | 14.4 |
+| 1988 | 20.1 | 16.6 | 3.5 |
+| 1989 | 44.4 | 31.7 | 12.7 |
+| 1990 | 7.4 | (3.1) | 10.5 |
+| 1991 | 39.6 | 30.5 | 9.1 |
+| 1992 | 20.3 | 7.6 | 12.7 |
+| 1993 | 14.3 | 10.1 | 4.2 |
+| 1994 | 13.9 | 1.3 | 12.6 |
+| 1995 | 43.1 | 37.6 | 5.5 |
+| 1996 | 31.8 | 23.0 | 8.8 |
+| 1997 | 34.1 | 33.4 | 0.7 |
+| 1998 | 48.3 | 28.6 | 19.7 |
+| 1999 | 0.5 | 21.0 | (20.5) |
+| 2000 | 6.5 | (9.1) | 15.6 |
+| 2001 | (6.2) | (11.9) | 5.7 |
+| Average Annual Gain — 1965-2001 | 22.6% | 11.0% | 11.6% |
+| Overall Gain — 1964-2001 | 194,936% | 4,742% | 190,194% |
+
+Notes: Data are for calendar years with these exceptions: 1965 and 1966, year ended 9/30; 1967, 15 months ended 12/31. Starting in 1979, accounting rules required insurance companies to value the equity securities they hold at market rather than at the lower of cost or market, which was previously the requirement. In this table, Berkshire's results through 1978 have been restated to conform to the changed rules. In all other respects, the results are calculated using the numbers originally reported. The S&P 500 numbers are pre-tax whereas the Berkshire numbers are after-tax. If a corporation such as Berkshire were simply to have owned the S&P 500 and accrued the appropriate taxes, its results would have lagged the S&P 500 in years when that index showed a positive return, but would have exceeded the S&P in years when the index showed a negative return. Over the years, the tax costs would have caused the aggregate lag to be substantial.
 
 
 ---
@@ -180,7 +166,7 @@ Additionally, all of our purchases last year were for cash, which means our shar
 these additional businesses without relinquishing any interest in the fine companies they already owned. We will
 continue to follow our familiar formula, striving to increase the value of the excellent businesses we have, adding
 new businesses of similar quality, and issuing shares only grudgingly.
-Acquisitions of 2001
+## Acquisitions in 2001
 A few days before last year’s annual meeting, I received a heavy package from St. Louis, containing an
 unprepossessing chunk of metal whose function I couldn’t imagine. There was a letter in the package, though, from
 Gene Toombs, CEO of a company called MiTek. He explained that MiTek is the world’s leading producer of this
@@ -296,7 +282,7 @@ in October – this was after a “soft” opening and a few weeks of exceptiona
 suggested to the crowd that the new store was my idea.
 It didn’t work. Today, when I pontificate about retailing, Berkshire people just say, “What does Bill
 think?” (I’m going to draw the line, however, if he suggests that we also close on Saturdays.)
-The Economics of Property/Casualty Insurance
+## Insurance Underwriting Principles
 Our main business — though we have others of great importance — is insurance. To understand
 Berkshire, therefore, it is necessary that you understand how to evaluate an insurance company. The key
 determinants are: (1) the amount of float that the business generates; (2) its cost; and (3) most critical of all, the
@@ -347,7 +333,6 @@ conditions, each of our insurance operations, save one, must deliver an underwri
 good business. The exception is our retroactive reinsurance operation (a business we explained in last year’s annual
 report), which has desirable economics even though it currently hits us with an annual underwriting loss of about
 $425 million.
-Principles of Insurance Underwriting
 When property/casualty companies are judged by their cost of float, very few stack up as satisfactory
 businesses. And interestingly – unlike the situation prevailing in many other industries – neither size nor brand
 name determines an insurer’s profitability. Indeed, many of the biggest and best-known companies regularly
@@ -515,7 +500,7 @@ Eldred, John Kizer, Tom Nerney, Michael Stearns, Don Towle and Don Wurster had c
 $579 million, up 40% over 2000. Their float increased 14.5% to $685 million, and they recorded an underwriting
 profit of $30 million. In aggregate, these companies are one of the finest insurance operations in the country, and
 their 2002 prospects look excellent.
-“Loss Development” and Insurance Accounting
+## Loss Development and Insurance Accounting
 Bad terminology is the enemy of good thinking. When companies or investment professionals use terms
 such as “EBITDA” and “pro forma,” they want you to unthinkingly accept concepts that are dangerously flawed.
 (In golf, my score is frequently below par on a pro forma basis: I have firm plans to “restructure” my putting stroke
@@ -719,21 +704,19 @@ of the assets and liabilities in this segment, however, arise from a few fixed-i
 highly-liquid AAA securities, that I manage. This activity, which only makes sense when certain market
 relationships exist, has produced good returns in the past and has reasonable prospects for continuing to do so
 over the next year or two.
-Investments
-Below we present our common stock investments. Those that had a market value of more than $500
-million at the end of 2001 are itemized.
-12/31/01
-Shares Company Cost Market
-(dollars in millions)
-151,610,700 American Express Company..................................................................... $ 1,470 $ 5,410
-200,000,000 The Coca-Cola Company.......................................................................... 1,299 9,430
-96,000,000 The Gillette Company............................................................................... 600 3,206
-15,999,200 H&R Block, Inc........................................................................................ 255 715
-24,000,000 Moody’s Corporation................................................................................ 499 957
-1,727,765 The Washington Post Company................................................................ 11 916
-53,265,080 Wells Fargo & Company.......................................................................... 306 2,315
-Others........................................................................................................ 4,103 5,726
-Total Common Stocks............................................................................... $8,543 $28,675
+## Investments
+Below we present our common stock investments. Those that had a market value of more than $500 million at the end of 2001 are itemized.
+| Date | Shares | Company | Cost | Market Value |
+| --- | ---: | --- | ---: | ---: |
+| 12/31/01 | 151,610,700 | American Express Company | $1,470 | $5,410 |
+| 12/31/01 | 200,000,000 | The Coca-Cola Company | $1,299 | $9,430 |
+| 12/31/01 | 96,000,000 | The Gillette Company | $600 | $3,206 |
+| 12/31/01 | 15,999,200 | H&R Block, Inc. | $255 | $715 |
+| 12/31/01 | 24,000,000 | Moody’s Corporation | $499 | $957 |
+| 12/31/01 | 1,727,765 | The Washington Post Company | $11 | $916 |
+| 12/31/01 | 53,265,080 | Wells Fargo & Company | $306 | $2,315 |
+| 12/31/01 | — | Other | $4,103 | $5,726 |
+| 12/31/01 | — | Total Common Stocks | $8,543 | $28,675 |
 14
 
 
