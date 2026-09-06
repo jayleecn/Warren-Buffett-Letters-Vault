@@ -28,13 +28,13 @@ translations:
   en: en/02-letters/partnership/1964-Partnership-Letter-(2)
 ---
 
-# Buffett Partnership Letter - 1964
+# Buffett Partnership Letter — 1964
 
 BUFFETT PARTNERSHIP, LTD.
 810 KIEWIT PLAZA
 OMAHA 31, NEBRASKA
 January 18, 1965
-Our Performance in 1964
+## Our Performance in 1964
 Although we had an overall gain of $4,846,312.37 in 1964, it was not one of our better years as judged by our
 fundamental yardstick, the Dow-Jones Industrial Average (hereinafter called the "Dow"). The overall result for
 BPL was plus 27.8% compared to an overall plus 18.7% for the Dow. The overall result for limited partners was
@@ -47,39 +47,31 @@ for us, a Dow repeat in 1965 of 1964 results would make it most difficult for us
 alone surpass it by a decent margin.
 To bring the record up to date, the following summarizes the year-by-year performance of the Dow, the
 performance of the Partnership before allocation to the general partner, and the limited partner's results:
-Year Overall Results From Partnership Results (2) Limited Partners’
-Dow (1) Results (3)
-1957 -8.4% 10.4% 9.3%
-1958 38.5% 40.9% 32.2%
-1959 20.0% 25.9% 20.9%
-1960 -6.2% 22.8% 18.6%
-1961 22.4% 45.9% 35.9%
-1962 -7.6% 13.9% 11.9%
-1963 20.6% 38.7% 30.5%
-1964 18.7% 27.8% 22.3%
-(1) Based on yearly changes in the value of the Dow plus dividends that would have been received through
-ownership of the Dow during that year. The table includes all complete years of partnership activity.
-(2) For 1957-61 consists of combined results of all predecessor limited partnerships operating throughout
-the entire year after all expenses, but before distributions to partners or allocations to the general
-partner.
-(3) For 1957-61 computed on the basis of the preceding column of partnership results allowing for
-allocation to the general partner based upon the present partnership agreement, but before monthly
-withdrawals by limited partners.
-On a cumulative or compounded basis, the results are:
-Year Overall Results From Partnership Results Limited Partners’
-Dow Results
-1957 -8.4% 10.4% 9.3%
-1957 – 58 26.9% 55.6% 44.5%
+| Year | Dow Overall Results (1) | Partnership Results (2) | Limited Partners' Results (3) |
+| --- | --- | --- | --- |
+| 1957 | -8.4% | 10.4% | 9.3% |
+| 1958 | 38.5% | 40.9% | 32.2% |
+| 1959 | 20.0% | 25.9% | 20.9% |
+| 1960 | -6.2% | 22.8% | 18.6% |
+| 1961 | 22.4% | 45.9% | 35.9% |
+| 1962 | -7.6% | 13.9% | 11.9% |
+| 1963 | 20.6% | 38.7% | 30.5% |
+| 1964 | 18.7% | 27.8% | 22.3% |
 
-1957 – 59 52.3% 95.9% 74.7%
-1957 – 60 42.9% 140.9% 107.2%
-1957 – 61 74.9% 251.0% 181.6%
-1957 – 62 61.6% 299.8% 215.1%
-1957 – 63 94.9% 454.5% 311.2%
-1957 – 64 131.3% 608.7% 402.9%
-Annual Compounded 11.1% 27.7% 22.3%
-Rate
-Investment Companies
+On a cumulative or compounded basis, the results are:
+
+| Year | Dow Overall Results | Partnership Results | Limited Partners' Results |
+| --- | --- | --- | --- |
+| 1957 | -8.4% | 10.4% | 9.3% |
+| 1957 – 58 | 26.9% | 55.6% | 44.5% |
+| 1957 – 59 | 52.3% | 95.9% | 74.7% |
+| 1957 – 60 | 42.9% | 140.9% | 107.2% |
+| 1957 – 61 | 74.9% | 251.0% | 181.6% |
+| 1957 – 62 | 61.6% | 299.8% | 215.1% |
+| 1957 – 63 | 94.9% | 454.5% | 311.2% |
+| 1957 – 64 | 131.3% | 608.7% | 402.9% |
+| **Annual Compounded Rate** | **11.1%** | **27.7%** | **22.3%** |
+## Investment Companies
 We regularly compare our results with the two largest open-end investment companies (mutual funds) that
 follow a policy of being typically 95-100% invested in common stock, and the two largest diversified closed-
 end investment companies. These four companies, Massachusetts Investors Trust, Investors Stock Fund, Tri-
@@ -93,33 +85,36 @@ over $8 million and this represents a very small fraction of the professional in
 The public batting average of this highly-paid and widely respected talent indicates performance a shade below
 that of the Dow, an unmanaged index.
 YEARLY RESULTS
-Year Mass. Inv. Investors Lehman (2) Tri-Cont Dow Limited
-Trust (1) Stock (1) (2) Partners
-1957 -11.4% -12.4% -11.4% -2.4% -8.4% 9.3%
-1958 42.7% 47.5% 40.8% 33.2% 38.5% 32.2%
-1959 9.0% 10.3% 8.1% 8.4% 20.0% 20.9%
-1960 -1.0% -0.6% 2.5% 2.8% -6.2% 18.6%
-1961 25.6% 24.9% 23.6% 22.5% 22.4% 35.9%
-1962 -9.8% -13.4% -14.4% -10.0% -7.6% 11.9%
-1963 20.0% 16.5% 23.7% 18.3% 20.6% 30.5%
-1964 15.9% 14.3% 13.6% 12.6% 18.7% 22.3%
-(1) Computed from changes in asset value plus any distributions to holders of record during year.
-(2) From 1964 Moody's Bank & Finance Manual for 1957-63. Estimated for 1964.
-COMPOUNDED
-Year Mass. Inv. Investors Lehman (2) Tri-Cont Dow Limited
-Trust (1) Stock (1) (2) Partners
-1957 -11.4% -12.4% -11.4% -2.4% -8.4% 9.3%
-1957 – 58 26.4% 29.2% 24.7% 30.0% 26.9% 44.5%
-1957 – 59 37.8% 42.5% 34.8% 40.9% 52.3% 74.7%
-1957 – 60 36.4% 41.6% 38.2% 44.8% 42.9% 107.2%
+**Yearly Results**
 
-1957 – 61 71.3% 76.9% 70.8% 77.4% 74.9% 181.6%
-1957 – 62 54.5% 53.2% 46.2% 59.7% 61.6% 215.1%
-1957 – 63 85.4% 78.5% 80.8% 88.9% 94.9% 311.2%
-1957 – 64 114.9% 104.0% 105.4% 112.7% 131.3% 402.9%
-Annual 10.0% 9.3% 9.4% 9.9% 11.1% 22.3%
-Compounded
-Rate
+| Year | Mass. Inv. Trust (1) | Investors Stock (1) | Lehman (2) | Tri-Cont. (2) | Dow | Limited Partners |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1957 | -11.4% | -12.4% | -11.4% | -2.4% | -8.4% | 9.3% |
+| 1958 | 42.7% | 47.5% | 40.8% | 33.2% | 38.5% | 32.2% |
+| 1959 | 9.0% | 10.3% | 8.1% | 8.4% | 20.0% | 20.9% |
+| 1960 | -1.0% | -0.6% | 2.5% | 2.8% | -6.2% | 18.6% |
+| 1961 | 25.6% | 24.9% | 23.6% | 22.5% | 22.4% | 35.9% |
+| 1962 | -9.8% | -13.4% | -14.4% | -10.0% | -7.6% | 11.9% |
+| 1963 | 20.0% | 16.5% | 23.7% | 18.3% | 20.6% | 30.5% |
+| 1964 | 15.9% | 14.3% | 13.6% | 12.6% | 18.7% | 22.3% |
+
+(1) Computed from changes in asset value plus any distributions to holders of record during year.
+
+(2) From 1964 Moody's Bank & Finance Manual for 1957-63; estimated for 1964.
+
+**Compounded Results**
+
+| Year | Mass. Inv. Trust | Investors Stock | Lehman | Tri-Cont. | Dow | Limited Partners |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1957 | -11.4% | -12.4% | -11.4% | -2.4% | -8.4% | 9.3% |
+| 1957 – 58 | 26.4% | 29.2% | 24.7% | 30.0% | 26.9% | 44.5% |
+| 1957 – 59 | 37.8% | 42.5% | 34.8% | 40.9% | 52.3% | 74.7% |
+| 1957 – 60 | 36.4% | 41.6% | 38.2% | 44.8% | 42.9% | 107.2% |
+| 1957 – 61 | 71.3% | 76.9% | 70.8% | 77.4% | 74.9% | 181.6% |
+| 1957 – 62 | 54.5% | 53.2% | 46.2% | 59.7% | 61.6% | 215.1% |
+| 1957 – 63 | 85.4% | 78.5% | 80.8% | 88.9% | 94.9% | 311.2% |
+| 1957 – 64 | 114.9% | 104.0% | 105.4% | 112.7% | 131.3% | 402.9% |
+| **Annual Compounded Rate** | **10.0%** | **9.3%** | **9.4%** | **9.9%** | **11.1%** | **22.3%** |
 The repetition of these tables has caused partners to ask: "Why in the world does this happen to very intelligent
 managements working with (1) bright, energetic staff people, (2) virtually unlimited resources, (3) the most
 extensive business contacts, and (4) literally centuries of aggregate investment experience?" (The latter
@@ -165,7 +160,7 @@ quantitative evaluation of their investment management skills although it involv
 the world - themselves. While it may be of academic interest to evaluate the management accomplishments of
 Massachusetts Investors Trust or Lehman Corporation, it is of enormous dollars-and-cents importance to
 evaluate objectively the accomplishments of the fellow who is actually handling your money - even if it’s you.
-The Question of Conservatism
+## Conservatism
 In looking at the table of investment company performance, the question might be asked: “Yes, but aren't those
 companies run more conservatively than the Partnership?" If you asked that question of the investment company
 managements, they, in absolute honesty, would say they were more conservative. If you asked the first hundred
@@ -201,7 +196,7 @@ Motors and are therefore conservative.” In any event, evaluation of the conser
 or management (including self-management) should be based upon rational objective standards, and I suggest
 performance in declining markets to be at least one meaningful test.
 
-The Joys of Compounding
+## The Joys of Compounding
 Readers of our early annual letters registered discontent at a mere recital of contemporary investment
 experience, but instead hungered for the intellectual stimulation that only could be provided by a depth study of
 investment strategy spanning the centuries. Hence, this section.
@@ -224,10 +219,11 @@ half point to get to 7%, the present value becomes $205 billion.
 So much for that.
 Some of you may view your investment policies on a shorter term basis. For your convenience, we include our
 usual table indicating the gains from compounding $100,000 at various rates:
-4% 8% 12% 16%
-10 Years $48,024 $115,892 $210,584 $341,143
-20 Years $119,111 $366,094 $864,627 $1,846,060
-30 Years $224,337 $906,260 $2,895,970 $8,484,940
+|  | 4% | 8% | 12% | 16% |
+| --- | --- | --- | --- | --- |
+| 10 Years | $48,024 | $115,892 | $210,584 | $341,143 |
+| 20 Years | $119,111 | $366,094 | $864,627 | $1,846,060 |
+| 30 Years | $224,337 | $906,260 | $2,895,970 | $8,484,940 |
 This table indicates the financial advantages of:
 (1) A long life (in the erudite vocabulary of the financial sophisticate this is referred to as the Methusalah
 Technique)
@@ -236,7 +232,7 @@ Technique)
 To be observed are the enormous benefits produced by relatively small gains in the annual earnings rate. This
 explains our attitude which while hopeful of achieving a striking margin of superiority over average investment
 results, nevertheless, regards every percentage point of investment return above average as having real meaning.
-Our Goal
+## Our Goal
 
 You will note that there are no columns in the preceding table for the 27.7% average of the Partnership during
 its eight-year lifespan or the 22.3% average of the limited partners. Such figures are nonsensical for the long
@@ -286,7 +282,7 @@ put on record, foolish as that may later make me appear. My rather puritanical v
 manager, whether operating as broker, investment counselor, trust department, Investment Company, etc.,
 should be willing to state unequivocally what he is going to attempt to accomplish and how he proposes to
 measure the extent to which he gets the job done.
-Our Method of Operation
+## Our Method of Operation
 In past annual letters I have always utilized three categories to describe investment operations we conduct. I now
 feel that a four-category division is more appropriate. Partially, the addition of a new section - "Generals
 Relatively Undervalued" - reflects my further consideration of essential differences that have always existed to a
@@ -464,7 +460,7 @@ answer to an individual's combined tax and investment problems. Nevertheless, I 
 interesting test-tube to measure the ability of some of the most respected investment advisors when they are
 trying to manage money without paying (significant) taxes.
 The three largest swap funds were all organized in 1961, and combined have assets now of about $300 million.
-One of these, Diversification Fund, reports on a fiscal year basis which makes extraction of relevant data quite
+One of these, ## Diversification Fund, reports on a fiscal year basis which makes extraction of relevant data quite
 difficult for calendar year comparisons. The other two, Federal Street Fund and Westminster Fund (respectively
 first and third largest in the group) are managed by investment advisors who oversee at least $2 billion of
 institutional money.
@@ -478,7 +474,7 @@ Rate
 This is strictly the management record. No allowance has been made for the commission in entering and any
 taxes paid by the fund on behalf of the shareholders have been added back to performance.
 Anyone for taxes?
-Miscellaneous
+## Miscellaneous
 In the December 21st issue of AUTOMOTIVE NEWS it was reported that Ford Motor Co. plans to spend $700
 million in 1965 to add 6,742,000 square feet to its facilities throughout the world. Buffett Partnership, Ltd.,
 never far behind, plans to add 227 1/4 square feet to its facilities in the spring of 1965.
