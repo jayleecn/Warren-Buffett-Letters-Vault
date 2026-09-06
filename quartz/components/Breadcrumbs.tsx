@@ -15,9 +15,9 @@ interface BreadcrumbOptions {
    */
   spacerSymbol: string
   /**
-   * Name of first crumb
+   * Name of first crumb (falls back to locale Home/首页 when unset)
    */
-  rootName: string
+  rootName?: string
   /**
    * Whether to look up frontmatter title for folders (could cause performance problems with big vaults)
    */
@@ -30,7 +30,6 @@ interface BreadcrumbOptions {
 
 const defaultOptions: BreadcrumbOptions = {
   spacerSymbol: "❯",
-  rootName: "Home",
   resolveFrontmatterTitle: true,
   showCurrentPage: true,
 }
@@ -49,6 +48,7 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
     allFiles,
     displayClass,
     ctx,
+    cfg,
   }: QuartzComponentProps) => {
     const trie = (ctx.trie ??= trieFromAllFiles(allFiles))
     const slugParts = fileData.slug!.split("/")
@@ -58,10 +58,13 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
       return null
     }
 
+    const rootName =
+      options.rootName ?? (cfg.locale?.startsWith("zh") ? "首页" : "Home")
+
     const crumbs: CrumbData[] = pathNodes.map((node, idx) => {
       const crumb = formatCrumb(node.displayName, fileData.slug!, simplifySlug(node.slug))
       if (idx === 0) {
-        crumb.displayName = options.rootName
+        crumb.displayName = rootName
       }
 
       // For last node (current page), set empty path
