@@ -56,7 +56,7 @@ translations:
   en: en/02-letters/berkshire/1997-Shareholder-Letter
 ---
 
-# Berkshire Hathaway Shareholder Letter - 1997
+# Berkshire Hathaway Shareholder Letter — 1997
 
 BERKSHIRE HATHAWAY INC.
 1997 Chairman's Letter
@@ -249,7 +249,7 @@ taking up permanent residence. In recent years, the actions we took in those dec
 validated, but we have found few new opportunities. In its role as a corporate "saver," Berkshire
 continually looks for ways to sensibly deploy capital, but it may be some time before we find
 opportunities that get us truly excited.
-Insurance Operations -- Overview
+## Insurance Operations -- Overview
 What does excite us, however, is our insurance business. GEICO is flying, and we expect that
 it will continue to do so. Before we expound on that, though, let's discuss "float" and how to
 measure its cost. Unless you understand this subject, it will be impossible for you to make an
@@ -280,41 +280,39 @@ prepaid acquisition costs, prepaid taxes and deferred charges applicable to assu
 Our cost of float is determined by our underwriting loss or profit. In those years when we have
 had an underwriting profit, such as the last five, our cost of float has been negative. In effect, we
 have been paid for holding money.
-(1) (2) Yearend Yield
-Underwriting Approximate on Long-Term
-Loss Average Float Cost of Funds Govt. Bonds
-(In $ Millions) (Ratio of 1 to 2)
-1967 profit 17.3 less than zero 5.50%
-1968 profit 19.9 less than zero 5.90%
-1969 profit 23.4 less than zero 6.79%
-1970 0.37 32.4 1.14% 6.25%
-1971 profit 52.5 less than zero 5.81%
-1972 profit 69.5 less than zero 5.82%
-1973 profit 73.3 less than zero 7.27%
-1974 7.36 79.1 9.30% 8.13%
-1975 11.35 87.6 12.96% 8.03%
-1976 profit 102.6 less than zero 7.30%
-1977 profit 139.0 less than zero 7.97%
-1978 profit 190.4 less than zero 8.93%
-1979 profit 227.3 less than zero 10.08%
-1980 profit 237.0 less than zero 11.94%
-1981 profit 228.4 less than zero 13.61%
-1982 21.56 220.6 9.77% 10.64%
-1983 33.87 231.3 14.64% 11.84%
-1984 48.06 253.2 18.98% 11.58%
-1985 44.23 390.2 11.34% 9.34%
-1986 55.84 797.5 7.00% 7.60%
-1987 55.43 1,266.7 4.38% 8.95%
-1988 11.08 1,497.7 0.74% 9.00%
-1989 24.40 1,541.3 1.58% 7.97%
-1990 26.65 1,637.3 1.63% 8.24%
-1991 119.59 1,895.0 6.31% 7.40%
-1992 108.96 2,290.4 4.76% 7.39%
-1993 profit 2,624.7 less than zero 6.35%
-1994 profit 3,056.6 less than zero 7.88%
-1995 profit 3,607.2 less than zero 5.95%
-1996 profit 6,702.0 less than zero 6.64%
-1997 profit 7,093.1 less than zero 5.92%
+| Year | Underwriting Loss | Average Float | Cost of Funds | Long-Term Govt. Bonds |
+| --- | ---: | ---: | ---: | ---: |
+| 1967 | profit | 17.3 | less than zero | 5.50% |
+| 1968 | profit | 19.9 | less than zero | 5.90% |
+| 1969 | profit | 23.4 | less than zero | 6.79% |
+| 1970 | $0.37 | 32.4 | 1.14% | 6.25% |
+| 1971 | profit | 52.5 | less than zero | 5.81% |
+| 1972 | profit | 69.5 | less than zero | 5.82% |
+| 1973 | profit | 73.3 | less than zero | 7.27% |
+| 1974 | $7.36 | 79.1 | 9.30% | 8.13% |
+| 1975 | $11.35 | 87.6 | 12.96% | 8.03% |
+| 1976 | profit | 102.6 | less than zero | 7.30% |
+| 1977 | profit | 139.0 | less than zero | 7.97% |
+| 1978 | profit | 190.4 | less than zero | 8.93% |
+| 1979 | profit | 227.3 | less than zero | 10.08% |
+| 1980 | profit | 237.0 | less than zero | 11.94% |
+| 1981 | profit | 228.4 | less than zero | 13.61% |
+| 1982 | $21.56 | 220.6 | 9.77% | 10.64% |
+| 1983 | $33.87 | 231.3 | 14.64% | 11.84% |
+| 1984 | $48.06 | 253.2 | 18.98% | 11.58% |
+| 1985 | $44.23 | 390.2 | 11.34% | 9.34% |
+| 1986 | $55.84 | 797.5 | 7.00% | 7.60% |
+| 1987 | $55.43 | 1,266.7 | 4.38% | 8.95% |
+| 1988 | $11.08 | 1,497.7 | 0.74% | 9.00% |
+| 1989 | $24.40 | 1,541.3 | 1.58% | 7.97% |
+| 1990 | $26.65 | 1,637.3 | 1.63% | 8.24% |
+| 1991 | $119.59 | 1,895.0 | 6.31% | 7.40% |
+| 1992 | $108.96 | 2,290.4 | 4.76% | 7.39% |
+| 1993 | profit | 2,624.7 | less than zero | 6.35% |
+| 1994 | profit | 3,056.6 | less than zero | 7.88% |
+| 1995 | profit | 3,607.2 | less than zero | 5.95% |
+| 1996 | profit | 6,702.0 | less than zero | 6.64% |
+| 1997 | profit | 7,093.1 | less than zero | 5.92% |
 
 Since 1967, when we entered the insurance business, our float has grown at an annual
 compounded rate of 21.7%. Better yet, it has cost us nothing, and in fact has made us money.
@@ -323,7 +321,7 @@ has had a value to Berkshire greater than an equal amount of net worth would hav
 The expiration of several large contracts will cause our float to decline during the first quarter
 of 1998, but we expect it to grow substantially over the long term. We also believe that our cost
 of float will continue to be highly favorable.
-Super-Cat Insurance
+## Super-Cat Insurance
 Occasionally, however, the cost of our float will spike severely. That will occur because of
 our heavy involvement in the super-cat business, which by its nature is the most volatile of all
 insurance lines. In this operation, we sell policies that insurance and reinsurance companies

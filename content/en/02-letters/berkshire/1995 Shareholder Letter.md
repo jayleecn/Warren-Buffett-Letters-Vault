@@ -55,7 +55,7 @@ translations:
   en: en/02-letters/berkshire/1995-Shareholder-Letter
 ---
 
-# Berkshire Hathaway Shareholder Letter - 1995
+# Berkshire Hathaway Shareholder Letter — 1995
 
 BERKSHIRE HATHAWAY INC.
 To the Shareholders of Berkshire Hathaway Inc.:
@@ -224,7 +224,7 @@ had gone through a long - and expensive - acquisition study. And
 the outcome? Said the executive sadly, "When we started, we were
 getting 100% of our earnings from the original business. After
 ten years, we were getting 150%."
-Helzberg's Diamond Shops
+## Helzberg's Diamond Shops
 A few years back, management consultants popularized a
 technique called "management by walking around" (MBWA). At
 Berkshire, we've instituted ABWA (acquisitions by walking
@@ -286,7 +286,7 @@ Susan Jacques, its 36-year-old CEO, had an even better year,
 giving birth to her second son at the start of the Christmas
 season. Susan has proved to be a terrific leader in the two
 years since her promotion.
-R.C. Willey Home Furnishings
+## R.C. Willey Home Furnishings
 It was Nebraska Furniture Mart's Irv Blumkin who did the
 walking around in the case of R.C. Willey, long the leading home
 furnishings business in Utah. Over the years, Irv had told me
@@ -351,7 +351,7 @@ have, the number can be almost unlimited. We are lucky to have
 Bill and Sheldon associated with us, and we hope that we can
 acquire other businesses that bring with them managers of similar
 caliber.
-GEICO Corporation
+## GEICO Corporation
 Right after yearend, we completed the purchase of 100% of
 GEICO, the seventh largest auto insurer in the United States,
 with about 3.7 million cars insured. I've had a 45-year
@@ -480,7 +480,7 @@ Berkshire would not be where it is today if Davy had not been so
 generous with his time on a cold Saturday in 1951. I've often
 thanked him privately, but it is fitting that I use this report
 to thank him on behalf of Berkshire's shareholders.
-Insurance Operations
+## Insurance Operations
 In addition to acquiring GEICO, we enjoyed other favorable
 developments in insurance during 1995.
 As we've explained in past reports, what counts in our
@@ -511,41 +511,37 @@ when we have had an underwriting profit, such as the last three,
 our cost of float has been negative, which means we have
 calculated our insurance earnings by adding underwriting profit
 to float income.
-(1) (2) Yearend Yield
-Underwriting Approximate on Long-Term
-Loss Average Float Cost of Funds Govt. Bonds
------------- ------------- --------------- -------------
-(In $ Millions) (Ratio of 1 to 2)
-1967 ...... profit 17.3 less than zero 5.50%
-1968 ...... profit 19.9 less than zero 5.90%
-1969 ...... profit 23.4 less than zero 6.79%
-1970 ...... 0.37 32.4 1.14% 6.25%
-1971 ...... profit 52.5 less than zero 5.81%
-1972 ...... profit 69.5 less than zero 5.82%
-1973 ...... profit 73.3 less than zero 7.27%
-1974 ...... 7.36 79.1 9.30% 8.13%
-1975 ...... 11.35 87.6 12.96% 8.03%
-1976 ...... profit 102.6 less than zero 7.30%
-1977 ...... profit 139.0 less than zero 7.97%
-1978 ...... profit 190.4 less than zero 8.93%
-1979 ...... profit 227.3 less than zero 10.08%
-1980 ...... profit 237.0 less than zero 11.94%
-1981 ...... profit 228.4 less than zero 13.61%
-1982 ...... 21.56 220.6 9.77% 10.64%
-1983 ...... 33.87 231.3 14.64% 11.84%
-1984 ...... 48.06 253.2 18.98% 11.58%
-1985 ...... 44.23 390.2 11.34% 9.34%
-1986 ...... 55.84 797.5 7.00% 7.60%
-1987 ...... 55.43 1,266.7 4.38% 8.95%
-
-1988 ...... 11.08 1,497.7 0.74% 9.00%
-1989 ...... 24.40 1,541.3 1.58% 7.97%
-1990 ...... 26.65 1,637.3 1.63% 8.24%
-1991 ...... 119.59 1,895.0 6.31% 7.40%
-1992 ...... 108.96 2,290.4 4.76% 7.39%
-1993 ...... profit 2,624.7 less than zero 6.35%
-1994 ...... profit 3,056.6 less than zero 7.88%
-1995 ...... profit 3,607.2 less than zero 5.95%
+| Year | Underwriting Loss | Average Float | Cost of Funds | Long-Term Govt. Bonds |
+| --- | ---: | ---: | ---: | ---: |
+| 1967 | profit | 17.3 | less than zero | 5.50% |
+| 1968 | profit | 19.9 | less than zero | 5.90% |
+| 1969 | profit | 23.4 | less than zero | 6.79% |
+| 1970 | $0.37 | 32.4 | 1.14% | 6.25% |
+| 1971 | profit | 52.5 | less than zero | 5.81% |
+| 1972 | profit | 69.5 | less than zero | 5.82% |
+| 1973 | profit | 73.3 | less than zero | 7.27% |
+| 1974 | $7.36 | 79.1 | 9.30% | 8.13% |
+| 1975 | $11.35 | 87.6 | 12.96% | 8.03% |
+| 1976 | profit | 102.6 | less than zero | 7.30% |
+| 1977 | profit | 139.0 | less than zero | 7.97% |
+| 1978 | profit | 190.4 | less than zero | 8.93% |
+| 1979 | profit | 227.3 | less than zero | 10.08% |
+| 1980 | profit | 237.0 | less than zero | 11.94% |
+| 1981 | profit | 228.4 | less than zero | 13.61% |
+| 1982 | $21.56 | 220.6 | 9.77% | 10.64% |
+| 1983 | $33.87 | 231.3 | 14.64% | 11.84% |
+| 1984 | $48.06 | 253.2 | 18.98% | 11.58% |
+| 1985 | $44.23 | 390.2 | 11.34% | 9.34% |
+| 1986 | $55.84 | 797.5 | 7.00% | 7.60% |
+| 1987 | $55.43 | 1,266.7 | 4.38% | 8.95% |
+| 1988 | $11.08 | 1,497.7 | 0.74% | 9.00% |
+| 1989 | $24.40 | 1,541.3 | 1.58% | 7.97% |
+| 1990 | $26.65 | 1,637.3 | 1.63% | 8.24% |
+| 1991 | $119.59 | 1,895.0 | 6.31% | 7.40% |
+| 1992 | $108.96 | 2,290.4 | 4.76% | 7.39% |
+| 1993 | profit | 2,624.7 | less than zero | 6.35% |
+| 1994 | profit | 3,056.6 | less than zero | 7.88% |
+| 1995 | profit | 3,607.2 | less than zero | 5.95% |
 Since 1967, when we entered the insurance business, our float
 has grown at an annual compounded rate of 20.7%. In more years
 than not, our cost of funds has been less than nothing. This
