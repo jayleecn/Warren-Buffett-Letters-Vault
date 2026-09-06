@@ -97,16 +97,23 @@ export function resolvePageLocale(
   fallback: ValidLocale = "zh-CN",
 ): ValidLocale {
   const fm = (frontmatterLang || "").toLowerCase()
-  const fmMap: Record<string, ValidLocale> = {
-    en: "en-US",
-    es: "es-ES",
-    pt: "pt-BR",
-    ja: "ja-JP",
-    de: "de-DE",
-    fr: "fr-FR",
-    zh: "zh-CN",
-  }
-  for (const [code, loc] of Object.entries(fmMap)) {
+  // Longer codes first so zh-tw is not swallowed by zh-* → zh-CN
+  const fmEntries: [string, ValidLocale][] = [
+    ["zh-tw", "zh-TW"],
+    ["zh-hant", "zh-TW"],
+    ["zh-hk", "zh-TW"],
+    ["zh-mo", "zh-TW"],
+    ["zh-cn", "zh-CN"],
+    ["zh-hans", "zh-CN"],
+    ["en", "en-US"],
+    ["es", "es-ES"],
+    ["pt", "pt-BR"],
+    ["ja", "ja-JP"],
+    ["de", "de-DE"],
+    ["fr", "fr-FR"],
+    ["zh", "zh-CN"],
+  ]
+  for (const [code, loc] of fmEntries) {
     if (fm === code || fm.startsWith(`${code}-`)) {
       return loc in TRANSLATIONS ? loc : defaultTranslation
     }

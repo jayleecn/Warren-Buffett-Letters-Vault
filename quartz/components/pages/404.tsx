@@ -41,12 +41,17 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
 NotFound.afterDOMLoaded = `
 ;(function () {
   function detectCode(pathname) {
-    // Prefixed locales from siteLocales (en, es, …)
-    const prefixes = ["en", "es", "pt", "ja", "de", "fr"]
+    // Longest-prefix first so zh-tw is not matched as zh
+    const prefixes = ["zh-tw", "en", "es", "pt", "ja", "de", "fr"]
     for (const p of prefixes) {
       if (pathname === "/" + p || pathname.startsWith("/" + p + "/")) return p
     }
     return "zh"
+  }
+  function htmlLang(code) {
+    if (code === "zh") return "zh-CN"
+    if (code === "zh-tw") return "zh-TW"
+    return code
   }
   function apply404Locale() {
     const root = document.querySelector("[data-i18n-404]")
@@ -64,7 +69,7 @@ NotFound.afterDOMLoaded = `
       home.setAttribute("href", copy.homeHref)
     }
     if (copy.title) document.title = copy.title
-    document.documentElement.lang = code === "zh" ? "zh-CN" : code
+    document.documentElement.lang = htmlLang(code)
   }
   apply404Locale()
   document.addEventListener("nav", apply404Locale)

@@ -24,6 +24,12 @@ const FOOTER_COPY: Record<string, FooterCopy> = {
     curatorAfter: "（学习和分享价值投资），侵权或勘误请扫码私信",
     qrAlt: "微信公众号二维码",
   },
+  "zh-tw": {
+    sourceLabel: "信件源：",
+    curatorBefore: "整理人：公眾號",
+    curatorAfter: "（學習和分享價值投資），侵權或勘誤請掃碼私信",
+    qrAlt: "微信公眾號二維碼",
+  },
   en: {
     sourceLabel: "Source:",
     curatorBefore: "Compiled by: WeChat Official Account ",
@@ -55,7 +61,15 @@ const FOOTER_COPY: Record<string, FooterCopy> = {
 }
 
 function footerCopyForLocale(locale: string | undefined): FooterCopy {
-  const lang = (locale || "zh-CN").toLowerCase().split("-")[0]
+  const raw = (locale || "zh-CN").toLowerCase()
+  // zh-TW / zh-Hant must not collapse to Simplified via split("-")[0]
+  if (raw === "zh-tw" || raw.startsWith("zh-tw") || raw.includes("hant") || raw === "zh-hk" || raw === "zh-mo") {
+    return FOOTER_COPY["zh-tw"] ?? FOOTER_COPY.zh
+  }
+  if (raw === "zh-cn" || raw.startsWith("zh-cn") || raw.includes("hans") || raw === "zh") {
+    return FOOTER_COPY.zh
+  }
+  const lang = raw.split("-")[0]
   return FOOTER_COPY[lang] ?? FOOTER_COPY.zh
 }
 

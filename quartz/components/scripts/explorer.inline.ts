@@ -20,7 +20,7 @@ type FolderState = {
 }
 
 /** Locale folder prefixes (keep in sync with quartz/i18n/siteLocales.ts). */
-const LOCALE_PREFIXES = ["en", "es", "ja", "pt"] // keep in sync with siteLocales prefixes
+const LOCALE_PREFIXES = ["zh-tw", "en", "es", "ja", "pt"] // keep in sync with siteLocales; longest first
 
 function detectLocalePrefix(slug: string): string | null {
   // Accept FullSlug ("ja/index") or pathname ("/ja/", "/ja/index.html")
@@ -31,7 +31,8 @@ function detectLocalePrefix(slug: string): string | null {
   s = s.replace(/^\/+/, "").replace(/\/+$/, "")
   if (s.endsWith(".html")) s = s.slice(0, -5)
   if (s.endsWith("/index")) s = s.slice(0, -6)
-  for (const prefix of LOCALE_PREFIXES) {
+  const prefixes = [...LOCALE_PREFIXES].sort((a, b) => b.length - a.length)
+  for (const prefix of prefixes) {
     if (s === prefix || s === `${prefix}/index` || s.startsWith(`${prefix}/`)) {
       return prefix
     }

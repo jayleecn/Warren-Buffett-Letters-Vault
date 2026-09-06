@@ -29,7 +29,7 @@ export function pageResources(
 ): StaticResources {
   // Bust long-lived CDN/browser cache of unhashed JS (CF default max-age=14400).
   // Bump when Explorer/Search client logic changes.
-  const assetV = "20260906-e38"
+  const assetV = "20260906-zhtw1"
   const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
   const contentIndexScript = `const fetchData = fetch("${contentIndexPath}").then(data => data.json())`
 
@@ -235,7 +235,7 @@ export function renderPage(
     "pt-BR": "Cofre das Cartas de Buffett",
     "ja-JP": "バフェット書簡庫",
     "zh-CN": cfg.pageTitle,
-    "zh-TW": cfg.pageTitle,
+    "zh-TW": "巴菲特致股東信",
   }
   const pageCfg: GlobalConfiguration = {
     ...cfg,
