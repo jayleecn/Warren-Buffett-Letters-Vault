@@ -15,6 +15,7 @@ translations:
   en: en/03-concepts/Margin-of-Safety
   es: es/03-concepts/Margin-of-Safety
   pt: pt/03-concepts/Margin-of-Safety
+  zh-tw: zh-tw/03-concepts/安全边际
 ---
 
 # Margem de segurança

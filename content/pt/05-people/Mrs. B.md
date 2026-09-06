@@ -17,6 +17,7 @@ translations:
   en: en/05-people/Mrs.-B
   es: es/05-people/Mrs.-B
   pt: pt/05-people/Mrs.-B
+  zh-tw: zh-tw/05-people/B夫人（Rose-Blumkin）
 ---
 
 # Mrs. B

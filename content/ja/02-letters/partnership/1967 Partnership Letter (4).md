@@ -27,6 +27,7 @@ translations:
   en: en/02-letters/partnership/1967-Partnership-Letter-(4)
   es: es/02-letters/partnership/1967-Partnership-Letter-(4)
   ja: ja/02-letters/partnership/1967-Partnership-Letter-(4)
+  zh-tw: zh-tw/02-letters/partnership/1967年合伙人信(4)
 ---
 
 # 1967年パートナーシップ書簡（4）

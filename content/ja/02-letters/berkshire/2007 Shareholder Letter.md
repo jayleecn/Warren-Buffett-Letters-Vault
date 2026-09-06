@@ -51,6 +51,7 @@ translations:
   en: en/02-letters/berkshire/2007-Shareholder-Letter
   es: es/02-letters/berkshire/2007-Shareholder-Letter
   ja: ja/02-letters/berkshire/2007-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2007年股东信
 ---
 
 # 2007年株主への手紙

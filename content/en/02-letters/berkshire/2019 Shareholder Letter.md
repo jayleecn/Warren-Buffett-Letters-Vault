@@ -61,6 +61,7 @@ translations:
   es: es/02-letters/berkshire/2019-Shareholder-Letter
   pt: pt/02-letters/berkshire/2019-Shareholder-Letter
   ja: ja/02-letters/berkshire/2019-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2019年股东信
 ---
 # Berkshire Hathaway Shareholder Letter - 2019
 

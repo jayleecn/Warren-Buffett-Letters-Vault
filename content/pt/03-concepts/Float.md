@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Float
   es: es/03-concepts/Float
   pt: pt/03-concepts/Float
+  zh-tw: zh-tw/03-concepts/浮存金
 ---
 
 # Float

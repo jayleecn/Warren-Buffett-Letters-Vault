@@ -17,6 +17,7 @@ translations:
   es: es/03-concepts/Controls
   pt: pt/03-concepts/Controls
   ja: ja/03-concepts/Controls
+  zh-tw: zh-tw/03-concepts/控制类投资
 ---
 # Controls
 

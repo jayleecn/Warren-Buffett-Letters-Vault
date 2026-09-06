@@ -1,10 +1,12 @@
 /**
- * Site content languages. Add ja/de/fr here later — Explorer, locale UI,
+ * Site content languages. Add de/fr here later — Explorer, locale UI,
  * LanguageSwitcher, tags, and path helpers all read from this list.
  *
- * Convention: default locale (zh) lives at content root; others under content/{prefix}/.
+ * Convention: default locale (zh Simplified) lives at content root; others under content/{prefix}/.
+ * SITE_LOCALES order = language switcher order (English first). DEFAULT_LOCALE is looked up by
+ * code "zh", never SITE_LOCALES[0].
  */
-export type SiteLocaleCode = "zh" | "en" | "es" | "pt" | "ja" | "de" | "fr"
+export type SiteLocaleCode = "zh" | "en" | "zh-tw" | "es" | "pt" | "ja" | "de" | "fr"
 
 export type SiteLocale = {
   code: SiteLocaleCode
@@ -18,8 +20,9 @@ export type SiteLocale = {
 }
 
 export const SITE_LOCALES: readonly SiteLocale[] = [
-  { code: "zh", label: "中文", hreflang: "zh-CN", quartzLocale: "zh-CN", prefix: null },
   { code: "en", label: "English", hreflang: "en", quartzLocale: "en-US", prefix: "en" },
+  { code: "zh", label: "简体中文", hreflang: "zh-CN", quartzLocale: "zh-CN", prefix: null },
+  { code: "zh-tw", label: "繁體中文", hreflang: "zh-TW", quartzLocale: "zh-TW", prefix: "zh-tw" },
   { code: "es", label: "Español", hreflang: "es", quartzLocale: "es-ES", prefix: "es" },
   { code: "pt", label: "Português", hreflang: "pt-BR", quartzLocale: "pt-BR", prefix: "pt" },
   { code: "ja", label: "日本語", hreflang: "ja", quartzLocale: "ja-JP", prefix: "ja" },
@@ -28,17 +31,29 @@ export const SITE_LOCALES: readonly SiteLocale[] = [
   // { code: "fr", label: "Français", hreflang: "fr", quartzLocale: "fr-FR", prefix: "fr" },
 ] as const
 
-export const DEFAULT_LOCALE = SITE_LOCALES[0]
+/** Simplified Chinese at content root — must NOT use SITE_LOCALES[0] (English is listed first). */
+export const DEFAULT_LOCALE: SiteLocale =
+  SITE_LOCALES.find((l) => l.code === "zh") ?? SITE_LOCALES[0]
 
-export function localePrefixes(): string[] {
-  return SITE_LOCALES.map((l) => l.prefix).filter((p): p is string => !!p)
+/** Prefixed locales, longest prefix first (zh-tw before any bare zh if ever added). */
+function prefixedLocalesLongestFirst(): SiteLocale[] {
+  return SITE_LOCALES.filter((l) => !!l.prefix).sort(
+    (a, b) => (b.prefix?.length ?? 0) - (a.prefix?.length ?? 0),
+  )
 }
 
-/** Detect content language from a Quartz full slug. */
+export function localePrefixes(): string[] {
+  return prefixedLocalesLongestFirst().map((l) => l.prefix!)
+}
+
+/** Detect content language from a Quartz full slug (longest-prefix match). */
 export function localeFromSlug(slug: string): SiteLocale {
-  for (const loc of SITE_LOCALES) {
-    if (!loc.prefix) continue
-    if (slug === loc.prefix || slug === `${loc.prefix}/index` || slug.startsWith(`${loc.prefix}/`)) {
+  let s = (slug || "").replace(/^\/+/, "").replace(/\/+$/, "")
+  if (s.endsWith(".html")) s = s.slice(0, -5)
+  if (s.endsWith("/index")) s = s.slice(0, -6)
+  for (const loc of prefixedLocalesLongestFirst()) {
+    const p = loc.prefix!
+    if (s === p || s === `${p}/index` || s.startsWith(`${p}/`)) {
       return loc
     }
   }
@@ -62,17 +77,17 @@ export function slugBelongsToLocale(slug: string, loc: SiteLocale): boolean {
 
 /** Strip a known locale prefix; returns path relative to that locale root. */
 export function stripLocalePrefix(slug: string): string {
-  for (const loc of SITE_LOCALES) {
-    if (!loc.prefix) continue
-    if (slug === loc.prefix || slug === `${loc.prefix}/index`) return "index"
-    if (slug.startsWith(`${loc.prefix}/`)) return slug.slice(loc.prefix.length + 1)
+  for (const loc of prefixedLocalesLongestFirst()) {
+    const p = loc.prefix!
+    if (slug === p || slug === `${p}/index`) return "index"
+    if (slug.startsWith(`${p}/`)) return slug.slice(p.length + 1)
   }
   return slug
 }
 
 /**
  * Tag listing slug for a locale.
- * zh: tags/{tag}   en: en/tags/{tag}
+ * zh: tags/{tag}   en: en/tags/{tag}   zh-tw: zh-tw/tags/{tag}
  * Pass tag without "tags/" prefix; use "index" for the all-tags page.
  */
 export function tagSlugForLocale(tag: string, loc: SiteLocale): string {
@@ -85,8 +100,7 @@ export function tagSlugForLocale(tag: string, loc: SiteLocale): string {
 /** Parse tags/... or {prefix}/tags/... slugs. */
 export function parseTagSlug(slug: string): { loc: SiteLocale; tag: string } | null {
   const s = slug.replace(/\/+$/, "") // simplifySlug may leave trailing slash
-  for (const loc of SITE_LOCALES) {
-    if (!loc.prefix) continue
+  for (const loc of prefixedLocalesLongestFirst()) {
     const head = `${loc.prefix}/tags`
     if (s === head || s === `${head}/index`) {
       return { loc, tag: "/" }

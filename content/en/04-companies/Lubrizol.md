@@ -15,6 +15,7 @@ translations:
   es: es/04-companies/Lubrizol
   pt: pt/04-companies/Lubrizol
   ja: ja/04-companies/Lubrizol
+  zh-tw: zh-tw/04-companies/路博润
 ---
 # Lubrizol
 

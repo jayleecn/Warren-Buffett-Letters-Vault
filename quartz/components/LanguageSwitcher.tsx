@@ -171,24 +171,105 @@ LanguageSwitcher.css = `
 `
 
 LanguageSwitcher.afterDOMLoaded = `
-document.addEventListener("nav", () => {
-  const selects = document.querySelectorAll("select.language-select")
-  for (const sel of selects) {
-    const el = sel
-    const handler = (e) => {
-      const href = e.target.value
-      if (!href) return
-      // Prefer SPA navigate when available
-      if (typeof window.spaNavigate === "function") {
-        window.spaNavigate(new URL(href, window.location.toString()))
-      } else {
-        window.location.assign(href)
-      }
-    }
-    el.addEventListener("change", handler)
-    window.addCleanup?.(() => el.removeEventListener("change", handler))
+;(function () {
+  const LANG_KEY = "buffett-lang"
+  const HOMES = {
+    zh: "/",
+    en: "/en/",
+    "zh-tw": "/zh-tw/",
+    es: "/es/",
+    pt: "/pt/",
+    ja: "/ja/",
   }
-})
+  // Longest first for hyphenated prefixes
+  const PREFIXES = ["zh-tw", "en", "es", "pt", "ja"]
+
+  function getPref() {
+    try {
+      const ls = localStorage.getItem(LANG_KEY)
+      if (ls) return ls
+    } catch (e) {}
+    const m = document.cookie.match(/(?:^|; )buffett-lang=([^;]*)/)
+    return m ? decodeURIComponent(m[1]) : null
+  }
+
+  function setPref(code) {
+    try { localStorage.setItem(LANG_KEY, code) } catch (e) {}
+    document.cookie = LANG_KEY + "=" + encodeURIComponent(code) + ";path=/;max-age=31536000;SameSite=Lax"
+  }
+
+  function localeFromHref(href) {
+    try {
+      let path = new URL(href, window.location.origin).pathname
+      path = path.replace(new RegExp("/+$"), "") || "/"
+      for (const p of PREFIXES) {
+        if (path === "/" + p || path.startsWith("/" + p + "/")) return p
+      }
+      return "zh"
+    } catch (e) {
+      return "zh"
+    }
+  }
+
+  function detectBrowserLang() {
+    const langs = navigator.languages && navigator.languages.length
+      ? navigator.languages
+      : [navigator.language || "en"]
+    for (const raw of langs) {
+      const l = String(raw || "").toLowerCase()
+      if (!l) continue
+      if (l.startsWith("zh")) {
+        if (l.includes("tw") || l.includes("hk") || l.includes("mo") || l.includes("hant")) return "zh-tw"
+        return "zh"
+      }
+      if (l.startsWith("en")) return "en"
+      if (l.startsWith("es")) return "es"
+      if (l.startsWith("pt")) return "pt"
+      if (l.startsWith("ja")) return "ja"
+    }
+    return "en"
+  }
+
+  function go(href, replace) {
+    const url = new URL(href, window.location.toString())
+    if (typeof window.spaNavigate === "function" && !replace) {
+      window.spaNavigate(url)
+    } else if (replace) {
+      window.location.replace(url.toString())
+    } else {
+      window.location.assign(url.toString())
+    }
+  }
+
+  function maybeAutoLangRedirect() {
+    const path = window.location.pathname
+    if (path !== "/" && path !== "/index.html") return
+    let pref = getPref()
+    if (!pref || !(pref in HOMES)) {
+      pref = detectBrowserLang()
+      setPref(pref)
+    }
+    const home = HOMES[pref] || "/en/"
+    if (home === "/" || home === path) return
+    go(home, true)
+  }
+
+  document.addEventListener("nav", () => {
+    const selects = document.querySelectorAll("select.language-select")
+    for (const sel of selects) {
+      const el = sel
+      const handler = (e) => {
+        const href = e.target.value
+        if (!href) return
+        setPref(localeFromHref(href))
+        go(href, false)
+      }
+      el.addEventListener("change", handler)
+      window.addCleanup && window.addCleanup(() => el.removeEventListener("change", handler))
+    }
+    maybeAutoLangRedirect()
+  })
+})();
 `
 
 export default (() => LanguageSwitcher) satisfies QuartzComponentConstructor

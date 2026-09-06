@@ -17,6 +17,7 @@ translations:
   en: en/04-companies/The-Washington-Post-Company
   es: es/04-companies/The-Washington-Post-Company
   pt: pt/04-companies/The-Washington-Post-Company
+  zh-tw: zh-tw/04-companies/华盛顿邮报
 ---
 
 # The Washington Post Company

@@ -70,6 +70,7 @@ translations:
   en: en/02-letters/berkshire/2017-Shareholder-Letter
   es: es/02-letters/berkshire/2017-Shareholder-Letter
   pt: pt/02-letters/berkshire/2017-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2017年股东信
 ---
 # Carta aos Acionistas da Berkshire Hathaway - 2017| Year                               | in Per-Share Book Value of Berkshire | in Per-Share Market Value of Berkshire | in S&P 500 with Dividends Included |
 |------------------------------------|--------------------------------------|----------------------------------------|------------------------------------|

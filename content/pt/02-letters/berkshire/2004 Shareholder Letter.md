@@ -58,6 +58,7 @@ translations:
   en: en/02-letters/berkshire/2004-Shareholder-Letter
   es: es/02-letters/berkshire/2004-Shareholder-Letter
   pt: pt/02-letters/berkshire/2004-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2004年股东信
 ---
 # Carta aos acionistas da Berkshire Hathaway - 2004 
 

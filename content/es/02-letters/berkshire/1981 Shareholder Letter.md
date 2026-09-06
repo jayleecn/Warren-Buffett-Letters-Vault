@@ -38,6 +38,7 @@ translations:
   es: es/02-letters/berkshire/1981-Shareholder-Letter
   pt: pt/02-letters/berkshire/1981-Shareholder-Letter
   ja: ja/02-letters/berkshire/1981-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/1981年股东信
 ---
 # Carta a los accionistas de Berkshire Hathaway - 1981
 

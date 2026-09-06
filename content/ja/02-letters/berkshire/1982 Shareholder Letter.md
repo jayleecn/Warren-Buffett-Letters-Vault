@@ -38,6 +38,7 @@ translations:
   en: en/02-letters/berkshire/1982-Shareholder-Letter
   es: es/02-letters/berkshire/1982-Shareholder-Letter
   ja: ja/02-letters/berkshire/1982-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/1982年股东信
 ---
 
 # 1982年株主への手紙

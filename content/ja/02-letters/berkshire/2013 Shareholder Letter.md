@@ -80,6 +80,7 @@ translations:
   en: en/02-letters/berkshire/2013-Shareholder-Letter
   es: es/02-letters/berkshire/2013-Shareholder-Letter
   ja: ja/02-letters/berkshire/2013-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2013年股东信
 ---
 
 #バークシャーハサウェイ株主レター-2013| 年 | 年間変化率 | | |

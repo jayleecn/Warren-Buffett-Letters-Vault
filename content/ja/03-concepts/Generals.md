@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Generals
   es: es/03-concepts/Generals
   ja: ja/03-concepts/Generals
+  zh-tw: zh-tw/03-concepts/低估类投资
 ---
 
 # 将軍

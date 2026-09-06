@@ -18,6 +18,7 @@ translations:
   es: es/04-companies/Coca-Cola
   pt: pt/04-companies/Coca-Cola
   ja: ja/04-companies/Coca-Cola
+  zh-tw: zh-tw/04-companies/可口可乐
 ---
 # Coca-Cola
 

@@ -55,6 +55,7 @@ translations:
   es: es/02-letters/berkshire/2000-Shareholder-Letter
   pt: pt/02-letters/berkshire/2000-Shareholder-Letter
   ja: ja/02-letters/berkshire/2000-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2000年股东信
 ---
 # Carta a los accionistas de Berkshire Hathaway — 2000
 

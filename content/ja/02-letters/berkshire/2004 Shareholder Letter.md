@@ -58,6 +58,7 @@ translations:
   en: en/02-letters/berkshire/2004-Shareholder-Letter
   es: es/02-letters/berkshire/2004-Shareholder-Letter
   ja: ja/02-letters/berkshire/2004-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2004年股东信
 ---
 
 # 2004年株主への手紙

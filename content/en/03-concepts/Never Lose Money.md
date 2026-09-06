@@ -17,6 +17,7 @@ translations:
   es: es/03-concepts/Never-Lose-Money
   pt: pt/03-concepts/Never-Lose-Money
   ja: ja/03-concepts/Never-Lose-Money
+  zh-tw: zh-tw/03-concepts/永远不要亏损
 ---
 # Never Lose Money
 

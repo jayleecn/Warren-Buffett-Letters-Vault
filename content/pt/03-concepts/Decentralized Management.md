@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Decentralized-Management
   es: es/03-concepts/Decentralized-Management
   pt: pt/03-concepts/Decentralized-Management
+  zh-tw: zh-tw/03-concepts/去中心化管理
 ---
 
 # Gestão descentralizada

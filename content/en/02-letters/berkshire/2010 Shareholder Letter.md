@@ -80,6 +80,7 @@ translations:
   es: es/02-letters/berkshire/2010-Shareholder-Letter
   pt: pt/02-letters/berkshire/2010-Shareholder-Letter
   ja: ja/02-letters/berkshire/2010-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2010年股东信
 ---
 # Berkshire Hathaway Shareholder Letter - 2010
 

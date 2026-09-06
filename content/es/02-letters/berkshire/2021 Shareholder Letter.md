@@ -43,6 +43,7 @@ translations:
   es: es/02-letters/berkshire/2021-Shareholder-Letter
   pt: pt/02-letters/berkshire/2021-Shareholder-Letter
   ja: ja/02-letters/berkshire/2021-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2021年股东信
 ---
 # Carta a los accionistas de Berkshire Hathaway - 2021| Year                               | Annual Percentage Change               |                                    |
 |------------------------------------|----------------------------------------|------------------------------------|

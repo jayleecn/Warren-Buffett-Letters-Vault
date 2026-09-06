@@ -16,6 +16,7 @@ translations:
   es: es/04-companies/FlightSafety-International
   pt: pt/04-companies/FlightSafety-International
   ja: ja/04-companies/FlightSafety-International
+  zh-tw: zh-tw/04-companies/飞安国际
 ---
 # FlightSafety International
 

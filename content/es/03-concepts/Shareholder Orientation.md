@@ -17,6 +17,7 @@ translations:
   es: es/03-concepts/Shareholder-Orientation
   pt: pt/03-concepts/Shareholder-Orientation
   ja: ja/03-concepts/Shareholder-Orientation
+  zh-tw: zh-tw/03-concepts/股东导向
 ---
 # Orientación al accionista
 

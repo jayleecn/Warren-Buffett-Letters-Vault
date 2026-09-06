@@ -16,6 +16,7 @@ translations:
   es: es/03-concepts/Opportunity-Cost
   pt: pt/03-concepts/Opportunity-Cost
   ja: ja/03-concepts/Opportunity-Cost
+  zh-tw: zh-tw/03-concepts/机会成本
 ---
 # Opportunity Cost
 

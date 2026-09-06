@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Never-Lose-Money
   es: es/03-concepts/Never-Lose-Money
   ja: ja/03-concepts/Never-Lose-Money
+  zh-tw: zh-tw/03-concepts/永远不要亏损
 ---
 
 # 絶対に損をしない

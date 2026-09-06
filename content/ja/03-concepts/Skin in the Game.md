@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Skin-in-the-Game
   es: es/03-concepts/Skin-in-the-Game
   ja: ja/03-concepts/Skin-in-the-Game
+  zh-tw: zh-tw/03-concepts/利益一致
 ---
 
 # ゲーム内のスキン

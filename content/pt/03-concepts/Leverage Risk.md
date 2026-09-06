@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Leverage-Risk
   es: es/03-concepts/Leverage-Risk
   pt: pt/03-concepts/Leverage-Risk
+  zh-tw: zh-tw/03-concepts/杠杆风险
 ---
 
 # Risco de alavancagem

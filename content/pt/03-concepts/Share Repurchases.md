@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Share-Repurchases
   es: es/03-concepts/Share-Repurchases
   pt: pt/03-concepts/Share-Repurchases
+  zh-tw: zh-tw/03-concepts/股份回购
 ---
 
 # Recompra de ações

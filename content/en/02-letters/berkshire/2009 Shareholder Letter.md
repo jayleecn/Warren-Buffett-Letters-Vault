@@ -56,6 +56,7 @@ translations:
   es: es/02-letters/berkshire/2009-Shareholder-Letter
   pt: pt/02-letters/berkshire/2009-Shareholder-Letter
   ja: ja/02-letters/berkshire/2009-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2009年股东信
 ---
 # Berkshire Hathaway Shareholder Letter - 2009
 

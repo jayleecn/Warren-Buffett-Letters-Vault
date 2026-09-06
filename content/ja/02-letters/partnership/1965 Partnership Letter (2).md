@@ -21,6 +21,7 @@ translations:
   en: en/02-letters/partnership/1965-Partnership-Letter-(2)
   es: es/02-letters/partnership/1965-Partnership-Letter-(2)
   ja: ja/02-letters/partnership/1965-Partnership-Letter-(2)
+  zh-tw: zh-tw/02-letters/partnership/1965年合伙人信(2)
 ---
 
 # 1965年パートナーシップ書簡（2）

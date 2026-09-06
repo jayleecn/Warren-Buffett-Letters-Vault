@@ -46,6 +46,7 @@ translations:
   en: en/02-letters/berkshire/1992-Shareholder-Letter
   es: es/02-letters/berkshire/1992-Shareholder-Letter
   ja: ja/02-letters/berkshire/1992-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/1992年股东信
 ---
 
 #バークシャーハサウェイ株主レター-1992バークシャー・ハサウェイ・インク バークシャー・ハサウェイ・インクの株主の皆様へ：

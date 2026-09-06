@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/Moody's-Corporation
   es: es/04-companies/Moody's-Corporation
   ja: ja/04-companies/Moody's-Corporation
+  zh-tw: zh-tw/04-companies/穆迪
 ---
 
 # Moody's Corporation

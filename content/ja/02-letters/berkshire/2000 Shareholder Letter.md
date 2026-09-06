@@ -54,6 +54,7 @@ translations:
   en: en/02-letters/berkshire/2000-Shareholder-Letter
   es: es/02-letters/berkshire/2000-Shareholder-Letter
   ja: ja/02-letters/berkshire/2000-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2000年股东信
 ---
 
 #バークシャーハサウェイ株主レター-2000注: 次の表は、会長書簡の見開きページに印刷された年次報告書に掲載されており、その書簡内で参照されています。 バークシャーの企業業績と S&P 500 の比較 S&P 500 の 1 株当たり簿価の年間変化率 (配当込みの相対バークシャー含む実績) 年 (1) (2) (1)-(2)

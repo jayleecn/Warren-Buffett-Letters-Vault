@@ -96,6 +96,7 @@ translations:
   en: en/02-letters/berkshire/2014-Shareholder-Letter-(1)
   es: es/02-letters/berkshire/2014-Shareholder-Letter-(1)
   ja: ja/02-letters/berkshire/2014-Shareholder-Letter-(1)
+  zh-tw: zh-tw/02-letters/berkshire/2014年股东信(1)
 ---
 
 # 2014年株主への手紙（1）

@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Macroeconomics
   es: es/03-concepts/Macroeconomics
   pt: pt/03-concepts/Macroeconomics
+  zh-tw: zh-tw/03-concepts/宏观经济
 ---
 
 # Macroeconomia

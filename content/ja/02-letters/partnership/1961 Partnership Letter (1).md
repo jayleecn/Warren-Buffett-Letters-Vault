@@ -21,6 +21,7 @@ translations:
   en: en/02-letters/partnership/1961-Partnership-Letter-(1)
   es: es/02-letters/partnership/1961-Partnership-Letter-(1)
   ja: ja/02-letters/partnership/1961-Partnership-Letter-(1)
+  zh-tw: zh-tw/02-letters/partnership/1961年合伙人信(1)
 ---
 
 # 1961年パートナーシップ書簡（1）

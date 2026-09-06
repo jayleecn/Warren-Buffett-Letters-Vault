@@ -16,6 +16,7 @@ i18nKey: person/mrs-b
 translations:
   zh: 05-people/B夫人（Rose-Blumkin）
   en: en/05-people/Mrs.-B
+  zh-tw: zh-tw/05-people/B夫人（Rose-Blumkin）
 ---
 
 # B夫人（Rose Blumkin）

@@ -27,6 +27,7 @@ translations:
   en: en/02-letters/partnership/1959-Partnership-Letter
   es: es/02-letters/partnership/1959-Partnership-Letter
   ja: ja/02-letters/partnership/1959-Partnership-Letter
+  zh-tw: zh-tw/02-letters/partnership/1959年合伙人信
 ---
 
 # 1959年パートナーシップ書簡

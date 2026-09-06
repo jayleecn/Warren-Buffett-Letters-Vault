@@ -23,6 +23,7 @@ translations:
   en: en/02-letters/partnership/1961-Partnership-Letter-(2)
   es: es/02-letters/partnership/1961-Partnership-Letter-(2)
   pt: pt/02-letters/partnership/1961-Partnership-Letter-(2)
+  zh-tw: zh-tw/02-letters/partnership/1961年合伙人信(2)
 ---
 # Carta da Parceria Buffett — 1961
 

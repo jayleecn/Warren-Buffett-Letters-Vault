@@ -43,6 +43,7 @@ translations:
   es: es/02-letters/berkshire/2021-Shareholder-Letter
   pt: pt/02-letters/berkshire/2021-Shareholder-Letter
   ja: ja/02-letters/berkshire/2021-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2021年股东信
 ---
 # Berkshire Hathaway Shareholder Letter - 2021
 

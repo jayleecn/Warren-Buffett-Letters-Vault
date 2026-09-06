@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Long-term-Holding
   es: es/03-concepts/Long-term-Holding
   pt: pt/03-concepts/Long-term-Holding
+  zh-tw: zh-tw/03-concepts/长期持有
 ---
 
 # Posição de longo prazo

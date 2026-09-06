@@ -15,6 +15,7 @@ translations:
   en: en/03-concepts/Wonderful-Company-at-Fair-Price
   es: es/03-concepts/Wonderful-Company-at-Fair-Price
   ja: ja/03-concepts/Wonderful-Company-at-Fair-Price
+  zh-tw: zh-tw/03-concepts/以合理价格买入好公司
 ---
 
 # 素晴らしい会社を公正な価格で

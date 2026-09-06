@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/Alleghany
   es: es/04-companies/Alleghany
   ja: ja/04-companies/Alleghany
+  zh-tw: zh-tw/04-companies/阿勒格尼
 ---
 
 # Alleghany

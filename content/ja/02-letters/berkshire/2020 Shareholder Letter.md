@@ -62,6 +62,7 @@ translations:
   en: en/02-letters/berkshire/2020-Shareholder-Letter
   es: es/02-letters/berkshire/2020-Shareholder-Letter
   ja: ja/02-letters/berkshire/2020-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2020年股东信
 ---
 
 #バークシャーハサウェイ株主レター-2020| 年 | 年間変化率 | |

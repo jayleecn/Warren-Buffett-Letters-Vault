@@ -39,6 +39,7 @@ translations:
   es: es/02-letters/berkshire/1971-Shareholder-Letter
   pt: pt/02-letters/berkshire/1971-Shareholder-Letter
   ja: ja/02-letters/berkshire/1971-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/1971年股东信
 ---
 # Carta a los accionistas de Berkshire Hathaway - 1971
 

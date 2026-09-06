@@ -17,6 +17,7 @@ translations:
   en: en/04-companies/American-Express
   es: es/04-companies/American-Express
   ja: ja/04-companies/American-Express
+  zh-tw: zh-tw/04-companies/美国运通
 ---
 
 # American Express

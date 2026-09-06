@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/PetroChina
   es: es/04-companies/PetroChina
   ja: ja/04-companies/PetroChina
+  zh-tw: zh-tw/04-companies/中国石油
 ---
 
 # PetroChina

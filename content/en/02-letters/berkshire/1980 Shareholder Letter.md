@@ -39,6 +39,7 @@ translations:
   es: es/02-letters/berkshire/1980-Shareholder-Letter
   pt: pt/02-letters/berkshire/1980-Shareholder-Letter
   ja: ja/02-letters/berkshire/1980-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/1980年股东信
 ---
 # Berkshire Hathaway Shareholder Letter — 1980
 

@@ -15,6 +15,7 @@ translations:
   en: en/05-people/Greg-Abel
   es: es/05-people/Greg-Abel
   pt: pt/05-people/Greg-Abel
+  zh-tw: zh-tw/05-people/格雷格·阿贝尔
 ---
 
 # Greg Abel

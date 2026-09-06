@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/Johns-Manville
   es: es/04-companies/Johns-Manville
   pt: pt/04-companies/Johns-Manville
+  zh-tw: zh-tw/04-companies/约翰曼维尔
 ---
 
 # Johns Manville

@@ -15,6 +15,7 @@ translations:
   en: en/03-concepts/Owner-Earnings
   es: es/03-concepts/Owner-Earnings
   ja: ja/03-concepts/Owner-Earnings
+  zh-tw: zh-tw/03-concepts/所有者盈余
 ---
 
 # オーナー収益

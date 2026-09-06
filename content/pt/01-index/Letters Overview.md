@@ -11,6 +11,7 @@ translations:
   en: en/01-index/Letters-Overview
   es: es/01-index/Letters-Overview
   pt: pt/01-index/Letters-Overview
+  zh-tw: zh-tw/01-index/巴菲特致股东信总览
 ---
 
 # Visão geral das cartas

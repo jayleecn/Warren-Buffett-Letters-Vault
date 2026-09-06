@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/General-Dynamics
   es: es/04-companies/General-Dynamics
   pt: pt/04-companies/General-Dynamics
+  zh-tw: zh-tw/04-companies/通用动力
 ---
 
 # General Dynamics

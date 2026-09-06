@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/NetJets
   es: es/04-companies/NetJets
   pt: pt/04-companies/NetJets
+  zh-tw: zh-tw/04-companies/利捷航空
 ---
 
 # NetJets

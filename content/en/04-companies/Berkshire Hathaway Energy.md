@@ -18,6 +18,7 @@ translations:
   es: es/04-companies/Berkshire-Hathaway-Energy
   pt: pt/04-companies/Berkshire-Hathaway-Energy
   ja: ja/04-companies/Berkshire-Hathaway-Energy
+  zh-tw: zh-tw/04-companies/伯克希尔·哈撒韦能源
 ---
 # Berkshire Hathaway Energy
 

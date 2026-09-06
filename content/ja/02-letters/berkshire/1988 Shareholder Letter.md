@@ -51,6 +51,7 @@ translations:
   en: en/02-letters/berkshire/1988-Shareholder-Letter
   es: es/02-letters/berkshire/1988-Shareholder-Letter
   ja: ja/02-letters/berkshire/1988-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/1988年股东信
 ---
 
 # 1988年株主への手紙

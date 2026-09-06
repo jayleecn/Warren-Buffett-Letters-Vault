@@ -15,6 +15,7 @@ translations:
   en: en/03-concepts/Look-through-Earnings
   es: es/03-concepts/Look-through-Earnings
   ja: ja/03-concepts/Look-through-Earnings
+  zh-tw: zh-tw/03-concepts/透视盈余
 ---
 
 # ルックスルー収益

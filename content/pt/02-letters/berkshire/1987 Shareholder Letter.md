@@ -46,6 +46,7 @@ translations:
   en: en/02-letters/berkshire/1987-Shareholder-Letter
   es: es/02-letters/berkshire/1987-Shareholder-Letter
   pt: pt/02-letters/berkshire/1987-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/1987年股东信
 ---
 # Carta aos acionistas de Berkshire Hathawae — 1987
 

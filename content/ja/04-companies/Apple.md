@@ -17,6 +17,7 @@ translations:
   en: en/04-companies/Apple
   es: es/04-companies/Apple
   ja: ja/04-companies/Apple
+  zh-tw: zh-tw/04-companies/苹果公司
 ---
 
 # Apple

@@ -16,6 +16,7 @@ translations:
   es: es/03-concepts/Underwriting-Discipline
   pt: pt/03-concepts/Underwriting-Discipline
   ja: ja/03-concepts/Underwriting-Discipline
+  zh-tw: zh-tw/03-concepts/承保纪律
 ---
 # Disciplina de suscripción
 

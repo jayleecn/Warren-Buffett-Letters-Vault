@@ -91,6 +91,7 @@ translations:
   en: en/02-letters/berkshire/2011-Shareholder-Letter
   es: es/02-letters/berkshire/2011-Shareholder-Letter
   pt: pt/02-letters/berkshire/2011-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2011年股东信
 ---
 # Carta aos Acionistas da Berkshire Hathaway - 2011| Year                               | Annual Percentage Change                 |                                        |                          |
 |------------------------------------|------------------------------------------|----------------------------------------|--------------------------|

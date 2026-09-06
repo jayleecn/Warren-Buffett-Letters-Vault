@@ -48,6 +48,7 @@ translations:
   en: en/02-letters/berkshire/1990-Shareholder-Letter
   es: es/02-letters/berkshire/1990-Shareholder-Letter
   pt: pt/02-letters/berkshire/1990-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/1990年股东信
 ---
 # Carta aos acionistas da Berkshire Hathaway - 1990
 
