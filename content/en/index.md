@@ -16,10 +16,10 @@ A bilingual knowledge vault for Warren Buffett's partnership letters and Berkshi
 
 ## Navigation
 
-- [[Letters Overview]] — 91 Buffett documents across seven decades
-- [[Concept Map]] — 38 core investment concepts
-- [[Company Index]] — 52 company profiles
-- [[People Index]] — 8 key people
+- [[en/01-index/Letters Overview|Letters Overview]] — 91 Buffett documents across seven decades
+- [[en/01-index/Concept Map|Concept Map]] — 38 core investment concepts
+- [[en/01-index/Company Index|Company Index]] — 52 company profiles
+- [[en/01-index/People Index|People Index]] — 8 key people
 
 ## About
 
