@@ -343,8 +343,14 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                 }
 
                 tag = slugTag(tag)
+                // Skip empty leftovers (e.g. after sluggify strips punctuation-only matches)
+                if (!tag || !tag.trim()) {
+                  return false
+                }
                 if (file.data.frontmatter) {
-                  const noteTags = file.data.frontmatter.tags ?? []
+                  const noteTags = (file.data.frontmatter.tags ?? []).filter(
+                    (t: string) => typeof t === "string" && t.trim().length > 0,
+                  )
                   file.data.frontmatter.tags = [...new Set([...noteTags, tag])]
                 }
 
