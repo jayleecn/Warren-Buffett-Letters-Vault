@@ -13,8 +13,8 @@ tags:
 translations:
   zh: 04-companies/赫尔兹伯格钻石
   en: en/04-companies/Helzberg-Diamonds
+  es: es/04-companies/Helzberg-Diamonds
 ---
-
 # Helzberg Diamonds
 
 ## Company Overview

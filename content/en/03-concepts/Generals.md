@@ -14,8 +14,8 @@ tags:
 translations:
   zh: 03-concepts/低估类投资
   en: en/03-concepts/Generals
+  es: es/03-concepts/Generals
 ---
-
 # Generals
 
 ## Overview

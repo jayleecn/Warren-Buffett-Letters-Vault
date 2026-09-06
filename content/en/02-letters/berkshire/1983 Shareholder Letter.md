@@ -39,8 +39,8 @@ people:
 translations:
   zh: 02-letters/berkshire/1983年股东信
   en: en/02-letters/berkshire/1983-Shareholder-Letter
+  es: es/02-letters/berkshire/1983-Shareholder-Letter
 ---
-
 # Berkshire Hathaway Shareholder Letter — 1983
 
 BERKSHIRE HATHAWAY INC. To the Shareholders of Berkshire Hathaway Inc.: This past year our registered shareholders increased from about 1900 to about 2900. Most of this growth resulted from our merger with Blue Chip Stamps, but there also was an acceleration in the pace of “natural” increase that has raised us from the 1000 level a few years ago. With so many new shareholders, it’s appropriate to summarize the major business principles we follow that pertain to the manager-owner relationship:

@@ -13,8 +13,8 @@ tags:
 translations:
   zh: 04-companies/约翰曼维尔
   en: en/04-companies/Johns-Manville
+  es: es/04-companies/Johns-Manville
 ---
-
 # Johns Manville
 
 ## Company Overview

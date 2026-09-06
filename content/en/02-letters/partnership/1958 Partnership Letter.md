@@ -7,23 +7,23 @@ lang: en
 i18nKey: letter/partnership/1958
 source_file: 1958_Letter_19590211.md
 tags:
-  - partnership-letter
-  - "1958"
+- partnership-letter
+- '1958'
 concepts:
-  - Intrinsic Value
-  - Generals
-  - Workouts
-  - Margin of Safety
+- Intrinsic Value
+- Generals
+- Workouts
+- Margin of Safety
 companies:
-  - Commonwealth Trust Company
-  - First National of Omaha
+- Commonwealth Trust Company
+- First National of Omaha
 people:
-  - Warren Buffett
+- Warren Buffett
 translations:
   zh: 02-letters/partnership/1958年合伙人信
   en: en/02-letters/partnership/1958-Partnership-Letter
+  es: es/02-letters/partnership/1958-Partnership-Letter
 ---
-
 # Buffett Partnership Letter — 1958
 
 1958 Letter  

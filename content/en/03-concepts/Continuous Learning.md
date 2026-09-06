@@ -14,8 +14,8 @@ tags:
 translations:
   zh: 03-concepts/持续学习
   en: en/03-concepts/Continuous-Learning
+  es: es/03-concepts/Continuous-Learning
 ---
-
 # Continuous Learning
 
 ## Overview

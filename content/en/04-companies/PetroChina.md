@@ -13,8 +13,8 @@ tags:
 translations:
   zh: 04-companies/中国石油
   en: en/04-companies/PetroChina
+  es: es/04-companies/PetroChina
 ---
-
 # PetroChina
 
 ## Company Overview

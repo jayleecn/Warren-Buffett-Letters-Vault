@@ -13,8 +13,8 @@ tags:
 translations:
   zh: 04-companies/西方石油
   en: en/04-companies/Occidental-Petroleum
+  es: es/04-companies/Occidental-Petroleum
 ---
-
 # Occidental Petroleum
 
 ## Company Overview

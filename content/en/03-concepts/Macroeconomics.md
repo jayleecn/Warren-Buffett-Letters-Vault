@@ -14,8 +14,8 @@ tags:
 translations:
   zh: 03-concepts/宏观经济
   en: en/03-concepts/Macroeconomics
+  es: es/03-concepts/Macroeconomics
 ---
-
 # Macroeconomics
 
 ## Overview

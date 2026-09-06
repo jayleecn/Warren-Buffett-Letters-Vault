@@ -58,8 +58,8 @@ people:
 translations:
   zh: 02-letters/berkshire/1996年股东信
   en: en/02-letters/berkshire/1996-Shareholder-Letter
+  es: es/02-letters/berkshire/1996-Shareholder-Letter
 ---
-
 # Berkshire Hathaway Shareholder Letter — 1996
 
 BERKSHIRE HATHAWAY INC.

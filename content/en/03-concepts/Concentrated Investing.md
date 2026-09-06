@@ -15,8 +15,8 @@ tags:
 translations:
   zh: 03-concepts/集中投资
   en: en/03-concepts/Concentrated-Investing
+  es: es/03-concepts/Concentrated-Investing
 ---
-
 # Concentrated Investing
 
 ## Definition & Origin

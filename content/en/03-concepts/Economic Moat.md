@@ -15,8 +15,8 @@ tags:
 translations:
   zh: 03-concepts/护城河
   en: en/03-concepts/Economic-Moat
+  es: es/03-concepts/Economic-Moat
 ---
-
 # Economic Moat
 
 ## Overview

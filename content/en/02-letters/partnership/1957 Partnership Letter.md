@@ -7,22 +7,22 @@ lang: en
 i18nKey: letter/partnership/1957
 source_file: 1957_Letter_195802.md
 tags:
-  - partnership-letter
-  - "1957"
+- partnership-letter
+- '1957'
 concepts:
-  - Intrinsic Value
-  - Generals
-  - Workouts
-  - Controls
-  - Margin of Safety
+- Intrinsic Value
+- Generals
+- Workouts
+- Controls
+- Margin of Safety
 companies: []
 people:
-  - Warren Buffett
+- Warren Buffett
 translations:
   zh: 02-letters/partnership/1957年合伙人信
   en: en/02-letters/partnership/1957-Partnership-Letter
+  es: es/02-letters/partnership/1957-Partnership-Letter
 ---
-
 # Buffett Partnership Letter — 1957
 
 1957 Letter  

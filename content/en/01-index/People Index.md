@@ -9,8 +9,8 @@ tags:
 translations:
   zh: 01-index/人物索引
   en: en/01-index/People-Index
+  es: es/01-index/People-Index
 ---
-
 # People Index
 
 Key people discussed across Buffett's letters.

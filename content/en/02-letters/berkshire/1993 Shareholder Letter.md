@@ -45,8 +45,8 @@ people:
 translations:
   zh: 02-letters/berkshire/1993年股东信
   en: en/02-letters/berkshire/1993-Shareholder-Letter
+  es: es/02-letters/berkshire/1993-Shareholder-Letter
 ---
-
 # Berkshire Hathaway Shareholder Letter — 1993
 
 BERKSHIRE HATHAWAY INC.

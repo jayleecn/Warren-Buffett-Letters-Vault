@@ -14,8 +14,8 @@ tags:
 translations:
   zh: 03-concepts/利益一致
   en: en/03-concepts/Skin-in-the-Game
+  es: es/03-concepts/Skin-in-the-Game
 ---
-
 # Skin in the Game
 
 ## Overview

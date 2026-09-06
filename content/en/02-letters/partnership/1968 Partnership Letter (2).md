@@ -21,8 +21,8 @@ people:
 translations:
   zh: 02-letters/partnership/1968年合伙人信(2)
   en: en/02-letters/partnership/1968-Partnership-Letter-(2)
+  es: es/02-letters/partnership/1968-Partnership-Letter-(2)
 ---
-
 # Buffett Partnership Letter — 1968
 
 BUFFETT PARTNERSHIP, LTD.  

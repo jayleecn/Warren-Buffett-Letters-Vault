@@ -55,6 +55,7 @@ people:
 translations:
   zh: 02-letters/berkshire/2024年股东信(2)
   en: en/02-letters/berkshire/2024-Shareholder-Letter-(2)
+  es: es/02-letters/berkshire/2024-Shareholder-Letter-(2)
 ---
 # Berkshire Hathaway Shareholder Letter — 2024 (2)
 

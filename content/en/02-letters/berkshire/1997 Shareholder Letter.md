@@ -54,8 +54,8 @@ people:
 translations:
   zh: 02-letters/berkshire/1997年股东信
   en: en/02-letters/berkshire/1997-Shareholder-Letter
+  es: es/02-letters/berkshire/1997-Shareholder-Letter
 ---
-
 # Berkshire Hathaway Shareholder Letter — 1997
 
 BERKSHIRE HATHAWAY INC.

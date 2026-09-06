@@ -15,8 +15,8 @@ tags:
 translations:
   zh: 04-companies/苹果公司
   en: en/04-companies/Apple
+  es: es/04-companies/Apple
 ---
-
 # Apple
 
 ## Company Overview

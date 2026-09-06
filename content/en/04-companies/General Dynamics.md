@@ -13,8 +13,8 @@ tags:
 translations:
   zh: 04-companies/通用动力
   en: en/04-companies/General-Dynamics
+  es: es/04-companies/General-Dynamics
 ---
-
 # General Dynamics
 
 ## Company Overview

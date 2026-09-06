@@ -46,6 +46,7 @@ people:
 translations:
   zh: 02-letters/berkshire/2023年股东信
   en: en/02-letters/berkshire/2023-Shareholder-Letter
+  es: es/02-letters/berkshire/2023-Shareholder-Letter
 ---
 # Berkshire Hathaway Shareholder Letter — 2023
 

@@ -7,22 +7,22 @@ lang: en
 i18nKey: letter/partnership/1960
 source_file: 1960_Letter_19610130.md
 tags:
-  - partnership-letter
-  - "1960"
+- partnership-letter
+- '1960'
 concepts:
-  - Intrinsic Value
-  - Margin of Safety
-  - Controls
+- Intrinsic Value
+- Margin of Safety
+- Controls
 companies:
-  - Sanborn Map
-  - Dow Jones Industrial Average
+- Sanborn Map
+- Dow Jones Industrial Average
 people:
-  - Warren Buffett
+- Warren Buffett
 translations:
   zh: 02-letters/partnership/1960年合伙人信
   en: en/02-letters/partnership/1960-Partnership-Letter
+  es: es/02-letters/partnership/1960-Partnership-Letter
 ---
-
 # Buffett Partnership Letter — 1960
 
 1960 Letter  

@@ -12,8 +12,8 @@ tags:
 translations:
   zh: 04-companies/乔丹家具
   en: en/04-companies/Jordan's-Furniture
+  es: es/04-companies/Jordan's-Furniture
 ---
-
 # Jordan's Furniture
 
 ## Company Overview

@@ -41,11 +41,11 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
 NotFound.afterDOMLoaded = `
 ;(function () {
   function detectCode(pathname) {
-    if (pathname === "/en" || pathname.startsWith("/en/")) return "en"
-    // future: /ja/, /de/, /fr/
-    if (pathname === "/ja" || pathname.startsWith("/ja/")) return "ja"
-    if (pathname === "/de" || pathname.startsWith("/de/")) return "de"
-    if (pathname === "/fr" || pathname.startsWith("/fr/")) return "fr"
+    // Prefixed locales from siteLocales (en, es, …)
+    const prefixes = ["en", "es", "ja", "de", "fr"]
+    for (const p of prefixes) {
+      if (pathname === "/" + p || pathname.startsWith("/" + p + "/")) return p
+    }
     return "zh"
   }
   function apply404Locale() {

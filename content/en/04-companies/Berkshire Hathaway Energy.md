@@ -15,8 +15,8 @@ tags:
 translations:
   zh: 04-companies/伯克希尔·哈撒韦能源
   en: en/04-companies/Berkshire-Hathaway-Energy
+  es: es/04-companies/Berkshire-Hathaway-Energy
 ---
-
 # Berkshire Hathaway Energy
 
 ## Company Overview

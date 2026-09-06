@@ -33,7 +33,12 @@ function lookupBySlug(simple: string): LocalePaths | undefined {
 }
 
 function normalizeTarget(target: string): string {
-  if (target === "en" || target === "en/") return "en/index"
+  const cleaned = target.replace(/\/+$/, "")
+  for (const loc of SITE_LOCALES) {
+    if (loc.prefix && (cleaned === loc.prefix || target === loc.prefix + "/")) {
+      return loc.prefix + "/index"
+    }
+  }
   if (target === "" || target === "/") return "index"
   return target
 }

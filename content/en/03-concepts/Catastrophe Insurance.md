@@ -16,8 +16,8 @@ tags:
 translations:
   zh: 03-concepts/巨灾保险
   en: en/03-concepts/Catastrophe-Insurance
+  es: es/03-concepts/Catastrophe-Insurance
 ---
-
 # Catastrophe Insurance
 
 ## Definition & Origin

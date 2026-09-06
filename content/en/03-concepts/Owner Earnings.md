@@ -13,8 +13,8 @@ tags:
 translations:
   zh: 03-concepts/所有者盈余
   en: en/03-concepts/Owner-Earnings
+  es: es/03-concepts/Owner-Earnings
 ---
-
 # Owner Earnings
 
 ## Overview

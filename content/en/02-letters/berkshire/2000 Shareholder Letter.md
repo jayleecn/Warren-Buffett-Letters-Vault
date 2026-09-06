@@ -52,8 +52,8 @@ people:
 translations:
   zh: 02-letters/berkshire/2000年股东信
   en: en/02-letters/berkshire/2000-Shareholder-Letter
+  es: es/02-letters/berkshire/2000-Shareholder-Letter
 ---
-
 # Berkshire Hathaway Shareholder Letter — 2000
 
 Note: The following table appears in the printed Annual Report on the facing page of the Chairman's Letter and is referred to in that letter. Berkshire’s Corporate Performance vs. the S&P 500 Annual Percentage Change in Per-Share in S&P 500 Book Value of with Dividends Relative Berkshire Included Results Year (1) (2) (1)-(2)

@@ -13,8 +13,8 @@ tags:
 translations:
   zh: 03-concepts/独立思考
   en: en/03-concepts/Independent-Thinking
+  es: es/03-concepts/Independent-Thinking
 ---
-
 # Independent Thinking
 
 ## Overview

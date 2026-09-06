@@ -14,8 +14,8 @@ tags:
 translations:
   zh: 03-concepts/长期持有
   en: en/03-concepts/Long-term-Holding
+  es: es/03-concepts/Long-term-Holding
 ---
-
 # Long-term Holding
 
 ## Overview

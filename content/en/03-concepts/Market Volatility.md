@@ -13,8 +13,8 @@ tags:
 translations:
   zh: 03-concepts/市场波动
   en: en/03-concepts/Market-Volatility
+  es: es/03-concepts/Market-Volatility
 ---
-
 # Market Volatility
 
 ## Overview

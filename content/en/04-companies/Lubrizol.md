@@ -12,8 +12,8 @@ tags:
 translations:
   zh: 04-companies/路博润
   en: en/04-companies/Lubrizol
+  es: es/04-companies/Lubrizol
 ---
-
 # Lubrizol
 
 ## Company Overview
