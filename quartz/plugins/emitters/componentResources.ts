@@ -367,6 +367,22 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
         ext: ".js",
         content: postscript,
       })
+
+      // Cloudflare Pages: do not pin unhashed entry JS for 4h (stale Explorer/Search).
+      yield write({
+        ctx,
+        slug: "_headers" as FullSlug,
+        ext: "",
+        content: `/*
+  Cache-Control: public, max-age=0, must-revalidate
+/postscript.js
+  Cache-Control: public, max-age=0, must-revalidate
+/prescript.js
+  Cache-Control: public, max-age=0, must-revalidate
+/index.css
+  Cache-Control: public, max-age=0, must-revalidate
+`,
+      })
     },
     async *partialEmit() {},
   }

@@ -45,14 +45,14 @@ function explorerStorageKey(slug: string): string {
 }
 
 /** Root-absolute href so Explorer never leaks into another locale via ../ relative resolution. */
-function hrefForSlug(targetSlug: FullSlug): string {
+function buffettExplorerHref(targetSlug: FullSlug): string {
   const simple = simplifySlug(targetSlug)
   if (!simple || simple === "/" || simple === "index" || simple === ".") return "/"
   return "/" + String(simple).replace(/^\/+/, "")
 }
 
 /** Keep only entries that belong to the active locale (or zh root). */
-function entriesForLocale(
+function buffettEntriesForLocale(
   all: [FullSlug, ContentDetails][],
   activePrefix: string | null,
 ): [FullSlug, ContentDetails][] {
@@ -131,7 +131,7 @@ function createFileNode(currentSlug: FullSlug, node: FileTrieNode): HTMLLIElemen
   const clone = template.content.cloneNode(true) as DocumentFragment
   const li = clone.querySelector("li") as HTMLLIElement
   const a = li.querySelector("a") as HTMLAnchorElement
-  a.href = hrefForSlug(node.slug)
+  a.href = buffettExplorerHref(node.slug)
   a.dataset.for = node.slug
   a.textContent = node.displayName
 
@@ -166,7 +166,7 @@ function createFolderNode(
     // Replace button with link for link behavior
     const button = titleContainer.querySelector(".folder-button") as HTMLElement
     const a = document.createElement("a")
-    a.href = hrefForSlug(folderPath)
+    a.href = buffettExplorerHref(folderPath)
     a.dataset.for = folderPath
     a.className = "folder-title"
     a.textContent = node.displayName
@@ -234,7 +234,7 @@ async function setupExplorer(currentSlug: FullSlug) {
       detectLocalePrefix(window.location.pathname) ?? detectLocalePrefix(currentSlug)
     // Filter contentIndex first so a missing locale folder cannot silently
     // leave the full multilingual trie on screen.
-    const entries = entriesForLocale(
+    const entries = buffettEntriesForLocale(
       [...Object.entries(data)] as [FullSlug, ContentDetails][],
       activePrefix,
     )
