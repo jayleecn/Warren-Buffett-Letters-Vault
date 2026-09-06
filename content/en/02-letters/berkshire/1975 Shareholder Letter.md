@@ -32,9 +32,7 @@ translations:
   en: en/02-letters/berkshire/1975-Shareholder-Letter
 ---
 
-# Berkshire Hathaway Shareholder Letter - 1975
-
-## Berkshire Hathaway Inc.
+# Berkshire Hathaway Shareholder Letter — 1975
 
 __
 
@@ -45,7 +43,7 @@ Last year, when discussing the prospects for 1975, we stated “the outlook for 
 
 On balance, however, current trends indicate a somewhat brighter 1976. Operations and prospects will be discussed in greater detail below, under specific industry titles. Our expectation is that significantly better results in textiles, earnings added from recent acquisitions, an increase in equity in earnings of Blue Chip Stamps resulting from an enlarged ownership interest, and at least a moderate improvement in insurance underwriting results will more than offset other possible negatives to produce greater earnings in 1976. The major variable—and by far the most difficult to predict with any feeling of confidence—is the insurance underwriting result. Present very tentative indications are that underwriting improvement is in prospect. If such improvement is moderate, our overall gain in earnings in 1976 likewise will prove moderate. More significant underwriting improvement could give us a major gain in earnings.
 
-#### Textile Operations
+## Textile Operations
 
 During the first half of 1975 sales of textile products were extremely depressed, resulting in major production curtailments. Operations ran at a significant loss, with employment down as much as 53% from a year earlier.
 
@@ -57,7 +55,7 @@ We expect a good level of profits from textiles in 1976. Continued progress is b
 
 We have great confidence in the ability of Ken Chace and his team to maximize our strengths in textiles. Therefore, we continue to look for ways to increase further our scale of operations while avoiding major capital investment in new fixed assets which we consider unwise, considering the relatively low returns historically earned on large scale investment in new textile equipment.
 
-#### Insurance Underwriting
+## Insurance Underwriting
 
 The property and casualty insurance industry had its worst year in history during 1975. We did our share—unfortunately, even somewhat more. Really disastrous results were concentrated in auto and long-tail (contracts where settlement of loss usually occurs long after the loss event) lines.
 
@@ -75,7 +73,7 @@ At our Home and Automobile Insurance Company subsidiary, now writing auto busine
 
 Overall, our insurance operation will produce a substantial gain in premium volume during 1976. Much of this will reflect increased rates rather than more policies. Under normal circumstances such a gain in volume would be welcome, but our emotions are mixed at present. Underwriting experience should improve—and we expect it to—but our confidence level is not high. While our efforts will be devoted to obtaining a combined ratio below 100, it is unlikely to be attained during 1976.
 
-#### Insurance Investments
+## Insurance Investments
 
 Gains in investment income were moderate during 1975 because premium volume remained flat and underwriting losses reduced funds available for investment. Invested assets, measured at cost at yearend, were close to identical with the level at the beginning of the year.
 
@@ -87,7 +85,7 @@ With this approach, stock market fluctuations are of little importance to us—e
 
 We have continued to maintain a strong liquid position in our insurance companies. In last year’s annual report we explained how variations of 1/10 of 1% in interest rates result in million dollar swings in market value of our bonds. We consider such market fluctuation of minor importance as our liquidity and general financial strength make it highly improbable that bonds will have to be sold at times other than those of our choice.
 
-#### Banking
+## Banking
 
 It is difficult to find adjectives to describe the performance of Eugene Abegg, Chief Executive of Illinois National Bank and Trust of Rockford, Illinois, our banking subsidiary.
 
@@ -99,7 +97,7 @@ Gene Abegg opened the doors of the Illinois National Bank in 1931 with paid-in c
 
 Under the present interest rate structure, it is expected that earnings of the Bank will be off somewhat during 1976 but still will remain at a highly satisfactory level.
 
-#### Blue Chip Stamps
+## Blue Chip Stamps
 
 During 1975 our holdings of Blue Chip Stamps remained at 25½% of that company’s outstanding shares. However, early in 1976 our holdings were increased to 31½%. We expect some increase in our equity in Blue Chip’s earnings in 1976 because of this increased ownership.
 
@@ -107,15 +105,15 @@ The stamp business continues its precipitous decline with volume in the year end
 
 Shareholders of Berkshire Hathaway Inc. desiring the current annual report of Blue Chip Stamps should write Mr. Robert H. Bird, Secretary, Blue Chip Stamps, 5801 South Eastern Avenue, Los Angeles, California 90040.
 
-#### Federal Income Tax Implications
+## Federal Income Tax Implications
 
 In reading our earnings statement you will notice a significant amount of Federal income taxes paid in earlier years are now recoverable because of the net operating loss, as computed for tax purposes, sustained in 1975. Such loss results from the exclusion from income of 100% of interest from state and local issues, and 85% of dividends from domestic corporations. We have exhausted our reservoir of available tax recoveries and, therefore, a repeat of our overall operating performance in 1976 would produce much smaller net earnings. While we do not expect this result, it is important that you are aware of the absence of this cushion in the event that operating losses, as calculated for Federal tax purposes, should continue.
 
-#### Acquisition of K & W Products
+## Acquisition of K & W Products
 
 In addition to the 1975 Waumbec acquisition, we acquired for cash and notes on January 6, 1978, 100% of the assets of K & W Products, including its insurance subsidiaries. The insurance operations are minor in scope, representing business already associated with National Indemnity Company. K & W Products manufactures specialty automotive chemicals for use in automobile maintenance, such as radiator and block sealants, gasket compounds and fuel and oil additives. The company has extensive trademark or trade name protection for its products, which it manufactures at plants in California and Indiana. Although relatively small, with sales of a little over $2 million, it consistently has generated favorable earnings. Positioned as we now are with respect to income taxes, the addition of a solid source of taxable income is particularly welcome.
 
-#### General Review
+## General Review
 
 Your present management assumed responsibility at Berkshire Hathaway in May, 1965. At the end of the prior fiscal year (September, 1964) the net worth of the Company was $22.1 million, and 1,137,778 common shares were outstanding, with a resulting book value of $19.46 per share. Ten years earlier, Berkshire Hathaway’s net worth had been $53.4 million. Dividends and stock repurchases accounted for over $21 million of the decline in company net worth, but aggregate net losses of $9.8 million had been incurred on sales of $595 million during the decade.
 
