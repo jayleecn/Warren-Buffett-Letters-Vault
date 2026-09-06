@@ -1,6 +1,6 @@
 /**
  * Site content languages. Add ja/de/fr here later — Explorer, locale UI,
- * LanguageSwitcher, and path helpers all read from this list.
+ * LanguageSwitcher, tags, and path helpers all read from this list.
  *
  * Convention: default locale (zh) lives at content root; others under content/{prefix}/.
  */
@@ -45,4 +45,58 @@ export function localeFromSlug(slug: string): SiteLocale {
 
 export function homeSlugForLocale(loc: SiteLocale): string {
   return loc.prefix ? `${loc.prefix}/index` : "index"
+}
+
+/** True if slug belongs to this content language tree. */
+export function slugBelongsToLocale(slug: string, loc: SiteLocale): boolean {
+  if (loc.prefix) {
+    return slug === loc.prefix || slug === `${loc.prefix}/index` || slug.startsWith(`${loc.prefix}/`)
+  }
+  for (const p of localePrefixes()) {
+    if (slug === p || slug === `${p}/index` || slug.startsWith(`${p}/`)) return false
+  }
+  return true
+}
+
+/** Strip a known locale prefix; returns path relative to that locale root. */
+export function stripLocalePrefix(slug: string): string {
+  for (const loc of SITE_LOCALES) {
+    if (!loc.prefix) continue
+    if (slug === loc.prefix || slug === `${loc.prefix}/index`) return "index"
+    if (slug.startsWith(`${loc.prefix}/`)) return slug.slice(loc.prefix.length + 1)
+  }
+  return slug
+}
+
+/**
+ * Tag listing slug for a locale.
+ * zh: tags/{tag}   en: en/tags/{tag}
+ * Pass tag without "tags/" prefix; use "index" for the all-tags page.
+ */
+export function tagSlugForLocale(tag: string, loc: SiteLocale): string {
+  const leaf = !tag || tag === "/" || tag === "index" ? "tags/index" : `tags/${tag}`
+  return loc.prefix ? `${loc.prefix}/${leaf}` : leaf
+}
+
+/** Parse tags/... or {prefix}/tags/... slugs. */
+export function parseTagSlug(slug: string): { loc: SiteLocale; tag: string } | null {
+  for (const loc of SITE_LOCALES) {
+    if (!loc.prefix) continue
+    const head = `${loc.prefix}/tags`
+    if (slug === head || slug === `${head}/index`) {
+      return { loc, tag: "/" }
+    }
+    if (slug.startsWith(`${head}/`)) {
+      const rest = slug.slice(head.length + 1)
+      return { loc, tag: rest === "index" ? "/" : rest }
+    }
+  }
+  if (slug === "tags" || slug === "tags/index") {
+    return { loc: DEFAULT_LOCALE, tag: "/" }
+  }
+  if (slug.startsWith("tags/")) {
+    const rest = slug.slice("tags/".length)
+    return { loc: DEFAULT_LOCALE, tag: rest === "index" ? "/" : rest }
+  }
+  return null
 }
