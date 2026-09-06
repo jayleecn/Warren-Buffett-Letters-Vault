@@ -15,6 +15,7 @@ translations:
   zh: 03-concepts/通货膨胀
   en: en/03-concepts/Inflation
   es: es/03-concepts/Inflation
+  pt: pt/03-concepts/Inflation
   ja: ja/03-concepts/Inflation
 ---
 # Inflation

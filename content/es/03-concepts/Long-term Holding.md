@@ -15,6 +15,7 @@ translations:
   zh: 03-concepts/长期持有
   en: en/03-concepts/Long-term-Holding
   es: es/03-concepts/Long-term-Holding
+  pt: pt/03-concepts/Long-term-Holding
   ja: ja/03-concepts/Long-term-Holding
 ---
 # Tenencia a largo plazo

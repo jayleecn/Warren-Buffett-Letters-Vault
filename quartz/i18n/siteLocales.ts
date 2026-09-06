@@ -4,7 +4,7 @@
  *
  * Convention: default locale (zh) lives at content root; others under content/{prefix}/.
  */
-export type SiteLocaleCode = "zh" | "en" | "es" | "ja" | "de" | "fr"
+export type SiteLocaleCode = "zh" | "en" | "es" | "pt" | "ja" | "de" | "fr"
 
 export type SiteLocale = {
   code: SiteLocaleCode
@@ -21,6 +21,7 @@ export const SITE_LOCALES: readonly SiteLocale[] = [
   { code: "zh", label: "中文", hreflang: "zh-CN", quartzLocale: "zh-CN", prefix: null },
   { code: "en", label: "English", hreflang: "en", quartzLocale: "en-US", prefix: "en" },
   { code: "es", label: "Español", hreflang: "es", quartzLocale: "es-ES", prefix: "es" },
+  { code: "pt", label: "Português", hreflang: "pt-BR", quartzLocale: "pt-BR", prefix: "pt" },
   { code: "ja", label: "日本語", hreflang: "ja", quartzLocale: "ja-JP", prefix: "ja" },
   // Enable when content exists:
   // { code: "de", label: "Deutsch", hreflang: "de", quartzLocale: "de-DE", prefix: "de" },

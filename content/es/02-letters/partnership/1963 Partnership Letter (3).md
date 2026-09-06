@@ -31,6 +31,7 @@ translations:
   zh: 02-letters/partnership/1963年合伙人信(3)
   en: en/02-letters/partnership/1963-Partnership-Letter-(3)
   es: es/02-letters/partnership/1963-Partnership-Letter-(3)
+  pt: pt/02-letters/partnership/1963-Partnership-Letter-(3)
   ja: ja/02-letters/partnership/1963-Partnership-Letter-(3)
 ---
 # Carta de asociación de Buffett - 1963
