@@ -30,18 +30,21 @@ function computeTagInfo(
 ): [Set<string>, Record<string, ProcessedContent>] {
   const uiLocale = (loc.quartzLocale in TRANSLATIONS ? loc.quartzLocale : "en-US") as ValidLocale
   const tags: Set<string> = new Set(
-    localeFiles.flatMap((data) => data.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes),
+    localeFiles
+      .flatMap((data) => data.frontmatter?.tags ?? [])
+      .flatMap(getAllSegmentPrefixes)
+      .filter((t) => typeof t === "string" && t.trim().length > 0),
   )
 
   tags.add("index")
 
   const tagDescriptions: Record<string, ProcessedContent> = Object.fromEntries(
     [...tags].map((tag) => {
-      const title =
-        tag === "index"
-          ? i18n(uiLocale).pages.tagContent.tagIndex
-          : `${i18n(uiLocale).pages.tagContent.tag}: ${tag}`
-      const slug = tagSlugForLocale(tag, loc) as FullSlug
+      const isIndex = tag === "index"
+      const title = isIndex
+        ? i18n(uiLocale).pages.tagContent.tagIndex
+        : `${i18n(uiLocale).pages.tagContent.tag}: ${tag}`
+      const slug = tagSlugForLocale(isIndex ? "index" : tag, loc) as FullSlug
       return [
         tag,
         defaultProcessedContent({
@@ -136,7 +139,8 @@ export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) 
         if (localeFiles.length === 0 && loc.prefix) continue
 
         const [tags, tagDescriptions] = computeTagInfo(localeFiles, content, loc)
-        for (const tag of tags) {
+        const ordered = [...tags].sort((a, b) => Number(a === "index") - Number(b === "index"))
+        for (const tag of ordered) {
           yield processTagPage(ctx, tag, tagDescriptions[tag], allFiles, opts, resources)
         }
       }
@@ -166,7 +170,8 @@ export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) 
         const localeFiles = allFiles.filter((f) => slugBelongsToLocale(f.slug!, loc))
         if (localeFiles.length === 0 && loc.prefix) continue
         const [tags, tagDescriptions] = computeTagInfo(localeFiles, content, loc)
-        for (const tag of tags) {
+        const ordered = [...tags].sort((a, b) => Number(a === "index") - Number(b === "index"))
+        for (const tag of ordered) {
           yield processTagPage(ctx, tag, tagDescriptions[tag], allFiles, opts, resources)
         }
       }
