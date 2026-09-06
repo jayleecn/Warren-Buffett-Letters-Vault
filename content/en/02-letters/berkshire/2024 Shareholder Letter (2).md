@@ -216,7 +216,7 @@ Note: Data are for calendar years with these exceptions: 1965 and 1966, year end
 - [[Capital Allocation]]
 - [[Operating Earnings]]
 - [[Share Repurchases]]
-- [[## Property-Casualty Insurance]]
+- [[Property-Casualty Insurance]]
 - [[Long-term Investing]]
 - [[American Tailwind]]
 - [[Compounding]]
