@@ -1,14 +1,22 @@
 ---
-title: "盖可保险（GEICO）"
+title: 盖可保险（GEICO）
 type: company
-aliases: [GEICO, Government Employees Insurance Company, 盖可]
-first_mentioned: "1976年股东信"
+aliases:
+- GEICO
+- Government Employees Insurance Company
+- 盖可
+first_mentioned: 1976年股东信
 mention_count: 75
-industry: "保险"
+industry: 保险
 tags:
-  - 公司
-  - 保险业
-  - 核心持仓
+- 公司
+- 保险业
+- 核心持仓
+lang: zh
+i18nKey: company/geico
+translations:
+  zh: 04-companies/盖可保险（GEICO）
+  en: en/04-companies/GEICO
 ---
 
 # 盖可保险（GEICO）
