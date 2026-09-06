@@ -29,7 +29,9 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
   return {
     name: "Latex",
     markdownPlugins() {
-      return [remarkMath]
+      // Buffett letters use many dollar amounts ($11.00, $3.5 billion).
+      // Disable single-$ math so those are not eaten as TeX; use \( \) / $$ $$ instead.
+      return [[remarkMath, { singleDollarTextMath: false }]]
     },
     htmlPlugins() {
       switch (engine) {
