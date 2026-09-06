@@ -1,14 +1,16 @@
 import { FullSlug, resolveRelative } from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
+import { localeFromSlug, tagSlugForLocale } from "../i18n/siteLocales"
 
 const TagList: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   const tags = fileData.frontmatter?.tags
   if (tags && tags.length > 0) {
+    const loc = localeFromSlug(fileData.slug!)
     return (
       <ul class={classNames(displayClass, "tags")}>
         {tags.map((tag) => {
-          const linkDest = resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)
+          const linkDest = resolveRelative(fileData.slug!, tagSlugForLocale(tag, loc) as FullSlug)
           return (
             <li>
               <a href={linkDest} class="internal tag-link">
