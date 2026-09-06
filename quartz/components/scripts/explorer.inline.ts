@@ -1,5 +1,5 @@
 import { FileTrieNode } from "../../util/fileTrie"
-import { FullSlug, resolveRelative, simplifySlug } from "../../util/path"
+import { FullSlug, simplifySlug } from "../../util/path"
 import { ContentDetails } from "../../plugins/emitters/contentIndex"
 
 type MaybeHTMLElement = HTMLElement | undefined
@@ -42,6 +42,28 @@ function detectLocalePrefix(slug: string): string | null {
 function explorerStorageKey(slug: string): string {
   const prefix = detectLocalePrefix(slug)
   return prefix ? `fileTree-${prefix}` : "fileTree-zh"
+}
+
+/** Root-absolute href so Explorer never leaks into another locale via ../ relative resolution. */
+function hrefForSlug(targetSlug: FullSlug): string {
+  const simple = simplifySlug(targetSlug)
+  if (!simple || simple === "/" || simple === "index" || simple === ".") return "/"
+  return "/" + String(simple).replace(/^\/+/, "")
+}
+
+/** Keep only entries that belong to the active locale (or zh root). */
+function entriesForLocale(
+  all: [FullSlug, ContentDetails][],
+  activePrefix: string | null,
+): [FullSlug, ContentDetails][] {
+  if (activePrefix) {
+    const head = `${activePrefix}/`
+    return all.filter(([slug]) => slug === `${activePrefix}/index` || slug.startsWith(head))
+  }
+  return all.filter(([slug]) => {
+    const top = slug.split("/")[0]
+    return !LOCALE_PREFIXES.includes(top)
+  })
 }
 
 let currentExplorerState: Array<FolderState>
@@ -109,7 +131,7 @@ function createFileNode(currentSlug: FullSlug, node: FileTrieNode): HTMLLIElemen
   const clone = template.content.cloneNode(true) as DocumentFragment
   const li = clone.querySelector("li") as HTMLLIElement
   const a = li.querySelector("a") as HTMLAnchorElement
-  a.href = resolveRelative(currentSlug, node.slug)
+  a.href = hrefForSlug(node.slug)
   a.dataset.for = node.slug
   a.textContent = node.displayName
 
@@ -144,7 +166,7 @@ function createFolderNode(
     // Replace button with link for link behavior
     const button = titleContainer.querySelector(".folder-button") as HTMLElement
     const a = document.createElement("a")
-    a.href = resolveRelative(currentSlug, folderPath)
+    a.href = hrefForSlug(folderPath)
     a.dataset.for = folderPath
     a.className = "folder-title"
     a.textContent = node.displayName
@@ -179,7 +201,10 @@ function createFolderNode(
   return li
 }
 
+let explorerSetupGeneration = 0
+
 async function setupExplorer(currentSlug: FullSlug) {
+  const setupGeneration = ++explorerSetupGeneration
   const allExplorers = document.querySelectorAll("div.explorer") as NodeListOf<HTMLElement>
 
   for (const explorer of allExplorers) {
@@ -203,7 +228,16 @@ async function setupExplorer(currentSlug: FullSlug) {
     )
 
     const data = await fetchData
-    const entries = [...Object.entries(data)] as [FullSlug, ContentDetails][]
+    if (setupGeneration !== explorerSetupGeneration) return
+    // Pathname is source of truth for locale (body dataset.slug can lag on SPA nav).
+    const activePrefix =
+      detectLocalePrefix(window.location.pathname) ?? detectLocalePrefix(currentSlug)
+    // Filter contentIndex first so a missing locale folder cannot silently
+    // leave the full multilingual trie on screen.
+    const entries = entriesForLocale(
+      [...Object.entries(data)] as [FullSlug, ContentDetails][],
+      activePrefix,
+    )
     const trie = FileTrieNode.fromEntries(entries)
 
     // Apply functions in order
@@ -221,16 +255,11 @@ async function setupExplorer(currentSlug: FullSlug) {
       }
     }
 
-    // Scope explorer by language: prefixed locales (en/ja/…) show only that
-    // subtree; default (zh root) hides all prefixed locale folders.
-    const activePrefix = detectLocalePrefix(currentSlug)
+    // Prefixed locales still nest under en/|es/|… — unwrap that folder.
+    // Fail closed (empty) instead of showing the unscoped tree.
     if (activePrefix) {
       const localeFolder = trie.children.find((c) => c.slugSegment === activePrefix)
-      if (localeFolder?.isFolder) {
-        trie.children = localeFolder.children
-      }
-    } else {
-      trie.children = trie.children.filter((c) => !LOCALE_PREFIXES.includes(c.slugSegment))
+      trie.children = localeFolder?.isFolder ? localeFolder.children : []
     }
 
     // Get folder paths for state management
