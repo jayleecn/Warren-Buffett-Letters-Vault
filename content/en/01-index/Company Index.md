@@ -11,6 +11,7 @@ translations:
   en: en/01-index/Company-Index
   es: es/01-index/Company-Index
   pt: pt/01-index/Company-Index
+  ja: ja/01-index/Company-Index
 ---
 # Company Index
 

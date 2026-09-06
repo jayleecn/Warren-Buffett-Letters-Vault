@@ -23,6 +23,7 @@ translations:
   en: en/02-letters/partnership/1960-Partnership-Letter
   es: es/02-letters/partnership/1960-Partnership-Letter
   pt: pt/02-letters/partnership/1960-Partnership-Letter
+  ja: ja/02-letters/partnership/1960-Partnership-Letter
 ---
 # Carta de asociación de Buffett - 1960
 

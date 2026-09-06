@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/Diversified-Retailing
   es: es/04-companies/Diversified-Retailing
   pt: pt/04-companies/Diversified-Retailing
+  ja: ja/04-companies/Diversified-Retailing
 ---
 # Diversified Retailing
 

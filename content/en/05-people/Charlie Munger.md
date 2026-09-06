@@ -16,6 +16,7 @@ translations:
   en: en/05-people/Charlie-Munger
   es: es/05-people/Charlie-Munger
   pt: pt/05-people/Charlie-Munger
+  ja: ja/05-people/Charlie-Munger
 ---
 # Charlie Munger
 

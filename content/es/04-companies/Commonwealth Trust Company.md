@@ -14,6 +14,7 @@ translations:
   en: en/04-companies/Commonwealth-Trust-Company
   es: es/04-companies/Commonwealth-Trust-Company
   pt: pt/04-companies/Commonwealth-Trust-Company
+  ja: ja/04-companies/Commonwealth-Trust-Company
 ---
 # Commonwealth Trust Company
 

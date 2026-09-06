@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Shareholder-Orientation
   es: es/03-concepts/Shareholder-Orientation
   pt: pt/03-concepts/Shareholder-Orientation
+  ja: ja/03-concepts/Shareholder-Orientation
 ---
 # Shareholder Orientation
 

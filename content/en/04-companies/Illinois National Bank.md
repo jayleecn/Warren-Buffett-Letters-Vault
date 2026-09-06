@@ -14,6 +14,7 @@ translations:
   en: en/04-companies/Illinois-National-Bank
   es: es/04-companies/Illinois-National-Bank
   pt: pt/04-companies/Illinois-National-Bank
+  ja: ja/04-companies/Illinois-National-Bank
 ---
 # Illinois National Bank
 

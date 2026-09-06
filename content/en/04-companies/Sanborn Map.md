@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/Sanborn-Map
   es: es/04-companies/Sanborn-Map
   pt: pt/04-companies/Sanborn-Map
+  ja: ja/04-companies/Sanborn-Map
 ---
 # Sanborn Map
 

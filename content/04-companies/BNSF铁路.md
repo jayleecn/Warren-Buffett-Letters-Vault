@@ -18,6 +18,7 @@ translations:
   en: en/04-companies/BNSF-Railway
   es: es/04-companies/BNSF-Railway
   pt: pt/04-companies/BNSF-Railway
+  ja: ja/04-companies/BNSF-Railway
 ---
 # BNSF铁路
 

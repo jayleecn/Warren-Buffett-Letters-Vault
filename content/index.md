@@ -11,6 +11,7 @@ translations:
   en: en/index
   es: es/index
   pt: pt/index
+  ja: ja/index
 ---
 # 巴菲特致股东信
 

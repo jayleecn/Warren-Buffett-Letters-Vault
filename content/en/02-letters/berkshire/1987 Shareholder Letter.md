@@ -46,6 +46,7 @@ translations:
   en: en/02-letters/berkshire/1987-Shareholder-Letter
   es: es/02-letters/berkshire/1987-Shareholder-Letter
   pt: pt/02-letters/berkshire/1987-Shareholder-Letter
+  ja: ja/02-letters/berkshire/1987-Shareholder-Letter
 ---
 # Berkshire Hathaway Shareholder Letter — 1987
 

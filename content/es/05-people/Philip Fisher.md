@@ -16,6 +16,7 @@ translations:
   en: en/05-people/Philip-Fisher
   es: es/05-people/Philip-Fisher
   pt: pt/05-people/Philip-Fisher
+  ja: ja/05-people/Philip-Fisher
 ---
 # Philip Fisher
 

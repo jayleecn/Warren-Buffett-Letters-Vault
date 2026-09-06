@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/Benjamin-Moore
   es: es/04-companies/Benjamin-Moore
   pt: pt/04-companies/Benjamin-Moore
+  ja: ja/04-companies/Benjamin-Moore
 ---
 # Benjamin Moore
 

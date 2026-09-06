@@ -47,6 +47,7 @@ translations:
   en: en/02-letters/berkshire/1993-Shareholder-Letter
   es: es/02-letters/berkshire/1993-Shareholder-Letter
   pt: pt/02-letters/berkshire/1993-Shareholder-Letter
+  ja: ja/02-letters/berkshire/1993-Shareholder-Letter
 ---
 # Berkshire Hathaway Shareholder Letter — 1993
 

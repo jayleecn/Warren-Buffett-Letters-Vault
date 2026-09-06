@@ -20,6 +20,7 @@ translations:
   en: en/02-letters/partnership/1969-Partnership-Letter-(5)
   es: es/02-letters/partnership/1969-Partnership-Letter-(5)
   pt: pt/02-letters/partnership/1969-Partnership-Letter-(5)
+  ja: ja/02-letters/partnership/1969-Partnership-Letter-(5)
 ---
 # Carta de asociación de Buffett - 1969
 

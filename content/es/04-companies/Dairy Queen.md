@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/Dairy-Queen
   es: es/04-companies/Dairy-Queen
   pt: pt/04-companies/Dairy-Queen
+  ja: ja/04-companies/Dairy-Queen
 ---
 # Dairy Queen
 

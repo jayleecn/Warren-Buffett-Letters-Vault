@@ -76,6 +76,7 @@ translations:
   en: en/02-letters/berkshire/2012-Shareholder-Letter
   es: es/02-letters/berkshire/2012-Shareholder-Letter
   pt: pt/02-letters/berkshire/2012-Shareholder-Letter
+  ja: ja/02-letters/berkshire/2012-Shareholder-Letter
 ---
 # Carta a los accionistas de Berkshire Hathaway - 2012| Year                               | Annual Percentage Change                 |                                        |                          |
 |------------------------------------|------------------------------------------|----------------------------------------|--------------------------|

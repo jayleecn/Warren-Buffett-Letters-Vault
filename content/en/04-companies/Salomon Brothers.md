@@ -16,6 +16,7 @@ translations:
   en: en/04-companies/Salomon-Brothers
   es: es/04-companies/Salomon-Brothers
   pt: pt/04-companies/Salomon-Brothers
+  ja: ja/04-companies/Salomon-Brothers
 ---
 # Salomon Brothers
 

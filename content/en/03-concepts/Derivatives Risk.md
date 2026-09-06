@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Derivatives-Risk
   es: es/03-concepts/Derivatives-Risk
   pt: pt/03-concepts/Derivatives-Risk
+  ja: ja/03-concepts/Derivatives-Risk
 ---
 # Derivatives Risk
 

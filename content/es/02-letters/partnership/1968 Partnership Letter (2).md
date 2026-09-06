@@ -23,6 +23,7 @@ translations:
   en: en/02-letters/partnership/1968-Partnership-Letter-(2)
   es: es/02-letters/partnership/1968-Partnership-Letter-(2)
   pt: pt/02-letters/partnership/1968-Partnership-Letter-(2)
+  ja: ja/02-letters/partnership/1968-Partnership-Letter-(2)
 ---
 # Carta de asociación de Buffett - 1968
 

@@ -11,6 +11,7 @@ translations:
   en: en/01-index/Letters-Overview
   es: es/01-index/Letters-Overview
   pt: pt/01-index/Letters-Overview
+  ja: ja/01-index/Letters-Overview
 ---
 # Letters Overview
 

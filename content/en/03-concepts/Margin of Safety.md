@@ -15,6 +15,7 @@ translations:
   en: en/03-concepts/Margin-of-Safety
   es: es/03-concepts/Margin-of-Safety
   pt: pt/03-concepts/Margin-of-Safety
+  ja: ja/03-concepts/Margin-of-Safety
 ---
 # Margin of Safety
 

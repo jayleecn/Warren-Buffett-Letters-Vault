@@ -10,6 +10,7 @@ translations:
   en: en/index
   es: es/index
   pt: pt/index
+  ja: ja/index
 ---
 # Bóveda de cartas de Buffett
 

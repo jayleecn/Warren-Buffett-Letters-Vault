@@ -17,6 +17,7 @@ translations:
   en: en/05-people/Warren-Buffett
   es: es/05-people/Warren-Buffett
   pt: pt/05-people/Warren-Buffett
+  ja: ja/05-people/Warren-Buffett
 ---
 # Warren Buffett
 

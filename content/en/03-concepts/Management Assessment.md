@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Management-Assessment
   es: es/03-concepts/Management-Assessment
   pt: pt/03-concepts/Management-Assessment
+  ja: ja/03-concepts/Management-Assessment
 ---
 # Management Assessment
 

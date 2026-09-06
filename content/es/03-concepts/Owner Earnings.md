@@ -15,6 +15,7 @@ translations:
   en: en/03-concepts/Owner-Earnings
   es: es/03-concepts/Owner-Earnings
   pt: pt/03-concepts/Owner-Earnings
+  ja: ja/03-concepts/Owner-Earnings
 ---
 # Ganancias del propietario
 

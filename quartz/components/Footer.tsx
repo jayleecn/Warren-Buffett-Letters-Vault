@@ -8,18 +8,63 @@ interface Options {
   links: Record<string, string>
 }
 
+/** Site attribution: WeChat name「太白钓雪」stays Chinese in every language. */
+type FooterCopy = {
+  sourceLabel: string
+  /** JSX-friendly pieces around the fixed Chinese account name */
+  curatorBefore: string
+  curatorAfter: string
+  qrAlt: string
+}
+
+const FOOTER_COPY: Record<string, FooterCopy> = {
+  zh: {
+    sourceLabel: "信件源：",
+    curatorBefore: "整理人：公众号",
+    curatorAfter: "（学习和分享价值投资），侵权或勘误请扫码私信",
+    qrAlt: "微信公众号二维码",
+  },
+  en: {
+    sourceLabel: "Source:",
+    curatorBefore: "Compiled by: WeChat Official Account ",
+    curatorAfter:
+      " (learning and sharing value investing). For copyright infringement or corrections, please scan the QR code and send a private message.",
+    qrAlt: "WeChat Official Account QR code",
+  },
+  es: {
+    sourceLabel: "Fuente:",
+    curatorBefore: "Compilado por: cuenta oficial de WeChat ",
+    curatorAfter:
+      " (aprendizaje y divulgación de la inversión en valor). Para infracciones de derechos de autor o correcciones, escanee el código QR y envíe un mensaje privado.",
+    qrAlt: "Código QR de la cuenta oficial de WeChat",
+  },
+  pt: {
+    sourceLabel: "Fonte:",
+    curatorBefore: "Compilado por: conta oficial do WeChat ",
+    curatorAfter:
+      " (aprendizado e compartilhamento de value investing). Para infração de direitos autorais ou correções, escaneie o QR code e envie uma mensagem privada.",
+    qrAlt: "QR code da conta oficial do WeChat",
+  },
+  ja: {
+    sourceLabel: "出典：",
+    curatorBefore: "編集：WeChat公式アカウント",
+    curatorAfter:
+      "（バリュー投資の学習と共有）。著作権侵害や誤りのご連絡はQRコードをスキャンしてメッセージをお送りください。",
+    qrAlt: "WeChat公式アカウントのQRコード",
+  },
+}
+
+function footerCopyForLocale(locale: string | undefined): FooterCopy {
+  const lang = (locale || "zh-CN").toLowerCase().split("-")[0]
+  return FOOTER_COPY[lang] ?? FOOTER_COPY.zh
+}
+
 export default ((opts?: Options) => {
   const Footer: QuartzComponent = ({ displayClass, cfg, fileData }: QuartzComponentProps) => {
     const year = new Date().getFullYear()
     const links = opts?.links ?? []
     const baseDir = pathToRoot(fileData.slug!)
-    const isEn = (cfg.locale || "").toLowerCase().startsWith("en")
-
-    const sourceLabel = isEn ? "Source:" : "信件源："
-    const curatorLine = isEn
-      ? <>Compiled by: WeChat Official Account <strong>"太白钓雪"</strong> (learning and sharing value investing). For copyright infringement or corrections, please scan the QR code and send a private message.</>
-      : <>整理人：公众号<strong>“太白钓雪”</strong>（学习和分享价值投资），侵权或勘误请扫码私信</>
-    const qrAlt = isEn ? "WeChat Official Account QR code" : "微信公众号二维码"
+    const copy = footerCopyForLocale(cfg.locale)
 
     return (
       <footer class={`${displayClass ?? ""}`}>
@@ -30,14 +75,18 @@ export default ((opts?: Options) => {
           </li>
           {Object.entries(links).map(([text, link]) => (
             <li>
-              {sourceLabel} <a href={link}>{text}</a>
+              {copy.sourceLabel} <a href={link}>{text}</a>
             </li>
           ))}
-          <li>{curatorLine}</li>
+          <li>
+            {copy.curatorBefore}
+            <strong>“太白钓雪”</strong>
+            {copy.curatorAfter}
+          </li>
           <li>
             <img
               src={joinSegments(baseDir, "attachments/qrcode.jpg")}
-              alt={qrAlt}
+              alt={copy.qrAlt}
               style="width: 100px; margin: 10px 0;"
             />
           </li>

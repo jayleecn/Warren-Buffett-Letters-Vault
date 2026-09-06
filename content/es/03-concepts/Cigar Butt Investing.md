@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Cigar-Butt-Investing
   es: es/03-concepts/Cigar-Butt-Investing
   pt: pt/03-concepts/Cigar-Butt-Investing
+  ja: ja/03-concepts/Cigar-Butt-Investing
 ---
 # Inversión en colillas de cigarro
 

@@ -19,6 +19,7 @@ translations:
   en: en/04-companies/GEICO
   es: es/04-companies/GEICO
   pt: pt/04-companies/GEICO
+  ja: ja/04-companies/GEICO
 ---
 # 盖可保险（GEICO）
 

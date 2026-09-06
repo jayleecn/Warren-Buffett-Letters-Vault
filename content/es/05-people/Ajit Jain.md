@@ -15,6 +15,7 @@ translations:
   en: en/05-people/Ajit-Jain
   es: es/05-people/Ajit-Jain
   pt: pt/05-people/Ajit-Jain
+  ja: ja/05-people/Ajit-Jain
 ---
 # Ajit Jain
 

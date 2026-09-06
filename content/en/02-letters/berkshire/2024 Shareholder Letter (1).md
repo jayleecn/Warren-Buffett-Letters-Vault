@@ -28,6 +28,7 @@ translations:
   en: en/02-letters/berkshire/2024-Shareholder-Letter-(1)
   es: es/02-letters/berkshire/2024-Shareholder-Letter-(1)
   pt: pt/02-letters/berkshire/2024-Shareholder-Letter-(1)
+  ja: ja/02-letters/berkshire/2024-Shareholder-Letter-(1)
 ---
 # Berkshire Hathaway Shareholder Letter — 2024 (1)
 

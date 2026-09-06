@@ -27,6 +27,7 @@ translations:
   en: en/02-letters/partnership/1959-Partnership-Letter
   es: es/02-letters/partnership/1959-Partnership-Letter
   pt: pt/02-letters/partnership/1959-Partnership-Letter
+  ja: ja/02-letters/partnership/1959-Partnership-Letter
 ---
 # Buffett Partnership Letter — 1959
 

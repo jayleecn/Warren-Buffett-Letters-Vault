@@ -15,6 +15,7 @@ translations:
   en: en/03-concepts/Wonderful-Company-at-Fair-Price
   es: es/03-concepts/Wonderful-Company-at-Fair-Price
   pt: pt/03-concepts/Wonderful-Company-at-Fair-Price
+  ja: ja/03-concepts/Wonderful-Company-at-Fair-Price
 ---
 # Maravillosa empresa a precio justo
 

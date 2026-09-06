@@ -15,6 +15,7 @@ translations:
   en: en/03-concepts/Opportunity-Cost
   es: es/03-concepts/Opportunity-Cost
   pt: pt/03-concepts/Opportunity-Cost
+  ja: ja/03-concepts/Opportunity-Cost
 ---
 # Opportunity Cost
 

@@ -55,6 +55,7 @@ translations:
   en: en/02-letters/berkshire/1995-Shareholder-Letter
   es: es/02-letters/berkshire/1995-Shareholder-Letter
   pt: pt/02-letters/berkshire/1995-Shareholder-Letter
+  ja: ja/02-letters/berkshire/1995-Shareholder-Letter
 ---
 # Carta a los accionistas de Berkshire Hathaway - 1995
 

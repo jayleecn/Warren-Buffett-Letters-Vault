@@ -15,6 +15,7 @@ translations:
   en: en/03-concepts/Transparent-Communication
   es: es/03-concepts/Transparent-Communication
   pt: pt/03-concepts/Transparent-Communication
+  ja: ja/03-concepts/Transparent-Communication
 ---
 # Comunicación transparente
 

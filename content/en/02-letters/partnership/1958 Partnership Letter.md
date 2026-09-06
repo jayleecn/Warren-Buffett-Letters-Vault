@@ -24,6 +24,7 @@ translations:
   en: en/02-letters/partnership/1958-Partnership-Letter
   es: es/02-letters/partnership/1958-Partnership-Letter
   pt: pt/02-letters/partnership/1958-Partnership-Letter
+  ja: ja/02-letters/partnership/1958-Partnership-Letter
 ---
 # Buffett Partnership Letter — 1958
 

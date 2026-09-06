@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/BYD
   es: es/04-companies/BYD
   pt: pt/04-companies/BYD
+  ja: ja/04-companies/BYD
 ---
 # BYD
 

@@ -15,6 +15,7 @@ translations:
   en: en/03-concepts/Independent-Thinking
   es: es/03-concepts/Independent-Thinking
   pt: pt/03-concepts/Independent-Thinking
+  ja: ja/03-concepts/Independent-Thinking
 ---
 # Pensamiento independiente
 

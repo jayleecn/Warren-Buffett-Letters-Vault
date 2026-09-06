@@ -62,6 +62,7 @@ translations:
   en: en/02-letters/berkshire/2020-Shareholder-Letter
   es: es/02-letters/berkshire/2020-Shareholder-Letter
   pt: pt/02-letters/berkshire/2020-Shareholder-Letter
+  ja: ja/02-letters/berkshire/2020-Shareholder-Letter
 ---
 # Carta a los accionistas de Berkshire Hathaway - 2020| Year                               | Annual Percentage Change               |                                    |
 |------------------------------------|----------------------------------------|------------------------------------|

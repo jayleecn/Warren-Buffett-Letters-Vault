@@ -17,6 +17,7 @@ translations:
   en: en/03-concepts/Workouts
   es: es/03-concepts/Workouts
   pt: pt/03-concepts/Workouts
+  ja: ja/03-concepts/Workouts
 ---
 # Entrenamientos
 

@@ -51,6 +51,7 @@ translations:
   en: en/02-letters/berkshire/1989-Shareholder-Letter
   es: es/02-letters/berkshire/1989-Shareholder-Letter
   pt: pt/02-letters/berkshire/1989-Shareholder-Letter
+  ja: ja/02-letters/berkshire/1989-Shareholder-Letter
 ---
 # Berkshire Hathaway Shareholder Letter — 1989
 

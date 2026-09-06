@@ -17,6 +17,7 @@ translations:
   en: en/04-companies/Berkshire-Hathaway
   es: es/04-companies/Berkshire-Hathaway
   pt: pt/04-companies/Berkshire-Hathaway
+  ja: ja/04-companies/Berkshire-Hathaway
 ---
 # Berkshire Hathaway
 

@@ -17,6 +17,7 @@ translations:
   en: en/04-companies/Apple
   es: es/04-companies/Apple
   pt: pt/04-companies/Apple
+  ja: ja/04-companies/Apple
 ---
 # Apple
 

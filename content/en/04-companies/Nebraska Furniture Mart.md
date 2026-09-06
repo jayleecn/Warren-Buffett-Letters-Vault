@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/Nebraska-Furniture-Mart
   es: es/04-companies/Nebraska-Furniture-Mart
   pt: pt/04-companies/Nebraska-Furniture-Mart
+  ja: ja/04-companies/Nebraska-Furniture-Mart
 ---
 # Nebraska Furniture Mart
 

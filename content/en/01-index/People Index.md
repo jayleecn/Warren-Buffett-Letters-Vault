@@ -11,6 +11,7 @@ translations:
   en: en/01-index/People-Index
   es: es/01-index/People-Index
   pt: pt/01-index/People-Index
+  ja: ja/01-index/People-Index
 ---
 # People Index
 

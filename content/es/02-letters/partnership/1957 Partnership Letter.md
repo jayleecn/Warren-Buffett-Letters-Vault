@@ -23,6 +23,7 @@ translations:
   en: en/02-letters/partnership/1957-Partnership-Letter
   es: es/02-letters/partnership/1957-Partnership-Letter
   pt: pt/02-letters/partnership/1957-Partnership-Letter
+  ja: ja/02-letters/partnership/1957-Partnership-Letter
 ---
 # Carta de asociación de Buffett - 1957
 

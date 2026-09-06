@@ -15,6 +15,7 @@ translations:
   en: en/03-concepts/Underwriting-Discipline
   es: es/03-concepts/Underwriting-Discipline
   pt: pt/03-concepts/Underwriting-Discipline
+  ja: ja/03-concepts/Underwriting-Discipline
 ---
 # Underwriting Discipline
 

@@ -17,6 +17,7 @@ translations:
   en: en/03-concepts/Economic-Moat
   es: es/03-concepts/Economic-Moat
   pt: pt/03-concepts/Economic-Moat
+  ja: ja/03-concepts/Economic-Moat
 ---
 # Economic Moat
 

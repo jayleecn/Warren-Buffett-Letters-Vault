@@ -17,6 +17,7 @@ translations:
   en: en/04-companies/Coca-Cola
   es: es/04-companies/Coca-Cola
   pt: pt/04-companies/Coca-Cola
+  ja: ja/04-companies/Coca-Cola
 ---
 # Coca-Cola
 

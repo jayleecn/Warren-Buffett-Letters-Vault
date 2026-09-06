@@ -18,6 +18,7 @@ translations:
   en: en/03-concepts/Catastrophe-Insurance
   es: es/03-concepts/Catastrophe-Insurance
   pt: pt/03-concepts/Catastrophe-Insurance
+  ja: ja/03-concepts/Catastrophe-Insurance
 ---
 # Catastrophe Insurance
 

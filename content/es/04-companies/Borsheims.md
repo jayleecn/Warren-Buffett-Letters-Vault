@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/Borsheims
   es: es/04-companies/Borsheims
   pt: pt/04-companies/Borsheims
+  ja: ja/04-companies/Borsheims
 ---
 # Borsheims
 

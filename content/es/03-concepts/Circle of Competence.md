@@ -17,6 +17,7 @@ translations:
   en: en/03-concepts/Circle-of-Competence
   es: es/03-concepts/Circle-of-Competence
   pt: pt/03-concepts/Circle-of-Competence
+  ja: ja/03-concepts/Circle-of-Competence
 ---
 # Círculo de competencia
 

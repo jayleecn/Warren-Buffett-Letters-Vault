@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/Buffett-Partnership
   es: es/04-companies/Buffett-Partnership
   pt: pt/04-companies/Buffett-Partnership
+  ja: ja/04-companies/Buffett-Partnership
 ---
 # Buffett Partnership
 

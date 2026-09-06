@@ -22,8 +22,8 @@ export const SITE_LOCALES: readonly SiteLocale[] = [
   { code: "en", label: "English", hreflang: "en", quartzLocale: "en-US", prefix: "en" },
   { code: "es", label: "Español", hreflang: "es", quartzLocale: "es-ES", prefix: "es" },
   { code: "pt", label: "Português", hreflang: "pt-BR", quartzLocale: "pt-BR", prefix: "pt" },
+  { code: "ja", label: "日本語", hreflang: "ja", quartzLocale: "ja-JP", prefix: "ja" },
   // Enable when content exists:
-  // { code: "ja", label: "日本語", hreflang: "ja", quartzLocale: "ja-JP", prefix: "ja" },
   // { code: "de", label: "Deutsch", hreflang: "de", quartzLocale: "de-DE", prefix: "de" },
   // { code: "fr", label: "Français", hreflang: "fr", quartzLocale: "fr-FR", prefix: "fr" },
 ] as const

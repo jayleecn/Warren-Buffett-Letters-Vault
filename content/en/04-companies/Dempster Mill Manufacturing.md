@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/Dempster-Mill-Manufacturing
   es: es/04-companies/Dempster-Mill-Manufacturing
   pt: pt/04-companies/Dempster-Mill-Manufacturing
+  ja: ja/04-companies/Dempster-Mill-Manufacturing
 ---
 # Dempster Mill Manufacturing
 

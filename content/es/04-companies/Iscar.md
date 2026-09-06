@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/Iscar
   es: es/04-companies/Iscar
   pt: pt/04-companies/Iscar
+  ja: ja/04-companies/Iscar
 ---
 # Iscar
 

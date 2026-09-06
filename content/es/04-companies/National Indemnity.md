@@ -17,6 +17,7 @@ translations:
   en: en/04-companies/National-Indemnity
   es: es/04-companies/National-Indemnity
   pt: pt/04-companies/National-Indemnity
+  ja: ja/04-companies/National-Indemnity
 ---
 # National Indemnity
 

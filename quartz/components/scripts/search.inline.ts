@@ -5,7 +5,7 @@ import { FullSlug, normalizeRelativeURLs, resolveRelative } from "../../util/pat
 
 
 /** Locale folder prefixes — keep in sync with quartz/i18n/siteLocales.ts */
-const LOCALE_PREFIXES = ["en", "es", "pt"]
+const LOCALE_PREFIXES = ["en", "es", "ja", "pt"] // keep in sync with siteLocales prefixes
 
 function detectLocalePrefix(slug: string): string | null {
   for (const prefix of LOCALE_PREFIXES) {

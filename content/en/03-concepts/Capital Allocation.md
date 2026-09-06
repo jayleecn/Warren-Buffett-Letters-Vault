@@ -18,6 +18,7 @@ translations:
   en: en/03-concepts/Capital-Allocation
   es: es/03-concepts/Capital-Allocation
   pt: pt/03-concepts/Capital-Allocation
+  ja: ja/03-concepts/Capital-Allocation
 ---
 # Capital Allocation
 

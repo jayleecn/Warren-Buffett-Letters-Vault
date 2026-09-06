@@ -16,6 +16,7 @@ translations:
   en: en/05-people/Tom-Murphy
   es: es/05-people/Tom-Murphy
   pt: pt/05-people/Tom-Murphy
+  ja: ja/05-people/Tom-Murphy
 ---
 # Tom Murphy
 

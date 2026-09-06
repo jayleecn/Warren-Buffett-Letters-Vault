@@ -313,6 +313,36 @@ describe("link strategies", () => {
       assert.strictEqual(path.transformLink(cur, "a/b/index", opts), "./a/b/")
     })
   })
+
+  describe("shortest same-locale preference", () => {
+    const opts: TransformOptions = {
+      strategy: "shortest",
+      allSlugs: [
+        "en/04-companies/Illinois-National-Bank",
+        "en/Illinois-National-Bank",
+        "es/04-companies/Illinois-National-Bank",
+        "es/Illinois-National-Bank",
+        "ja/04-companies/Illinois-National-Bank",
+        "ja/Illinois-National-Bank",
+      ] as FullSlug[],
+    }
+
+    test("es Company Index prefers es company page over ja/en aliases", () => {
+      const cur = "es/01-index/Company-Index" as FullSlug
+      assert.strictEqual(
+        path.transformLink(cur, "Illinois-National-Bank", opts),
+        "../../es/04-companies/Illinois-National-Bank",
+      )
+    })
+
+    test("ja Company Index prefers ja company page", () => {
+      const cur = "ja/01-index/Company-Index" as FullSlug
+      assert.strictEqual(
+        path.transformLink(cur, "Illinois-National-Bank", opts),
+        "../../ja/04-companies/Illinois-National-Bank",
+      )
+    })
+  })
 })
 
 describe("resolveRelative", () => {

@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/Dexter-Shoe
   es: es/04-companies/Dexter-Shoe
   pt: pt/04-companies/Dexter-Shoe
+  ja: ja/04-companies/Dexter-Shoe
 ---
 # Dexter Shoe
 

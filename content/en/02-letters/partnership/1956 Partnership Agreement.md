@@ -22,6 +22,7 @@ translations:
   en: en/02-letters/partnership/1956-Partnership-Agreement
   es: es/02-letters/partnership/1956-Partnership-Agreement
   pt: pt/02-letters/partnership/1956-Partnership-Agreement
+  ja: ja/02-letters/partnership/1956-Partnership-Agreement
 ---
 # Buffett Associates, Ltd. — Certificate of Limited Partnership
 

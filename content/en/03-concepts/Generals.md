@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Generals
   es: es/03-concepts/Generals
   pt: pt/03-concepts/Generals
+  ja: ja/03-concepts/Generals
 ---
 # Generals
 

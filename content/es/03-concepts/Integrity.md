@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Integrity
   es: es/03-concepts/Integrity
   pt: pt/03-concepts/Integrity
+  ja: ja/03-concepts/Integrity
 ---
 # Integridad
 

@@ -20,11 +20,19 @@ type FolderState = {
 }
 
 /** Locale folder prefixes (keep in sync with quartz/i18n/siteLocales.ts). */
-const LOCALE_PREFIXES = ["en", "es", "pt"]
+const LOCALE_PREFIXES = ["en", "es", "ja", "pt"] // keep in sync with siteLocales prefixes
 
 function detectLocalePrefix(slug: string): string | null {
+  // Accept FullSlug ("ja/index") or pathname ("/ja/", "/ja/index.html")
+  let s = (slug || "").trim()
+  try {
+    if (s.startsWith("http://") || s.startsWith("https://")) s = new URL(s).pathname
+  } catch {}
+  s = s.replace(/^\/+/, "").replace(/\/+$/, "")
+  if (s.endsWith(".html")) s = s.slice(0, -5)
+  if (s.endsWith("/index")) s = s.slice(0, -6)
   for (const prefix of LOCALE_PREFIXES) {
-    if (slug === prefix || slug === `${prefix}/index` || slug.startsWith(`${prefix}/`)) {
+    if (s === prefix || s === `${prefix}/index` || s.startsWith(`${prefix}/`)) {
       return prefix
     }
   }
@@ -239,6 +247,13 @@ async function setupExplorer(currentSlug: FullSlug) {
     const explorerUl = explorer.querySelector(".explorer-ul")
     if (!explorerUl) continue
 
+    // Drop previous tree (keep OverflowList sentinel .overflow-end)
+    for (const child of [...explorerUl.children]) {
+      if (!(child instanceof HTMLElement) || !child.classList.contains("overflow-end")) {
+        child.remove()
+      }
+    }
+
     // Create and insert new content
     const fragment = document.createDocumentFragment()
     for (const child of trie.children) {
@@ -248,7 +263,8 @@ async function setupExplorer(currentSlug: FullSlug) {
 
       fragment.appendChild(node)
     }
-    explorerUl.insertBefore(fragment, explorerUl.firstChild)
+    const end = explorerUl.querySelector(".overflow-end")
+    explorerUl.insertBefore(fragment, end ?? null)
 
     // restore explorer scrollTop position if it exists
     const scrollTop = sessionStorage.getItem("explorerScrollTop")
@@ -300,7 +316,8 @@ document.addEventListener("prenav", async () => {
 })
 
 document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
-  const currentSlug = e.detail.url
+  const fromBody = document.body?.dataset?.slug
+  const currentSlug = (fromBody || e.detail.url) as FullSlug
   await setupExplorer(currentSlug)
 
   // if mobile hamburger is visible, collapse by default

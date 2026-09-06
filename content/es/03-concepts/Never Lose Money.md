@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Never-Lose-Money
   es: es/03-concepts/Never-Lose-Money
   pt: pt/03-concepts/Never-Lose-Money
+  ja: ja/03-concepts/Never-Lose-Money
 ---
 # Nunca pierdas dinero
 

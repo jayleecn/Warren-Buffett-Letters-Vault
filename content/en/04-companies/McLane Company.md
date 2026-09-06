@@ -14,6 +14,7 @@ translations:
   en: en/04-companies/McLane-Company
   es: es/04-companies/McLane-Company
   pt: pt/04-companies/McLane-Company
+  ja: ja/04-companies/McLane-Company
 ---
 # McLane Company
 

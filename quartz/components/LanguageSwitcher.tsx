@@ -1,6 +1,6 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
-import { FullSlug, pathToRoot, simplifySlug, joinSegments } from "../util/path"
+import { FullSlug, simplifySlug, joinSegments } from "../util/path"
 import translations from "../i18n/translations.json"
 import {
   SITE_LOCALES,
@@ -17,9 +17,11 @@ type LocalePaths = Partial<Record<SiteLocaleCode, string>>
 type TranslationMap = Record<string, LocalePaths>
 const map = translations as TranslationMap
 
-function hrefForSlug(currentSlug: FullSlug, targetSlug: string): string {
-  const full = targetSlug as FullSlug
-  return joinSegments(pathToRoot(currentSlug), simplifySlug(full))
+/** Root-absolute href so SPA navigations from /ja|/es|/en never resolve relative to the wrong depth. */
+function hrefForSlug(_currentSlug: FullSlug, targetSlug: string): string {
+  const simple = simplifySlug(targetSlug as FullSlug)
+  if (!simple || simple === "index" || simple === ".") return "/"
+  return "/" + simple.replace(/^\/+/, "")
 }
 
 function lookupBySlug(simple: string): LocalePaths | undefined {

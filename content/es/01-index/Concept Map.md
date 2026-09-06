@@ -11,6 +11,7 @@ translations:
   en: en/01-index/Concept-Map
   es: es/01-index/Concept-Map
   pt: pt/01-index/Concept-Map
+  ja: ja/01-index/Concept-Map
 ---
 # Mapa de conceptos
 

@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/Helzberg-Diamonds
   es: es/04-companies/Helzberg-Diamonds
   pt: pt/04-companies/Helzberg-Diamonds
+  ja: ja/04-companies/Helzberg-Diamonds
 ---
 # Helzberg Diamonds
 

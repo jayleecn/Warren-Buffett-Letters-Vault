@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Controls
   es: es/03-concepts/Controls
   pt: pt/03-concepts/Controls
+  ja: ja/03-concepts/Controls
 ---
 # Controls
 

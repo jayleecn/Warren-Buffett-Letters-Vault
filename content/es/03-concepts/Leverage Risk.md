@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Leverage-Risk
   es: es/03-concepts/Leverage-Risk
   pt: pt/03-concepts/Leverage-Risk
+  ja: ja/03-concepts/Leverage-Risk
 ---
 # Riesgo de apalancamiento
 
