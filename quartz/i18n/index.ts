@@ -1,4 +1,5 @@
 import { Translation, CalloutTranslation } from "./locales/definition"
+import { localeFromSlug } from "./siteLocales"
 import enUs from "./locales/en-US"
 import enGb from "./locales/en-GB"
 import fr from "./locales/fr-FR"
@@ -96,16 +97,26 @@ export function resolvePageLocale(
   fallback: ValidLocale = "zh-CN",
 ): ValidLocale {
   const fm = (frontmatterLang || "").toLowerCase()
-  if (fm === "en" || fm.startsWith("en-")) return "en-US"
-  if (fm === "ja" || fm.startsWith("ja-")) return "ja-JP"
-  if (fm === "de" || fm.startsWith("de-")) return "de-DE"
-  if (fm === "fr" || fm.startsWith("fr-")) return "fr-FR"
-  if (fm === "zh" || fm.startsWith("zh-")) return "zh-CN"
-  // Prefixed content trees
-  if (slug === "en" || slug === "en/index" || slug.startsWith("en/")) return "en-US"
-  if (slug === "ja" || slug === "ja/index" || slug.startsWith("ja/")) return "ja-JP"
-  if (slug === "de" || slug === "de/index" || slug.startsWith("de/")) return "de-DE"
-  if (slug === "fr" || slug === "fr/index" || slug.startsWith("fr/")) return "fr-FR"
+  const fmMap: Record<string, ValidLocale> = {
+    en: "en-US",
+    es: "es-ES",
+    pt: "pt-BR",
+    ja: "ja-JP",
+    de: "de-DE",
+    fr: "fr-FR",
+    zh: "zh-CN",
+  }
+  for (const [code, loc] of Object.entries(fmMap)) {
+    if (fm === code || fm.startsWith(`${code}-`)) {
+      return loc in TRANSLATIONS ? loc : defaultTranslation
+    }
+  }
+
+  // Prefixed content trees — driven by siteLocales (en/es/pt/ja/…)
+  const siteLoc = localeFromSlug(slug)
+  const quartz = siteLoc.quartzLocale as ValidLocale
+  if (quartz in TRANSLATIONS) return quartz
+
   return fallback in TRANSLATIONS ? fallback : defaultTranslation
 }
 
