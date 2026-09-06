@@ -10,6 +10,11 @@ import { ComponentChildren } from "preact"
 import { concatenateResources } from "../../util/resources"
 import { parseTagSlug, slugBelongsToLocale, tagSlugForLocale } from "../../i18n/siteLocales"
 
+function cleanTags(tags: unknown): string[] {
+  if (!Array.isArray(tags)) return []
+  return [...new Set(tags.map((t) => String(t ?? "").trim()).filter((t) => t.length > 0))]
+}
+
 interface TagContentOptions {
   sort?: SortFn
   numPages: number
@@ -36,7 +41,7 @@ export default ((opts?: Partial<TagContentOptions>) => {
 
     const allPagesWithTag = (t: string) =>
       localeFiles.filter((file) =>
-        (file.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes).includes(t),
+        cleanTags(file.frontmatter?.tags).flatMap(getAllSegmentPrefixes).includes(t),
       )
 
     const content = (
@@ -50,7 +55,7 @@ export default ((opts?: Partial<TagContentOptions>) => {
     if (tag === "/") {
       const tags = [
         ...new Set(
-          localeFiles.flatMap((data) => data.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes),
+          localeFiles.flatMap((data) => cleanTags(data.frontmatter?.tags)).flatMap(getAllSegmentPrefixes),
         ),
       ].sort((a, b) => a.localeCompare(b))
       const tagItemMap: Map<string, QuartzPluginData[]> = new Map()
