@@ -2,14 +2,15 @@ import { pathToRoot, resolveRelative, FullSlug } from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
+import { localeFromSlug, homeSlugForLocale } from "../i18n/siteLocales"
 
 const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
   const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
   const slug = fileData.slug!
-  const isEn = slug === "en" || slug === "en/index" || slug.startsWith("en/")
-  // English pages should return to /en/, not the Chinese site root
-  const baseDir = isEn
-    ? resolveRelative(slug, "en/index" as FullSlug)
+  const loc = localeFromSlug(slug)
+  // Prefixed locales (en/ja/…) return to their own home; default zh uses site root
+  const baseDir = loc.prefix
+    ? resolveRelative(slug, homeSlugForLocale(loc) as FullSlug)
     : pathToRoot(slug)
   return (
     <h2 class={classNames(displayClass, "page-title")}>
