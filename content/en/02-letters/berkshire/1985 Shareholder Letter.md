@@ -185,7 +185,7 @@ than any of its major competitors. Childcraft, another World Book, Inc. product,
 
 The Scott Fetzer purchase illustrates our somewhat haphazard approach to acquisitions. We have no master strategy, no corporate planners delivering us insights about socioeconomic trends, and no staff to investigate a multitude of ideas presented by promoters and intermediaries. Instead, we simply hope that something sensible comes along - and, when it does, we act. To give fate a helping hand, we again repeat our regular “business wanted” ad. The only change from last year’s copy is in (1): because we continue to want any acquisition we make to have a measurable impact on Berkshire’s financial results, we have raised our minimum profit requirement.
 
-## Acquisition Standards
+## Miscellaneous
 
 
 
