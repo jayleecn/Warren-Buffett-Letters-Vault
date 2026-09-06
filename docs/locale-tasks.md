@@ -10,6 +10,7 @@ Convention: Chinese at content root; other languages under `content/{prefix}/` (
 - [ ] Page UI locale resolves via `siteLocales.quartzLocale` / `resolvePageLocale` — **no fallback to Chinese chrome**
 - [ ] `renderPage` **pageTitle** set for this locale (not Chinese `cfg.pageTitle`)
 - [ ] Explorer / Search / Backlinks locale prefix lists include the new prefix
+- [ ] `quartz/components/scripts/explorer.inline.ts` + `search.inline.ts` `LOCALE_PREFIXES` includes the new prefix (**must match siteLocales** — missing entries break Explorer scoping and feel like “language switch broken”)
 - [ ] Language switcher dropdown shows the language
 - [ ] Breadcrumb **Home** → `/{prefix}/` (default locale → `/`)
 - [ ] Folder page titles use this locale’s string (not `文件夹`)
@@ -63,5 +64,6 @@ Touch: `quartz/components/Footer.tsx`
 | Breadcrumb Home → Chinese root | EN Home went to `/` | locale home slug |
 | Folder title | `文件夹:` on EN pages | `folderPage` / locale |
 | 404 language | Wrong language 404 | `/{prefix}/404` + client rewrite |
+| Explorer/Search `LOCALE_PREFIXES` stuck on `["en"]` | es/ja trees leak into other locales / switcher feels broken | `explorer.inline.ts` / `search.inline.ts` |
 
 When adding French/German/etc., copy this checklist; do not rely on memory.
