@@ -13,8 +13,8 @@ translations:
   zh: 04-companies/联邦信托公司
   en: en/04-companies/Commonwealth-Trust-Company
   es: es/04-companies/Commonwealth-Trust-Company
+  ja: ja/04-companies/Commonwealth-Trust-Company
 ---
-
 # Commonwealth Trust Company
 
 ## Descripción de la empresa

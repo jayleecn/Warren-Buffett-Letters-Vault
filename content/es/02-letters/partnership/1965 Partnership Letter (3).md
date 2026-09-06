@@ -24,6 +24,7 @@ translations:
   zh: 02-letters/partnership/1965年合伙人信(3)
   en: en/02-letters/partnership/1965-Partnership-Letter-(3)
   es: es/02-letters/partnership/1965-Partnership-Letter-(3)
+  ja: ja/02-letters/partnership/1965-Partnership-Letter-(3)
 ---
 # Carta de asociación de Buffett - 1965
 

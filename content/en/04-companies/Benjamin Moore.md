@@ -14,6 +14,7 @@ translations:
   zh: 04-companies/本杰明·摩尔涂料
   en: en/04-companies/Benjamin-Moore
   es: es/04-companies/Benjamin-Moore
+  ja: ja/04-companies/Benjamin-Moore
 ---
 # Benjamin Moore
 

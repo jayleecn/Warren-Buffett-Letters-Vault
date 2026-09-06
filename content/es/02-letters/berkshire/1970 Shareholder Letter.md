@@ -32,8 +32,8 @@ translations:
   zh: 02-letters/berkshire/1970年股东信
   en: en/02-letters/berkshire/1970-Shareholder-Letter
   es: es/02-letters/berkshire/1970-Shareholder-Letter
+  ja: ja/02-letters/berkshire/1970-Shareholder-Letter
 ---
-
 # Carta a los accionistas de Berkshire Hathaway - 1970
 
 15 de marzo de 1971

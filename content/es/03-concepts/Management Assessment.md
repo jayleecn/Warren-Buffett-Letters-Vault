@@ -15,8 +15,8 @@ translations:
   zh: 03-concepts/管理层评估
   en: en/03-concepts/Management-Assessment
   es: es/03-concepts/Management-Assessment
+  ja: ja/03-concepts/Management-Assessment
 ---
-
 # Evaluación de la gestión
 
 ## Panorama

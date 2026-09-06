@@ -14,8 +14,8 @@ translations:
   zh: 04-companies/威利家居
   en: en/04-companies/R.C.-Willey
   es: es/04-companies/R.C.-Willey
+  ja: ja/04-companies/R.C.-Willey
 ---
-
 # R.C. Willey
 
 ## Descripción de la empresa

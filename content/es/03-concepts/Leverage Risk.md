@@ -15,8 +15,8 @@ translations:
   zh: 03-concepts/杠杆风险
   en: en/03-concepts/Leverage-Risk
   es: es/03-concepts/Leverage-Risk
+  ja: ja/03-concepts/Leverage-Risk
 ---
-
 # Riesgo de apalancamiento
 
 ## Panorama

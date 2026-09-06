@@ -14,8 +14,8 @@ translations:
   zh: 04-companies/迪士尼
   en: en/04-companies/Walt-Disney-Company
   es: es/04-companies/Walt-Disney-Company
+  ja: ja/04-companies/Walt-Disney-Company
 ---
-
 # Walt Disney Company
 
 ## Descripción de la empresa

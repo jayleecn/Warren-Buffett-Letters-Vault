@@ -15,8 +15,8 @@ translations:
   zh: 05-people/汤姆·墨菲
   en: en/05-people/Tom-Murphy
   es: es/05-people/Tom-Murphy
+  ja: ja/05-people/Tom-Murphy
 ---
-
 # Tom Murphy
 
 ## Perfil

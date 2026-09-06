@@ -14,8 +14,8 @@ translations:
   zh: 03-concepts/市场先生
   en: en/03-concepts/Mr.-Market
   es: es/03-concepts/Mr.-Market
+  ja: ja/03-concepts/Mr.-Market
 ---
-
 # Sr. Mercado
 
 ## Panorama

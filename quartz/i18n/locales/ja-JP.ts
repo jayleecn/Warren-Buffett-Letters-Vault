@@ -57,7 +57,7 @@ export default {
       title: "目次",
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `${minutes} min read`,
+      readingTime: ({ minutes }) => `${minutes}分で読めます`,
     },
   },
   pages: {
@@ -66,7 +66,7 @@ export default {
       lastFewNotes: ({ count }) => `最新の${count}件`,
     },
     error: {
-      title: "Not Found",
+      title: "ページが見つかりません",
       notFound: "ページが存在しないか、非公開設定になっています。",
       home: "ホームページに戻る",
     },
