@@ -361,7 +361,6 @@ Absent a megacatastrophe, I expect our cost of float in 2003 to again be very lo
 than zero. In the rundown of our insurance operations that follows, you will see why I’m optimistic that, over
 time, our underwriting results will both surpass those achieved by the industry and deliver us investable funds
 at minimal cost.
-## Insurance Operations
 If our insurance operations are to generate low-cost float over time, they must: (a) underwrite with
 unwavering discipline; (b) reserve conservatively; and (c) avoid an aggregation of exposures that would allow
 a supposedly “impossible” incident to threaten their solvency. All of our major insurance businesses, with

@@ -183,7 +183,6 @@ I don’t believe that using 2003 as the terminal year distorts our calculations
 for our insurance business, but the big boost that gave to earnings was largely offset by the pathetically low
 interest rates we earned on our large holdings of cash equivalents (a condition that will not last). All
 figures shown below, it should be noted, exclude capital gains.
-## Operating Earnings
 Year in $ millions Per Share in $ Growth Rate of Per-Share Earnings
 1964 .2 .15 Not meaningful (1964-2003)
 1968 2.7 2.69 22.8% (1968-2003)
