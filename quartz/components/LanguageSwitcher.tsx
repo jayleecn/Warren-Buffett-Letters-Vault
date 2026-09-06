@@ -2,7 +2,13 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { classNames } from "../util/lang"
 import { FullSlug, pathToRoot, simplifySlug, joinSegments } from "../util/path"
 import translations from "../i18n/translations.json"
-import { SITE_LOCALES, SiteLocaleCode, localeFromSlug, homeSlugForLocale } from "../i18n/siteLocales"
+import {
+  SITE_LOCALES,
+  SiteLocaleCode,
+  localeFromSlug,
+  homeSlugForLocale,
+  stripLocalePrefix,
+} from "../i18n/siteLocales"
 
 /** Per-locale path map on each i18nKey (extensible beyond zh/en). */
 type LocalePaths = Partial<Record<SiteLocaleCode, string>>
@@ -24,23 +30,17 @@ function lookupBySlug(simple: string): LocalePaths | undefined {
   return undefined
 }
 
+function normalizeTarget(target: string): string {
+  if (target === "en" || target === "en/") return "en/index"
+  if (target === "" || target === "/") return "index"
+  return target
+}
+
 /** Best-effort counterpart path when translations map has no entry yet. */
 function fallbackSlug(simple: string, from: SiteLocaleCode, to: (typeof SITE_LOCALES)[number]): string {
   if (from === to.code) return simple === "" ? homeSlugForLocale(to) : simple
 
-  // strip known prefixes
-  let rest = simple
-  for (const loc of SITE_LOCALES) {
-    if (!loc.prefix) continue
-    if (rest === loc.prefix) {
-      rest = ""
-      break
-    }
-    if (rest.startsWith(loc.prefix + "/")) {
-      rest = rest.slice(loc.prefix.length + 1)
-      break
-    }
-  }
+  let rest = stripLocalePrefix(simple)
   if (rest === "index") rest = ""
 
   if (!to.prefix) {
@@ -66,43 +66,30 @@ const LanguageSwitcher: QuartzComponent = ({ fileData, displayClass }: QuartzCom
     if (found) paths = { ...found, ...paths }
   }
 
-  // Only show locales that are enabled in SITE_LOCALES (adding ja later = one config line)
-  const links = SITE_LOCALES.map((loc) => {
-    const target =
-      paths[loc.code] ||
-      fallbackSlug(simple, current.code, loc)
-    const normalized =
-      target === "en" || target === "en/"
-        ? "en/index"
-        : target === "" || target === "/"
-          ? "index"
-          : target
+  const options = SITE_LOCALES.map((loc) => {
+    const target = normalizeTarget(paths[loc.code] || fallbackSlug(simple, current.code, loc))
     return {
       loc,
-      href: hrefForSlug(slug, normalized),
+      href: hrefForSlug(slug, target),
       active: loc.code === current.code,
     }
   })
 
   return (
     <nav class={classNames(displayClass, "language-switcher")} aria-label="Language">
-      {links.map((item, i) => (
-        <>
-          {i > 0 && (
-            <span class="lang-sep" aria-hidden="true">
-              |
-            </span>
-          )}
-          <a
-            href={item.href}
-            class={item.active ? "is-active" : undefined}
-            hreflang={item.loc.hreflang}
-            lang={item.loc.hreflang}
-          >
+      <label class="language-switcher-label" for="language-select">
+        <span class="language-switcher-globe" aria-hidden="true">
+          文A
+        </span>
+        <span class="sr-only">Language</span>
+      </label>
+      <select id="language-select" class="language-select" aria-label="Language">
+        {options.map((item) => (
+          <option value={item.href} selected={item.active} lang={item.loc.hreflang}>
             {item.loc.label}
-          </a>
-        </>
-      ))}
+          </option>
+        ))}
+      </select>
     </nav>
   )
 }
@@ -116,25 +103,45 @@ LanguageSwitcher.css = `
   font-size: 0.85rem;
   line-height: 1;
   flex-shrink: 0;
-  white-space: nowrap;
 }
-.language-switcher a {
+.language-switcher-label {
+  display: inline-flex;
+  align-items: center;
   color: var(--darkgray);
-  text-decoration: none;
-  opacity: 0.75;
+  cursor: default;
 }
-.language-switcher a:hover {
-  color: var(--secondary);
-  opacity: 1;
-}
-.language-switcher a.is-active {
-  color: var(--dark);
-  opacity: 1;
+.language-switcher-globe {
+  font-size: 0.75rem;
   font-weight: 600;
+  opacity: 0.7;
+  letter-spacing: -0.05em;
 }
-.language-switcher .lang-sep {
-  color: var(--gray);
-  opacity: 0.8;
+.language-select {
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--dark);
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+  padding: 0.25rem 0.4rem;
+  cursor: pointer;
+  max-width: 9rem;
+}
+.language-select:hover,
+.language-select:focus {
+  border-color: var(--secondary);
+  outline: none;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* Breadcrumb row: crumbs left, languages right */
@@ -146,6 +153,27 @@ LanguageSwitcher.css = `
 .flex-component:has(> div .breadcrumb-container) .breadcrumb-container {
   margin-bottom: 0;
 }
+`
+
+LanguageSwitcher.afterDOMLoaded = `
+document.addEventListener("nav", () => {
+  const selects = document.querySelectorAll("select.language-select")
+  for (const sel of selects) {
+    const el = sel
+    const handler = (e) => {
+      const href = e.target.value
+      if (!href) return
+      // Prefer SPA navigate when available
+      if (typeof window.spaNavigate === "function") {
+        window.spaNavigate(new URL(href, window.location.toString()))
+      } else {
+        window.location.assign(href)
+      }
+    }
+    el.addEventListener("change", handler)
+    window.addCleanup?.(() => el.removeEventListener("change", handler))
+  }
+})
 `
 
 export default (() => LanguageSwitcher) satisfies QuartzComponentConstructor
