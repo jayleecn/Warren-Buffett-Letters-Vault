@@ -60,7 +60,7 @@ translations:
   en: en/02-letters/berkshire/1996-Shareholder-Letter
 ---
 
-# Berkshire Hathaway Shareholder Letter - 1996
+# Berkshire Hathaway Shareholder Letter — 1996
 
 BERKSHIRE HATHAWAY INC.
 Chairman's Letter
@@ -170,7 +170,7 @@ investors earn by 10% or more over time. Charlie and I make no promises
 about Berkshire's results. We do promise you, however, that virtually
 all of the gains Berkshire makes will end up with shareholders. We are
 here to make money with you, not off you.
-The Relationship of Intrinsic Value to Market Price
+## The Relationship of Intrinsic Value to Market Price
 In last year's letter, with Berkshire shares selling at $36,000, I
 told you: (1) Berkshire's gain in market value in recent years had
 outstripped its gain in intrinsic value, even though the latter gain had
@@ -210,7 +210,7 @@ reason we hope to attract owners with long-term horizons. Overall, I
 think we have succeeded in that pursuit. Berkshire probably ranks number
 one among large American corporations in the percentage of its shares
 held by owners with a long-term view.
-Acquisitions of 1996
+## Acquisitions of 1996
 We made two acquisitions in 1996, both possessing exactly the
 qualities we seek - excellent business economics and an outstanding
 manager.
@@ -300,7 +300,7 @@ with an exceptional collection of businesses having similar
 characteristics, Berkshire may well be the home you seek. Our
 requirements are set forth on page 21. If your company meets them - and
 if I fail to make the next birthday party you attend - give me a call.
-Insurance Operations - Overview
+## Insurance Operations - Overview
 Our insurance business was terrific in 1996. In both primary
 insurance, where GEICO is our main unit, and in our "super-cat"
 reinsurance business, results were outstanding.
@@ -329,49 +329,45 @@ float is determined by our underwriting loss or profit. In those years
 when we have had an underwriting profit, such as the last four, our cost
 of float has been negative. In effect, we have been paid for holding
 money.
-(1) (2) Yearend Yield
-Underwriting Approximat on Long-Term
-Loss Average Float Cost of Funds Govt. Bonds
------------- ------------- ---------------- -------------
-(In $ Millions) (Ratio of 1 to 2)
-1967.......... profit 17.3 less than zero 5.50%
-1968.......... profit 19.9 less than zero 5.90%
-1969.......... profit 23.4 less than zero 6.79%
-1970.......... 0.37 32.4 1.14% 6.25%
-1971.......... profit 52.5 less than zero 5.81%
-
-1972.......... profit 69.5 less than zero 5.82%
-1973.......... profit 73.3 less than zero 7.27%
-1974.......... 7.36 79.1 9.30% 8.13%
-1975.......... 11.35 87.6 12.96% 8.03%
-1976.......... profit 102.6 less than zero 7.30%
-1977.......... profit 139.0 less than zero 7.97%
-1978.......... profit 190.4 less than zero 8.93%
-1979.......... profit 227.3 less than zero 10.08%
-1980.......... profit 237.0 less than zero 11.94%
-1981.......... profit 228.4 less than zero 13.61%
-1982.......... 21.56 220.6 9.77% 10.64%
-1983.......... 33.87 231.3 14.64% 11.84%
-1984.......... 48.06 253.2 18.98% 11.58%
-1985.......... 44.23 390.2 11.34% 9.34%
-1986.......... 55.84 797.5 7.00% 7.60%
-1987.......... 55.43 1,266.7 4.38% 8.95%
-1988.......... 11.08 1,497.7 0.74% 9.00%
-1989.......... 24.40 1,541.3 1.58% 7.97%
-1990.......... 26.65 1,637.3 1.63% 8.24%
-1991.......... 119.59 1,895.0 6.31% 7.40%
-1992.......... 108.96 2,290.4 4.76% 7.39%
-1993.......... profit 2,624.7 less than zero 6.35%
-1994.......... profit 3,056.6 less than zero 7.88%
-1995.......... profit 3,607.2 less than zero 5.95%
-1996.......... profit 6,702.0 less than zero 6.64%
+| Year | Underwriting Loss | Average Float | Cost of Funds | Long-Term Govt. Bonds |
+| --- | ---: | ---: | ---: | ---: |
+| 1967 | profit | 17.3 | less than zero | 5.50% |
+| 1968 | profit | 19.9 | less than zero | 5.90% |
+| 1969 | profit | 23.4 | less than zero | 6.79% |
+| 1970 | $0.37 | 32.4 | 1.14% | 6.25% |
+| 1971 | profit | 52.5 | less than zero | 5.81% |
+| 1972 | profit | 69.5 | less than zero | 5.82% |
+| 1973 | profit | 73.3 | less than zero | 7.27% |
+| 1974 | $7.36 | 79.1 | 9.30% | 8.13% |
+| 1975 | $11.35 | 87.6 | 12.96% | 8.03% |
+| 1976 | profit | 102.6 | less than zero | 7.30% |
+| 1977 | profit | 139.0 | less than zero | 7.97% |
+| 1978 | profit | 190.4 | less than zero | 8.93% |
+| 1979 | profit | 227.3 | less than zero | 10.08% |
+| 1980 | profit | 237.0 | less than zero | 11.94% |
+| 1981 | profit | 228.4 | less than zero | 13.61% |
+| 1982 | $21.56 | 220.6 | 9.77% | 10.64% |
+| 1983 | $33.87 | 231.3 | 14.64% | 11.84% |
+| 1984 | $48.06 | 253.2 | 18.98% | 11.58% |
+| 1985 | $44.23 | 390.2 | 11.34% | 9.34% |
+| 1986 | $55.84 | 797.5 | 7.00% | 7.60% |
+| 1987 | $55.43 | 1,266.7 | 4.38% | 8.95% |
+| 1988 | $11.08 | 1,497.7 | 0.74% | 9.00% |
+| 1989 | $24.40 | 1,541.3 | 1.58% | 7.97% |
+| 1990 | $26.65 | 1,637.3 | 1.63% | 8.24% |
+| 1991 | $119.59 | 1,895.0 | 6.31% | 7.40% |
+| 1992 | $108.96 | 2,290.4 | 4.76% | 7.39% |
+| 1993 | profit | 2,624.7 | less than zero | 6.35% |
+| 1994 | profit | 3,056.6 | less than zero | 7.88% |
+| 1995 | profit | 3,607.2 | less than zero | 5.95% |
+| 1996 | profit | 6,702.0 | less than zero | 6.64% |
 Since 1967, when we entered the insurance business, our float has
 grown at an annual compounded rate of 22.3%. In more years than not, our
 cost of funds has been less than nothing. This access to "free" money has
 boosted Berkshire's performance in a major way. Moreover, our acquisition
 of GEICO materially increases the probability that we can continue to
 obtain "free" funds in increasing amounts.
-Super-Cat Insurance
+## Super-Cat Insurance
 As in the past three years, we once again stress that the good results
 we are reporting for Berkshire stem in part from our super-cat business
 having a lucky year. In this operation, we sell policies that insurance
