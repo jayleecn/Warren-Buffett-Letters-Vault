@@ -225,10 +225,19 @@ export function renderPage(
     componentData.fileData.frontmatter?.lang as string | undefined,
     (cfg.locale as ValidLocale) ?? "zh-CN",
   )
+  const pageTitles: Record<string, string> = {
+    "en-US": "Buffett Letters Vault",
+    "en-GB": "Buffett Letters Vault",
+    "es-ES": "Bóveda de cartas de Buffett",
+    "pt-BR": "Cofre das Cartas de Buffett",
+    "ja-JP": "バフェット書簡庫",
+    "zh-CN": cfg.pageTitle,
+    "zh-TW": cfg.pageTitle,
+  }
   const pageCfg: GlobalConfiguration = {
     ...cfg,
     locale: pageLocale,
-    pageTitle: pageLocale.startsWith("en") ? "Buffett Letters Vault" : cfg.pageTitle,
+    pageTitle: pageTitles[pageLocale] ?? cfg.pageTitle,
   }
   componentData = { ...componentData, cfg: pageCfg }
 
