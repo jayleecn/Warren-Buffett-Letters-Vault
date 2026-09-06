@@ -67,6 +67,7 @@ Touch: `quartz/components/Footer.tsx`
 | 404 language | Wrong language 404 | `/{prefix}/404` + client rewrite |
 | Explorer/Search `LOCALE_PREFIXES` stuck on `["en"]` | es/ja trees leak into other locales / switcher feels broken | `explorer.inline.ts` / `search.inline.ts` |
 | Explorer scopes via `body.dataset.slug` only | SPA nav can rebuild Explorer for the *previous* locale (zh tree on `/es/`) | Prefer `location.pathname` for locale; filter `contentIndex` before trie; absolute Explorer hrefs; fail closed |
+| Unhashed `postscript.js` cached 4h at CDN/browser | Regression still sees old Explorer (relative hrefs, only `en` scoped) after merge | Bump `assetV` in `renderPage.tsx`; `_headers` max-age=0 for entry JS |
 | Cross-locale `aliases:` collide at site root | Last writer wins (often JA); ES Company Index → Japanese page | Prefix alias slugs with locale in `frontmatter.ts`; root-absolute redirects in `aliases.ts`; same-locale prefer in `transformLink` |
 
 When adding French/German/etc., copy this checklist; do not rely on memory.

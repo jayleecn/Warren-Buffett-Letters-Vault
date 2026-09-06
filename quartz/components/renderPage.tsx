@@ -27,19 +27,22 @@ export function pageResources(
   baseDir: FullSlug | RelativeURL,
   staticResources: StaticResources,
 ): StaticResources {
+  // Bust long-lived CDN/browser cache of unhashed JS (CF default max-age=14400).
+  // Bump when Explorer/Search client logic changes.
+  const assetV = "20260906-e38"
   const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
   const contentIndexScript = `const fetchData = fetch("${contentIndexPath}").then(data => data.json())`
 
   const resources: StaticResources = {
     css: [
       {
-        content: joinSegments(baseDir, "index.css"),
+        content: `${joinSegments(baseDir, "index.css")}?v=${assetV}`,
       },
       ...staticResources.css,
     ],
     js: [
       {
-        src: joinSegments(baseDir, "prescript.js"),
+        src: `${joinSegments(baseDir, "prescript.js")}?v=${assetV}`,
         loadTime: "beforeDOMReady",
         contentType: "external",
       },
@@ -55,7 +58,7 @@ export function pageResources(
   }
 
   resources.js.push({
-    src: joinSegments(baseDir, "postscript.js"),
+    src: `${joinSegments(baseDir, "postscript.js")}?v=${assetV}`,
     loadTime: "afterDOMReady",
     moduleType: "module",
     contentType: "external",
