@@ -14,6 +14,7 @@ translations:
   zh: 03-concepts/承保纪律
   en: en/03-concepts/Underwriting-Discipline
   es: es/03-concepts/Underwriting-Discipline
+  ja: ja/03-concepts/Underwriting-Discipline
 ---
 # Underwriting Discipline
 

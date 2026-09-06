@@ -14,8 +14,8 @@ translations:
   zh: 04-companies/精密铸件
   en: en/04-companies/Precision-Castparts
   es: es/04-companies/Precision-Castparts
+  ja: ja/04-companies/Precision-Castparts
 ---
-
 # Precision Castparts
 
 ## Descripción de la empresa

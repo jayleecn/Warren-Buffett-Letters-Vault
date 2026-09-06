@@ -15,8 +15,8 @@ translations:
   zh: 04-companies/所罗门兄弟
   en: en/04-companies/Salomon-Brothers
   es: es/04-companies/Salomon-Brothers
+  ja: ja/04-companies/Salomon-Brothers
 ---
-
 # Salomon Brothers
 
 ## Descripción de la empresa

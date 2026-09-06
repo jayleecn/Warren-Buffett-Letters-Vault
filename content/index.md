@@ -10,6 +10,7 @@ translations:
   zh: index
   en: en/index
   es: es/index
+  ja: ja/index
 ---
 # 巴菲特致股东信
 

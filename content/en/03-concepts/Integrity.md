@@ -15,6 +15,7 @@ translations:
   zh: 03-concepts/诚信
   en: en/03-concepts/Integrity
   es: es/03-concepts/Integrity
+  ja: ja/03-concepts/Integrity
 ---
 # Integrity
 

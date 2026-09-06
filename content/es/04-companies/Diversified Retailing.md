@@ -14,8 +14,8 @@ translations:
   zh: 04-companies/多元零售公司
   en: en/04-companies/Diversified-Retailing
   es: es/04-companies/Diversified-Retailing
+  ja: ja/04-companies/Diversified-Retailing
 ---
-
 # Diversified Retailing
 
 ## Descripción de la empresa

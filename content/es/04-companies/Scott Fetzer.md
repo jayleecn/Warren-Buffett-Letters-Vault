@@ -14,8 +14,8 @@ translations:
   zh: 04-companies/斯科特·费策
   en: en/04-companies/Scott-Fetzer
   es: es/04-companies/Scott-Fetzer
+  ja: ja/04-companies/Scott-Fetzer
 ---
-
 # Scott Fetzer
 
 ## Descripción de la empresa

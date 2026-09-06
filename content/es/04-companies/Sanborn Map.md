@@ -14,8 +14,8 @@ translations:
   zh: 04-companies/桑伯恩地图
   en: en/04-companies/Sanborn-Map
   es: es/04-companies/Sanborn-Map
+  ja: ja/04-companies/Sanborn-Map
 ---
-
 # Sanborn Map
 
 ## Descripción de la empresa

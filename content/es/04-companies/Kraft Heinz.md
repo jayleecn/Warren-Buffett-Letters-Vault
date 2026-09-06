@@ -14,8 +14,8 @@ translations:
   zh: 04-companies/卡夫亨氏
   en: en/04-companies/Kraft-Heinz
   es: es/04-companies/Kraft-Heinz
+  ja: ja/04-companies/Kraft-Heinz
 ---
-
 # Kraft Heinz
 
 ## Descripción de la empresa

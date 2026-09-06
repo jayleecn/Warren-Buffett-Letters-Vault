@@ -61,6 +61,7 @@ translations:
   zh: 02-letters/berkshire/2018年股东信
   en: en/02-letters/berkshire/2018-Shareholder-Letter
   es: es/02-letters/berkshire/2018-Shareholder-Letter
+  ja: ja/02-letters/berkshire/2018-Shareholder-Letter
 ---
 # Carta a los accionistas de Berkshire Hathaway - 2018| Year                               | Annual Percentage Change             |                                        |                                    |
 |------------------------------------|--------------------------------------|----------------------------------------|------------------------------------|

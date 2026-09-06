@@ -14,8 +14,8 @@ translations:
   zh: 03-concepts/透明沟通
   en: en/03-concepts/Transparent-Communication
   es: es/03-concepts/Transparent-Communication
+  ja: ja/03-concepts/Transparent-Communication
 ---
-
 # Comunicación transparente
 
 ## Panorama

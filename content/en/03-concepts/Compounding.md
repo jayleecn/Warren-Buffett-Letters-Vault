@@ -17,6 +17,7 @@ translations:
   zh: 03-concepts/复利
   en: en/03-concepts/Compounding
   es: es/03-concepts/Compounding
+  ja: ja/03-concepts/Compounding
 ---
 # Compounding
 

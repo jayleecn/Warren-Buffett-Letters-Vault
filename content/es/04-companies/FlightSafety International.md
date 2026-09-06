@@ -14,8 +14,8 @@ translations:
   zh: 04-companies/飞安国际
   en: en/04-companies/FlightSafety-International
   es: es/04-companies/FlightSafety-International
+  ja: ja/04-companies/FlightSafety-International
 ---
-
 # FlightSafety International
 
 ## Descripción de la empresa

@@ -15,6 +15,7 @@ translations:
   zh: 03-concepts/控制类投资
   en: en/03-concepts/Controls
   es: es/03-concepts/Controls
+  ja: ja/03-concepts/Controls
 ---
 # Controls
 

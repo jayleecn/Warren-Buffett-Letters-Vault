@@ -10,6 +10,7 @@ translations:
   zh: 01-index/巴菲特致股东信总览
   en: en/01-index/Letters-Overview
   es: es/01-index/Letters-Overview
+  ja: ja/01-index/Letters-Overview
 ---
 # Letters Overview
 

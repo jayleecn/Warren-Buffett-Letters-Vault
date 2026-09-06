@@ -16,6 +16,7 @@ translations:
   zh: 04-companies/国民赔偿保险
   en: en/04-companies/National-Indemnity
   es: es/04-companies/National-Indemnity
+  ja: ja/04-companies/National-Indemnity
 ---
 # National Indemnity
 
