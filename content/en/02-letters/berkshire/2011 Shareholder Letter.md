@@ -92,6 +92,7 @@ translations:
   es: es/02-letters/berkshire/2011-Shareholder-Letter
   pt: pt/02-letters/berkshire/2011-Shareholder-Letter
   ja: ja/02-letters/berkshire/2011-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2011年股东信
 ---
 # Berkshire Hathaway Shareholder Letter - 2011
 

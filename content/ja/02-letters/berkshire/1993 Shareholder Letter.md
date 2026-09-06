@@ -47,6 +47,7 @@ translations:
   en: en/02-letters/berkshire/1993-Shareholder-Letter
   es: es/02-letters/berkshire/1993-Shareholder-Letter
   ja: ja/02-letters/berkshire/1993-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/1993年股东信
 ---
 
 # 1993年株主への手紙

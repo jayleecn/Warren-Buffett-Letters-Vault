@@ -25,6 +25,7 @@ translations:
   es: es/02-letters/partnership/1963-Partnership-Letter-(2)
   pt: pt/02-letters/partnership/1963-Partnership-Letter-(2)
   ja: ja/02-letters/partnership/1963-Partnership-Letter-(2)
+  zh-tw: zh-tw/02-letters/partnership/1963年合伙人信(2)
 ---
 # Buffett Partnership Letter — 1963
 

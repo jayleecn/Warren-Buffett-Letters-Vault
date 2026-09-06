@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Cigar-Butt-Investing
   es: es/03-concepts/Cigar-Butt-Investing
   pt: pt/03-concepts/Cigar-Butt-Investing
+  zh-tw: zh-tw/03-concepts/捡烟蒂投资
 ---
 
 # Investimento em ponta de charuto

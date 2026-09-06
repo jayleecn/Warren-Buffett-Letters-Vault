@@ -15,6 +15,7 @@ translations:
   en: en/03-concepts/Independent-Thinking
   es: es/03-concepts/Independent-Thinking
   ja: ja/03-concepts/Independent-Thinking
+  zh-tw: zh-tw/03-concepts/独立思考
 ---
 
 # 独立した思考

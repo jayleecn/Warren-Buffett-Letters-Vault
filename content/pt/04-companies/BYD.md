@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/BYD
   es: es/04-companies/BYD
   pt: pt/04-companies/BYD
+  zh-tw: zh-tw/04-companies/比亚迪
 ---
 
 # BYD

@@ -44,6 +44,7 @@ translations:
   es: es/02-letters/berkshire/2022-Shareholder-Letter
   pt: pt/02-letters/berkshire/2022-Shareholder-Letter
   ja: ja/02-letters/berkshire/2022-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2022年股东信
 ---
 # Carta a los accionistas de Berkshire Hathaway - 2022| Year                               | Annual Percentage Change               |                                    |
 |------------------------------------|----------------------------------------|------------------------------------|

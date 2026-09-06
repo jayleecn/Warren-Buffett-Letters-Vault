@@ -11,6 +11,7 @@ translations:
   en: en/01-index/Company-Index
   es: es/01-index/Company-Index
   pt: pt/01-index/Company-Index
+  zh-tw: zh-tw/01-index/公司索引
 ---
 
 # Índice de empresas

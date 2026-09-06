@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/Dexter-Shoe
   es: es/04-companies/Dexter-Shoe
   ja: ja/04-companies/Dexter-Shoe
+  zh-tw: zh-tw/04-companies/德克斯特鞋业
 ---
 
 # Dexter Shoe

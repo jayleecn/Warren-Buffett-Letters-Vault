@@ -23,6 +23,7 @@ translations:
   en: en/02-letters/partnership/1960-Partnership-Letter
   es: es/02-letters/partnership/1960-Partnership-Letter
   ja: ja/02-letters/partnership/1960-Partnership-Letter
+  zh-tw: zh-tw/02-letters/partnership/1960年合伙人信
 ---
 
 # 1960年パートナーシップ書簡

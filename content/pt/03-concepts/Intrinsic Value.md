@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Intrinsic-Value
   es: es/03-concepts/Intrinsic-Value
   pt: pt/03-concepts/Intrinsic-Value
+  zh-tw: zh-tw/03-concepts/内在价值
 ---
 
 # Valor intrínseco

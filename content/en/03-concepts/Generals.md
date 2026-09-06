@@ -17,6 +17,7 @@ translations:
   es: es/03-concepts/Generals
   pt: pt/03-concepts/Generals
   ja: ja/03-concepts/Generals
+  zh-tw: zh-tw/03-concepts/低估类投资
 ---
 # Generals
 

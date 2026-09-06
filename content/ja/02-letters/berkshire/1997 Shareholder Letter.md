@@ -56,6 +56,7 @@ translations:
   en: en/02-letters/berkshire/1997-Shareholder-Letter
   es: es/02-letters/berkshire/1997-Shareholder-Letter
   ja: ja/02-letters/berkshire/1997-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/1997年股东信
 ---
 
 #バークシャーハサウェイ株主レター-1997バークシャー・ハサウェイ社 1997 年会長の手紙

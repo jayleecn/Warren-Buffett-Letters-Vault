@@ -12,6 +12,7 @@ translations:
   es: es/index
   pt: pt/index
   ja: ja/index
+  zh-tw: zh-tw/index
 ---
 # 巴菲特致股东信
 

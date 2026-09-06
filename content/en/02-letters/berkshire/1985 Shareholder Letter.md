@@ -45,6 +45,7 @@ translations:
   es: es/02-letters/berkshire/1985-Shareholder-Letter
   pt: pt/02-letters/berkshire/1985-Shareholder-Letter
   ja: ja/02-letters/berkshire/1985-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/1985年股东信
 ---
 # Berkshire Hathaway Shareholder Letter — 1985
 

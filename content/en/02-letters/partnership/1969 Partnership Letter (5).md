@@ -21,6 +21,7 @@ translations:
   es: es/02-letters/partnership/1969-Partnership-Letter-(5)
   pt: pt/02-letters/partnership/1969-Partnership-Letter-(5)
   ja: ja/02-letters/partnership/1969-Partnership-Letter-(5)
+  zh-tw: zh-tw/02-letters/partnership/1969年合伙人信(5)
 ---
 # Buffett Partnership Letter — 1969
 

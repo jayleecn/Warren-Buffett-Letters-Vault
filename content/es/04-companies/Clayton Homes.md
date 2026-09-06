@@ -15,6 +15,7 @@ translations:
   es: es/04-companies/Clayton-Homes
   pt: pt/04-companies/Clayton-Homes
   ja: ja/04-companies/Clayton-Homes
+  zh-tw: zh-tw/04-companies/克莱顿住宅
 ---
 # Clayton Homes
 

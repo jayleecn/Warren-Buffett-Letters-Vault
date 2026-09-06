@@ -49,6 +49,7 @@ translations:
   es: es/02-letters/berkshire/2023-Shareholder-Letter
   pt: pt/02-letters/berkshire/2023-Shareholder-Letter
   ja: ja/02-letters/berkshire/2023-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2023年股东信
 ---
 # Carta a los accionistas de Berkshire Hathaway - 2023
 

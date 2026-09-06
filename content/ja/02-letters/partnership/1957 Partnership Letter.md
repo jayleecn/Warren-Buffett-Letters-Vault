@@ -23,6 +23,7 @@ translations:
   en: en/02-letters/partnership/1957-Partnership-Letter
   es: es/02-letters/partnership/1957-Partnership-Letter
   ja: ja/02-letters/partnership/1957-Partnership-Letter
+  zh-tw: zh-tw/02-letters/partnership/1957年合伙人信
 ---
 
 # 1957年パートナーシップ書簡

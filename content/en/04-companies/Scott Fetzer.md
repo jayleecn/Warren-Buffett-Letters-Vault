@@ -16,6 +16,7 @@ translations:
   es: es/04-companies/Scott-Fetzer
   pt: pt/04-companies/Scott-Fetzer
   ja: ja/04-companies/Scott-Fetzer
+  zh-tw: zh-tw/04-companies/斯科特·费策
 ---
 # Scott Fetzer
 

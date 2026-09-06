@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Cigar-Butt-Investing
   es: es/03-concepts/Cigar-Butt-Investing
   ja: ja/03-concepts/Cigar-Butt-Investing
+  zh-tw: zh-tw/03-concepts/捡烟蒂投资
 ---
 
 # 葉巻吸い殻投資

@@ -30,6 +30,7 @@ translations:
   en: en/02-letters/berkshire/1976-Shareholder-Letter
   es: es/02-letters/berkshire/1976-Shareholder-Letter
   ja: ja/02-letters/berkshire/1976-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/1976年股东信
 ---
 
 # 1976年株主への手紙

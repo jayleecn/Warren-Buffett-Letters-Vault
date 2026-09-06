@@ -39,6 +39,7 @@ translations:
   es: es/02-letters/berkshire/1982-Shareholder-Letter
   pt: pt/02-letters/berkshire/1982-Shareholder-Letter
   ja: ja/02-letters/berkshire/1982-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/1982年股东信
 ---
 # Carta a los accionistas de Berkshire Hathaway - 1982
 

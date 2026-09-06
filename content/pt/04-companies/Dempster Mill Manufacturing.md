@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/Dempster-Mill-Manufacturing
   es: es/04-companies/Dempster-Mill-Manufacturing
   pt: pt/04-companies/Dempster-Mill-Manufacturing
+  zh-tw: zh-tw/04-companies/登普斯特风车制造
 ---
 
 # Dempster Mill Manufacturing

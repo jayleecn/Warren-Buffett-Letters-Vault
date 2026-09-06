@@ -53,6 +53,7 @@ translations:
   en: en/02-letters/berkshire/2003-Shareholder-Letter
   es: es/02-letters/berkshire/2003-Shareholder-Letter
   ja: ja/02-letters/berkshire/2003-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2003年股东信
 ---
 
 # 2003年株主への手紙

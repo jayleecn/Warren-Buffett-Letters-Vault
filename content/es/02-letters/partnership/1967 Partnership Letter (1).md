@@ -28,6 +28,7 @@ translations:
   es: es/02-letters/partnership/1967-Partnership-Letter-(1)
   pt: pt/02-letters/partnership/1967-Partnership-Letter-(1)
   ja: ja/02-letters/partnership/1967-Partnership-Letter-(1)
+  zh-tw: zh-tw/02-letters/partnership/1967年合伙人信(1)
 ---
 # Carta de asociación de Buffett - 1967
 

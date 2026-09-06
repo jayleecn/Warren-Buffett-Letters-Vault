@@ -11,6 +11,7 @@ translations:
   en: en/01-index/People-Index
   es: es/01-index/People-Index
   pt: pt/01-index/People-Index
+  zh-tw: zh-tw/01-index/人物索引
 ---
 
 # Índice de pessoas

@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/Fruit-of-the-Loom
   es: es/04-companies/Fruit-of-the-Loom
   pt: pt/04-companies/Fruit-of-the-Loom
+  zh-tw: zh-tw/04-companies/果实织物
 ---
 
 # Fruit of the Loom

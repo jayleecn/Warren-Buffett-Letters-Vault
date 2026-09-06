@@ -10,6 +10,7 @@ translations:
   en: en/index
   es: es/index
   pt: pt/index
+  zh-tw: zh-tw/index
 ---
 
 # Cofre das Cartas de Buffett

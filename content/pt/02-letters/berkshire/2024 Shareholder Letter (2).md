@@ -57,6 +57,7 @@ translations:
   en: en/02-letters/berkshire/2024-Shareholder-Letter-(2)
   es: es/02-letters/berkshire/2024-Shareholder-Letter-(2)
   pt: pt/02-letters/berkshire/2024-Shareholder-Letter-(2)
+  zh-tw: zh-tw/02-letters/berkshire/2024年股东信(2)
 ---
 # Carta aos acionistas da Berkshire Hathaway - 2024 (2) 
 

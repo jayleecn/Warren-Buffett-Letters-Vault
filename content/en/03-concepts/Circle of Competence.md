@@ -18,6 +18,7 @@ translations:
   es: es/03-concepts/Circle-of-Competence
   pt: pt/03-concepts/Circle-of-Competence
   ja: ja/03-concepts/Circle-of-Competence
+  zh-tw: zh-tw/03-concepts/能力圈
 ---
 # Circle of Competence
 

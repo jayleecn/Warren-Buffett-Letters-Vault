@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Management-Assessment
   es: es/03-concepts/Management-Assessment
   ja: ja/03-concepts/Management-Assessment
+  zh-tw: zh-tw/03-concepts/管理层评估
 ---
 
 # 経営評価

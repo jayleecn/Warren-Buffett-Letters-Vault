@@ -14,6 +14,7 @@ translations:
   en: en/04-companies/Gillette
   es: es/04-companies/Gillette
   ja: ja/04-companies/Gillette
+  zh-tw: zh-tw/04-companies/吉列
 ---
 
 # Gillette

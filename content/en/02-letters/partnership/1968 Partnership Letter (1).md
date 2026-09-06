@@ -27,6 +27,7 @@ translations:
   es: es/02-letters/partnership/1968-Partnership-Letter-(1)
   pt: pt/02-letters/partnership/1968-Partnership-Letter-(1)
   ja: ja/02-letters/partnership/1968-Partnership-Letter-(1)
+  zh-tw: zh-tw/02-letters/partnership/1968年合伙人信(1)
 ---
 # Buffett Partnership Letter — 1968
 

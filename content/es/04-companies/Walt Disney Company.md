@@ -16,6 +16,7 @@ translations:
   es: es/04-companies/Walt-Disney-Company
   pt: pt/04-companies/Walt-Disney-Company
   ja: ja/04-companies/Walt-Disney-Company
+  zh-tw: zh-tw/04-companies/迪士尼
 ---
 # Walt Disney Company
 

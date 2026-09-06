@@ -58,6 +58,7 @@ translations:
   es: es/02-letters/berkshire/2024-Shareholder-Letter-(2)
   pt: pt/02-letters/berkshire/2024-Shareholder-Letter-(2)
   ja: ja/02-letters/berkshire/2024-Shareholder-Letter-(2)
+  zh-tw: zh-tw/02-letters/berkshire/2024年股东信(2)
 ---
 # Berkshire Hathaway Shareholder Letter — 2024 (2)
 

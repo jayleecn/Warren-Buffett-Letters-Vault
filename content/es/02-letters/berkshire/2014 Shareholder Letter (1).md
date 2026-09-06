@@ -97,6 +97,7 @@ translations:
   es: es/02-letters/berkshire/2014-Shareholder-Letter-(1)
   pt: pt/02-letters/berkshire/2014-Shareholder-Letter-(1)
   ja: ja/02-letters/berkshire/2014-Shareholder-Letter-(1)
+  zh-tw: zh-tw/02-letters/berkshire/2014年股东信(1)
 ---
 # Carta a los accionistas de Berkshire Hathaway - 2014| Year                               | Annual Percentage Change             |                                        |                                    |
 |------------------------------------|--------------------------------------|----------------------------------------|------------------------------------|

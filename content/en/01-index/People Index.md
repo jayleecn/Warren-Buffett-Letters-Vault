@@ -12,6 +12,7 @@ translations:
   es: es/01-index/People-Index
   pt: pt/01-index/People-Index
   ja: ja/01-index/People-Index
+  zh-tw: zh-tw/01-index/人物索引
 ---
 # People Index
 

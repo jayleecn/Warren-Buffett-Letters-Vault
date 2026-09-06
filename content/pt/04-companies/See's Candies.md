@@ -17,6 +17,7 @@ translations:
   en: en/04-companies/See's-Candies
   es: es/04-companies/See's-Candies
   pt: pt/04-companies/See's-Candies
+  zh-tw: zh-tw/04-companies/喜诗糖果
 ---
 
 # See's Candies

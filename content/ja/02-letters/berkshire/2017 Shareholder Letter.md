@@ -70,6 +70,7 @@ translations:
   en: en/02-letters/berkshire/2017-Shareholder-Letter
   es: es/02-letters/berkshire/2017-Shareholder-Letter
   ja: ja/02-letters/berkshire/2017-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2017年股东信
 ---
 
 #バークシャーハサウェイ株主レター-2017| 年 | バークシャーの一株当たり簿価 | バークシャーの一株当たり市場価値 | S&P 500 に配当込み |

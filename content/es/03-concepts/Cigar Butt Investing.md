@@ -17,6 +17,7 @@ translations:
   es: es/03-concepts/Cigar-Butt-Investing
   pt: pt/03-concepts/Cigar-Butt-Investing
   ja: ja/03-concepts/Cigar-Butt-Investing
+  zh-tw: zh-tw/03-concepts/捡烟蒂投资
 ---
 # Inversión en colillas de cigarro
 

@@ -14,6 +14,7 @@ translations:
   en: en/04-companies/Jordan's-Furniture
   es: es/04-companies/Jordan's-Furniture
   ja: ja/04-companies/Jordan's-Furniture
+  zh-tw: zh-tw/04-companies/乔丹家具
 ---
 
 # Jordan's Furniture

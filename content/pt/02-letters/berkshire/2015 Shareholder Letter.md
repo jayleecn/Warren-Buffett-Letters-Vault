@@ -84,6 +84,7 @@ translations:
   en: en/02-letters/berkshire/2015-Shareholder-Letter
   es: es/02-letters/berkshire/2015-Shareholder-Letter
   pt: pt/02-letters/berkshire/2015-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2015年股东信
 ---
 # Carta aos Acionistas da Berkshire Hathaway - 2015| Year                               | Annual Percentage Change             |                                        |                                    |
 |------------------------------------|--------------------------------------|----------------------------------------|------------------------------------|

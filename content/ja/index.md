@@ -10,6 +10,7 @@ translations:
   en: en/index
   es: es/index
   ja: ja/index
+  zh-tw: zh-tw/index
 ---
 
 # バフェット書簡庫

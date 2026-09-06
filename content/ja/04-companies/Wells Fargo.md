@@ -16,6 +16,7 @@ translations:
   en: en/04-companies/Wells-Fargo
   es: es/04-companies/Wells-Fargo
   ja: ja/04-companies/Wells-Fargo
+  zh-tw: zh-tw/04-companies/富国银行
 ---
 
 # Wells Fargo

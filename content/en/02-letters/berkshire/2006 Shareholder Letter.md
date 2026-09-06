@@ -55,6 +55,7 @@ translations:
   es: es/02-letters/berkshire/2006-Shareholder-Letter
   pt: pt/02-letters/berkshire/2006-Shareholder-Letter
   ja: ja/02-letters/berkshire/2006-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2006年股东信
 ---
 # Berkshire Hathaway Shareholder Letter — 2006
 

@@ -85,6 +85,7 @@ translations:
   es: es/02-letters/berkshire/2015-Shareholder-Letter
   pt: pt/02-letters/berkshire/2015-Shareholder-Letter
   ja: ja/02-letters/berkshire/2015-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2015年股东信
 ---
 # Berkshire Hathaway Shareholder Letter - 2015
 

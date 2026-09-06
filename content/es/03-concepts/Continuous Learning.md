@@ -17,6 +17,7 @@ translations:
   es: es/03-concepts/Continuous-Learning
   pt: pt/03-concepts/Continuous-Learning
   ja: ja/03-concepts/Continuous-Learning
+  zh-tw: zh-tw/03-concepts/持续学习
 ---
 # Aprendizaje continuo
 

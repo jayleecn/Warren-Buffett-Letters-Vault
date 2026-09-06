@@ -60,6 +60,7 @@ translations:
   en: en/02-letters/berkshire/2008-Shareholder-Letter
   es: es/02-letters/berkshire/2008-Shareholder-Letter
   ja: ja/02-letters/berkshire/2008-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2008年股东信
 ---
 
 # 2008年株主への手紙

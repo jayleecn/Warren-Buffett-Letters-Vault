@@ -17,6 +17,7 @@ translations:
   es: es/03-concepts/Franchise
   pt: pt/03-concepts/Franchise
   ja: ja/03-concepts/Franchise
+  zh-tw: zh-tw/03-concepts/特许经营权
 ---
 # Franquicia
 

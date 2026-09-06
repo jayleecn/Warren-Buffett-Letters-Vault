@@ -60,6 +60,7 @@ translations:
   en: en/02-letters/berkshire/2019-Shareholder-Letter
   es: es/02-letters/berkshire/2019-Shareholder-Letter
   ja: ja/02-letters/berkshire/2019-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2019年股东信
 ---
 
 # 2019年株主への手紙

@@ -17,6 +17,7 @@ translations:
   en: en/03-concepts/Concentrated-Investing
   es: es/03-concepts/Concentrated-Investing
   ja: ja/03-concepts/Concentrated-Investing
+  zh-tw: zh-tw/03-concepts/集中投资
 ---
 
 # 集中投資

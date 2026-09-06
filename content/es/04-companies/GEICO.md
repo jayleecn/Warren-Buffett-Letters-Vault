@@ -18,6 +18,7 @@ translations:
   es: es/04-companies/GEICO
   pt: pt/04-companies/GEICO
   ja: ja/04-companies/GEICO
+  zh-tw: zh-tw/04-companies/盖可保险（GEICO）
 ---
 # GEICO
 

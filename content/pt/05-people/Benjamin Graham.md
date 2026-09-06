@@ -16,6 +16,7 @@ translations:
   en: en/05-people/Benjamin-Graham
   es: es/05-people/Benjamin-Graham
   pt: pt/05-people/Benjamin-Graham
+  zh-tw: zh-tw/05-people/本杰明·格雷厄姆
 ---
 
 # Benjamin Graham

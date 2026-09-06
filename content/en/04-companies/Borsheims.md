@@ -16,6 +16,7 @@ translations:
   es: es/04-companies/Borsheims
   pt: pt/04-companies/Borsheims
   ja: ja/04-companies/Borsheims
+  zh-tw: zh-tw/04-companies/博希姆珠宝
 ---
 # Borsheims
 

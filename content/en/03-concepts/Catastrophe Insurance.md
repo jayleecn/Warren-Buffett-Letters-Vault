@@ -19,6 +19,7 @@ translations:
   es: es/03-concepts/Catastrophe-Insurance
   pt: pt/03-concepts/Catastrophe-Insurance
   ja: ja/03-concepts/Catastrophe-Insurance
+  zh-tw: zh-tw/03-concepts/巨灾保险
 ---
 # Catastrophe Insurance
 

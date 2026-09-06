@@ -16,6 +16,7 @@ translations:
   es: es/04-companies/Pilot-Travel-Centers
   pt: pt/04-companies/Pilot-Travel-Centers
   ja: ja/04-companies/Pilot-Travel-Centers
+  zh-tw: zh-tw/04-companies/飞行员旅行中心
 ---
 # Pilot Travel Centers
 

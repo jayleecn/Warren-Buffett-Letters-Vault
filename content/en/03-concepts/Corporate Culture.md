@@ -16,6 +16,7 @@ translations:
   es: es/03-concepts/Corporate-Culture
   pt: pt/03-concepts/Corporate-Culture
   ja: ja/03-concepts/Corporate-Culture
+  zh-tw: zh-tw/03-concepts/企业文化
 ---
 # Corporate Culture
 

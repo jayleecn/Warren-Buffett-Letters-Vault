@@ -24,6 +24,7 @@ translations:
   en: en/02-letters/partnership/1962-Partnership-Letter-(2)
   es: es/02-letters/partnership/1962-Partnership-Letter-(2)
   pt: pt/02-letters/partnership/1962-Partnership-Letter-(2)
+  zh-tw: zh-tw/02-letters/partnership/1962年合伙人信(2)
 ---
 # Carta da Buffett Partnership — 1962
 

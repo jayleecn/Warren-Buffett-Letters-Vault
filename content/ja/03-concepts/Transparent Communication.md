@@ -15,6 +15,7 @@ translations:
   en: en/03-concepts/Transparent-Communication
   es: es/03-concepts/Transparent-Communication
   ja: ja/03-concepts/Transparent-Communication
+  zh-tw: zh-tw/03-concepts/透明沟通
 ---
 
 # 透過的なコミュニケーション

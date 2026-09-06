@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/Dairy-Queen
   es: es/04-companies/Dairy-Queen
   pt: pt/04-companies/Dairy-Queen
+  zh-tw: zh-tw/04-companies/冰雪皇后
 ---
 
 # Dairy Queen

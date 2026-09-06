@@ -76,6 +76,7 @@ translations:
   en: en/02-letters/berkshire/2012-Shareholder-Letter
   es: es/02-letters/berkshire/2012-Shareholder-Letter
   ja: ja/02-letters/berkshire/2012-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2012年股东信
 ---
 
 # 2012年株主への手紙

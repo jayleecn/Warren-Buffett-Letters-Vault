@@ -15,6 +15,7 @@ translations:
   en: en/04-companies/US-Air
   es: es/04-companies/US-Air
   ja: ja/04-companies/US-Air
+  zh-tw: zh-tw/04-companies/联合航空
 ---
 
 # US Air

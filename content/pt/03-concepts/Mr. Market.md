@@ -15,6 +15,7 @@ translations:
   en: en/03-concepts/Mr.-Market
   es: es/03-concepts/Mr.-Market
   pt: pt/03-concepts/Mr.-Market
+  zh-tw: zh-tw/03-concepts/市场先生
 ---
 
 # Sr. Mercado

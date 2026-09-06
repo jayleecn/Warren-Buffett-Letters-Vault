@@ -11,6 +11,7 @@ translations:
   es: es/index
   pt: pt/index
   ja: ja/index
+  zh-tw: zh-tw/index
 ---
 # Bóveda de cartas de Buffett
 

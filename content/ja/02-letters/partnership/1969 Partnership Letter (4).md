@@ -26,6 +26,7 @@ translations:
   en: en/02-letters/partnership/1969-Partnership-Letter-(4)
   es: es/02-letters/partnership/1969-Partnership-Letter-(4)
   ja: ja/02-letters/partnership/1969-Partnership-Letter-(4)
+  zh-tw: zh-tw/02-letters/partnership/1969年合伙人信(4)
 ---
 
 # 1969年パートナーシップ書簡（4）

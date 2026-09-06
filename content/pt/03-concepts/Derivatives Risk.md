@@ -16,6 +16,7 @@ translations:
   en: en/03-concepts/Derivatives-Risk
   es: es/03-concepts/Derivatives-Risk
   pt: pt/03-concepts/Derivatives-Risk
+  zh-tw: zh-tw/03-concepts/衍生品风险
 ---
 # Risco de derivativos
 

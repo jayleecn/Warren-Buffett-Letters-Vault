@@ -16,6 +16,7 @@ translations:
   es: es/04-companies/Kraft-Heinz
   pt: pt/04-companies/Kraft-Heinz
   ja: ja/04-companies/Kraft-Heinz
+  zh-tw: zh-tw/04-companies/卡夫亨氏
 ---
 # Kraft Heinz
 

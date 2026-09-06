@@ -55,6 +55,7 @@ translations:
   en: en/02-letters/berkshire/2009-Shareholder-Letter
   es: es/02-letters/berkshire/2009-Shareholder-Letter
   ja: ja/02-letters/berkshire/2009-Shareholder-Letter
+  zh-tw: zh-tw/02-letters/berkshire/2009年股东信
 ---
 
 #バークシャーハサウェイ株主レター-2009| 年 | 年間変化率 | | |

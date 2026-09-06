@@ -16,6 +16,7 @@ translations:
   es: es/04-companies/Precision-Castparts
   pt: pt/04-companies/Precision-Castparts
   ja: ja/04-companies/Precision-Castparts
+  zh-tw: zh-tw/04-companies/精密铸件
 ---
 # Precision Castparts
 
