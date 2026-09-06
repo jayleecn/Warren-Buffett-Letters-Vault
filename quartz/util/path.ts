@@ -1,6 +1,7 @@
 import { slug as slugAnchor } from "github-slugger"
 import type { Element as HastElement } from "hast"
 import { clone } from "./clone"
+import { localeFromSlug, slugBelongsToLocale } from "../i18n/siteLocales"
 
 // this file must be isomorphic so it can't use node libs (e.g. path)
 
@@ -226,6 +227,28 @@ export interface TransformOptions {
   allSlugs: FullSlug[]
 }
 
+/** Deepest path among candidates (real page over short alias like es/Name). */
+function deepestSlug(candidates: FullSlug[]): FullSlug {
+  return candidates.reduce((best, cur) =>
+    cur.split("/").length > best.split("/").length ? cur : best,
+  )
+}
+
+/**
+ * Resolve a bare wikilink target against allSlugs, preferring the src page's locale.
+ * Prevents [[Illinois National Bank]] on /es/ from resolving via a root/ja alias collision.
+ */
+function resolveBareTarget(src: FullSlug, targetCanonical: string, allSlugs: FullSlug[]): FullSlug | undefined {
+  const matching = allSlugs.filter((slug) => slug.split("/").at(-1) === targetCanonical)
+  if (matching.length === 0) return undefined
+  if (matching.length === 1) return matching[0]
+
+  const loc = localeFromSlug(src)
+  const sameLocale = matching.filter((slug) => slugBelongsToLocale(slug, loc))
+  if (sameLocale.length === 0) return undefined // fall through to absolute path join
+  return deepestSlug(sameLocale)
+}
+
 export function transformLink(src: FullSlug, target: string, opts: TransformOptions): RelativeURL {
   let targetSlug = transformInternalLink(target)
 
@@ -235,19 +258,19 @@ export function transformLink(src: FullSlug, target: string, opts: TransformOpti
     const folderTail = isFolderPath(targetSlug) ? "/" : ""
     const canonicalSlug = stripSlashes(targetSlug.slice(".".length))
     let [targetCanonical, targetAnchor] = splitAnchor(canonicalSlug)
+    const isBareTarget = !targetCanonical.includes("/")
 
     if (opts.strategy === "shortest") {
-      // if the file name is unique, then it's just the filename
-      const matchingFileNames = opts.allSlugs.filter((slug) => {
-        const parts = slug.split("/")
-        const fileName = parts.at(-1)
-        return targetCanonical === fileName
-      })
-
-      // only match, just use it
-      if (matchingFileNames.length === 1) {
-        const targetSlug = matchingFileNames[0]
-        return (resolveRelative(src, targetSlug) + targetAnchor) as RelativeURL
+      // unique filename, or multi-locale collision resolved via same-locale preference
+      const resolved = resolveBareTarget(src, targetCanonical, opts.allSlugs)
+      if (resolved) {
+        return (resolveRelative(src, resolved) + targetAnchor) as RelativeURL
+      }
+    } else if (isBareTarget) {
+      // absolute strategy + bare target: prefer same-locale allSlugs match
+      const resolved = resolveBareTarget(src, targetCanonical, opts.allSlugs)
+      if (resolved && slugBelongsToLocale(resolved, localeFromSlug(src))) {
+        return (resolveRelative(src, resolved) + targetAnchor) as RelativeURL
       }
     }
 

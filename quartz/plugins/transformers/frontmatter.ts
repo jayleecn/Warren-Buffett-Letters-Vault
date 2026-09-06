@@ -4,6 +4,7 @@ import { QuartzTransformerPlugin } from "../types"
 import yaml from "js-yaml"
 import toml from "toml"
 import { FilePath, FullSlug, getFileExtension, slugifyFilePath, slugTag } from "../../util/path"
+import { localeFromSlug } from "../../i18n/siteLocales"
 import { QuartzPluginData } from "../vfile"
 import { i18n } from "../../i18n"
 
@@ -40,12 +41,18 @@ function coerceToArray(input: string | string[]): string[] | undefined {
     .map((tag: string | number) => tag.toString())
 }
 
-function getAliasSlugs(aliases: string[]): FullSlug[] {
+function getAliasSlugs(aliases: string[], pageSlug: string): FullSlug[] {
+  const loc = localeFromSlug(pageSlug)
   const res: FullSlug[] = []
   for (const alias of aliases) {
     const isMd = getFileExtension(alias) === "md"
     const mockFp = isMd ? alias : alias + ".md"
-    const slug = slugifyFilePath(mockFp as FilePath)
+    let slug = slugifyFilePath(mockFp as FilePath)
+    // Prefix aliases with the page locale so en/es/ja/pt do not collide at site root.
+    // Chinese (default, no prefix) stays root-level.
+    if (loc.prefix && !slug.startsWith(`${loc.prefix}/`) && slug !== loc.prefix) {
+      slug = `${loc.prefix}/${slug}` as FullSlug
+    }
     res.push(slug)
   }
 
@@ -83,7 +90,7 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
             const aliases = coerceToArray(coalesceAliases(data, ["aliases", "alias"]))
             if (aliases) {
               data.aliases = aliases // frontmatter
-              file.data.aliases = getAliasSlugs(aliases)
+              file.data.aliases = getAliasSlugs(aliases, file.data.slug ?? "")
               allSlugs.push(...file.data.aliases)
             }
 

@@ -66,6 +66,7 @@ Touch: `quartz/components/Footer.tsx`
 | Folder title | `文件夹:` on EN pages | `folderPage` / locale |
 | 404 language | Wrong language 404 | `/{prefix}/404` + client rewrite |
 | Explorer/Search `LOCALE_PREFIXES` stuck on `["en"]` | es/ja trees leak into other locales / switcher feels broken | `explorer.inline.ts` / `search.inline.ts` |
+| Cross-locale `aliases:` collide at site root | Last writer wins (often JA); ES Company Index → Japanese page | Prefix alias slugs with locale in `frontmatter.ts`; root-absolute redirects in `aliases.ts`; same-locale prefer in `transformLink` |
 
 When adding French/German/etc., copy this checklist; do not rely on memory.
 
@@ -73,3 +74,17 @@ When adding French/German/etc., copy this checklist; do not rely on memory.
 
 - Chrome (and others) may **auto-translate** `/ja/` (or other locales) into Chinese/English and break the language dropdown / Explorer DOM. Incognito or “Never translate this site” → works.
 - Before treating switcher bugs as code regressions, verify in a translation-disabled profile.
+
+## G. Alias / wikilink locale trap (CRITICAL)
+
+Company pages share English `aliases:` (e.g. `Illinois National Bank`) across en/es/ja/pt.
+Without a locale prefix on emitted alias slugs, Quartz writes competing root HTML redirects and **last locale wins**. Spanish (or EN) users clicking a Company Index wikilink can land on Japanese content; the URL may also drop `/es`.
+
+**Required when shipping any prefixed locale:**
+
+1. `getAliasSlugs(aliases, pageSlug)` — if the page is under a locale prefix, emit `es/Illinois-National-Bank` (not root `Illinois-National-Bank`). Chinese (no prefix) stays root-level.
+2. `AliasRedirects` — meta-refresh/`canonical` must be **root-absolute** (`/es/04-companies/...`), never `./es/...` relative.
+3. `transformLink` — for bare targets (`[[Illinois National Bank]]`), prefer a **same-locale** match from `allSlugs` (absolute + shortest strategies).
+
+Do not treat “alias href looks fine in one locale” as proof — check the *other* locales’ Company Index → same company.
+
