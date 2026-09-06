@@ -3,6 +3,7 @@ import breadcrumbsStyle from "./styles/breadcrumbs.scss"
 import { FullSlug, SimpleSlug, resolveRelative, simplifySlug } from "../util/path"
 import { classNames } from "../util/lang"
 import { trieFromAllFiles } from "../util/ctx"
+import { localeFromSlug, homeSlugForLocale } from "../i18n/siteLocales"
 
 type CrumbData = {
   displayName: string
@@ -10,21 +11,9 @@ type CrumbData = {
 }
 
 interface BreadcrumbOptions {
-  /**
-   * Symbol between crumbs
-   */
   spacerSymbol: string
-  /**
-   * Name of first crumb (falls back to locale Home/首页 when unset)
-   */
   rootName?: string
-  /**
-   * Whether to look up frontmatter title for folders (could cause performance problems with big vaults)
-   */
   resolveFrontmatterTitle: boolean
-  /**
-   * Whether to display the current page in the breadcrumbs.
-   */
   showCurrentPage: boolean
 }
 
@@ -58,6 +47,7 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
       return null
     }
 
+    const loc = localeFromSlug(fileData.slug!)
     const rootName =
       options.rootName ?? (cfg.locale?.startsWith("zh") ? "首页" : "Home")
 
@@ -65,9 +55,12 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
       const crumb = formatCrumb(node.displayName, fileData.slug!, simplifySlug(node.slug))
       if (idx === 0) {
         crumb.displayName = rootName
+        // Prefixed locales: Home → /en/ (etc.), never Chinese site root
+        if (loc.prefix) {
+          crumb.path = resolveRelative(fileData.slug!, homeSlugForLocale(loc) as FullSlug)
+        }
       }
 
-      // For last node (current page), set empty path
       if (idx === pathNodes.length - 1) {
         crumb.path = ""
       }
