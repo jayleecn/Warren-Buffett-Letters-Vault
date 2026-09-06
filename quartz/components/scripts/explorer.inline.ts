@@ -19,6 +19,23 @@ type FolderState = {
   collapsed: boolean
 }
 
+/** Locale folder prefixes (keep in sync with quartz/i18n/siteLocales.ts). */
+const LOCALE_PREFIXES = ["en"] // add "ja", "de", "fr" when those trees exist
+
+function detectLocalePrefix(slug: string): string | null {
+  for (const prefix of LOCALE_PREFIXES) {
+    if (slug === prefix || slug === `${prefix}/index` || slug.startsWith(`${prefix}/`)) {
+      return prefix
+    }
+  }
+  return null
+}
+
+function explorerStorageKey(slug: string): string {
+  const prefix = detectLocalePrefix(slug)
+  return prefix ? `fileTree-${prefix}` : "fileTree-zh"
+}
+
 let currentExplorerState: Array<FolderState>
 function toggleExplorer(this: HTMLElement) {
   const nearestExplorer = this.closest(".explorer") as HTMLElement
@@ -76,7 +93,7 @@ function toggleFolder(evt: MouseEvent) {
   }
 
   const stringifiedFileTree = JSON.stringify(currentExplorerState)
-  localStorage.setItem((document.body.dataset.slug || "").startsWith("en") || document.body.dataset.slug === "en" || document.body.dataset.slug === "en/index" ? "fileTree-en" : "fileTree-zh", stringifiedFileTree)
+  localStorage.setItem(explorerStorageKey(document.body.dataset.slug || ""), stringifiedFileTree)
 }
 
 function createFileNode(currentSlug: FullSlug, node: FileTrieNode): HTMLLIElement {
@@ -169,10 +186,8 @@ async function setupExplorer(currentSlug: FullSlug) {
       mapFn: new Function("return " + (dataFns.mapFn || "undefined"))(),
     }
 
-    // Get folder state from local storage
-    const isEnglishPageForState =
-      currentSlug === "en" || currentSlug === "en/index" || currentSlug.startsWith("en/")
-    const fileTreeKey = isEnglishPageForState ? "fileTree-en" : "fileTree-zh"
+    // Get folder state from local storage (per locale)
+    const fileTreeKey = explorerStorageKey(currentSlug)
     const storageTree = localStorage.getItem(fileTreeKey)
     const serializedExplorerState = storageTree && opts.useSavedState ? JSON.parse(storageTree) : []
     const oldIndex = new Map<string, boolean>(
@@ -198,17 +213,16 @@ async function setupExplorer(currentSlug: FullSlug) {
       }
     }
 
-    // Scope explorer by language: EN pages only show the /en subtree;
-    // Chinese (root) pages hide the en folder so nav stays in-language.
-    const isEnglishPage =
-      currentSlug === "en" || currentSlug === "en/index" || currentSlug.startsWith("en/")
-    if (isEnglishPage) {
-      const enFolder = trie.children.find((c) => c.slugSegment === "en")
-      if (enFolder?.isFolder) {
-        trie.children = enFolder.children
+    // Scope explorer by language: prefixed locales (en/ja/…) show only that
+    // subtree; default (zh root) hides all prefixed locale folders.
+    const activePrefix = detectLocalePrefix(currentSlug)
+    if (activePrefix) {
+      const localeFolder = trie.children.find((c) => c.slugSegment === activePrefix)
+      if (localeFolder?.isFolder) {
+        trie.children = localeFolder.children
       }
     } else {
-      trie.children = trie.children.filter((c) => c.slugSegment !== "en")
+      trie.children = trie.children.filter((c) => !LOCALE_PREFIXES.includes(c.slugSegment))
     }
 
     // Get folder paths for state management
