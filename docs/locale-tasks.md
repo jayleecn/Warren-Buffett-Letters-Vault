@@ -68,3 +68,8 @@ Touch: `quartz/components/Footer.tsx`
 | Explorer/Search `LOCALE_PREFIXES` stuck on `["en"]` | es/ja trees leak into other locales / switcher feels broken | `explorer.inline.ts` / `search.inline.ts` |
 
 When adding French/German/etc., copy this checklist; do not rely on memory.
+
+## F. Browser false positives
+
+- Chrome (and others) may **auto-translate** `/ja/` (or other locales) into Chinese/English and break the language dropdown / Explorer DOM. Incognito or “Never translate this site” → works.
+- Before treating switcher bugs as code regressions, verify in a translation-disabled profile.
