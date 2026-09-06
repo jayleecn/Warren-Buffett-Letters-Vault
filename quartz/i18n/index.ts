@@ -88,3 +88,24 @@ export const defaultTranslation = "en-US"
 export const i18n = (locale: ValidLocale): Translation => TRANSLATIONS[locale ?? defaultTranslation]
 export type ValidLocale = keyof typeof TRANSLATIONS
 export type ValidCallout = keyof CalloutTranslation
+
+/** Pick UI locale from page slug / frontmatter; keeps zh-CN default for Chinese root. */
+export function resolvePageLocale(
+  slug: string,
+  frontmatterLang: string | undefined,
+  fallback: ValidLocale = "zh-CN",
+): ValidLocale {
+  const fm = (frontmatterLang || "").toLowerCase()
+  if (fm === "en" || fm.startsWith("en-")) return "en-US"
+  if (fm === "ja" || fm.startsWith("ja-")) return "ja-JP"
+  if (fm === "de" || fm.startsWith("de-")) return "de-DE"
+  if (fm === "fr" || fm.startsWith("fr-")) return "fr-FR"
+  if (fm === "zh" || fm.startsWith("zh-")) return "zh-CN"
+  // Prefixed content trees
+  if (slug === "en" || slug === "en/index" || slug.startsWith("en/")) return "en-US"
+  if (slug === "ja" || slug === "ja/index" || slug.startsWith("ja/")) return "ja-JP"
+  if (slug === "de" || slug === "de/index" || slug.startsWith("de/")) return "de-DE"
+  if (slug === "fr" || slug === "fr/index" || slug.startsWith("fr/")) return "fr-FR"
+  return fallback in TRANSLATIONS ? fallback : defaultTranslation
+}
+

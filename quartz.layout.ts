@@ -5,6 +5,25 @@ import * as Component from "./quartz/components"
 // 01-index、02-letters、03-concepts、04-companies、05-people。
 // 勿使用自定义 sortFn：esbuild 会注入 __name()，序列化到浏览器后执行会报错，导致 Explorer 空白。
 
+const breadcrumbLangBar = Component.Flex({
+  gap: "0.75rem",
+  components: [
+    {
+      Component: Component.Breadcrumbs(),
+      grow: true,
+      justify: "start",
+      align: "center",
+    },
+    {
+      Component: Component.LanguageSwitcher(),
+      grow: false,
+      shrink: false,
+      justify: "end",
+      align: "center",
+    },
+  ],
+})
+
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
@@ -20,10 +39,7 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
+    breadcrumbLangBar,
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
@@ -50,9 +66,13 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 }
 
-// components for pages that display lists of pages  (e.g. tags or folders)
+// list pages (folders / tags): keep Graph so EN folder homes match ZH
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [
+    breadcrumbLangBar,
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+  ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -67,5 +87,8 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer(),
   ],
-  right: [],
+  right: [
+    Component.Graph(),
+    Component.Backlinks(),
+  ],
 }

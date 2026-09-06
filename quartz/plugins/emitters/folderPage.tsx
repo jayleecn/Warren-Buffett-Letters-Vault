@@ -17,9 +17,11 @@ import {
 import { defaultListPageLayout, sharedPageComponents } from "../../../quartz.layout"
 import { FolderContent } from "../../components"
 import { write } from "./helpers"
-import { i18n, TRANSLATIONS } from "../../i18n"
+import { i18n, TRANSLATIONS, ValidLocale } from "../../i18n"
 import { BuildCtx } from "../../util/ctx"
 import { StaticResources } from "../../util/resources"
+import { localeFromSlug, localePrefixes } from "../../i18n/siteLocales"
+
 interface FolderPageOptions extends FullPageLayout {
   sort?: (f1: QuartzPluginData, f2: QuartzPluginData) => number
 }
@@ -59,23 +61,34 @@ async function* processFolderInfo(
   }
 }
 
+function uiLocaleForFolder(folder: SimpleSlug): ValidLocale {
+  const slug = joinSegments(folder, "index")
+  const loc = localeFromSlug(slug)
+  return (loc.quartzLocale in TRANSLATIONS ? loc.quartzLocale : "en-US") as ValidLocale
+}
+
 function computeFolderInfo(
   folders: Set<SimpleSlug>,
   content: ProcessedContent[],
-  locale: keyof typeof TRANSLATIONS,
 ): Record<SimpleSlug, ProcessedContent> {
-  // Create default folder descriptions
+  // Create default folder descriptions — title language follows folder path locale
+  // (en/... → "Folder:", Chinese root → "文件夹:"), not the site-wide default locale.
   const folderInfo: Record<SimpleSlug, ProcessedContent> = Object.fromEntries(
-    [...folders].map((folder) => [
-      folder,
-      defaultProcessedContent({
-        slug: joinSegments(folder, "index") as FullSlug,
-        frontmatter: {
-          title: `${i18n(locale).pages.folderContent.folder}: ${folder}`,
-          tags: [],
-        },
-      }),
-    ]),
+    [...folders].map((folder) => {
+      const uiLocale = uiLocaleForFolder(folder)
+      const loc = localeFromSlug(joinSegments(folder, "index"))
+      return [
+        folder,
+        defaultProcessedContent({
+          slug: joinSegments(folder, "index") as FullSlug,
+          frontmatter: {
+            title: `${i18n(uiLocale).pages.folderContent.folder}: ${folder}`,
+            tags: [],
+            lang: loc.code,
+          },
+        }),
+      ]
+    }),
   )
 
   // Update with actual content if available
@@ -98,6 +111,15 @@ function _getFolders(slug: FullSlug): SimpleSlug[] {
     parentFolderNames.push(folderName)
   }
   return parentFolderNames
+}
+
+/** Skip synthetic folder pages for tag trees (handled by TagPage emitter). */
+function isTagTreeFolder(folderName: SimpleSlug): boolean {
+  if (folderName === "tags" || folderName.startsWith("tags/")) return true
+  for (const p of localePrefixes()) {
+    if (folderName === `${p}/tags` || folderName.startsWith(`${p}/tags/`)) return true
+  }
+  return false
 }
 
 export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (userOpts) => {
@@ -130,39 +152,35 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (user
     },
     async *emit(ctx, content, resources) {
       const allFiles = content.map((c) => c[1].data)
-      const cfg = ctx.cfg.configuration
 
       const folders: Set<SimpleSlug> = new Set(
         allFiles.flatMap((data) => {
           return data.slug
             ? _getFolders(data.slug).filter(
-                (folderName) => folderName !== "." && folderName !== "tags",
+                (folderName) => folderName !== "." && !isTagTreeFolder(folderName),
               )
             : []
         }),
       )
 
-      const folderInfo = computeFolderInfo(folders, content, cfg.locale)
+      const folderInfo = computeFolderInfo(folders, content)
       yield* processFolderInfo(ctx, folderInfo, allFiles, opts, resources)
     },
     async *partialEmit(ctx, content, resources, changeEvents) {
       const allFiles = content.map((c) => c[1].data)
-      const cfg = ctx.cfg.configuration
 
-      // Find all folders that need to be updated based on changed files
       const affectedFolders: Set<SimpleSlug> = new Set()
       for (const changeEvent of changeEvents) {
         if (!changeEvent.file) continue
         const slug = changeEvent.file.data.slug!
         const folders = _getFolders(slug).filter(
-          (folderName) => folderName !== "." && folderName !== "tags",
+          (folderName) => folderName !== "." && !isTagTreeFolder(folderName),
         )
         folders.forEach((folder) => affectedFolders.add(folder))
       }
 
-      // If there are affected folders, rebuild their pages
       if (affectedFolders.size > 0) {
-        const folderInfo = computeFolderInfo(affectedFolders, content, cfg.locale)
+        const folderInfo = computeFolderInfo(affectedFolders, content)
         yield* processFolderInfo(ctx, folderInfo, allFiles, opts, resources)
       }
     },

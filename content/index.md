@@ -1,9 +1,14 @@
 ---
-title: "巴菲特致股东信"
+title: 巴菲特致股东信
 type: index
 tags:
-  - 首页
+- 首页
 date: 2026-04-04
+lang: zh
+i18nKey: home
+translations:
+  zh: index
+  en: en/index
 ---
 
 # 巴菲特致股东信
