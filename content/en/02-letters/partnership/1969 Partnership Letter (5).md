@@ -20,13 +20,15 @@ translations:
   en: en/02-letters/partnership/1969-Partnership-Letter-(5)
 ---
 
-# Buffett Partnership Letter - 1969
+# Buffett Partnership Letter — 1969
 
 BUFFETT PARTNERSHIP. LTD.
 610 KIEWIT PLAZA
 OMAHA, NEBRASKA 68131
 TELEPHONE 042-4110
 February 25th, 1970
+## Tax-Exempt Bond Education
+
 To My Partners:
 This letter will attempt to provide a very elementary education regarding tax-exempt bonds with emphasis on
 the types and maturities of bonds which we expect to help partners in purchasing next month. If you expect to
@@ -41,13 +43,13 @@ I have tried to boil this letter down as much as possible. Some of it will be a 
 simplified. I apologize for the shortcomings in advance. I have a feeling I am trying to put all the meat of a 100
 page book in 10 pages - and have it read like the funny papers.
 *************
-I am sure you understand that our aid in the purchase of bonds will involve no future assistance regarding either
+
 these specific bonds or general investment decisions. I want to be available at this time to be of help because of
 the unusual amount of cash you have received in one distribution from us. I have no desire to be in the
 investment counseling business, directly or indirectly, and will not be available for discussion of financial
 matters after March 31st.
 *************
-The mechanics of Tax-Free Bonds.
+## The Mechanics of Tax-Free Bonds
 For those who wish our help, we will arrange the purchase of bonds directly from municipal bond dealers
 throughout the country and have them confirm sale of the bonds directly to you. The confirmation should be
 saved as a basic document for tax purposes. You should not send a check to the bond dealer since he will deliver
@@ -76,9 +78,18 @@ bonds, collect the interest and preserve your records for you. For example, a ba
 custodial service for you for about $200 a year on a $250,000 portfolio. If you are interested in a custodial
 account, you should talk to a Trust Officer at your commercial bank as to the nature of their services and cost.
 Otherwise, you should have a safe deposit box.
-Taxation
+## Taxation
 The interest received upon the deposit of coupons from tax-free bonds is, of course, free from Federal Income
-Taxes. This means if you are at a 30% top Federal Income Tax bracket, a 6% return from tax-free bonds is
+Taxes. A quick comparison of the equivalent taxable return helps illustrate the advantage:
+
+| Federal tax bracket | Equivalent taxable yield on a 6% tax-free bond |
+| --- | --- |
+| 15% | 7.1% |
+| 25% | 8.0% |
+| 30% | 8.6% |
+| 35% | 9.2% |
+
+This means if you are at a 30% top Federal Income Tax bracket, a 6% return from tax-free bonds is
 equivalent to about 8-1/2% from taxable bonds. Thus, for most of our partners, excluding minors or some retired
 people, tax-free bonds will be more attractive than taxable bonds. For people with little or no income from
 wages or dividends, but with substantial capital, it is possible that a combination of taxable bonds (to bring
@@ -118,7 +129,7 @@ not used for security for the loan, you are asking for trouble if you deduct the
 the owner of tax-free bonds. Therefore, I would pay off bank loans before owning tax-free bonds, but I leave
 detailed examination of this question to you and your tax advisor. I merely mention it to make you aware of the
 potential problem.
-Marketability
+## Marketability
 Tax-free bonds are materially different from common stocks or corporate bonds in that there are literally
 hundreds of thousands of issues, with the great majority having very few holders. This substantially inhibits the
 development of close, active markets. Whenever the City of New York or Philadelphia wants to raise money it
@@ -150,7 +161,7 @@ receive net on sale at the same point in time) of from 2% to 5%. Such a spread w
 attempted to trade in such bonds, but I don't believe it should be a deterrent for a long-term investor. The real
 necessity is to stay away from bonds of very limited marketability - which frequently are the type local bond
 dealers have the greatest monetary incentive to push.
-Specific Areas of Purchase
+## Specific Areas of Purchase
 We will probably concentrate our purchases in the following general areas:
 (1) Large revenue-producing public entities such as toll roads, electric power districts, water districts, etc.
 
@@ -192,7 +203,7 @@ salesman doesn't usually explain this to you when you buy the $10,000 of bonds f
 when you later try to sell the $10,000 to him. We may make exceptions where we are buying secondary market
 issues in smaller pieces - but only if we are getting an especially good price on the buy side because of the small
 size of the offering.
-Callable Bonds
+## Callable Bonds
 We will not buy bonds where the issuer of the bonds has a right to call (retire) the bonds on a basis which
 substantially loads the contract in his favor. It is amazing to me to see people buy bonds which are due in forty
 years, but where the issuer has the right to call the bonds at a tiny premium in five or ten years. Such a contract
@@ -217,7 +228,17 @@ Nevertheless, just such a bond was issued in October, 1969 and similar bonds con
 only write at such length about an obvious point, since it is apparent from the continual sale of such bonds that
 many investors haven't the faintest notion how this loads the dice against them and many bond salesmen aren't
 about to tell them.
-Maturity and the Mathematics of Bonds
+## Maturity and the Mathematics of Bonds
+A simple illustrative yield curve for top-grade bonds would look like this:
+
+| Maturity | Yield |
+| --- | --- |
+| 6-9 months | 4.75% |
+| 2 years | 5.00% |
+| 5 years | 5.25% |
+| 10 years | 5.50% |
+| 20 years | 6.25% |
+
 Many people, in buying bonds, select maturities based on how long they think they are going to want to hold
 bonds, how long they are going to live, etc. While this is not a silly approach, it is not necessarily the most
 logical. The primary determinants in selection of maturity should probably be (1) the shape of the yield curve;
@@ -278,7 +299,7 @@ contracted rate of interest, but if you sell earlier, you are going to be subjec
 described in that paragraph, for better or for worse. Bond prices also change because of changes in quality over
 the years but, in the tax-free area, this has tended to be - and probably will continue to be - a relatively minor
 factor compared to the impact of changes in the general structure of interest rates.
-Discount Versus Full Coupon Bonds
+## Discount Versus Full Coupon Bonds
 You will have noticed in the above discussion that if you now wanted to buy a 7% return on a nineteen year
 bond, you had a choice between buying a new nineteen year bond with a 7% coupon rate or buying a bond with
 a 5% coupon at $791.60, which would pay you $1,000.00 in nineteen years. Either purchase would have yielded
@@ -313,7 +334,7 @@ If I can get a significantly higher effective after-tax yield (allowing for sens
 future tax rate possibilities), I intend to purchase discount bonds for you. I know some partners prefer full
 coupon bonds, even though their effective yield is less, since they prefer to maximize the current cash yield and
 if they will so advise me, we will stick to full coupon issues (or very close thereto) in their cases.
-Procedure
+## Procedure
 I intend to be in the office solidly through March (including every Saturday except March 7th) and will be glad
 to see any partner or talk with him by phone. To aid in scheduling, please make an appointment with Gladys (or
 me). The only request I make is that you absorb as much as possible of this letter before we talk. As you can see,

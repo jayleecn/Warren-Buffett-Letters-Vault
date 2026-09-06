@@ -25,13 +25,13 @@ translations:
   en: en/02-letters/partnership/1965-Partnership-Letter-(3)
 ---
 
-# Buffett Partnership Letter - 1965
+# Buffett Partnership Letter — 1965
 
 BUFFETT PARTNERSHIP, LTD.
 810 KIEWIT PLAZA
 OMAHA 31, NEBRASKA
 January 20, 1966
-Our Performance in 1965
+## Our Performance in 1965
 Our War on Poverty was successful in 1965.
 Specially, we were $12,304,060 less poor at the end of the year.
 Last year under a section in the annual letter entitled “Our Goal” (please particularly note it was not headed
@@ -45,40 +45,38 @@ overall gain (including dividends which would have been received through ownersh
 the Dow. Naturally, no writer likes to be publicly humiliated by such a mistake. It is unlikely to be repeated.
 The following summarizes the year-by-year performance of the Dow, the performance of the Partnership before
 allocation (one quarter of the excess over 6%) to the general partner, and the results for limited partners:
-Year Overall Results From Partnership Results (2) Limited Partners’
-Dow (1) Results (3)
-1957 -8.4% 10.4% 9.3%
-1958 38.5% 40.9% 32.2%
-1959 20.0% 25.9% 20.9%
-1960 -6.2% 22.8% 18.6%
-1961 22.4% 45.9% 35.9%
-1962 -7.6% 13.9% 11.9%
-1963 20.6% 38.7% 30.5%
-1964 18.7% 27.8% 22.3%
-1965 14.2% 47.2% 36.9%
-(1) Based on yearly changes in the value of the Dow plus dividends that would have been received through
-ownership of the Dow during that year. The table includes all complete years of partnership activity.
-(2) For 1957-61 consists of combined results of all predecessor limited partnerships operating throughout
-the entire year after all expenses, but before distributions to partners or allocations to the general
-partner.
-(3) For 1957-61 computed on the basis of the preceding column of partnership results allowing for
-allocation to the general partner based upon the present partnership agreement, but before monthly
-withdrawals by limited partners.
+| Year | Dow Overall Results (1) | Partnership Results (2) | Limited Partners' Results (3) |
+| --- | --- | --- | --- |
+| 1957 | -8.4% | 10.4% | 9.3% |
+| 1958 | 38.5% | 40.9% | 32.2% |
+| 1959 | 20.0% | 25.9% | 20.9% |
+| 1960 | -6.2% | 22.8% | 18.6% |
+| 1961 | 22.4% | 45.9% | 35.9% |
+| 1962 | -7.6% | 13.9% | 11.9% |
+| 1963 | 20.6% | 38.7% | 30.5% |
+| 1964 | 18.7% | 27.8% | 22.3% |
+| 1965 | 14.2% | 47.2% | 36.9% |
+
+(1) Based on yearly changes in the value of the Dow plus dividends that would have been received through ownership of the Dow during that year. The table includes all complete years of partnership activity.
+
+(2) For 1957-61 consists of combined results of all predecessor limited partnerships operating throughout the entire year after all expenses, but before distributions to partners or allocations to the general partner.
+
+(3) For 1957-61 computed on the basis of the preceding column of partnership results allowing for allocation to the general partner based upon the present partnership agreement, but before monthly withdrawals by limited partners.
+
 On a cumulative or compounded basis, the results are:
 
-Year Overall Results From Partnership Results Limited Partners’
-Dow Results
-1957 -8.4% 10.4% 9.3%
-1957 – 58 26.9% 55.6% 44.5%
-1957 – 59 52.3% 95.9% 74.7%
-1957 – 60 42.9% 140.6% 107.2%
-1957 – 61 74.9% 251.0% 181.6%
-1957 – 62 61.6% 299.8% 215.1%
-1957 – 63 95.1% 454.5% 311.2%
-1957 – 64 131.3% 608.7% 402.9%
-1957 – 65 164.1% 943.2% 588.5%
-Annual Compounded 11.4% 29.8% 23.9%
-Rate
+| Year | Dow Overall Results | Partnership Results | Limited Partners' Results |
+| --- | --- | --- | --- |
+| 1957 | -8.4% | 10.4% | 9.3% |
+| 1957 – 58 | 26.9% | 55.6% | 44.5% |
+| 1957 – 59 | 52.3% | 95.9% | 74.7% |
+| 1957 – 60 | 42.9% | 140.6% | 107.2% |
+| 1957 – 61 | 74.9% | 251.0% | 181.6% |
+| 1957 – 62 | 61.6% | 299.8% | 215.1% |
+| 1957 – 63 | 95.1% | 454.5% | 311.2% |
+| 1957 – 64 | 131.3% | 608.7% | 402.9% |
+| 1957 – 65 | 164.1% | 943.2% | 588.5% |
+| **Annual Compounded Rate** | **11.4%** | **29.8%** | **23.9%** |
 After last year the question naturally arises, "What do we do for an encore?” A disadvantage of this business is
 that it does not possess momentum to any significant degree. If General Motors accounts for 54% of domestic
 new car registrations in 1965, it is a pretty safe bet that they are going to come fairly close to that figure in 1966
@@ -92,7 +90,7 @@ frequency are probably attending weekly meetings of the Halley’s Comet Observe
 loss years and are going to have years inferior to the Dow - no doubt about it. But I continue to believe we can
 achieve average performance superior to the Dow in the future. If my expectation regarding this should change,
 you will hear immediately.
-Investment Companies
+## Investment Companies
 We regularly compare our results with the two largest open-end investment companies (mutual funds) that
 follow a policy of being typically 95% - 100% invested in common stocks, and the two largest diversified
 closed-end investment companies. These four companies, Massachusetts Investors Trust, Investors Stock Fund,
@@ -105,36 +103,38 @@ achievement. The advisory talent managing just the four companies shown commands
 million and this represents a very small fraction of the professional investment management industry. The public
 batting average of this highly paid and widely respected talent indicates performance a shade below that of the
 Dow, an unmanaged index.
-YEARLY RESULTS
-Year Mass. Inv. Investors Lehman (2) Tri-Cont Dow Limited
+**Yearly Results**
 
-Trust (1) Stock (1) (2) Partners
-1957 -11.4% -12.4% -11.4% -2.4% -8.4% 9.3%
-1958 42.7% 47.5% 40.8% 33.2% 38.5% 32.2%
-1959 9.0% 10.3% 8.1% 8.4% 20.0% 20.9%
-1960 -1.0% -0.6% 2.5% 2.8% -6.2% 18.6%
-1961 25.6% 24.9% 23.6% 22.5% 22.4% 35.9%
-1962 -9.8% -13.4% -14.4% -10.0% -7.6% 11.9%
-1963 20.0% 16.5% 23.7% 18.3% 20.6% 30.5%
-1964 15.9% 14.3% 13.6% 12.6% 18.7% 22.3%
-1965 10.2% 9.8% 19.0% 10.7% 14.2% 36.9%
+| Year | Mass. Inv. Trust (1) | Investors Stock (1) | Lehman (2) | Tri-Cont (2) | Dow | Limited Partners |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1957 | -11.4% | -12.4% | -11.4% | -2.4% | -8.4% | 9.3% |
+| 1958 | 42.7% | 47.5% | 40.8% | 33.2% | 38.5% | 32.2% |
+| 1959 | 9.0% | 10.3% | 8.1% | 8.4% | 20.0% | 20.9% |
+| 1960 | -1.0% | -0.6% | 2.5% | 2.8% | -6.2% | 18.6% |
+| 1961 | 25.6% | 24.9% | 23.6% | 22.5% | 22.4% | 35.9% |
+| 1962 | -9.8% | -13.4% | -14.4% | -10.0% | -7.6% | 11.9% |
+| 1963 | 20.0% | 16.5% | 23.7% | 18.3% | 20.6% | 30.5% |
+| 1964 | 15.9% | 14.3% | 13.6% | 12.6% | 18.7% | 22.3% |
+| 1965 | 10.2% | 9.8% | 19.0% | 10.7% | 14.2% | 36.9% |
+
 (1) Computed from changes in asset value plus any distributions to holders of record during year.
-(2) From 1965 Moody's Bank & Finance Manual for 1957-64. Estimated for 1965.
-COMPOUNDED
-Year Mass. Inv. Investors Lehman (2) Tri-Cont Dow Limited
-Trust (1) Stock (1) (2) Partners
-1957 -11.4% -12.4% -11.4% -2.4% -8.4% 9.3%
-1957 – 58 26.4% 29.2% 24.7% 30.0% 26.9% 44.5%
-1957 – 59 37.8% 42.5% 34.8% 40.9% 52.3% 74.7%
-1957 – 60 36.4% 41.6% 38.2% 44.8% 42.9% 107.2%
-1957 – 61 71.3% 76.9% 70.8% 77.4% 74.9% 181.6%
-1957 – 62 54.5% 53.2% 46.2% 59.7% 61.6% 215.1%
-1957 – 63 85.4% 78.5% 80.8% 88.9% 94.9% 311.2%
-1957 – 64 114.9% 104.0% 105.4% 112.7% 131.3% 402.9%
-1957 – 65 136.8% 124.0% 145.3% 138.4% 164.1% 588.5%
-Annual 10.1% 9.4% 10.5% 10.1% 11.4% 23.9%
-Compounded
-Rate
+
+(2) From 1965 Moody's Bank & Finance Manual for 1957-64; estimated for 1965.
+
+**Compounded Results**
+
+| Year | Mass. Inv. Trust | Investors Stock | Lehman | Tri-Cont | Dow | Limited Partners |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1957 | -11.4% | -12.4% | -11.4% | -2.4% | -8.4% | 9.3% |
+| 1957 – 58 | 26.4% | 29.2% | 24.7% | 30.0% | 26.9% | 44.5% |
+| 1957 – 59 | 37.8% | 42.5% | 34.8% | 40.9% | 52.3% | 74.7% |
+| 1957 – 60 | 36.4% | 41.6% | 38.2% | 44.8% | 42.9% | 107.2% |
+| 1957 – 61 | 71.3% | 76.9% | 70.8% | 77.4% | 74.9% | 181.6% |
+| 1957 – 62 | 54.5% | 53.2% | 46.2% | 59.7% | 61.6% | 215.1% |
+| 1957 – 63 | 85.4% | 78.5% | 80.8% | 88.9% | 94.9% | 311.2% |
+| 1957 – 64 | 114.9% | 104.0% | 105.4% | 112.7% | 131.3% | 402.9% |
+| 1957 – 65 | 136.8% | 124.0% | 145.3% | 138.4% | 164.1% | 588.5% |
+| **Annual Compounded Rate** | **10.1%** | **9.4%** | **10.5%** | **10.1%** | **11.4%** | **23.9%** |
 A number of the largest investment advisory operations (managing, in some cases, well into the billions of
 dollars) also manage investment companies partly as a convenience for smaller clients and partly as a public
 showcase. The results of these funds roughly parallel those of the four funds on which we report.
@@ -177,12 +177,12 @@ interpret them. If you do not feel our standard (a minimum of a three-year test 
 one, you should not be in the Partnership. If you do feel it is applicable, you should be able to take the minus
 years with equanimity in the visceral regions as well as the cerebral regions -as long as we are surpassing the
 results of the Dow.
-The Sorrows of Compounding
+## The Sorrows of Compounding
 Usually, at this point in my letter, I have paused to modestly attempt to set straight the historical errors of the
 last four or five hundred years. While it might seem difficult to accomplish this in only a few paragraphs a year,
 I feel I have done my share to reshape world opinion on Columbus, Isabella, Francis I, Peter Minuit and the
 Manhattan Indians. A by-product of this endeavor has been to demonstrate the overwhelming power of
-compound interest. To insure reader attention I have entitled these essays "The Joys of Compounding. " The
+compound interest. To insure reader attention I have entitled these essays "The Joys of Compounding." The
 sharp-eyed may notice a slight change this year.
 A decent rate (better we have an indecent rate) of compound -plus the addition of substantial new money has
 brought our beginning capital this year to $43,645,000. Several times in the past I have raised the question
@@ -212,7 +212,7 @@ partners and also because I visualize the curve of expectable performance slopin
 increases, I presently see no reason why we should restrict capital additions by existing partners.
 The medically oriented probably will interpret this entire section as conclusive evidence that an effective
 antithyroid pill has been developed.
-Trends in Our Business
+## Trends in Our Business
 Last year I discussed our various categories of investments. Knowing the penalties for cruel and unusual
 punishments, I will skip a rehash of the characteristics of each category, but merely refer you to last year's letter.
 However, a few words should be said to bring you up to date on the various segments of the business, and
@@ -290,7 +290,7 @@ accelerated the timetable in several. I do not have a great flood of good ideas 
 believe I have at least several potentially good ideas of substantial size. Much depends on whether market
 conditions are favorable for obtaining a larger position.
 All in all, however, you should recognize that more came out of the pipeline in 1965 than went in.
-Diversification
+## Diversification
 Last year in commenting on the inability of the overwhelming majority of investment managers to achieve
 performance superior to that of pure chance, I ascribed it primarily to the product of: "(1) group decisions - my
 perhaps jaundiced view is that it is close to impossible for outstanding investment management to come from a
@@ -385,7 +385,7 @@ All texts counsel "adequate" diversification, but the ones who quantify "adequat
 they arrive at their conclusion. Hence, for our summation on overdiversification, we turn to that eminent
 academician Billy Rose, who says, "You've got a harem of seventy girls; you don't get to know any of them very
 well.”
-Miscellaneous
+## Miscellaneous
 Last year we boldly announced an expansion move, encompassing an additional 227 1/4 square feet. Older
 partners shook their heads. I feel that our gain from operations in 1965 of $12,304,060 indicates
 that we did not overextend ourselves. Fortunately, we didn't sign a percentage lease. Operationally, things have
@@ -430,7 +430,7 @@ Warren E. Buffett
 - [[Workouts]]
 - [[Controls]]
 - [[Compounding]]
-- [[Diversification]]
+- [[## Diversification]]
 
 ## Companies mentioned
 

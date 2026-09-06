@@ -32,13 +32,13 @@ translations:
   en: en/02-letters/partnership/1963-Partnership-Letter-(3)
 ---
 
-# Buffett Partnership Letter - 1963
+# Buffett Partnership Letter — 1963
 
 BUFFETT PARTNERSHIP, LTD.
 810 KIEWIT PLAZA
 OMAHA 31, NEBRASKA
 January 18, 1964
-Our Performance in 1963
+## Our Performance in 1963
 1963 was a good year. It was not a good year because we had an overall gain of $3,637,167 or 38.7% on our
 beginning net assets, pleasant as that experience may be to the pragmatists in our group. Rather it was a good
 year because our performance was substantially better than that of our fundamental yardstick --the Dow-Jones
@@ -49,22 +49,16 @@ term results will be satisfactory -- financially as well as philosophically.
 To bring the record up to date, the following summarizes the year-by-year performance of the Dow, the
 performance of the Partnership before allocation to the general partner, and the limited partners' results for all
 full years of BPL's and predecessor partnerships' activities:
-Year Overall Results From Partnership Results Limited Partners’
-Dow (1) (2) Results (3)
-1957 -8.4% 10.4% 9.3%
-1958 38.5% 40.9% 32.2%
-1959 20.0% 25.9% 20.9%
-1960 -6.2% 22.8% 18.6%
-1961 22.4% 45.9% 35.9%
-1962 -7.6% 13.9% 11.9%
-1963 20.7% 38.7% 30.5%
-(1) Based on yearly changes in the value of the Dow plus dividends that would have been received
-through ownership of the Dow during that year.
-(2) For 1957-61 consists of combined results of all predecessor limited partnerships operating
-throughout the entire year after all expenses but before distributions to partners or allocations to the
-general partner.
-(3) For 1957-61 computed on the basis of the preceding column of partnership results allowing for
-allocation to the general partner based upon the present partnership agreement.
+| Year | Dow Overall Results (1) | Partnership Results (2) | Limited Partners' Results (3) |
+| --- | --- | --- | --- |
+| 1957 | -8.4% | 10.4% | 9.3% |
+| 1958 | 38.5% | 40.9% | 32.2% |
+| 1959 | 20.0% | 25.9% | 20.9% |
+| 1960 | -6.2% | 22.8% | 18.6% |
+| 1961 | 22.4% | 45.9% | 35.9% |
+| 1962 | -7.6% | 13.9% | 11.9% |
+| 1963 | 20.7% | 38.7% | 30.5% |
+
 One wag among the limited partners has suggested I add a fourth column showing the results of the general
 partner --let's just say he, too, has an edge on the Dow.
 The following table shows the cumulative or compounded results based on the preceding table:
@@ -90,7 +84,7 @@ that we must expect prolonged periods of much narrower margins over the Dow as w
 years when our record will be inferior (perhaps substantially so) to the Dow.
 Much of the above sermon is reflected in "The Ground Rules" sent to everyone in November, but it can stand
 repetition.
-Investment Companies
+## Investment Companies
 We regularly compare our results with the two largest open-end investment companies (mutual funds) that
 follow a policy of being, typically, 95 -100% invested in common stocks, and the two largest diversified closed-
 end investment companies. These four companies, Massachusetts Investors Trust, Investors Stock Fund, Tri-
@@ -105,32 +99,35 @@ Both our portfolio and method of operation differ substantially from the investm
 However, most partners, as an alternative to their interest in the Partnership would probably have their funds
 invested in media producing results comparable with investment companies, and I, therefore, feel they offer a
 meaningful standard of performance.
-YEARLY RESULTS
-Year Mass. Inv. Investors Lehman (2) Tri-Cont. Dow Limited
-Trust (1) Stock (1) (2) Partners
-1957 -11.4% -12.4% -11.4% -2.4% -8.4% 9.3%
-1958 42.7% 47.5% 40.8% 33.2% 38.5% 32.2%
-1959 9.0% 10.3% 8.1% 8.4% 20.0% 20.9%
-1960 -1.0% -0.6% 2.5% 2.8% -6.2% 18.6%
-1961 25.6% 24.9% 23.6% 22.5% 22.4% 35.9%
-1962 -9.8% -13.4% -14.4% -10.0% -7.6% 11.9%
-1963 20.0% 16.5% 23.8% 19.5% 20.7% 30.5%
+**Yearly Results**
+
+| Year | Mass. Inv. Trust (1) | Investors Stock (1) | Lehman (2) | Tri-Cont. (2) | Dow | Limited Partners |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1957 | -11.4% | -12.4% | -11.4% | -2.4% | -8.4% | 9.3% |
+| 1958 | 42.7% | 47.5% | 40.8% | 33.2% | 38.5% | 32.2% |
+| 1959 | 9.0% | 10.3% | 8.1% | 8.4% | 20.0% | 20.9% |
+| 1960 | -1.0% | -0.6% | 2.5% | 2.8% | -6.2% | 18.6% |
+| 1961 | 25.6% | 24.9% | 23.6% | 22.5% | 22.4% | 35.9% |
+| 1962 | -9.8% | -13.4% | -14.4% | -10.0% | -7.6% | 11.9% |
+| 1963 | 20.0% | 16.5% | 23.8% | 19.5% | 20.7% | 30.5% |
 
 (1) Computed from changes in asset value plus any distributions to holders of record during year.
-(2) From 1963 Moody's Bank & Finance Manual for 1957-62; Estimated for 1963.
-COMPOUNDED
-Year Mass. Inv. Investors Lehman Tri-Cont. Dow Limited
-Trust Stock Partners
-1957 -11.4% -12.4% -11.4% -2.4% -8.4% 9.3%
-1957 – 58 26.4% 29.2% 24.7% 30.0% 26.9% 44.5%
-1957 – 59 37.8% 42.5% 34.8% 40.9% 52.3% 74.7%
-1957 – 60 36.4% 41.6% 38.2% 44.8% 42.9% 107.2%
-1957 – 61 71.3% 76.9% 70.8% 77.4% 74.9% 181.6%
-1957 – 62 54.5% 53.2% 46.2% 59.7% 61.6% 215.1%
-1957 – 63 85.4% 78.5% 81.0% 90.8% 95.1% 311.2%
-Annual 9.2% 8.6% 8.8% 9.7% 10.0% 22.3%
-Compounded
-Rate
+
+(2) From 1963 Moody's Bank & Finance Manual for 1957-62; estimated for 1963.
+
+**Compounded Results**
+
+| Year | Mass. Inv. Trust | Investors Stock | Lehman | Tri-Cont. | Dow | Limited Partners |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1957 | -11.4% | -12.4% | -11.4% | -2.4% | -8.4% | 9.3% |
+| 1957 – 58 | 26.4% | 29.2% | 24.7% | 30.0% | 26.9% | 44.5% |
+| 1957 – 59 | 37.8% | 42.5% | 34.8% | 40.9% | 52.3% | 74.7% |
+| 1957 – 60 | 36.4% | 41.6% | 38.2% | 44.8% | 42.9% | 107.2% |
+| 1957 – 61 | 71.3% | 76.9% | 70.8% | 77.4% | 74.9% | 181.6% |
+| 1957 – 62 | 54.5% | 53.2% | 46.2% | 59.7% | 61.6% | 215.1% |
+| 1957 – 63 | 85.4% | 78.5% | 81.0% | 90.8% | 95.1% | 311.2% |
+| **Annual Compounded Rate** | **9.2%** | **8.6%** | **8.8%** | **9.7%** | **10.0%** | **22.3%** |
+
 The Dow, of course, is an unmanaged index, and it may seem strange to the reader to contemplate the high
 priests of Wall Street striving vainly to surpass or even equal it. However, this is demonstrably the case.
 Moreover, such a failure cannot be rationalized by the assumption that the investment companies et al are
@@ -148,7 +145,7 @@ Their merits, except in the unusual case, do not lie in superior results or grea
 Rather, I feel they earn their keep by the ease of handling, the freedom from decision making and the automatic
 diversification they provide, plus, perhaps most important, the insulation afforded from temptation to practice
 patently inferior techniques which seem to entice so many world-be investors.
-The Joys of Compounding
+## The Joys of Compounding
 Now to the pulse-quickening portion of our essay. Last year, in order to drive home the point on compounding, I
 took a pot shot at Queen Isabella and her financial advisors. You will remember they were euchred into such an
 obviously low-compound situation as the discovery of a new hemisphere.
@@ -164,10 +161,12 @@ about any purchase or paintings qualifying as an investment.
 However, as I pointed out last year, there are other morals to be drawn here. One is the wisdom of living a long
 time. The other impressive factor is the swing produced by relatively small changes in the rate of compound.
 Below are shown the gains from $100,000 compounded at various rates:
-4% 8% 12% 16%
-10 Years $48,024 $115,892 $210,584 $341,143
-20 Years $119,111 $366,094 $864,627 $1,846,060
-30 Years $224,337 $906,260 $2,895,970 $8,484,940
+
+|  | 4% | 8% | 12% | 16% |
+| --- | --- | --- | --- | --- |
+| 10 Years | $48,024 | $115,892 | $210,584 | $341,143 |
+| 20 Years | $119,111 | $366,094 | $864,627 | $1,846,060 |
+| 30 Years | $224,337 | $906,260 | $2,895,970 | $8,484,940 |
 It is obvious that a variation of merely a few percentage points has an enormous effect on the success of a
 compounding (investment) program. It is also obvious that this effect mushrooms as the period lengthens. If,
 over a meaningful period of time, Buffett Partnership can achieve an edge of even a modest number of
@@ -183,7 +182,7 @@ minus 30% year (which is going to happen from time to time) into our tabulation 
 say, a corresponding minus 40% for the Dow brings both the figures on the Dow and BPL more in line with
 longer range possibilities. As the compounding table above suggests, such a lowered rate can still provide highly
 satisfactory long term investment results.
-Our Method of Operation
+## Our Method of Operation
 At this point I always develop literary schizophrenia. On the one hand, I know that we have in the audience a
 number of partners to whom details of our business are interesting. We also have a number to whom this whole
 thing is Greek and who undoubtedly wish I would quit writing and get back to work.
@@ -256,7 +255,7 @@ If there is any trend as our assets grow, I would expect it to be toward control
 smallest category. I may be wrong in this expectation - a great deal depends, of course, on the future behavior of
 the market on which your guess is as good as mine (I have none). At this writing, we have a majority of our
 capital in generals, workouts rank second, and controls are third.
-Miscellaneous
+## Miscellaneous
 We are starting off the year with net assets of $17,454,900. Our rapid increase in assets always raises the
 question of whether this will result in a dilution of future performance. To date, there is more of a positive than
 inverse correlation between size of the Partnership and its margin over the Dow. This should not be taken
