@@ -1,36 +1,44 @@
 # Warren Buffett Letters Vault
 
-This is a digital vault containing Warren Buffett's letters to shareholders, partnership letters, and key investment concepts, built using [Quartz](https://quartz.jzhao.xyz/).
+[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [Español](README.es.md) · [Português](README.pt-BR.md) · [日本語](README.ja.md)
 
+A digital vault of Warren Buffett’s shareholder letters, partnership letters, and core investment ideas — built with [Quartz](https://quartz.jzhao.xyz/).
 
-## Bilingual content
+**Live site:** [https://buffett-letters.com](https://buffett-letters.com)
 
-- **Chinese (default)**: content stays at the site root (`content/01-index`, `content/02-letters`, …). URLs are unchanged.
-- **English**: parallel tree under `content/en/` (`/en/` on the site).
-- Use the **中文 | English** language switcher (header) to jump between counterparts via `i18nKey` / `translations` frontmatter.
-- Global Quartz `locale` remains `zh-CN` for chrome for now; English pages set their own titles via frontmatter.
+## Languages
+
+| Language | Site path |
+| --- | --- |
+| English | `/en/` |
+| 简体中文 | `/` |
+| 繁體中文 | `/zh-tw/` |
+| Español | `/es/` |
+| Português | `/pt/` |
+| 日本語 | `/ja/` |
+
+### Notes
+
+- Simplified Chinese content lives at the content root (`content/01-index`, …).
+- Other languages live under `content/{prefix}/` (e.g. `content/en/`, `content/zh-tw/`, `content/es/`, `content/pt/`, `content/ja/`).
+- A first visit to `/` follows the browser language; unmatched languages fall back to `/en/`.
+- The WeChat Official Account name **太白钓雪** stays in Chinese in every locale.
 
 ## Contents
 
-- **01-index**: Overviews and indexes for letters, companies, and people.
-- **02-letters**: Comprehensive collection of Berkshire Hathaway shareholder letters (1970-2025) and Partnership letters (1956-1969).
-- **03-concepts**: 38 core investment philosophies (Moat, Margin of Safety, Circle of Competence, etc.).
-- **04-companies**: 52 profiles of companies Buffett has invested in or acquired.
-- **05-people**: 8 key figures in Buffett's life and career.
+- **01-index** — Overviews and indexes for letters, companies, and people.
+- **02-letters** — Berkshire Hathaway shareholder letters (1970–2025) and Partnership letters (1956–1969).
+- **03-concepts** — Core investment philosophies (Moat, Margin of Safety, Circle of Competence, and more).
+- **04-companies** — Profiles of companies Buffett has invested in or acquired.
+- **05-people** — Key figures in Buffett’s life and career.
 
-## How to use
+## Run locally
 
-This vault is designed to be viewed as a digital garden. You can browse through the links and explore the interconnected world of value investing.
+```bash
+npm install
+npx quartz build --serve
+```
 
-## Technical Details
+## SEO
 
-This site is powered by Quartz v4. Custom footer includes QR code for the WeChat Official Account "太白钓雪".
-
-### How to run it locally:
-
-1. Install dependencies: `npm install`
-2. Start the development server: `npx quartz build --serve`
-
-## SEO & Indexing
-
-The site is configured with a `sitemap.xml` and `robots.txt` pointing to `https://buffett-letters.com` to improve search engine visibility.
+`sitemap.xml` and `robots.txt` point to `https://buffett-letters.com` for search visibility.
