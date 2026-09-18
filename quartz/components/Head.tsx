@@ -20,6 +20,10 @@ export default (() => {
       fileData.frontmatter?.description ??
       unescapeHTML(fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description)
 
+    const slug = fileData.slug ?? ""
+    const isHome = slug === "index" || slug === "" || slug === "404"
+    const keywords = (fileData.frontmatter?.keywords as string[] | undefined) ?? []
+
     const { css, js, additionalHead } = externalResources
 
     const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
@@ -27,9 +31,14 @@ export default (() => {
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.png")
 
-    // Url of current page
-    const socialUrl =
-      fileData.slug === "404" ? url.toString() : joinSegments(url.toString(), fileData.slug!)
+    // Url of current page, normalize home to root for better SEO
+    let socialUrl =
+      fileData.slug === "404"
+        ? url.toString()
+        : joinSegments(url.toString(), fileData.slug!)
+    if ((isHome || slug === "index") && !fileData.slug?.includes("404")) {
+      socialUrl = url.toString().replace(/\/$/, "")
+    }
 
     const usesCustomOgImage = ctx.cfg.plugins.emitters.some(
       (e) => e.name === CustomOgImagesEmitterName,
@@ -52,6 +61,9 @@ export default (() => {
         )}
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        {/* Canonical URL for SEO */}
+        <link rel="canonical" href={socialUrl} />
 
         <meta name="og:site_name" content={cfg.pageTitle}></meta>
         <meta property="og:title" content={title} />
@@ -80,6 +92,51 @@ export default (() => {
             <meta property="og:url" content={socialUrl}></meta>
             <meta property="twitter:url" content={socialUrl}></meta>
           </>
+        )}
+
+        {/* Additional SEO optimizations for homepage: keywords, hreflang, structured data */}
+        {keywords.length > 0 && <meta name="keywords" content={keywords.join(", ")} />}
+
+        {cfg.baseUrl && (
+          <>
+            <link rel="alternate" hrefLang="zh-CN" href={`https://${cfg.baseUrl}/`} />
+            <link rel="alternate" hrefLang="en" href={`https://${cfg.baseUrl}/en/`} />
+            <link rel="alternate" hrefLang="zh-TW" href={`https://${cfg.baseUrl}/zh-tw/`} />
+            <link rel="alternate" hrefLang="es" href={`https://${cfg.baseUrl}/es/`} />
+            <link rel="alternate" hrefLang="pt-BR" href={`https://${cfg.baseUrl}/pt/`} />
+            <link rel="alternate" hrefLang="ja" href={`https://${cfg.baseUrl}/ja/`} />
+            <link rel="alternate" hrefLang="x-default" href={`https://${cfg.baseUrl}/`} />
+          </>
+        )}
+
+        {isHome && cfg.baseUrl && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                name: cfg.pageTitle,
+                url: `https://${cfg.baseUrl}`,
+                description,
+                inLanguage: cfg.locale,
+                publisher: {
+                  "@type": "Organization",
+                  name: cfg.pageTitle,
+                  url: `https://${cfg.baseUrl}`,
+                  logo: `https://${cfg.baseUrl}/static/icon.png`,
+                },
+                potentialAction: {
+                  "@type": "SearchAction",
+                  target: {
+                    "@type": "EntryPoint",
+                    urlTemplate: `https://${cfg.baseUrl}/?q={search_term_string}`,
+                  },
+                  "query-input": "required name=search_term_string",
+                },
+              }),
+            }}
+          />
         )}
 
         <link rel="icon" href={iconPath} />
