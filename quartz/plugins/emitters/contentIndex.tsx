@@ -7,6 +7,35 @@ import { QuartzEmitterPlugin } from "../types"
 import { toHtml } from "hast-util-to-html"
 import { write } from "./helpers"
 import { i18n } from "../../i18n"
+import { SITE_LOCALES, SiteLocaleCode, homeSlugForLocale } from "../../i18n/siteLocales"
+import translationsJson from "../../i18n/translations.json"
+
+type LocalePaths = Partial<Record<SiteLocaleCode, string>>
+type TranslationMap = Record<string, LocalePaths>
+const translationMap = translationsJson as TranslationMap
+
+function pageUrl(base: string, slug: string): string {
+  if (slug === "index" || slug === "" || slug === ".") return `https://${base}/`
+  if (slug.endsWith("/index")) return `https://${joinSegments(base, slug.slice(0, -"/index".length))}/`
+  return `https://${joinSegments(base, encodeURI(slug))}`
+}
+
+function xhtmlAlternates(base: string, paths: LocalePaths): string {
+  const links: string[] = []
+  for (const loc of SITE_LOCALES) {
+    const target = paths[loc.code]
+    if (!target) continue
+    links.push(
+      `<xhtml:link rel="alternate" hreflang="${loc.hreflang}" href="${pageUrl(base, target)}" />`,
+    )
+  }
+  if (paths.zh || paths.en) {
+    const def = paths.zh ?? paths.en!
+    links.push(`<xhtml:link rel="alternate" hreflang="x-default" href="${pageUrl(base, def)}" />`)
+  }
+  return links.join("\n    ")
+}
+
 
 export type ContentIndexMap = Map<FullSlug, ContentDetails>
 export type ContentDetails = {
@@ -19,6 +48,7 @@ export type ContentDetails = {
   richContent?: string
   date?: Date
   description?: string
+  alternates?: LocalePaths
 }
 
 interface Options {
@@ -41,10 +71,26 @@ const defaultOptions: Options = {
 
 function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndexMap): string {
   const base = cfg.baseUrl ?? ""
-  const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => `<url>
-    <loc>https://${joinSegments(base, encodeURI(slug))}</loc>
-    ${content.date && `<lastmod>${content.date.toISOString()}</lastmod>`}
+  const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => {
+    const loc = pageUrl(base, slug)
+    const alts = content.alternates ? xhtmlAlternates(base, content.alternates) : ""
+    // Locale homes without explicit alternates still get the home map
+    const homeAlts =
+      !alts && (slug === "" || slug === "index" || String(slug).endsWith("/index"))
+        ? xhtmlAlternates(
+            base,
+            Object.fromEntries(
+              SITE_LOCALES.map((l) => [l.code, homeSlugForLocale(l)]),
+            ) as LocalePaths,
+          )
+        : ""
+    const linkBlock = alts || homeAlts
+    return `<url>
+    <loc>${loc}</loc>
+    ${content.date ? `<lastmod>${content.date.toISOString()}</lastmod>` : ""}
+    ${linkBlock ? linkBlock : ""}
   </url>`
+  }
   const urls = Array.from(idx)
     .map(([slug, content]) => createURLEntry(simplifySlug(slug), content))
     .join("")
@@ -115,6 +161,14 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
               : undefined,
             date: date,
             description: file.data.description ?? "",
+            alternates: (() => {
+              const fm = (file.data.frontmatter ?? {}) as Record<string, unknown>
+              const key = typeof fm.i18nKey === "string" ? fm.i18nKey : undefined
+              const fromFm = (fm.translations ?? {}) as LocalePaths
+              const fromMap = key && translationMap[key] ? translationMap[key] : {}
+              const merged = { ...fromMap, ...fromFm }
+              return Object.keys(merged).length ? merged : undefined
+            })(),
           })
         }
       }

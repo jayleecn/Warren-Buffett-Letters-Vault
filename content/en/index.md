@@ -12,6 +12,8 @@ translations:
   pt: pt/index
   ja: ja/index
   zh-tw: zh-tw/index
+description: "Warren Buffett shareholder letters knowledge vault: 91 letters (1956–2025), 38 investment concepts, 52 companies, and 4,000+ cross-links for value investing."
+socialDescription: "Buffett Letters Vault | 91 letters · 38 concepts · knowledge graph"
 ---
 # Buffett Letters Vault
 

@@ -5,6 +5,42 @@ import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { unescapeHTML } from "../util/escape"
 import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage"
+import {
+  SITE_LOCALES,
+  SiteLocaleCode,
+  homeSlugForLocale,
+} from "../i18n/siteLocales"
+import translations from "../i18n/translations.json"
+
+type LocalePaths = Partial<Record<SiteLocaleCode, string>>
+type TranslationMap = Record<string, LocalePaths>
+const translationMap = translations as TranslationMap
+
+/** Canonical: locale homes use trailing slash; other pages do not. */
+function canonicalUrl(baseUrl: string, slug: string): string {
+  const base = `https://${baseUrl}`
+  if (slug === "404") return `${base}/404.html`
+  if (slug === "index" || slug === "") return `${base}/`
+  if (slug.endsWith("/index")) return `${base}/${slug.slice(0, -"/index".length)}/`
+  return `${base}/${slug}`
+}
+
+function resolveAlternates(fileData: QuartzComponentProps["fileData"]): LocalePaths {
+  const fm = (fileData.frontmatter ?? {}) as Record<string, unknown>
+  const i18nKey = typeof fm.i18nKey === "string" ? fm.i18nKey : undefined
+  const fmTranslations = (fm.translations ?? {}) as LocalePaths
+  let paths: LocalePaths = { ...fmTranslations }
+  if (i18nKey && translationMap[i18nKey]) {
+    paths = { ...translationMap[i18nKey], ...paths }
+  }
+  return paths
+}
+
+function ogImageMime(imagePath: string): string {
+  const ext = (getFileExtension(imagePath) ?? "png").replace(/^\./, "")
+  return `image/${ext}`
+}
+
 export default (() => {
   const Head: QuartzComponent = ({
     cfg,
@@ -20,30 +56,26 @@ export default (() => {
       fileData.frontmatter?.description ??
       unescapeHTML(fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description)
 
-    const slug = fileData.slug ?? ""
-    const isHome = slug === "index" || slug === "" || slug === "404"
+    const slug = fileData.slug ?? "index"
+    const isNotFound = slug === "404"
+    const isLocaleHome = slug === "index" || slug.endsWith("/index")
     const keywords = (fileData.frontmatter?.keywords as string[] | undefined) ?? []
 
     const { css, js, additionalHead } = externalResources
 
     const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
     const path = url.pathname as FullSlug
-    const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
+    const baseDir = isNotFound ? path : pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.png")
 
-    // Url of current page, normalize home to root for better SEO
-    let socialUrl =
-      fileData.slug === "404"
-        ? url.toString()
-        : joinSegments(url.toString(), fileData.slug!)
-    if ((isHome || slug === "index") && !fileData.slug?.includes("404")) {
-      socialUrl = url.toString().replace(/\/$/, "")
-    }
+    const socialUrl = cfg.baseUrl ? canonicalUrl(cfg.baseUrl, slug) : url.toString()
 
     const usesCustomOgImage = ctx.cfg.plugins.emitters.some(
       (e) => e.name === CustomOgImagesEmitterName,
     )
     const ogImageDefaultPath = `https://${cfg.baseUrl}/static/og-image.png`
+    const alternates = resolveAlternates(fileData)
+    const hasPageAlternates = SITE_LOCALES.some((loc) => !!alternates[loc.code])
 
     return (
       <head>
@@ -62,12 +94,12 @@ export default (() => {
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        {/* Canonical URL for SEO */}
-        <link rel="canonical" href={socialUrl} />
+        {isNotFound && <meta name="robots" content="noindex, nofollow" />}
+        {cfg.baseUrl && !isNotFound && <link rel="canonical" href={socialUrl} />}
 
         <meta name="og:site_name" content={cfg.pageTitle}></meta>
         <meta property="og:title" content={title} />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content={isLocaleHome ? "website" : "article"} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
@@ -79,14 +111,11 @@ export default (() => {
             <meta property="og:image" content={ogImageDefaultPath} />
             <meta property="og:image:url" content={ogImageDefaultPath} />
             <meta name="twitter:image" content={ogImageDefaultPath} />
-            <meta
-              property="og:image:type"
-              content={`image/${getFileExtension(ogImageDefaultPath) ?? "png"}`}
-            />
+            <meta property="og:image:type" content={ogImageMime(ogImageDefaultPath)} />
           </>
         )}
 
-        {cfg.baseUrl && (
+        {cfg.baseUrl && !isNotFound && (
           <>
             <meta property="twitter:domain" content={cfg.baseUrl}></meta>
             <meta property="og:url" content={socialUrl}></meta>
@@ -94,45 +123,79 @@ export default (() => {
           </>
         )}
 
-        {/* Additional SEO optimizations for homepage: keywords, hreflang, structured data */}
         {keywords.length > 0 && <meta name="keywords" content={keywords.join(", ")} />}
 
-        {cfg.baseUrl && (
-          <>
-            <link rel="alternate" hrefLang="zh-CN" href={`https://${cfg.baseUrl}/`} />
-            <link rel="alternate" hrefLang="en" href={`https://${cfg.baseUrl}/en/`} />
-            <link rel="alternate" hrefLang="zh-TW" href={`https://${cfg.baseUrl}/zh-tw/`} />
-            <link rel="alternate" hrefLang="es" href={`https://${cfg.baseUrl}/es/`} />
-            <link rel="alternate" hrefLang="pt-BR" href={`https://${cfg.baseUrl}/pt/`} />
-            <link rel="alternate" hrefLang="ja" href={`https://${cfg.baseUrl}/ja/`} />
-            <link rel="alternate" hrefLang="x-default" href={`https://${cfg.baseUrl}/`} />
-          </>
+        {cfg.baseUrl &&
+          (hasPageAlternates
+            ? SITE_LOCALES.filter((loc) => alternates[loc.code]).map((loc) => (
+                <link
+                  rel="alternate"
+                  hrefLang={loc.hreflang}
+                  href={canonicalUrl(cfg.baseUrl!, alternates[loc.code]!)}
+                />
+              ))
+            : isLocaleHome
+              ? SITE_LOCALES.map((loc) => (
+                  <link
+                    rel="alternate"
+                    hrefLang={loc.hreflang}
+                    href={canonicalUrl(cfg.baseUrl!, homeSlugForLocale(loc))}
+                  />
+                ))
+              : null)}
+
+        {cfg.baseUrl && (hasPageAlternates || isLocaleHome) && (
+          <link
+            rel="alternate"
+            hrefLang="x-default"
+            href={canonicalUrl(
+              cfg.baseUrl,
+              (hasPageAlternates
+                ? (alternates.zh ?? alternates.en ?? Object.values(alternates).find(Boolean))
+                : undefined) ?? "index",
+            )}
+          />
         )}
 
-        {isHome && cfg.baseUrl && (
+        {isLocaleHome && cfg.baseUrl && (
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
               __html: JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "WebSite",
-                name: cfg.pageTitle,
-                url: `https://${cfg.baseUrl}`,
+                name: title,
+                url: socialUrl,
                 description,
-                inLanguage: cfg.locale,
+                inLanguage:
+                  SITE_LOCALES.find((l) => homeSlugForLocale(l) === slug)?.hreflang ?? cfg.locale,
                 publisher: {
                   "@type": "Organization",
                   name: cfg.pageTitle,
-                  url: `https://${cfg.baseUrl}`,
+                  url: `https://${cfg.baseUrl}/`,
                   logo: `https://${cfg.baseUrl}/static/icon.png`,
                 },
-                potentialAction: {
-                  "@type": "SearchAction",
-                  target: {
-                    "@type": "EntryPoint",
-                    urlTemplate: `https://${cfg.baseUrl}/?q={search_term_string}`,
-                  },
-                  "query-input": "required name=search_term_string",
+              }),
+            }}
+          />
+        )}
+
+        {!isLocaleHome && !isNotFound && cfg.baseUrl && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Article",
+                headline: title,
+                description,
+                url: socialUrl,
+                image: ogImageDefaultPath,
+                inLanguage: cfg.locale,
+                isPartOf: {
+                  "@type": "WebSite",
+                  name: cfg.pageTitle,
+                  url: `https://${cfg.baseUrl}/`,
                 },
               }),
             }}

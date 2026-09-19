@@ -11,6 +11,8 @@ translations:
   es: es/index
   pt: pt/index
   zh-tw: zh-tw/index
+description: "Cofre das cartas aos acionistas de Warren Buffett: 91 cartas (1956–2025), 38 conceitos de investimento, 52 empresas e mais de 4.000 conexões."
+socialDescription: "Cartas de Buffett | 91 cartas · 38 conceitos · grafo de conhecimento"
 ---
 
 # Cofre das Cartas de Buffett

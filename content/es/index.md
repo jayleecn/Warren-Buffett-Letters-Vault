@@ -12,6 +12,8 @@ translations:
   pt: pt/index
   ja: ja/index
   zh-tw: zh-tw/index
+description: "Bóveda de cartas a accionistas de Warren Buffett: 91 cartas (1956–2025), 38 conceptos de inversión, 52 empresas y más de 4.000 enlaces cruzados."
+socialDescription: "Cartas de Buffett | 91 cartas · 38 conceptos · grafo de conocimiento"
 ---
 # Bóveda de cartas de Buffett
 
