@@ -11,6 +11,8 @@ translations:
   es: es/index
   ja: ja/index
   zh-tw: zh-tw/index
+description: "ウォーレン・バフェット株主への手紙の知識庫。91通（1956–2025）、38の投資概念、52社、4,000以上の相互リンク。"
+socialDescription: "バフェット書簡庫 | 91通 · 38概念 · 知識グラフ"
 ---
 
 # バフェット書簡庫

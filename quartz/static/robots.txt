@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
 
+# Standard crawl rules for search engines.
+# Note: if Cloudflare AI Crawl Control / Content Signals is enabled at the zone
+# level, it may replace the edge response for /robots.txt — disable "Replace
+# robots.txt" there so this file is what crawlers see.
+
 Sitemap: https://buffett-letters.com/sitemap.xml
