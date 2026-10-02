@@ -1,6 +1,7 @@
 /**
- * Site content languages. Add de/fr here later — Explorer, locale UI,
- * LanguageSwitcher, tags, and path helpers all read from this list.
+ * Server-side content language registry. When enabling de/fr, also update
+ * the browser LOCALE_PREFIXES copies in explorer.inline.ts and search.inline.ts.
+ * See docs/locale-tasks.md for the remaining UI/content touchpoints.
  *
  * Convention: default locale (zh Simplified) lives at content root; others under content/{prefix}/.
  * SITE_LOCALES order = language switcher order (English first). DEFAULT_LOCALE is looked up by

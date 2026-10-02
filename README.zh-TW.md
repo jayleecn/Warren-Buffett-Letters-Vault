@@ -35,10 +35,14 @@
 ## 本機執行
 
 ```bash
-npm install
+npm ci
 npx quartz build --serve
 ```
 
 ## SEO
 
 網站設定了指向 `https://buffett-letters.com` 的 `sitemap.xml` 與 `robots.txt`，以提升搜尋引擎可見度。
+
+## 開發導航
+
+需要 Node >=22、npm >=10.9.2（見 package.json）。[開發地圖](docs/development.md) 列出原始碼入口、多語言維護、內容完整性與本機檢查。

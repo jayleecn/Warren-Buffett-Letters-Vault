@@ -3,6 +3,8 @@
 Add a language to this Quartz site only after every item below is done.
 Convention: Chinese at content root; other languages under `content/{prefix}/` (e.g. `en`, `es`, `pt`, `ja`).
 
+Start with [development.md](development.md) for the code map, source-path/URL-slug distinction, and current content-completeness caveats.
+
 ## A. Enable locale wiring
 
 - [ ] `quartz/i18n/siteLocales.ts` — add/enable `{ code, label, hreflang, quartzLocale, prefix }`

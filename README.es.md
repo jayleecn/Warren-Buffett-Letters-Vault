@@ -35,10 +35,14 @@ Un archivo digital de las cartas de Warren Buffett a los accionistas, las cartas
 ## Ejecutar en local
 
 ```bash
-npm install
+npm ci
 npx quartz build --serve
 ```
 
 ## SEO
 
 `sitemap.xml` y `robots.txt` apuntan a `https://buffett-letters.com` para mejorar la visibilidad en buscadores.
+
+## Desarrollo
+
+Se requieren Node >=22 y npm >=10.9.2 (package.json). La [guía de desarrollo](docs/development.md) describe el código, los idiomas, el estado del contenido y las comprobaciones locales.

@@ -222,7 +222,7 @@ export function renderPage(
   components: RenderComponents,
   pageResources: StaticResources,
 ): string {
-  // Per-page UI locale: English under /en/, Chinese at root (and other langs later).
+  // Resolve the page UI locale from the content prefix/frontmatter for all enabled languages.
   const pageLocale: ValidLocale = resolvePageLocale(
     slug,
     componentData.fileData.frontmatter?.lang as string | undefined,
