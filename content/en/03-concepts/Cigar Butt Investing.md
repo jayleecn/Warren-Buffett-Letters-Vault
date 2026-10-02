@@ -4,13 +4,11 @@ type: concept
 lang: en
 i18nKey: concept/cigar-butt-investing
 aliases:
-- Cigar Butt Investing
-- 烟蒂股
-- 捡烟蒂投资
-first_mentioned: 1989 Shareholder Letter
-mention_count: 10
+  - Cigar Butt Investing
+  - 烟蒂股
+  - 捡烟蒂投资
 tags:
-- investment-concept
+  - investment-concept
 translations:
   zh: 03-concepts/捡烟蒂投资
   en: en/03-concepts/Cigar-Butt-Investing
@@ -18,29 +16,33 @@ translations:
   pt: pt/03-concepts/Cigar-Butt-Investing
   ja: ja/03-concepts/Cigar-Butt-Investing
   zh-tw: zh-tw/03-concepts/捡烟蒂投资
+seoTitle: "Cigar Butt Investing: Meaning, Berkshire Example & Risks"
+description: "Understand Buffett’s cigar butt metaphor, why a cheap business can disappoint, and how his approach changed. Includes links to the original letters."
+modified: 2026-10-02
 ---
+
 # Cigar Butt Investing
 
-## Definition & Origin
-Picking up cigarette butts to invest is a classic value investment method of [[Benjamin Graham]] - like picking up cigarette butts discarded by others on the ground. Although there is only the last puff left, that puff is free. Buffett used this method extensively in his early partnership days, but gradually turned to [[Wonderful Company at Fair Price]] under the influence of [[Charlie Munger]].
+Cigar butt investing describes buying a deeply discounted business for a remaining opportunity to extract value, even when the business has weak long-term prospects. The metaphor refers to a discarded cigar with one usable puff left.
 
-## Key Points
-- **Extremely Undervalued**: Buy at a price well below net assets
-- **Short-term profit**: Do not pursue long-term holding, sell as soon as the price recovers
-- **Large volume diversification**: A large number of positions are needed to diversify individual stock risks
+## Buffett’s example: Berkshire’s textile business
 
-## Case Studies
-- **[[Berkshire Hathaway]]**: Ironically, Berkshire itself is Buffett's biggest "cigarette butt stock" mistake - a declining textile company.
-- **[[Dempster Mill Manufacturing]]**: Controlled cigarette butt stock investments during partnership period
-- **[[Dexter Shoe]]**: The purchase of cigarette butt stocks with Berkshire stock was called the biggest mistake by Buffett
+In the [1989 shareholder letter](https://www.berkshirehathaway.com/letters/1989.html), Buffett looks back on buying control of Berkshire because its textile business appeared cheap. A temporary improvement might allow a profitable sale, but a poor business can keep generating new problems. Weak ongoing returns can consume the benefit of a low purchase price.
 
-## Quotes from Buffett
-> "Unless you're a liquidation expert, that's a foolish approach to buying into a business like this." - [[1989 Shareholder Letter]]
+He also discusses the department store Hochschild Kohn: the purchase looked attractive against book value, yet he was fortunate to sell it roughly at cost. These examples explain his increasing preference, influenced by Charlie Munger, for businesses with stronger economics.
 
-## Related Concepts
-- [[Wonderful Company at Fair Price]] — A new way to invest instead of cigarette butts
-- [[Generals]] — Cigarette butt stock class during partnership period
-- [[Benjamin Graham]] — Founder of Cigarette Butt Investment
+## Cheap shares and good businesses
 
-## Letters Mentioned
-Mainly seen in retrospective discussions, Buffett explicitly announced his farewell to this approach in 1989.
+A discount and a durable competitive advantage answer different questions. A discount concerns the relationship between price and estimated value. Business quality concerns the ability to earn and reinvest over time. A bargain can disappoint if its value declines while the investor waits.
+
+For a reading exercise, compare two hypothetical situations: an asset expected to be sold soon, and a business expected to operate for decades. In the first, the realizable asset value and timing dominate the analysis. In the second, recurring earnings, capital needs and competition matter much more. Neither a low share price nor a low price-to-book ratio resolves those questions on its own.
+
+## Was Dexter Shoe a cigar butt investment?
+
+Dexter is better understood as a mistaken assessment of competitive strength. In the [2007 shareholder letter](https://www.berkshirehathaway.com/letters/2007ltr.pdf), Buffett explains that the durable advantage he believed Dexter possessed disappeared. Paying with Berkshire shares made the eventual cost much larger. It should not be casually classified as another liquidation-style bargain.
+
+## Read next
+
+- [[en/02-letters/berkshire/1989 Shareholder Letter|1989 shareholder letter]] — the cigar butt discussion.
+- [[en/03-concepts/Wonderful Company at Fair Price|Wonderful company at a fair price]] — the alternative emphasis.
+- [[en/03-concepts/Economic Moat|Economic moat]] and [[en/03-concepts/Margin of Safety|margin of safety]] — business durability and valuation risk.
