@@ -35,10 +35,14 @@
 ## ローカルで実行
 
 ```bash
-npm install
+npm ci
 npx quartz build --serve
 ```
 
 ## SEO
 
 `sitemap.xml` と `robots.txt` は `https://buffett-letters.com` を指し、検索エンジンでの可視性を高めます。
+
+## 開発ガイド
+
+Node >=22、npm >=10.9.2 が必要です（package.json）。[開発ガイド](docs/development.md) にコードの入口、言語の追加、コンテンツの状態、ローカルでの確認手順をまとめています。

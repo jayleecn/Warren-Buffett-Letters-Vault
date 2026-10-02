@@ -35,10 +35,14 @@ A digital vault of Warren Buffett’s shareholder letters, partnership letters, 
 ## Run locally
 
 ```bash
-npm install
+npm ci
 npx quartz build --serve
 ```
 
 ## SEO
 
 `sitemap.xml` and `robots.txt` point to `https://buffett-letters.com` for search visibility.
+
+## Developer navigation
+
+Requires Node >=22 and npm >=10.9.2 (see package.json). See the [development map](docs/development.md) for code entry points, locale maintenance, content completeness, and local checks.
