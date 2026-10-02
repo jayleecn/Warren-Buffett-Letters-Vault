@@ -1,10 +1,11 @@
 ---
 title: Cofre das Cartas de Buffett
+modified: 2026-10-02
 type: index
 lang: pt
 i18nKey: home
 tags:
-- inicio
+  - inicio
 translations:
   zh: index
   en: en/index
@@ -26,6 +27,8 @@ Um cofre de conhecimento multilíngue das cartas da sociedade de Warren Buffett 
 - [[pt/01-index/Company Index|Índice de empresas]] — 52 perfis de empresas
 - [[pt/01-index/People Index|Índice de pessoas]] — 8 pessoas-chave
 
-## Sobre
+## Sobre este arquivo
 
-O site em chinês permanece nas rotas raiz. As páginas em inglês ficam em `/en/`, as em espanhol em `/es/` e as em português brasileiro em `/pt/`. Os metadados compartilhados `i18nKey` / `translations` permitem que o seletor de idioma salte entre as versões correspondentes.
+Este arquivo independente reúne documentos das sociedades de Buffett e cartas aos acionistas da Berkshire Hathaway. Leia por ano ou explore conceitos e empresas em seis idiomas. Os verbetes têm diferentes níveis de detalhe e servem como guias de leitura. Consulte os textos originais no [arquivo oficial da Berkshire Hathaway](https://www.berkshirehathaway.com/letters/letters.html). As traduções e os resumos deste site não são publicações oficiais da Berkshire.
+
+[English](/en/) · [简体中文](/) · [繁體中文](/zh-tw/) · [Español](/es/) · [Português](/pt/) · [日本語](/ja/)

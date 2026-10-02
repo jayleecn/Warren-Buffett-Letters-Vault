@@ -4,14 +4,12 @@ type: concept
 lang: en
 i18nKey: concept/circle-of-competence
 aliases:
-- Circle of Competence
-- 能力边界
-- 能力圈
-first_mentioned: 1992 Shareholder Letter
-mention_count: 25
+  - Circle of Competence
+  - 能力边界
+  - 能力圈
 tags:
-- investment-concept
-- core-idea
+  - investment-concept
+  - core-idea
 translations:
   zh: 03-concepts/能力圈
   en: en/03-concepts/Circle-of-Competence
@@ -19,36 +17,42 @@ translations:
   pt: pt/03-concepts/Circle-of-Competence
   ja: ja/03-concepts/Circle-of-Competence
   zh-tw: zh-tw/03-concepts/能力圈
+seoTitle: "Circle of Competence: Buffett’s Meaning & Practical Questions"
+description: "Learn what Buffett means by a circle of competence, why its boundaries matter, and how to distinguish familiarity from understanding a business."
+modified: 2026-10-02
 ---
+
 # Circle of Competence
 
-## Definition & Origin
-The circle of competence refers to the business areas that investors truly understand. Buffett emphasizes that knowing the boundaries of your circle of competence is more important than the size of your circle of competence. This concept explains why he has long avoided technology stocks - not because the technology is bad, but because it is outside his circle of competence.
+A circle of competence is the range of businesses an investor can evaluate with a reasoned understanding of their economics. Recognizing where that understanding ends is part of the concept.
 
-## Key Points
-- **Know what you don’t know**: The most dangerous thing is not ignorance, but not knowing that you are ignorant
-- **Size doesn’t matter**: The circle of competence can be very small, the key is to strictly abide by the boundaries
-- **Can be expanded slowly**: Expand the circle of competence through continuous learning, but do not rush for success
-- **Be honest with yourself**: Acknowledging your own limitations is the prerequisite for investment success
+## Where Buffett explains it
 
-## Case Studies
-- **Avoid technology stocks**: During the Internet bubble in 1999, I insisted on not buying technology stocks and was ridiculed as "outdated", but it turned out to be correct.
-- **[[Apple]]** (2016): Buffett bought big when he truly understood the nature of Apple as a consumer goods company
-- **Avoid Complex Derivatives**: Buffett still avoids structures he doesn’t understand even though they are heavily used by other market participants
+In the [1996 shareholder letter](https://www.berkshirehathaway.com/letters/1996.html), Buffett says investors choosing individual companies need not be experts on every business. They need to evaluate selected businesses and recognize the limits of that ability. The letter also warns that even excellent companies can be poor purchases at excessive prices.
 
-## Common Misconceptions
-- **Don’t be a generalist who knows everything**: Circles of competence encourage focus, not erudition
-- **Not resting on one’s laurels**: Buffett’s circle of competence is expanding over time (such as his final investment in Apple)
+These are separate judgments: understanding what a business does, assessing how durable its earnings might be, and deciding whether its price is reasonable. Competence in one industry does not automatically transfer to another.
 
-## Quotes from Buffett
-> "What investors need to do is to evaluate the boundaries of their circle of competence, and then stay within the circle. It doesn't matter how big the circle is, what's important is knowing where the boundary is." - [[1999 Shareholder Letter]]
+## Familiarity is only a starting point
 
-> "If you have a big screen marked with all the listed companies in the world, you don't need to understand every one. You only need to take action when the few you know have good prices."——[[1996 Shareholder Letter]]
+Using a company’s products or recognizing its brand does not, by itself, establish an understanding of the business. A useful reading exercise is to explain the following without relying on a share-price chart:
 
-## Related Concepts
-- [[Independent Thinking]] — Don’t step out of your circle of competence due to external pressure
-- [[Margin of Safety]] — Make more accurate valuation judgments within the circle of competence
-- [[Intrinsic Value]] — Only within the circle of competence can accurate assessment be achieved
+- Who pays the company, and why do those customers return?
+- What determines margins and the amount of capital the business needs?
+- Which competitors or substitutes could change its economics?
+- What evidence would contradict the current assessment?
+- Which assumptions remain too uncertain to evaluate?
 
-## Letters Mentioned
-Frequently discussed since the mid-1990s, it became a key concept in Buffett's defense of his strategy during the dot-com bubble.
+This checklist is an editorial interpretation of the idea, not a quotation or a test Buffett prescribed. Its purpose is to make the boundary of an explanation visible. “I do not know” can be a more useful conclusion than a precise valuation built on unsupported assumptions.
+
+## Does the circle ever change?
+
+Learning can deepen understanding, but exposure to a subject is not proof of competence. Revisit assumptions as products, competitors and regulation change. Avoid turning the concept into a permanent list of approved industries: the point is the quality and limits of the analysis.
+
+Nor does staying within a familiar field remove risk. Price, financing and unexpected business changes still matter.
+
+## Read next
+
+- [[en/02-letters/berkshire/1996 Shareholder Letter|1996 shareholder letter]] — the original discussion in context.
+- [[en/03-concepts/Intrinsic Value|Intrinsic value]] — estimating business value.
+- [[en/03-concepts/Margin of Safety|Margin of safety]] — allowing for uncertainty.
+- [[en/03-concepts/Independent Thinking|Independent thinking]] — forming a judgment from evidence.

@@ -1,89 +1,120 @@
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import breadcrumbsStyle from "./styles/breadcrumbs.scss"
-import { FullSlug, SimpleSlug, resolveRelative, simplifySlug } from "../util/path"
-import { classNames } from "../util/lang"
-import { trieFromAllFiles } from "../util/ctx"
-import { localeFromSlug, homeSlugForLocale } from "../i18n/siteLocales"
+import {
+  QuartzComponent,
+  QuartzComponentConstructor,
+  QuartzComponentProps,
+} from "./types";
+import breadcrumbsStyle from "./styles/breadcrumbs.scss";
+import {
+  FullSlug,
+  SimpleSlug,
+  resolveRelative,
+  simplifySlug,
+} from "../util/path";
+import { classNames } from "../util/lang";
+import { trieFromAllFiles } from "../util/ctx";
+import { localeFromSlug, homeSlugForLocale } from "../i18n/siteLocales";
 
 type CrumbData = {
-  displayName: string
-  path: string
-}
+  displayName: string;
+  path: string;
+};
 
 interface BreadcrumbOptions {
-  spacerSymbol: string
-  rootName?: string
-  resolveFrontmatterTitle: boolean
-  showCurrentPage: boolean
+  spacerSymbol: string;
+  rootName?: string;
+  resolveFrontmatterTitle: boolean;
+  showCurrentPage: boolean;
 }
 
 const defaultOptions: BreadcrumbOptions = {
   spacerSymbol: "❯",
   resolveFrontmatterTitle: true,
   showCurrentPage: true,
-}
+};
 
-function formatCrumb(displayName: string, baseSlug: FullSlug, currentSlug: SimpleSlug): CrumbData {
+function formatCrumb(
+  displayName: string,
+  baseSlug: FullSlug,
+  currentSlug: SimpleSlug,
+): CrumbData {
   return {
     displayName: displayName.replaceAll("-", " "),
     path: resolveRelative(baseSlug, currentSlug),
-  }
+  };
 }
 
 export default ((opts?: Partial<BreadcrumbOptions>) => {
-  const options: BreadcrumbOptions = { ...defaultOptions, ...opts }
+  const options: BreadcrumbOptions = { ...defaultOptions, ...opts };
   const Breadcrumbs: QuartzComponent = ({
     fileData,
     allFiles,
     displayClass,
     ctx,
-    cfg,
   }: QuartzComponentProps) => {
-    const trie = (ctx.trie ??= trieFromAllFiles(allFiles))
-    const slugParts = fileData.slug!.split("/")
-    const pathNodes = trie.ancestryChain(slugParts)
+    const trie = (ctx.trie ??= trieFromAllFiles(allFiles));
+    const slugParts = fileData.slug!.split("/");
+    const pathNodes = trie.ancestryChain(slugParts);
 
     if (!pathNodes) {
-      return null
+      return null;
     }
 
-    const loc = localeFromSlug(fileData.slug!)
-    const homeLabels: Record<string, string> = { zh: "首页", "zh-tw": "首頁", en: "Home", es: "Inicio", pt: "Início", ja: "ホーム" }
-    const rootName = options.rootName ?? (homeLabels[loc.code] ?? "Home")
+    const loc = localeFromSlug(fileData.slug!);
+    const homeLabels: Record<string, string> = {
+      zh: "首页",
+      "zh-tw": "首頁",
+      en: "Home",
+      es: "Inicio",
+      pt: "Início",
+      ja: "ホーム",
+    };
+    const rootName = options.rootName ?? homeLabels[loc.code] ?? "Home";
 
     const crumbs: CrumbData[] = pathNodes.map((node, idx) => {
-      const crumb = formatCrumb(node.displayName, fileData.slug!, simplifySlug(node.slug))
+      const crumb = formatCrumb(
+        node.displayName,
+        fileData.slug!,
+        simplifySlug(node.slug),
+      );
       if (idx === 0) {
-        crumb.displayName = rootName
+        crumb.displayName = rootName;
         // Prefixed locales: Home → /en/ (etc.), never Chinese site root
         if (loc.prefix) {
-          crumb.path = resolveRelative(fileData.slug!, homeSlugForLocale(loc) as FullSlug)
+          crumb.path = resolveRelative(
+            fileData.slug!,
+            homeSlugForLocale(loc) as FullSlug,
+          );
         }
       }
 
       if (idx === pathNodes.length - 1) {
-        crumb.path = ""
+        crumb.path = "";
       }
 
-      return crumb
-    })
+      return crumb;
+    });
 
     if (!options.showCurrentPage) {
-      crumbs.pop()
+      crumbs.pop();
     }
 
     return (
-      <nav class={classNames(displayClass, "breadcrumb-container")} aria-label="breadcrumbs">
+      <nav
+        class={classNames(displayClass, "breadcrumb-container")}
+        aria-label="breadcrumbs"
+      >
         {crumbs.map((crumb, index) => (
           <div class="breadcrumb-element">
             <a href={crumb.path}>{crumb.displayName}</a>
-            {index !== crumbs.length - 1 && <p>{` ${options.spacerSymbol} `}</p>}
+            {index !== crumbs.length - 1 && (
+              <p>{` ${options.spacerSymbol} `}</p>
+            )}
           </div>
         ))}
       </nav>
-    )
-  }
-  Breadcrumbs.css = breadcrumbsStyle
+    );
+  };
+  Breadcrumbs.css = breadcrumbsStyle;
 
-  return Breadcrumbs
-}) satisfies QuartzComponentConstructor
+  return Breadcrumbs;
+}) satisfies QuartzComponentConstructor;

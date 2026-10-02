@@ -4,15 +4,13 @@ type: concept
 lang: en
 i18nKey: concept/capital-allocation
 aliases:
-- Capital Allocation
-- 资金配置
-- 资本分配
-- 资本配置
-first_mentioned: 1983 Shareholder Letter
-mention_count: 40
+  - Capital Allocation
+  - 资金配置
+  - 资本分配
+  - 资本配置
 tags:
-- investment-concept
-- core-idea
+  - investment-concept
+  - core-idea
 translations:
   zh: 03-concepts/资本配置
   en: en/03-concepts/Capital-Allocation
@@ -20,30 +18,36 @@ translations:
   pt: pt/03-concepts/Capital-Allocation
   ja: ja/03-concepts/Capital-Allocation
   zh-tw: zh-tw/03-concepts/资本配置
+seoTitle: "Capital Allocation: Warren Buffett’s Framework & Examples"
+description: "What capital allocation means, how Buffett compares reinvestment, acquisitions, buybacks and dividends, and where to read his original explanations."
+modified: 2026-10-02
 ---
+
 # Capital Allocation
 
-## Definition & Origin
-Capital allocation is the most important responsibility of a CEO - deciding how the money earned by the company should be spent. Buffett believes that most CEOs are experts in operations, but often lack training in capital allocation. This concept was systematically elaborated in the 1983 shareholder letter.
+Capital allocation means deciding where a business puts its available money: into operations, acquisitions, debt repayment, cash reserves, share repurchases or dividends. For a shareholder, the question is what those decisions do to the value of each share over time.
 
-## Key Points
-- **Five options**: Reinvest in existing business, acquire new business, pay down debt, buy back shares, issue dividends
-- **Opportunity cost thinking**: Every dollar should be allocated where the return is highest
-- **Don’t grow for growth’s sake**: Rather return capital to shareholders than make low-return investments
-- **Patiently waiting for a good opportunity**: It is more rational to wait for the "fat ball" with a lot of cash than to blindly take action.
+## Buffett’s explanation
 
-## Case Studies
-- **Berkshire's Capital Allocation**: Leverage [[Float]] and operating cash flow to continue acquisitions and investments
-- **[[Share Repurchases]]**: Large-scale buyback of Berkshire shares after 2018
-- **Conservative Debt**: Always maintain ample cash reserves
+In his [1987 shareholder letter](https://www.berkshirehathaway.com/letters/1987.html), Buffett distinguishes operating skill from capital allocation skill. An executive may excel at running a business without being experienced at deploying its accumulated earnings. Repeated allocation decisions can reshape a company’s capital base.
 
-## Quotes from Buffett
-> "A CEO who only does well in operations but poorly in capital allocation during his tenure is still an unqualified CEO." - [[1987 Shareholder Letter]]
+His [2012 letter, in the “Dividends” section](https://www.berkshirehathaway.com/letters/2012ltr.pdf), compares reinvestment, acquisitions, repurchases and distributions. He argues that retaining money must create value for owners, and that buybacks depend on the price paid relative to intrinsic value. This is a framework for comparing alternatives, not a rule that one use of cash is always best.
 
-## Related Concepts
-- [[Compounding]] — The goal of capital allocation is to maximize compound interest
-- [[Opportunity Cost]] — Judgment criteria for capital allocation
-- [[Share Repurchases]] — One of the means of capital allocation
+## A reading checklist
 
-## Letters Mentioned
-Since the systematic elaboration in 1983, it has been mentioned in almost every shareholder letter since then.
+When studying a company’s allocation decisions, separate these questions:
+
+- **Existing business:** Does additional spending maintain current operations or produce additional earnings?
+- **Acquisitions:** What economic benefit is being purchased, at what price, and with what financing?
+- **Debt and liquidity:** How much flexibility remains if conditions deteriorate?
+- **Repurchases:** Does a smaller share count come at an attractive price, or merely offset newly issued shares?
+- **Dividends:** Can owners make better use of money the business cannot productively retain?
+
+These questions are an editorial guide to reading annual reports. A high headline growth rate alone does not answer them. Distinguish growth in the whole business from growth in value per share, and compare the expected benefit with the capital required.
+
+## Read next
+
+- [[en/03-concepts/Opportunity Cost|Opportunity cost]] — comparing uses of the same dollar.
+- [[en/03-concepts/Intrinsic Value|Intrinsic value]] — the benchmark for a purchase price.
+- [[en/03-concepts/Share Repurchases|Share repurchases]] — allocation through buying existing shares.
+- [[en/02-letters/berkshire/1987 Shareholder Letter|1987 shareholder letter]] and [[en/02-letters/berkshire/2012 Shareholder Letter|2012 shareholder letter]] — read the discussions in their original context.
