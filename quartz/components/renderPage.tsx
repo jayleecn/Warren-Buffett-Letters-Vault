@@ -33,9 +33,14 @@ export function pageResources(
   baseDir: FullSlug | RelativeURL,
   staticResources: StaticResources,
 ): StaticResources {
-  // Bust long-lived CDN/browser cache of unhashed JS (CF default max-age=14400).
-  // Bump when Explorer/Search client logic changes.
+  // Keep the existing stylesheet cache key; scripts use their emitted-byte hashes.
   const assetV = "20261002-search1";
+  const versions = staticResources.clientScriptVersions;
+  if (!versions?.prescript || !versions.postscript) {
+    throw new Error(
+      "ComponentResources must prepare client script hashes before page rendering",
+    );
+  }
   const contentIndexPath = joinSegments(
     baseDir,
     "static/contentIndex-meta.json",
@@ -51,7 +56,7 @@ export function pageResources(
     ],
     js: [
       {
-        src: `${joinSegments(baseDir, "prescript.js")}?v=${assetV}`,
+        src: `${joinSegments(baseDir, "prescript.js")}?v=${versions.prescript}`,
         loadTime: "beforeDOMReady",
         contentType: "external",
       },
@@ -67,7 +72,7 @@ export function pageResources(
   };
 
   resources.js.push({
-    src: `${joinSegments(baseDir, "postscript.js")}?v=${assetV}`,
+    src: `${joinSegments(baseDir, "postscript.js")}?v=${versions.postscript}`,
     loadTime: "afterDOMReady",
     moduleType: "module",
     contentType: "external",

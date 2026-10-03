@@ -65,6 +65,7 @@ export interface StaticResources {
   css: CSSResource[]
   js: JSResource[]
   additionalHead: (JSX.Element | ((pageData: QuartzPluginData) => JSX.Element))[]
+  clientScriptVersions?: Record<"prescript" | "postscript", string>
 }
 
 export type StringResource = string | string[] | undefined
