@@ -16,7 +16,7 @@ import {
   processGoogleFonts,
 } from "../../util/theme"
 import { Features, transform } from "lightningcss"
-import { transform as transpile } from "esbuild"
+import { bundleClientScript } from "../../util/clientScripts"
 import { write } from "./helpers"
 
 type ComponentResources = {
@@ -62,18 +62,6 @@ function getComponentResources(ctx: BuildCtx): ComponentResources {
     beforeDOMLoaded: [...componentResources.beforeDOMLoaded],
     afterDOMLoaded: [...componentResources.afterDOMLoaded],
   }
-}
-
-async function joinScripts(scripts: string[]): Promise<string> {
-  // wrap with iife to prevent scope collision
-  const script = scripts.map((script) => `(function () {${script}})();`).join("\n")
-
-  // minify with esbuild
-  const res = await transpile(script, {
-    minify: true,
-  })
-
-  return res.code
 }
 
 function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentResources) {
@@ -268,9 +256,39 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
 // This emitter should not update the `resources` parameter. If it does, partial
 // rebuilds may not work as expected.
 export const ComponentResources: QuartzEmitterPlugin = () => {
+  let scripts: Record<"prescript" | "postscript", ReturnType<typeof bundleClientScript>>
+  function prepareScripts(ctx: BuildCtx) {
+    const components = getComponentResources(ctx)
+    addGlobalPageResources(ctx, components)
+    scripts = {
+      prescript: bundleClientScript(components.beforeDOMLoaded),
+      postscript: bundleClientScript(components.afterDOMLoaded),
+    }
+    return scripts
+  }
+
+  async function* emitScripts(ctx: BuildCtx, bundles = scripts ?? prepareScripts(ctx)) {
+    for (const [name, bundle] of Object.entries(bundles)) {
+      yield write({ ctx, slug: name as FullSlug, ext: ".js", content: bundle.contents })
+    }
+  }
+
   return {
     name: "ComponentResources",
+    externalResources(ctx) {
+      // This synchronous hook runs before parallel full/partial page emitters.
+      // Prepare both bytes and hashes together, never reading an output directory
+      // that may still contain assets from the previous build.
+      const bundles = prepareScripts(ctx)
+      return {
+        clientScriptVersions: {
+          prescript: bundles.prescript.version,
+          postscript: bundles.postscript.version,
+        },
+      }
+    },
     async *emit(ctx, _content, _resources) {
+      const bundles = scripts ?? prepareScripts(ctx)
       const cfg = ctx.cfg.configuration
       // component specific scripts and styles
       const componentResources = getComponentResources(ctx)
@@ -330,11 +348,6 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
         styles,
       )
 
-      const [prescript, postscript] = await Promise.all([
-        joinScripts(componentResources.beforeDOMLoaded),
-        joinScripts(componentResources.afterDOMLoaded),
-      ])
-
       yield write({
         ctx,
         slug: "index" as FullSlug,
@@ -354,19 +367,7 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
         }).code.toString(),
       })
 
-      yield write({
-        ctx,
-        slug: "prescript" as FullSlug,
-        ext: ".js",
-        content: prescript,
-      })
-
-      yield write({
-        ctx,
-        slug: "postscript" as FullSlug,
-        ext: ".js",
-        content: postscript,
-      })
+      yield* emitScripts(ctx, bundles)
 
       // Cloudflare Pages: do not pin unhashed entry JS for 4h (stale Explorer/Search).
       yield write({
@@ -384,6 +385,8 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
 `,
       })
     },
-    async *partialEmit() {},
+    async *partialEmit(ctx) {
+      yield* emitScripts(ctx)
+    },
   }
 }

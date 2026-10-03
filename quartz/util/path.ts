@@ -113,7 +113,7 @@ export function transformInternalLink(link: string): RelativeURL {
 // https://github.com/natemoo-re/micromorph/blob/main/src/utils.ts#L5
 const _rebaseHtmlElement = (el: Element, attr: string, newBase: string | URL) => {
   const rebased = new URL(el.getAttribute(attr)!, newBase)
-  el.setAttribute(attr, rebased.pathname + rebased.hash)
+  el.setAttribute(attr, rebased.pathname + rebased.search + rebased.hash)
 }
 export function normalizeRelativeURLs(el: Element | Document, destination: string | URL) {
   el.querySelectorAll('[href=""], [href^="./"], [href^="../"]').forEach((item) =>
@@ -238,7 +238,11 @@ function deepestSlug(candidates: FullSlug[]): FullSlug {
  * Resolve a bare wikilink target against allSlugs, preferring the src page's locale.
  * Prevents [[Illinois National Bank]] on /es/ from resolving via a root/ja alias collision.
  */
-function resolveBareTarget(src: FullSlug, targetCanonical: string, allSlugs: FullSlug[]): FullSlug | undefined {
+function resolveBareTarget(
+  src: FullSlug,
+  targetCanonical: string,
+  allSlugs: FullSlug[],
+): FullSlug | undefined {
   const matching = allSlugs.filter((slug) => slug.split("/").at(-1) === targetCanonical)
   if (matching.length === 0) return undefined
   if (matching.length === 1) return matching[0]

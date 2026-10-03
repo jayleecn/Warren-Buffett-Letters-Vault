@@ -1,17 +1,18 @@
 """Validate the generated multilingual site without changing it (stdlib only)."""
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlsplit, unquote, urljoin
-import json, sys, xml.etree.ElementTree as ET, gzip
+from urllib.parse import urlsplit, unquote, urljoin, parse_qs
+import json, sys, xml.etree.ElementTree as ET, gzip, hashlib
 
 root=Path(sys.argv[1] if len(sys.argv)>1 else 'public')
 base='https://buffett-letters.com/'
 class Page(HTMLParser):
  def __init__(self, text):
-  super().__init__();self.links=[];self.canonical=[];self.alternates={};self.robots='';self.lang='';self.article=False;self.article_links=[];self.feed(text)
+  super().__init__();self.links=[];self.scripts=[];self.canonical=[];self.alternates={};self.robots='';self.lang='';self.article=False;self.article_links=[];self.feed(text)
  def handle_starttag(self,tag,items):
   a=dict(items)
   if tag=='html':self.lang=a.get('lang','')
+  if tag=='script' and a.get('src'):self.scripts.append(a['src'])
   if tag=='article':self.article=True
   if tag=='a' and a.get('href'):
    self.links.append(a['href'])
@@ -30,6 +31,7 @@ def output_file(url):
  return None
 
 index=json.loads((root/'static/contentIndex.json').read_text())
+script_versions={name:hashlib.sha256((root/name).read_bytes()).hexdigest() for name in ['prescript.js','postscript.js']}
 errors=[];article_count=0;all_broken=[]
 for slug in index:
  fp=root/(slug+'.html');page=Page(fp.read_text());url=base+slug
@@ -45,6 +47,9 @@ for slug in index:
  article_count+=len(page.article_links)
  if not page.lang:errors.append([slug,'missing lang'])
  if 'noindex' in page.robots:errors.append([slug,'content noindex'])
+ for name,version in script_versions.items():
+  sources=[urlsplit(urljoin(url,src)) for src in page.scripts if Path(urlsplit(src).path).name==name]
+  if len(sources)!=1 or sources[0].path!='/'+name or parse_qs(sources[0].query).get('v')!=[version]:errors.append([slug,'client script content hash',name])
 errors.extend(all_broken)
 sitemap=ET.parse(root/'sitemap.xml');ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'}
 urls=sitemap.findall('s:url',ns)
@@ -59,6 +64,6 @@ if 'noindex' not in notfound.robots:errors.append(['404 indexable'])
 meta=(root/'static/contentIndex-meta.json').read_bytes();full=(root/'static/contentIndex.json').read_bytes()
 search={p.stem:len(json.loads(p.read_text())) for p in (root/'static/search-index').glob('*.json')}
 if len(search)!=6 or sum(search.values())!=len(index):errors.append(['search count',search])
-result={'pages':len(index),'sitemap_urls':len(urls),'article_links':article_count,'broken_article_links':len(all_broken),'errors':errors[:50], 'error_count':len(errors),'initial_index_bytes':len(meta),'previous_index_bytes':len(full),'initial_index_gzip':len(gzip.compress(meta)),'previous_index_gzip':len(gzip.compress(full)),'search_pages_by_language':search}
+result={'pages':len(index),'sitemap_urls':len(urls),'article_links':article_count,'broken_article_links':len(all_broken),'errors':errors[:50], 'error_count':len(errors),'initial_index_bytes':len(meta),'previous_index_bytes':len(full),'initial_index_gzip':len(gzip.compress(meta)),'previous_index_gzip':len(gzip.compress(full)),'search_pages_by_language':search,'client_script_versions':script_versions}
 print(json.dumps(result,ensure_ascii=False,indent=2))
 sys.exit(bool(errors))

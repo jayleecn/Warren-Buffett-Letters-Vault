@@ -20,6 +20,9 @@ export function getStaticResourcesFromPlugins(ctx: BuildCtx) {
     if (res?.additionalHead) {
       staticResources.additionalHead.push(...res.additionalHead)
     }
+    if (res?.clientScriptVersions) {
+      staticResources.clientScriptVersions = res.clientScriptVersions
+    }
   }
 
   // if serving locally, listen for rebuilds and reload the page
