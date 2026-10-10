@@ -68,14 +68,19 @@ function buffettEntriesForLocale(
 }
 
 let currentExplorerState: Array<FolderState>
+
+function setExplorerState(explorer: Element, collapsed: boolean) {
+  explorer.classList.toggle("collapsed", collapsed)
+  for (const button of explorer.querySelectorAll<HTMLButtonElement>(".explorer-toggle")) {
+    button.setAttribute("aria-expanded", String(!collapsed))
+  }
+}
+
 function toggleExplorer(this: HTMLElement) {
   const nearestExplorer = this.closest(".explorer") as HTMLElement
   if (!nearestExplorer) return
-  const explorerCollapsed = nearestExplorer.classList.toggle("collapsed")
-  nearestExplorer.setAttribute(
-    "aria-expanded",
-    nearestExplorer.getAttribute("aria-expanded") === "true" ? "false" : "true",
-  )
+  const explorerCollapsed = !nearestExplorer.classList.contains("collapsed")
+  setExplorerState(nearestExplorer, explorerCollapsed)
 
   if (!explorerCollapsed) {
     // Stop <html> from being scrollable when mobile explorer is open
@@ -355,10 +360,9 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     const mobileExplorer = explorer.querySelector(".mobile-explorer")
     if (!mobileExplorer) return
 
-    if (mobileExplorer.checkVisibility()) {
-      explorer.classList.add("collapsed")
-      explorer.setAttribute("aria-expanded", "false")
-
+    const mobileVisible = mobileExplorer.checkVisibility()
+    setExplorerState(explorer, mobileVisible || explorer.classList.contains("collapsed"))
+    if (mobileVisible) {
       // Allow <html> to be scrollable when mobile explorer is collapsed
       document.documentElement.classList.remove("mobile-no-scroll")
     }
