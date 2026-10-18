@@ -1,3 +1,5 @@
+// @ts-ignore: Quartz bundles inline scripts as browser source.
+import languageScript from "./scripts/language.inline";
 import {
   QuartzComponent,
   QuartzComponentConstructor,
@@ -123,6 +125,7 @@ const LanguageSwitcher: QuartzComponent = ({
         {options.map((item) => (
           <option
             value={item.href}
+            data-locale={item.loc.code}
             selected={item.active}
             lang={item.loc.hreflang}
           >
@@ -202,34 +205,6 @@ LanguageSwitcher.css = `
 }
 `;
 
-LanguageSwitcher.afterDOMLoaded = `
-;(function () {
-  function go(href, replace) {
-    const url = new URL(href, window.location.toString())
-    if (typeof window.spaNavigate === "function" && !replace) {
-      window.spaNavigate(url)
-    } else if (replace) {
-      window.location.replace(url.toString())
-    } else {
-      window.location.assign(url.toString())
-    }
-  }
-
-  document.addEventListener("nav", () => {
-    const selects = document.querySelectorAll("select.language-select")
-    for (const sel of selects) {
-      const el = sel
-      const handler = (e) => {
-        const href = e.target.value
-        if (!href) return
-        go(href, false)
-      }
-      el.addEventListener("change", handler)
-      window.addCleanup && window.addCleanup(() => el.removeEventListener("change", handler))
-    }
-
-  })
-})();
-`;
+LanguageSwitcher.afterDOMLoaded = languageScript;
 
 export default (() => LanguageSwitcher) satisfies QuartzComponentConstructor;
