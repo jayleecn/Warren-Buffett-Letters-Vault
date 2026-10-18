@@ -18,6 +18,14 @@ The lightweight `static/contentIndex-meta.json` is used by Explorer and Graph. F
 
 Unwritten Obsidian links are rendered as plain text. Resolved aliases point directly to canonical pages. Resolution happens on a copy of the parsed tree, so later publishing a target restores the link on rebuild. Content pages are all re-rendered during incremental builds because a target/alias change can affect other pages' links and backlinks.
 
+## Reliable content modification dates
+
+All `npx quartz build` paths (including `npm run build`, previews and production) check the content repository before parsing or clearing the output directory. A shallow checkout fetches complete history from `origin` with `git fetch --no-tags --unshallow origin`. The build verifies that the repository is no longer shallow and stops if the fetch or verification fails. Do not bypass this check or substitute checkout filesystem times: an application-only deployment must not refresh unchanged content dates.
+
+Complete repositories do not fetch. Local content directories outside Git retain their existing frontmatter/filesystem date behavior. For a blocked shallow checkout, restore access to the existing origin or supply a complete checkout, then retry; changing account permissions is not part of this build step.
+
+The regression tests use real shallow repositories, unchanged historical content, an unrelated deployment commit, unreachable/incomplete origins and the actual CLI failure path. Before release, compare the full-history and recovered-shallow sitemap URL/date pairs; they must match exactly. The normal site audit also remains required.
+
 ## Deployment and rollback
 
 Cloudflare Pages project: `warren-buffett-letters`. Preview a branch deployment before merging into `main`. `npm run deploy` publishes directly to production and should only be used after the checks above.
